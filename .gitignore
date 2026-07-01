@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Your personal captured bookmarks (raw export from the extension).
+# The enriched, shareable demo lives in data/bookmarks.json / bookmarks.js.
+data/raw-bookmarks.json
+data/x-bookmarks-*.json
