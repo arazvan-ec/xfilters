@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "xmarks": {
+      "source": {
+        "source": "github",
+        "repo": "arazvan-ec/xmarks"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "flywheel@xmarks": true
+  }
+}
