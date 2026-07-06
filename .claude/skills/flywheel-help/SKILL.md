@@ -26,6 +26,7 @@ A disciplined, self-verifying development loop. One unit of work flows through s
 | `/flywheel-ship <title>` | Clean commit + push + PR. |
 | `/flywheel-autoloop <goal>` | Hands-off: iterate autonomously until a metric is met or a budget runs out. |
 | `/flywheel-sync <spec>` | Reconcile drift between a spec and the code. |
+| `/flywheel-update [vendored\|marketplace]` | Update flywheel itself in this repo (mode autodetected). |
 
 ## 3. How to pick a starting point
 - Clear feature/task in mind → `/flywheel-loop <task>` (it pauses at each gate for your sign-off).
