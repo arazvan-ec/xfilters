@@ -14,6 +14,28 @@ lee cookies o tokens.
 > Requiere Chrome/Edge/Brave 111 o superior (usa content scripts en el «MAIN
 > world»).
 
+## Instalar en Android (Kiwi / Lemur / Mises Browser)
+
+Chrome/Safari de móvil **no** admiten extensiones, pero los navegadores basados
+en Chromium que sí lo hacen te permiten capturar desde el propio teléfono. Kiwi
+Browser está descontinuado; sus forks **Lemur Browser** o **Mises Browser**
+funcionan igual y siguen mantenidos (usa una versión basada en Chromium ≥ 111).
+
+1. Descarga el paquete **`dist/xfilters-extension.zip`** del repo en el teléfono
+   (en GitHub: abre el archivo → «Download raw file»). Se guarda en *Descargas*.
+2. Abre Kiwi/Lemur/Mises → menú **⋮** → **Extensiones**.
+3. Activa **«Modo de desarrollador»** (arriba a la derecha).
+4. Pulsa **«+ (from .zip/.crx/.user.js)»** y elige el `.zip` de *Descargas*.
+5. Confirma. La extensión queda instalada.
+
+Luego inicia sesión en X dentro de ese navegador y sigue los pasos de «Usar».
+Como en el móvil no puedes ejecutar Node, cuando descargues el JSON **súbelo a
+Google Drive** (o compártelo): desde ahí se puede enriquecer y montar el frontal.
+
+> Consejo móvil: si el contador se para antes de tiempo, arrastra con el dedo
+> hacia arriba y abajo en la página de marcadores mientras la captura está
+> activa; se siguen capturando igual (el scroll automático es solo una ayuda).
+
 ## Usar
 
 1. Inicia sesión en X y ve a tu página de marcadores:
