@@ -89,4 +89,8 @@ make lint     # ruff
 
 The design contract and plan live in `.claude/flywheel/specs/x-bookmarks-catalog.md`.
 
+> **Privacy:** committing `data/bookmarks.ndjson` and publishing `site/` makes the full
+> text of your bookmarked tweets public and permanent in git history — including tweets
+> later deleted or made private. Keep the repo private, or curate what you publish.
+>
 > Not affiliated with X. Use your own bookmarks and respect X's Terms of Service.
