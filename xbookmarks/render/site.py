@@ -7,10 +7,18 @@ with vanilla JS. No external requests, so it works offline and on GitHub Pages.
 from __future__ import annotations
 
 import json
-from dataclasses import asdict
 from pathlib import Path
 
 from ..models import Bookmark
+
+# Fields safe to publish in the static site (nothing internal like enrich_error).
+_PUBLIC_FIELDS = ("id", "url", "text", "summary", "topic", "tags", "author_handle", "author_name")
+
+
+def _safe_url(u: str) -> str:
+    """Allow only http(s) URLs into the page; neutralize anything else."""
+    return u if (u or "").lower().startswith(("http://", "https://")) else "#"
+
 
 _TEMPLATE = """<!doctype html>
 <html lang="en">
@@ -71,6 +79,8 @@ for (const t of allTags) {
 }
 
 function esc(s) { const d = document.createElement("div"); d.textContent = s || ""; return d.innerHTML; }
+function escAttr(s) { return esc(s).replace(/"/g, "&quot;"); }
+function safeUrl(u) { return /^https?:\\/\\//i.test(u || "") ? u : "#"; }
 
 function matches(b, q) {
   if (activeTag && !(b.tags || []).includes(activeTag)) return false;
@@ -94,7 +104,7 @@ function card(b) {
     + '<div class="meta">' + author + (b.topic ? ' \\u00b7 ' + esc(b.topic) : '') + '</div>'
     + (b.summary ? '<div class="summary">' + esc(b.summary) + '</div>' : '')
     + '<div class="text">' + esc(b.text) + '</div>'
-    + '<div class="chips">' + chips + ' <a href="' + esc(b.url) + '" target="_blank" rel="noopener">open \\u2197</a></div>'
+    + '<div class="chips">' + chips + ' <a href="' + escAttr(safeUrl(b.url)) + '" target="_blank" rel="noopener">open \\u2197</a></div>'
     + '</article>';
 }
 
@@ -110,7 +120,11 @@ def render_site(bookmarks: list[Bookmark], out_dir: Path | str) -> Path:
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    data = [asdict(b) for b in sorted(bookmarks, key=lambda x: x.id)]
+    data = []
+    for b in sorted(bookmarks, key=lambda x: x.id):
+        rec = {k: getattr(b, k) for k in _PUBLIC_FIELDS}
+        rec["url"] = _safe_url(rec["url"])
+        data.append(rec)
     # Escape "<" so an embedded "</script>" in tweet text can't close our block.
     payload = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
     html = _TEMPLATE.replace("__DATA__", payload).replace("__COUNT__", str(len(data)))

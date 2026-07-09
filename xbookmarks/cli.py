@@ -43,8 +43,9 @@ def cmd_render(
     catalog_dir: Path | str = DEFAULT_CATALOG,
 ) -> None:
     store = Store.load(data_path)
-    render_site(store.all(), site_dir)
-    render_catalog(store.all(), catalog_dir)
+    items = store.all()
+    render_site(items, site_dir)
+    render_catalog(items, catalog_dir)
 
 
 def cmd_build(
@@ -59,8 +60,9 @@ def cmd_build(
     store = Store.load(data_path)
     stats = enrich_pending(store, limit=limit, force=force, **kw)
     store.save()
-    render_site(store.all(), site_dir)
-    render_catalog(store.all(), catalog_dir)
+    items = store.all()
+    render_site(items, site_dir)
+    render_catalog(items, catalog_dir)
     return stats
 
 

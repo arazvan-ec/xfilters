@@ -1,3 +1,5 @@
+import pytest
+
 from xbookmarks.enrich import enrich_pending
 from xbookmarks.models import Bookmark
 from xbookmarks.store import Store
@@ -73,3 +75,9 @@ def test_ai_exception_marks_error(tmp_path):
     stats = enrich_pending(s, fetcher=fake_fetch_ok, ai=ai_boom, now=lambda: "NOW")
     assert s.get("1").enrich_error == "boom"
     assert stats["errors"] == 1
+
+
+def test_negative_limit_raises(tmp_path):
+    s = _store(tmp_path, [Bookmark(id="1", url="u", text="x")])
+    with pytest.raises(ValueError):
+        enrich_pending(s, limit=-1, fetcher=fake_fetch_ok, ai=fake_ai_ok)

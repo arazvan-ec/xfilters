@@ -6,6 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from ..models import Bookmark
+from .site import _safe_url
 
 
 def render_catalog(bookmarks: list[Bookmark], out_dir: Path | str) -> Path:
@@ -23,7 +24,7 @@ def render_catalog(bookmarks: list[Bookmark], out_dir: Path | str) -> Path:
         for b in sorted(by_tag[tag], key=lambda x: x.id):
             title = (b.summary or b.text or b.url).replace("\n", " ").strip()
             author = f"@{b.author_handle} — " if b.author_handle else ""
-            lines.append(f"- {author}[{title}]({b.url}) `#{b.id}`")
+            lines.append(f"- {author}[{title}]({_safe_url(b.url)}) `#{b.id}`")
 
     path = out_dir / "index.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

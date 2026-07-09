@@ -44,7 +44,9 @@ def _parse(text: str) -> dict:
         if brace != -1:
             text = text[brace:]
     data = json.loads(text)
-    tags = [str(t).strip().lower() for t in (data.get("tags") or []) if str(t).strip()]
+    raw_tags = data.get("tags")
+    raw_tags = raw_tags if isinstance(raw_tags, list) else []
+    tags = [str(t).strip().lower() for t in raw_tags if str(t).strip()]
     return {
         "summary": str(data.get("summary", "")).strip(),
         "topic": str(data.get("topic", "")).strip(),

@@ -1,7 +1,7 @@
 import httpx
 import pytest
 
-from xbookmarks.enrich.fetch import FetchError, fetch_tweet
+from xbookmarks.enrich.fetch import FetchError, _js_base36, _token, fetch_tweet
 
 
 class FakeResp:
@@ -60,3 +60,23 @@ def test_fetch_retries_then_succeeds():
     res = fetch_tweet("1", client=c, retries=3, sleep=lambda _s: None)
     assert res["text"] == "ok"
     assert c.calls == 2
+
+
+def test_fetch_backoff_sequence():
+    calls = []
+    c = FakeClient([httpx.ConnectError("x")] * 3)
+    with pytest.raises(FetchError):
+        fetch_tweet("1", client=c, retries=3, sleep=calls.append)
+    assert calls == [1, 2]  # exponential: 2**0, 2**1; no sleep after the last attempt
+
+
+def test_js_base36_known_values():
+    assert _js_base36(0) == "0"
+    assert _js_base36(35) == "z"
+    assert _js_base36(36) == "10"
+
+
+def test_token_is_stable_and_clean():
+    t = _token("1750000000000000001")
+    assert t and t == _token("1750000000000000001")
+    assert "0" not in t and "." not in t

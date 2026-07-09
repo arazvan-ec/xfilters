@@ -1,5 +1,7 @@
 import json
 
+import pytest
+
 from xbookmarks.ingest.base import autodetect, extract_tweet_id
 from xbookmarks.ingest.json_export import JsonExportIngestor
 from xbookmarks.ingest.url_list import UrlListIngestor
@@ -67,3 +69,16 @@ def test_autodetect(tmp_path):
     t = tmp_path / "c.txt"
     t.write_text("https://x.com/u/status/1")
     assert isinstance(autodetect(t), UrlListIngestor)
+
+
+def test_json_export_skips_non_dict_items(tmp_path):
+    p = tmp_path / "e.json"
+    p.write_text(json.dumps([{"url": "https://x.com/u/status/1"}, "garbage", 5]))
+    assert [b.id for b in JsonExportIngestor(p).load()] == ["1"]
+
+
+def test_json_export_non_list_raises(tmp_path):
+    p = tmp_path / "e.json"
+    p.write_text(json.dumps("just a string"))
+    with pytest.raises(ValueError):
+        JsonExportIngestor(p).load()

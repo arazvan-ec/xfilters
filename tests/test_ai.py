@@ -37,3 +37,9 @@ def test_parse_missing_fields_default_empty():
     out = _parse('{"summary":"s"}')
     assert out["topic"] == ""
     assert out["tags"] == []
+
+
+def test_parse_tags_non_list_is_ignored():
+    # A string (not an array) must NOT be iterated character-by-character.
+    out = _parse('{"summary":"s","topic":"t","tags":"ai,ml,llm"}')
+    assert out["tags"] == []

@@ -19,9 +19,13 @@ class JsonExportIngestor:
     def load(self) -> list[Bookmark]:
         data = json.loads(self.path.read_text(encoding="utf-8"))
         items = data["bookmarks"] if isinstance(data, dict) else data
+        if not isinstance(items, list):
+            raise ValueError("unsupported export format: expected a list of bookmark objects")
 
         out: list[Bookmark] = []
         for it in items:
+            if not isinstance(it, dict):
+                continue  # skip malformed entries rather than crashing the ingest
             url = it.get("url", "")
             id_ = str(it.get("id") or extract_tweet_id(url))
             if not id_:

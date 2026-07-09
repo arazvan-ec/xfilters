@@ -29,3 +29,21 @@ def test_site_escapes_script_close(tmp_path):
     # but the data still round-trips
     data = _extract_data(html)
     assert data[0]["text"] == "</script><b>pwn"
+
+
+def test_site_sanitizes_non_http_url(tmp_path):
+    bms = [Bookmark(id="1", url="javascript:alert(1)", text="x")]
+    html = render_site(bms, tmp_path / "site").read_text()
+    assert "javascript:alert(1)" not in html
+    assert _extract_data(html)[0]["url"] == "#"
+
+
+def test_site_payload_excludes_internal_fields(tmp_path):
+    b = Bookmark(
+        id="1", url="https://x.com/u/status/1", enrich_error="secret boom", source="url-list"
+    )
+    html = render_site([b], tmp_path / "site").read_text()
+    assert "secret boom" not in html
+    d = _extract_data(html)[0]
+    expected = {"id", "url", "text", "summary", "topic", "tags", "author_handle", "author_name"}
+    assert set(d.keys()) == expected

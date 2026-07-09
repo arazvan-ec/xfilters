@@ -6,6 +6,7 @@ never abort the batch. Manual tags (``tags_source == "manual"``) are preserved.
 
 from __future__ import annotations
 
+import functools
 from collections.abc import Callable
 from datetime import UTC, datetime
 
@@ -30,11 +31,39 @@ def enrich_pending(
     now: Callable[[], str] = _utcnow,
 ) -> dict:
     """Enrich pending (or, with ``force``, all) bookmarks. Returns counts."""
+    if limit is not None and limit < 0:
+        raise ValueError("limit must be >= 0")
+
     targets = store.all() if force else store.pending()
     if limit is not None:
         targets = targets[:limit]
 
     stats = {"enriched": 0, "errors": 0}
+    if not targets:
+        return stats
+
+    # Reuse one HTTP connection / API client across the whole batch when the real
+    # defaults are in use (tests inject their own fetcher/ai and skip this).
+    closers: list = []
+    if fetcher is fetch_tweet:
+        import httpx
+
+        http_client = httpx.Client(timeout=10.0)
+        closers.append(http_client)
+        fetcher = functools.partial(fetch_tweet, client=http_client)
+    if ai is generate_enrichment:
+        from .ai import _client
+
+        ai = functools.partial(generate_enrichment, client=_client())
+
+    try:
+        return _run(store, targets, fetcher, ai, now, stats)
+    finally:
+        for c in closers:
+            c.close()
+
+
+def _run(store, targets, fetcher, ai, now, stats) -> dict:
     for b in targets:
         try:
             if not b.text:
