@@ -14,6 +14,7 @@ echo "🎡 flywheel loaded — a nested loop for disciplined AI development."
 echo "   Full cycle:  /flywheel-loop <feature>"
 echo "   Phases:      brainstorm → spec → plan → work → verify → review → compound → ship"
 echo "   Anytime:     /flywheel-debug (systematic) · /flywheel-autoloop (autonomous) · /flywheel-sync (spec↔code) · /flywheel-recall (search learnings)"
+echo "   Runtime:     /flywheel-process (define a domain operation) · /flywheel-run (execute as the backend + persist + mature)"
 echo ""
 
 # Soft new-version notice for VENDORED installs only (the VERSION file exists
