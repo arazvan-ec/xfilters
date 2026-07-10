@@ -7,7 +7,10 @@ venv/
 .pytest_cache/
 .ruff_cache/
 build/
-dist/
+# Ignore build artifacts in dist/, but keep the packaged extension: it is a
+# committed download target (extension/README.md links to it for mobile install).
+dist/*
+!dist/xfilters-extension.zip
 
 # Personal bookmark captures from the extension / console snippet — keep private.
 data/x-bookmarks-*.json

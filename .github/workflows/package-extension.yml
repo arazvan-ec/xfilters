@@ -1,0 +1,46 @@
+name: package-extension
+
+# Two jobs, selected by event:
+#   * verify  — on push/PR/manual: fail if the committed dist zip drifted from
+#               extension/ (i.e. someone edited the extension but forgot to rerun
+#               `make package`).
+#   * release — on a published GitHub release: build a fresh zip and attach it as
+#               a release asset, so there is always a maintained download.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'extension/**'
+      - 'scripts/package-extension.sh'
+      - '.github/workflows/package-extension.yml'
+  pull_request:
+    paths:
+      - 'extension/**'
+      - 'scripts/package-extension.sh'
+      - '.github/workflows/package-extension.yml'
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the committed extension zip is in sync with extension/
+        run: ./scripts/package-extension.sh --check
+
+  release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the extension zip
+        run: make package
+      - name: Attach the zip to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/xfilters-extension.zip --clobber

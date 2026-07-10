@@ -1,4 +1,4 @@
-.PHONY: install ingest enrich render build test lint
+.PHONY: install ingest enrich render build test lint package
 
 install:
 	pip install -e ".[dev]"
@@ -21,3 +21,8 @@ test:
 
 lint:
 	ruff check .
+
+# Package extension/ into dist/xfilters-extension.zip (installable on mobile
+# Chromium browsers and attached to GitHub releases by CI).
+package:
+	./scripts/package-extension.sh
