@@ -1,5 +1,16 @@
 # flywheel learnings
 
+## decision: intercept X's Bookmarks GraphQL instead of scraping the DOM
+<!-- fw: type=decision; date=2026-07-09; files=extension/collector.js,xbookmarks/ingest/extension.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
+
+For capture, patching `fetch`/`XHR` to read X's Bookmarks GraphQL responses (a Chrome
+MV3 content script in the MAIN world) beats DOM scraping: X obfuscates the DOM but the
+GraphQL payload is structured and rich (full text, note-tweets, media variants,
+engagement metrics). This came from a parallel PR (#2) and was merged in because the
+pluggable `Ingestor` seam let it drop in as one more adapter. Lesson: when two branches
+solve the same problem, compare and fuse the strongest part of each rather than picking a
+winner — the decoupled architecture is what made the fusion cheap.
+
 ## decision: decouple bookmark acquisition behind pluggable ingesters
 <!-- fw: type=decision; date=2026-07-09; files=xbookmarks/ingest/base.py,xbookmarks/cli.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
 
