@@ -14,6 +14,9 @@ dev = [
     "pytest>=8",
     "ruff>=0.5",
 ]
+# Optional: the Playwright-based capture adapter (scripts/capture_playwright.py),
+# an alternative to the Chrome extension. Not needed for the core pipeline.
+capture = ["playwright"]
 
 [project.scripts]
 xbookmarks = "xbookmarks.cli:main"
