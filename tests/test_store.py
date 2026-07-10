@@ -52,3 +52,19 @@ def test_all_is_sorted_by_id(tmp_path):
     s = Store.load(tmp_path / "b.ndjson")
     s.add_ingested([mk("3"), mk("1"), mk("2")])
     assert [b.id for b in s.all()] == ["1", "2", "3"]
+
+
+def test_roundtrip_text_with_unicode_line_separators(tmp_path):
+    # Tweet text can contain U+2028/U+2029/NEL/VT/FF. json.dumps leaves these
+    # unescaped, and str.splitlines() would wrongly treat them as record
+    # boundaries and corrupt the record. The store must round-trip them as a
+    # single record. Regression for load() splitting on "\n" only.
+    p = tmp_path / "b.ndjson"
+    text = "one two threefourfivesix"
+    s = Store.load(p)
+    s.add_ingested([mk("1", text=text), mk("2")])
+    s.save()
+
+    s2 = Store.load(p)
+    assert [b.id for b in s2.all()] == ["1", "2"]  # still two records, not split
+    assert s2.get("1").text == text
