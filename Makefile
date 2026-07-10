@@ -1,4 +1,4 @@
-.PHONY: install ingest enrich render build test lint package
+.PHONY: install ingest enrich render build test lint package pages
 
 install:
 	pip install -e ".[dev]"
@@ -26,3 +26,9 @@ lint:
 # Chromium browsers and attached to GitHub releases by CI).
 package:
 	./scripts/package-extension.sh
+
+# Refresh the GitHub Pages entry: rebuild the site, then mirror it to docs/,
+# which Pages can serve directly (Settings -> Pages -> deploy from branch, /docs).
+pages: build
+	mkdir -p docs
+	cp site/index.html docs/index.html
