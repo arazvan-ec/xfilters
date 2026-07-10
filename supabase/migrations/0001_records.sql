@@ -11,13 +11,18 @@ create table if not exists public.records (
 );
 
 -- Keep updated_at fresh on upsert.
+-- search_path pinned to '' so the trigger can't be hijacked via a mutable path
+-- (Supabase linter 0011). now() lives in pg_catalog, always resolvable.
 create or replace function public.records_touch_updated_at()
-returns trigger as $$
+returns trigger
+language plpgsql
+set search_path = ''
+as $$
 begin
     new.updated_at = now();
     return new;
 end;
-$$ language plpgsql;
+$$;
 
 drop trigger if exists records_touch_updated_at on public.records;
 create trigger records_touch_updated_at
