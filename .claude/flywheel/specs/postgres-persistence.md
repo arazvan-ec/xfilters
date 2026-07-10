@@ -1,6 +1,10 @@
 # Spec — Postgres persistence (Supabase)
 
-> REASONS contract. Status: **DRAFT (2026-07-10)** · Slug: `postgres-persistence`
+> REASONS contract. Status: **APPLIED (2026-07-10)** · Slug: `postgres-persistence`
+>
+> Live: project `tweets` restored, `records` table + trigger + index created,
+> RLS enabled (service_role-only), `bookmarks` backfilled (260 rows). Runs opt in
+> with `XBOOKMARKS_BACKEND=supabase` + the service_role key.
 >
 > Makes `CLAUDE.md` point 4 real: agent-run processes persist to Postgres, not
 > just NDJSON. An existing (paused) Supabase project **`tweets`**

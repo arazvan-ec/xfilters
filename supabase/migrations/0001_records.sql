@@ -31,3 +31,9 @@ create trigger records_touch_updated_at
 
 -- Fast listing/filtering per collection.
 create index if not exists records_collection_idx on public.records (collection);
+
+-- Lock the table to server-side use only. RLS on with NO policies means the
+-- client-facing keys (anon / publishable / authenticated) get zero access;
+-- runs write with the service_role key, which bypasses RLS. This is why
+-- SUPABASE_KEY must be the service_role key, not the anon key.
+alter table public.records enable row level security;

@@ -12,10 +12,12 @@ the `XBOOKMARKS_BACKEND` env var:
   per line, sorted by id. Offline, free, the test backend.
 - **`supabase`** — a Postgres table `public.records(collection, id, data jsonb,
   updated_at)` in the Supabase project **`tweets`** (`gwmcfndhxxjnlwqhkace`, org
-  `claude-org`). One row per record; `data` holds the whole record. Currently the
-  project is paused and the schema not yet applied — see
-  `.claude/flywheel/specs/postgres-persistence.md`; the cloud cutover is gated on
-  owner confirmation.
+  `claude-org`, region eu-west-3). One row per record; `data` holds the whole
+  record. **Live:** project active, schema applied (`0001_records.sql`), and the
+  `bookmarks` collection backfilled (260 rows). **RLS is enabled with no
+  policies**, so `SUPABASE_KEY` must be the **`service_role`** key (client-facing
+  anon/publishable keys are denied all access). See
+  `.claude/flywheel/specs/postgres-persistence.md`.
 
 The seam is `xbookmarks/records.open_store(collection)` — switching backends is a
 one-env-var change, no process code touched.
@@ -34,9 +36,10 @@ python scripts/record.py -c <collection> list
 
 From Python: `from xbookmarks.records import open_store; s = open_store("<collection>"); s.upsert(rec); s.save()`.
 
-To use Postgres for a run: `export XBOOKMARKS_BACKEND=supabase` (plus
-`SUPABASE_URL`/`SUPABASE_KEY`) before the command. NDJSON→Postgres backfill:
-`python scripts/migrate_ndjson_to_pg.py <collection>`.
+To use Postgres for a run: `export XBOOKMARKS_BACKEND=supabase`, `SUPABASE_URL`,
+and `SUPABASE_KEY` (the **service_role** key — RLS denies anon/publishable) before
+the command. NDJSON→Postgres backfill: `python scripts/migrate_ndjson_to_pg.py
+<collection>`. Never commit the service_role key; keep it in the environment.
 
 ## Schema
 
