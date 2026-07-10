@@ -2,516 +2,2718 @@
 
 260 bookmarks.
 
-## Ciencia & Salud
+## acp
 
-- @omarsar0 — [NEW AI report from Google.  Every prior intelligence explosion in human history was social, not individual.  These authors make the case that the AI "singularity" framed as a single superintelligent mind bootstrapping to godlike intelligence is fundamentally wrong.  This is directly relevant to anyone designing multi-agent systems.  They observe that frontier reasoning models like DeepSeek-R1 spontaneously develop internal "societies of thought," multi-agent debates among cognitive perspectives, through RL alone.  The path forward is human-AI configurations and agent institutions, not bigger monolithic oracles.  This reframes AI scaling strategy from "build bigger models" to "compose richer social systems."  It argues governance of AI agents should follow institutional design principles, checks and balances, role protocols, rather than individual alignment.  Paper: https://t.co/bfwrnbkY2y  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
-- @omarsar0 — [// Agentic Harness Engineering //  Pay attention to this one, AI devs.  (bookmark it)  Most coding-agent harnesses are still tuned by hand or brittle trial-and-error self-evolution.  This new work introduces Agentic Harness Engineering, a framework that makes harness evolution observable. They do this through three layers: components as revertible files, experience as condensed evidence from millions of trajectory tokens, and decisions as falsifiable predictions checked against task outcomes.  Each edit becomes a contract you can verify or revert.  Results: pass@1 on Terminal-Bench 2 climbs from 69.7% to 77.0% in ten iterations, beating human-designed Codex-CLI (71.9%) and self-evolving baselines like ACE and TF-GRPO.  The evolved harness also transfers across model families with +5.1 to +10.1 point gains, while using 12% fewer tokens than the seed on SWE-bench-verified.  Harness work is the biggest hidden cost in most agent systems. This is the first credible recipe for letting the harness improve itself without drifting into noise.  Paper: https://t.co/9fEgqwlTSf  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+- @jetbrains — [JetBrains comparte una guía práctica para construir un agente personalizado con Deep Agents de LangChain, LangSmith y el protocolo ACP, partiendo de la idea de que la capa "harness" de Claude Code es solo software que cualquiera puede moldear.](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
 
-## Cultura & Entretenimiento
+## acpx
 
-- @RoundtableSpace — [TOP 10 GITHUB REPOS TO ENHANCE YOUR CLAUDE CODE GAME  • SUPABASE https://t.co/WzPIYqVQXM  • NOTEBOOKLM https://t.co/LTlGoU3oPp  • OBSIDIAN https://t.co/ncEYHnw47k  • LANGCHAIN https://t.co/qlRw5rznwi  • FLOWISE  https://t.co/ggY1iS2sB7  • CLAUDE SKILLS https://t.co/pcXlvK7d9u  • AWESOME CLAUDE SKILLS https://t.co/5lbBAQSUuV  • REPOMIX https://t.co/KGAPZb14Du  • CLAUDE CODE BEST PRACTICE https://t.co/Bq5OzzlT2h  • EVERYTHING CLAUDE CODE https://t.co/xPk3fV9mGb](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
-- @danshipper — [We use OpenClaws to do all of our work at @every.   We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company Slack.  I chatted with @every COO Brandon (@bran_don_gell) and @every head of platform Willie (@bigwilliestyle) to share what we’ve learned.  We get into: - Why agents become mirrors of their owners, and how that influences how other people on the team interact with them - How a parallel AI org chart forms on its own. People have stopped tagging me on Slack with questions about Proof, the document editor I vibe coded, because they knew my agent R2-C2 can step in - The etiquette for human-agent collaboration is being invented in real time. Brandon's rule is that if there's an established process or documented answer, always ask the agent, not their human - Why everyone is a manager now, and why even experienced managers carry limiting beliefs about what their agents can do - This is a must-watch for anyone trying to understand how AI workers change daily operations, not just in theory, but inside a company that’s half-agent   Watch below!  Timestamps Introduction:  How Brandon built Zosia, an AI agent to run his household:  Brandon’s “aha” moment:  What happened when everyone on the team got their own agent:  How agents take on their owners' personalities, and why that matters inside an org:  Why it’s important for agents to work in public:  What we’re still figuring out when it comes to agent behavior, including memory gaps, group chat etiquette, and the "ant death spiral" problem:  How we built Plus One, our hosted OpenClaw product:  The cultural shift required to make agents work at scale:](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
-- @winspyredotcom — [This book drains the swamp.   Other books teach you to wrestle alligators better.   Simple, costless actions that collapse complexity. Not another static 7-step framework.  Grab it on Amazon →](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
-- @tom_doerr — [Programming book rules for AI coding agents  https://t.co/LVYXR3fteQ https://t.co/PIx87wINVB](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
-- @aiDotEngineer — [🆕Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — @mappletons  https://t.co/7SEayJwZLe  Agentic engineering so far has been a solo story: one developer and a dozen agents moving at warp speed. But speed without thoughtful planning and team alignment is just wasting tokens. When everyone on a team is directing agents alone in their personal CLI tools with no shared context, you get duplicate work, conflicting changes, poorly-designed solutions, surprise features nobody else agreed to build, and everyone pulling in different directions.   Serious software still requires serious collaboration. You need multiple perspectives and types of expertise to build great things. We need agentic environments where people can plan together, think critically together, and share the same context. In this talk I'll demo how we've tackled these design problems in Ace, a multiplayer agent environment from GitHub Next that uses real-time collaboration, proactive agents, and sandboxed micro VMs for rapid prototyping and exploration.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
-- @Hi_Mrinal — [A great read on ML model infrastructure from netflix  https://t.co/KDGUs96k7o https://t.co/i8TXEygR9s](https://x.com/Hi_Mrinal/status/2050454027897540635) `#2050454027897540635`
-- @svpino — [30 agents every AI Engineer must build.  This is the most comprehensive and practical book on AI Engineering that I've ever seen.  I can't think of a single use case that they didn't cover here:  1. The autonomous decision-making agent 2. The planning agent 3. The memory-augmented agent 4. The knowledge retrieval agent 5. The document intelligence agent 6. The scientific research agent 7. The tool-using agent 8. The agentic workflow system 9. The data analysis agent 10. The verification and validation agent 11. The general problem solver agent 12. The code generation agent 13. The security-hardened agent 14. The self-improving agent 15. The conversational agent 16. The content creation agent 17. The recommendation agent 18. The vision language agent 19. The audio processing agent 20. The physical world sensing agent 21. The ethical reasoning agent 22. The explainable agent 23. The healthcare intelligence agent 24. The scientific discovery agent 25. The financial advisory agent 26. The legal intelligence agent 27. The education intelligence agent 28. The collective intelligence agent 29. The embodied intelligence agent 30. The domain-transforming integration agent  I also read 50 Algorithms Every Programmer Should Know by Imran. Same vibe.  Here is the Amazon link: https://t.co/buLPqjToiu](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
-- @QingQ77 — [把单个 Claude Code 会话组织成完整的游戏开发工作室，用49个专职AI代理和72个工作流技能替代无结构的单助手模式。  https://t.co/OA6tQocRFV  一套 Claude Code 模板，49个代理按导演、主管、专员三级分工，72个斜杠命令管从脑暴到上线。代理之间垂直派活、横向商量，但拍板的始终是你——它们只出方案不替你做主。12个 Hook 自动卡提交校验，11条规则按目录管编码风格。](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
-- @srishticodes — [This CLAUDE.md turns Claude Code into a senior engineer who never forgets your standards.  Boris Cherny (creator of Claude Code at Anthropic) shared the internal workflows his team actually uses daily.  Someone turned those X threads into a structured file you can drop into any project.  What’s inside:  > Subagent orchestration > Verification gates before marking tasks done > Autonomous bug fixing loops > Self-improving rules from your own corrections  That last one is the whole game.  Every time you correct Claude, the rule gets encoded permanently.  > Next session it doesn’t repeat the mistake. > Next month it matches how you think. > Next year you’re not managing Claude. It’s working like someone who’s been on your team for years.  Drop it in any project. Start today.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
-- @benln — [notes from: https://t.co/uFgqC0gDUs](https://x.com/benln/status/2051288392852242703) `#2051288392852242703`
-- @dhh — [Omarchy 3.7 is out! Huge release with new CLI, tons more gaming options, unlock screen themeing, OCR text extraction, cliamp, Asus ExpertBook PTL compatibility, and a million other fixes and improvements. https://t.co/jsBbPFDo9o https://t.co/feWzCzonUQ](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
-- @mattpocockuk — [@blackanger Yep it's pretty wild. I gave two talks about them which both went viral at the same time:  https://t.co/KG7gdqFo2j  https://t.co/gMtfs17H9k  Hence the crazy number of stars.](https://x.com/mattpocockuk/status/2056277047496843534) `#2056277047496843534`
-- @0xMovez — [Spotify's Chief Architect just showed how they ship 4,5K deployments /day with Claude at Anthropic stage  27-minutes. free. By #1 music app dev   "More than 99% of our engineers use AI coding tools. Adoption took off after Opus 4.5"   Worth more than any $500 vibe-coding course. https://t.co/5g697TGtDu](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
-- @addyosmani — [The full video for our "fireside chat on the evolution of developer craft" is live: https://t.co/baSTziDwOz with @rseroter @the_thagomizer &amp; Ciera Jaspan](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
-- @KirkDBorne — [Highly rated new book from @PacktPublishing @PacktDataML ...  "Architecting Generative AI Applications: Build, deploy, and scale production-ready GenAI systems with LLMOps best practices"  See it at https://t.co/qEfwoYVBdT https://t.co/kgcRnSBf5h](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+- @kunchenguid — [Kun Chen elogia 'acpx' de Peter Steinberger y explica que lo integró en la versión 0.1.31 de gnhf para dar soporte a prácticamente cualquier harness de agentes, recomendándolo frente a construir una abstracción propia.](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
 
-## Deportes
+## addy-osmani
 
-- @jetbrains — [We’re now hiring in Spain! 🇪🇸  Madrid is our starting point, but we’re hiring remotely across the country. Explore 70+ open roles: https://t.co/ywKPy3PCSz https://t.co/31TB715VMe](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+- @bibryam — [Bilgin Ibryam destaca el artículo de Addy Osmani sobre 'Agent Skills', que convierte especificaciones, tests, revisiones y control de alcance en flujos de trabajo verificables para agentes de codificación.](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
+- @addyosmani — [Addy Osmani publica el video completo de una charla sobre la evolución del oficio del desarrollador, junto a Richard Seroter, the_thagomizer y Ciera Jaspan.](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
 
-## Diseño & UX
+## addyosmani
 
-- @omarsar0 — [NEW AI report from Google.  Every prior intelligence explosion in human history was social, not individual.  These authors make the case that the AI "singularity" framed as a single superintelligent mind bootstrapping to godlike intelligence is fundamentally wrong.  This is directly relevant to anyone designing multi-agent systems.  They observe that frontier reasoning models like DeepSeek-R1 spontaneously develop internal "societies of thought," multi-agent debates among cognitive perspectives, through RL alone.  The path forward is human-AI configurations and agent institutions, not bigger monolithic oracles.  This reframes AI scaling strategy from "build bigger models" to "compose richer social systems."  It argues governance of AI agents should follow institutional design principles, checks and balances, role protocols, rather than individual alignment.  Paper: https://t.co/bfwrnbkY2y  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
-- @himanshustwts — [Based on everything explored in the source code, here's the full technical recipe behind Claude Code's memory architecture:  [shared by claude code]  Claude Code’s memory system is actually insanely well-designed. It isn't like  “store everything” but constrained, structured and self-healing memory.  The architecture is doing a few very non-obvious things:  > Memory = index, not storage + MEMORY.md is always loaded, but it’s just pointers (~150 chars/line) + actual knowledge lives outside, fetched only when needed  > 3-layer design (bandwidth aware)  + index (always)  + topic files (on-demand) + transcripts (never read, only grep’d)  > Strict write discipline  +  write to file → then update index  + never dump content into the index  +  prevents entropy / context pollution  > Background “memory rewriting” (autoDream)  +  merges, dedupes, removes contradictions  +  converts vague → absolute  +  aggressively prunes  +  memory is continuously edited, not appended  > Staleness is first-class  + if memory ≠ reality → memory is wrong  +  code-derived facts are never stored  +  index is forcibly truncated  > Isolation matters  + consolidation runs in a forked subagent  + limited tools → prevents corruption of main context  > Retrieval is skeptical, not blind  +  memory is a hint, not truth  +  model must verify before using  > What they don’t store is the real insight  +  no debugging logs, no code structure, no PR history  +  if it’s derivable, don’t persist it](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
-- @bibryam — [Really like this from @addyosmani 👌  🤩 Google engineering practices as agent skills🤩  ->  organized into 19 skills & 7 commands for AI agents.  → Plan - decompose into small, verifiable tasks → Build - incremental implementation, context engineering, clean API design → Verify - TDD, browser testing with DevTools, systematic debugging → Review - code quality, security hardening, performance optimization → Ship - git workflow, CI/CD, ADRs, pre-launch checklists https://t.co/JOPAOVvwLy](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
-- @plainionist — [Maturity as a developer means understanding the importance of documenting design and architecture decisions.  👇👇 https://t.co/VvTws4XgDs](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
-- @AnthropicAI — [New on the Engineering Blog:   Building Managed Agents—our hosted service for long-running agents—meant solving an old problem in computing: how to design a system for “programs as yet unthought of.”  Read more: https://t.co/YYaEub2QGV](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
-- @midudev — [¡Haz que tu IA deje de diseñar interfaces genéricas!  Han creado un repositorio con archivos DESIGN.md que replican la guía visual de grandes empresas.  Tienes de Apple, Airbnb, Tesla, Shopify, Uber y más...  Sin Figma. Sin JSON. Sin herramientas raras.  Copias el archivo en la raíz de tu proyecto y tu agente de IA entiende al instante cómo debe verse la interfaz.  Open source y gratis: → https://t.co/x6jKgy5Tst](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
-- @codewithimanshu — [Anthropic's Claude Code team just teaches how to automate your entire engineering workflow with Claude Code SDK in under 30 minutes.  For Free. From the engineers who built it.  CANCEL Your Weekend Plans, and Learn to Automate Your Codebase Today.  Bookmark it. Watch it. Ship your first headless automation this weekend.  $5,000/month. $10,000/month. $25,000/month.  People are automating entire engineering teams with Claude Code SDK and charging clients $$$$. You're still copy-pasting code from ChatGPT manually.  This video fixes that tonight.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.  ↓  Sid Bidasaria runs engineering on Claude Code at Anthropic. He just gave away the entire SDK + GitHub Action playbook in 30 minutes.  This is the talk that separates people automating their entire codebase from people still manually writing every commit.  Here's everything inside.  Follow @codewithimanshu for weekly Claude automation breakdowns.  ↓  What the Claude Code SDK actually is.  Most devs don't know this exists. They use Claude in the chat interface and call it a day.  The SDK is the real unlock.  Programmatic access to the Claude Code agent in headless mode. The primitive building block for every serious automation you'd ever want to build.  Designed like a Unix tool. Drops directly into terminal pipelines, bash scripts, CI/CD automation.  Use it to review code. Write linters. Build chatbots. Manage remote code environments. Run an entire engineering pipeline.  This is how you stop "using AI" and start "shipping with AI."  Follow @codewithimanshu for full Claude SDK breakdowns every week.  ↓  Basic usage that 99% of devs miss.  `claude -p` to prompt the agent directly from your terminal. `--allowed-tools write` for controlled file system access.  Pipe anything into it:  > Pipe `ifconfig` output → ask Claude to debug your network > Pipe error logs → get a fix before your coffee finishes brewing > Pipe a file → get instant code review without opening an editor  `--output-format JSON` for structured responses you can parse in automated systems.  This is where Claude stops being a chat tool and becomes infrastructure.  Follow @codewithimanshu for daily Claude SDK one-liners that save hours.  ↓  Permission management without the security holes.  The biggest reason teams don't deploy AI in production: permission concerns.  Sid solves it cleanly:  > No destructive permissions by default > `--allowed-tools` to pre-configure exactly what the agent can touch > `--permission-prompt-tool` to delegate authorization to an MCP server in real time  Your AI agent gets full power exactly when it needs it. Zero access when it doesn't.  This is enterprise-grade AI security packaged as a single flag.  Most tutorials hand-wave this. This one shows the architecture.  Follow @codewithimanshu for production AI permission patterns every week.  ↓  Session persistence: the multi-turn unlock.  Most AI integrations forget everything between calls.  That's why your "AI assistant" feels like talking to someone with amnesia.  Return a `session ID` and Claude resumes exactly where you left off. Full context preserved. Multi-turn conversations across hours, days, deploys.  This is the foundation for building any real AI product that holds context.  Customize the system prompt while you're at it. `--system-prompt 'talk like a pirate'` if you want. Or build a serious agent persona for production.  Follow @codewithimanshu for persistent context patterns for AI agents.  ↓  The Claude GitHub Action demo that should scare every dev.  Sid runs a live demo on a real quiz app:  > Files an issue: "add a 50/50 power-up and a skip power-up" > Claude creates a to-do list > Claude modifies the files > Claude opens a Pull Request  The entire feature shipped from one issue. No human touching code.  This is automated code review, automated bug triage, automated feature implementation. From GitHub issues directly.  Junior dev work just got compressed into the time it takes to write an issue description.  Follow @codewithimanshu for GitHub Action setups for production.  ↓  Zero infrastructure required.  Every other AI automation tool needs:  > A separate server > A deployment pipeline > Monitoring infrastructure > Auth setup > Cost tracking  The Claude GitHub Action uses your existing GitHub Action runners.  `claude /install github action` in your local repo. Generates a YAML config. Done.  You go from idea to production AI automation in 60 seconds.  Most people pay $200/month for tools that do less than this free Action.  Follow @codewithimanshu for free Claude Action templates.  ↓  The 3-layer architecture nobody explains.  Sid breaks down the actual stack:  > Layer 1: SDK - the foundation, raw programmatic access > Layer 2: Base Action - wraps the SDK as a clean API interface > Layer 3: PR Action - adds comments, formatting, full GitHub UX  Understanding these layers is the difference between someone who copies tutorials and someone who builds custom AI infrastructure for clients.  This is the architectural insight that turns into $10K/month consulting contracts.  Follow @codewithimanshu for weekly architecture deep dives.  ↓  30 minutes from the engineer shipping this in production.  You'll learn more from this than from 6 months of YouTube tutorials made by people who've never automated a single deploy.  People who watch this understand Claude Code automation at the infrastructure level.  People who skip it keep manually reviewing PRs, manually filing issues, manually doing work that could've been automated last weekend.  Save the video. Watch it tonight. Ship your first Claude SDK automation this weekend.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
-- @aiDotEngineer — [🆕Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — @mappletons  https://t.co/7SEayJwZLe  Agentic engineering so far has been a solo story: one developer and a dozen agents moving at warp speed. But speed without thoughtful planning and team alignment is just wasting tokens. When everyone on a team is directing agents alone in their personal CLI tools with no shared context, you get duplicate work, conflicting changes, poorly-designed solutions, surprise features nobody else agreed to build, and everyone pulling in different directions.   Serious software still requires serious collaboration. You need multiple perspectives and types of expertise to build great things. We need agentic environments where people can plan together, think critically together, and share the same context. In this talk I'll demo how we've tackled these design problems in Ace, a multiplayer agent environment from GitHub Next that uses real-time collaboration, proactive agents, and sandboxed micro VMs for rapid prototyping and exploration.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
-- @omarsar0 — [// Agentic Harness Engineering //  Pay attention to this one, AI devs.  (bookmark it)  Most coding-agent harnesses are still tuned by hand or brittle trial-and-error self-evolution.  This new work introduces Agentic Harness Engineering, a framework that makes harness evolution observable. They do this through three layers: components as revertible files, experience as condensed evidence from millions of trajectory tokens, and decisions as falsifiable predictions checked against task outcomes.  Each edit becomes a contract you can verify or revert.  Results: pass@1 on Terminal-Bench 2 climbs from 69.7% to 77.0% in ten iterations, beating human-designed Codex-CLI (71.9%) and self-evolving baselines like ACE and TF-GRPO.  The evolved harness also transfers across model families with +5.1 to +10.1 point gains, while using 12% fewer tokens than the seed on SWE-bench-verified.  Harness work is the biggest hidden cost in most agent systems. This is the first credible recipe for letting the harness improve itself without drifting into noise.  Paper: https://t.co/9fEgqwlTSf  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
-- @Av1dlive — [Andrej Karpathy : 10x engineers are normal. real agentic engineers are 100x  this guy just shipped the playbook to become 100x  context engineering. tool design. orchestrator-subagent. evals. the harness mindset.  watch &amp; bookmark it for this weekend https://t.co/7qQNW8KJSN](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
-- @DeRonin_ — [Andrej Karpathy: "90% of what AI twitter tells you to learn will be dead in 6 months"  Here are 10 things senior AI engineers stopped wasting time on:  1. AutoGen / AG2: moved to community maintenance, releases stalled. dead for production  2. CrewAI: demos well, breaks in production. engineers building real systems already moved off it  3. Autonomous agent pitches: the AutoGPT / BabyAGI wave is dead in product form. the industry settled on supervised, bounded, evaluated agents  4. Agent app stores / marketplaces: promised since 2023, zero enterprise traction  5. SWE-bench leaderboard chasing: researchers proved nearly every public benchmark can be gamed without solving the underlying task  6. Microsoft Semantic Kernel: unless you're locked into Microsoft enterprise stack, it's not where the ecosystem is heading  7. DSPy: philosophical merit, niche audience. not a general agent framework  8. Horizontal "build any agent" platforms: Google Agentspace, AWS Bedrock Agents, Copilot Studio. confusing, slow-shipping, the math still favors building yourself  9. Per-seat SaaS pricing for agent products: market moved to outcome-based. per-seat is already dead  10. The framework that went viral on HN this week: wait 6 months. if it still matters, it'll be obvious  what actually compounds instead:  - context engineering - tool design - orchestrator-subagent pattern - eval discipline - the harness mindset (harness > model, always) - MCP as the protocol layer  be few steps ahead than your competitors and outperform this market till it became mass-opinion  study this.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
-- @aakashgupta — [Every AI tool you use right now is stuck at week-one performance.  Custom GPTs, Claude Projects, agent frameworks. Same prompt, same output, week 1 vs week 50. The skill files sit static while you re-explain your context every Monday. There is a hard ceiling: your prompts can only be as good as the day you wrote them.  Hermes broke that loop with one design choice. Every 15 tool calls, it pauses, reads what worked in the session, and rewrites the skill file. Same prompt next week. Different procedure underneath.  The numbers from my logs: 20 min for the competitive briefing in week one, 12 min by week four, 8 min by week six. I never edited the prompt. The agent rewrote its own procedure four times. By week six, the briefing was surfacing competitor patterns I had missed in three weeks of doing it manually.  This is what compounds. Static skills have a flat ceiling. Self-rewriting skills get sharper every session because they keep what worked and drop what didn't. The gap between someone running self-improving skills and someone running static prompts widens every week.  The other piece most PMs miss: the moat is local. Hermes runs Claude, GPT, Gemini, or Llama. Switch models tomorrow and your accumulated skill files come with you. Anthropic rate-limits you mid-launch, you have a fallback that kept its memory.  Full setup, 3 SKILL files I am running, and the 30-day rollout in the deep dive.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
-- @rseroter — ["LLMs just parrot back what they've been trained on and don't create anything novel."  I hear that, but the @GoogleDeepMind AlphaEvolve agent is designing advanced algorithms that are making an impact in the real world.  Powerful update ... https://t.co/EwszAjFzch](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
-- @mattpocockuk — [A flow I just tried and LOVED:  1. /grill-with-docs, talking about a new bit of UI 2. Asks me a question I can't answer unless I prototype 3. /prototype 4. Iterate on the prototype, burning tokens freely until we get a good spot 5. /rewind to the question, and select 'summarize' (Claude Code feature), saying 'summarize what we learned from prototyping' 6. Continue the grilling session, retaining the prototype  Smoooooooth](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
-- @JustSteveKing — [Most PHP devs know PSR-4 and PSR-12. But there are other standards you’re probably ignoring that change how you write PHP entirely.  PSR 7, 14, 15, 17, and 18 - they give you a complete model for HTTP-aware PHP that’s tied to no framework.  Write to the interface, not the implementation.  https://t.co/EvqrpZiJvJ](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
-- @tom_doerr — [Generates UI with 67% fewer tokens than JSON  https://t.co/B8crPruCiS https://t.co/rcPiZ2wFbw](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
-- @JoliCode — [Comment intégrer l'IA dans son workflow UX/UI ? 🎨  Aujourd'hui sur le blog, Sophie partage son retour d'expérience sur l'utilisation de Figma Make, Claude Design, les prompts efficaces et ce qui change vraiment pour les designers 💡  https://t.co/zsuGjpt6Uh  #ui #ux #ia #design](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
-- @luisloaiza — [Mira esta herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, más rápida y potente que n8n. Podrás vender con catálogo y pagos integrados, automatizar el onboarding con validación de identidad y más. ¡Empieza gratis!](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
-- @vladikk — [Principles > Ceremony   When I wrote Learning Domain-Driven Design, I made a deliberate choice: instead of pages of code listings, I focused on the principles behind the tactical patterns. I wanted to make sure the reader understands why only one instance of an aggregate participates in a transaction, why value objects must be immutable, and the rationale behind other tactical patterns. 🧵 1/3](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
-- @_vmlops — [HarnessEngineering A Design Guide to Claude Code  https://t.co/SZ4NcP6lDe https://t.co/4uIgr9xNKy](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
-- @Dinosn — [denissergeevitch/agents-best-practices: Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design. https://t.co/gAKogBCNxW](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
-- @lennysan — [My biggest takeaways from @danshipper:  1. The future of work will happen inside Codex or Claude Code. Instead of putting AI into your SaaS tool, you’ll use your SaaS tools inside your favorite AI agents' in-app browser. Dan spends all his time in Codex now—writing documents, managing email, doing research, everything. He's using Google Docs, PostHog, and everything he needs within the agent's in-app browser. The agent can see what he’s doing, and has all of his context, so he and his agent collaborate quickly and super effectively.  2. Automation is a lie—every automation needs a human. Dan's company doubled in size this year despite being incredibly AI-forward. Why? Because in order to make automation work well, you need humans making sure everything keeps working. This is why benchmarks are misleading—they measure AI on problems we’ve already framed and can score, but there’s always a higher frame.  3. PMs will win the AI era. Marcus, a former PM who previously ran Axios’s writing product, joined Every after getting super AI-pilled. Now he runs their product Spiral, and ships faster than anyone on the team. He pairs technical knowledge with spiky product sense, deep user empathy, and an eye for what matters. Dan thinks any PM who gets really AI-native will be incredibly dangerous because the building is done for you—what matters is figuring out what to build and if it’s great.  4. Full-stack designers are becoming superheroes. Designers used to make beautiful interactions that engineers didn’t want to build or couldn’t execute properly. Now designers don’t need to hand things off; they can build it themselves. Designers are naturally creative people, and AI is the perfect tool for them because it lets them bring their vision to life without the traditional bottlenecks.  5. SaaS is not dead. In fact, Dan is bullish on SaaS stocks. When users bring their own AI (via Codex or Claude Code) to use SaaS products, the user—not the SaaS company—pays for tokens. This saves SaaS company’s margins. Since the agents need their own seats, Dan predicts that agents will create massive new demand for SaaS because there will be tons of agents using these products at high volume.  6. Every company will have one “super-agent” inside their Slack that every employee will use. Dan initially thought every employee would have their personal work agent, like a shadow AI org chart, but he’s completely flipped his view. He realized agents need humans who care about them. When someone gets tired of maintaining their personal agent, it becomes useless. The winning model is one forward-deployed engineer or AI-savvy person who maintains a company-wide agent (like Shopify’s River or Viktor), and then it trickles down to more specialized team agents as models improve and become less fiddly.  7. The AI job apocalypse is not happening, but you do need to evolve to stay relevant. Models make yesterday’s human competence cheap. But because everyone uses the same models, it all looks the same if you use it the default way; it becomes commoditized slop. Humans then take that frozen competence and use it to make something new and interesting for their specific situation. The key: “ride the models”—use them for everything you do, try new models when they drop, keep turning over rocks.  8. We will read way more AI-generated writing, and we will like it. Human writing is incredibly important for things that matter, but for internal docs, planning, and email, AI-generated is often better because most people are bad at writing strategy documents.  9. Build software for humans and agents to use together. The current model is building a CLI that an agent uses independently. Instead, you and your agent should be using the app together. This creates new design challenges—agents can make a billion requests in three seconds, so you need approval flows, inboxes that summarize what happened, logs, and easy rollback.   10. Forward-deployed engineers are the new most essential role. The big model companies have teams of people managing their internal agents, and those teams aren’t going away. It’s different from traditional software building, and certain engineers love it. As models get better, this role will evolve—you’ll be managing more agents doing more things.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
-- @vladikk — [Counting dependencies tells you the number of dependencies. It tells you nothing about the design. What matters is the kind of knowledge shared across component boundaries. A single reference sharing extraneous knowledge can cause orders of magnitude more cascading changes than a hundred dependencies through well-designed integration interfaces.  Read Birgitta's piece on @martinfowler blog: https://t.co/jDy0nFoYWx](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+- @addyosmani — [Addy Osmani anima a construir proyectos personales ambiciosos con agentes de IA, en vez de usarlos solo para hacer más rápido lo mismo de siempre.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
+- @bibryam — [Bilgin Ibryam destaca un repositorio de Addy Osmani que convierte las prácticas de ingeniería de Google en 19 skills y 7 comandos para agentes de IA, organizados en fases de planificación, construcción, verificación, revisión y despliegue.](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
+- @rseroter — [Richard Seroter recoge frases de Addy Osmani sobre la importancia del harness de un agente: un modelo decente con un buen harness supera a un gran modelo con un mal harness, y el harness debe evolucionar constantemente.](https://x.com/rseroter/status/2046646395634114988) `#2046646395634114988`
 
-## Economía & Finanzas
+## adopcion-de-ia
 
-- @AnthropicAI — [We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and technical support to programs in global health, life sciences, education, agriculture, and economic mobility.  Read more: https://t.co/eqCrLKtNCq](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
+- @McKinsey — [McKinsey señala que muchas empresas siguen atascadas en la fase piloto con la IA porque el problema no es la tecnología sino que aún no han rediseñado sus flujos de trabajo, roles y decisiones de forma integral.](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
+- @danshipper — [Dan Shipper afirma que el mejor indicador de si una organización adopta la IA es que su equipo directivo use personalmente Codex, Claude Code o Cowork, y anuncia que su empresa Every abre cupos de consultoría para ayudar a equipos ejecutivos a adoptar estas herramientas.](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
 
-## IA & Machine Learning
+## adr
 
-- @omarsar0 — [NEW AI report from Google.  Every prior intelligence explosion in human history was social, not individual.  These authors make the case that the AI "singularity" framed as a single superintelligent mind bootstrapping to godlike intelligence is fundamentally wrong.  This is directly relevant to anyone designing multi-agent systems.  They observe that frontier reasoning models like DeepSeek-R1 spontaneously develop internal "societies of thought," multi-agent debates among cognitive perspectives, through RL alone.  The path forward is human-AI configurations and agent institutions, not bigger monolithic oracles.  This reframes AI scaling strategy from "build bigger models" to "compose richer social systems."  It argues governance of AI agents should follow institutional design principles, checks and balances, role protocols, rather than individual alignment.  Paper: https://t.co/bfwrnbkY2y  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
-- @addyosmani — [Build the thing that feels too ambitious.  If you're using agents to do exactly what you were doing before - just faster - you may be thinking too small.   Ambitious is the right size side-project.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
-- @amankk_9 — [AI Agent Project to Build this Weekend:  Build a Multi-Tool AI Agent from Scratch. https://t.co/nBEaPOWccC](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
-- @unclebobmartin — [I've been using Claude for the last few days.  It seems to me that Codex is a bit more competent, but Claude is a bit more diligent.  I wonder if that even makes any sense.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
-- @bcherny — [I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.  Here goes.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
-- @vineetwts — [I created documentation over Claude Code's Codebase, which explains  - Its pipeline - How it works - How it handles Context - How it handles Memory &amp; More  Read it here - https://t.co/GngrSvWAmh https://t.co/zyHyj5z2a7](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
-- @himanshustwts — [Based on everything explored in the source code, here's the full technical recipe behind Claude Code's memory architecture:  [shared by claude code]  Claude Code’s memory system is actually insanely well-designed. It isn't like  “store everything” but constrained, structured and self-healing memory.  The architecture is doing a few very non-obvious things:  > Memory = index, not storage + MEMORY.md is always loaded, but it’s just pointers (~150 chars/line) + actual knowledge lives outside, fetched only when needed  > 3-layer design (bandwidth aware)  + index (always)  + topic files (on-demand) + transcripts (never read, only grep’d)  > Strict write discipline  +  write to file → then update index  + never dump content into the index  +  prevents entropy / context pollution  > Background “memory rewriting” (autoDream)  +  merges, dedupes, removes contradictions  +  converts vague → absolute  +  aggressively prunes  +  memory is continuously edited, not appended  > Staleness is first-class  + if memory ≠ reality → memory is wrong  +  code-derived facts are never stored  +  index is forcibly truncated  > Isolation matters  + consolidation runs in a forked subagent  + limited tools → prevents corruption of main context  > Retrieval is skeptical, not blind  +  memory is a hint, not truth  +  model must verify before using  > What they don’t store is the real insight  +  no debugging logs, no code structure, no PR history  +  if it’s derivable, don’t persist it](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
-- @dunglas — [I've just dramatically improved my "Symfony Docker" project.  It now supports Dev Containers, autonomous (YOLO) coding agents such as Claude Code, Xdebug out of the box, instantaneous hot reloading with FrankenPHP, and slim, rootless images for production. 🐘  I presented these features at @symfony_live Paris. Here is the detailed breakdown and the slides from my talk: https://t.co/eCEg48MoYt](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
-- @martinfowler — [NEW POST  The quality of what AI coding assistants produce depends on how well the prompter articulates team standards. @techygarg proposes treating such instructions as infrastructure: versioned, reviewed, and shared artifacts.  https://t.co/fqAeB6irlB](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
-- @lennysan — [OpenClaw: The complete guide  @ClaireVo has just put together the definitive guide to getting started with and mastering OpenClaw.  Building on our podcast episode, this post covers everything you need to know, from first install to multi-agent setups, plus the real costs and security gotchas most people skip over.  Whether you’re brand new to OpenClaw or already running one, Claire’s guide will level you up.  Find it here 🦞: https://t.co/x9h7gwH3cT](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
-- @RoundtableSpace — [TOP 10 GITHUB REPOS TO ENHANCE YOUR CLAUDE CODE GAME  • SUPABASE https://t.co/WzPIYqVQXM  • NOTEBOOKLM https://t.co/LTlGoU3oPp  • OBSIDIAN https://t.co/ncEYHnw47k  • LANGCHAIN https://t.co/qlRw5rznwi  • FLOWISE  https://t.co/ggY1iS2sB7  • CLAUDE SKILLS https://t.co/pcXlvK7d9u  • AWESOME CLAUDE SKILLS https://t.co/5lbBAQSUuV  • REPOMIX https://t.co/KGAPZb14Du  • CLAUDE CODE BEST PRACTICE https://t.co/Bq5OzzlT2h  • EVERYTHING CLAUDE CODE https://t.co/xPk3fV9mGb](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
-- @vladikk — [So Anthropic accidentally published Claude Code's source code. Oops.  Naturally, I ran my modularity review skill on it!  Hey @AnthropicAI, you might want to look at your tool execution service. It hardcodes tool-specific logic with switch statements on tool names, so every time you add a tool with special requirements, you modify the orchestration layer. That's tight coupling in your highest-volatility code.  Three more significant issues in the full review: https://t.co/xu4FvHeB6z  Consider it peer review 😉](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
-- @NainsiDwiv50980 — [🚨Breaking: @bcherny just revealed how Claude Code actually works — and most developers are using only 10% of it.  This isn’t prompting. This is an AI engineering system.  Here’s the Claude Code power stack hidden in his thread:  • Hooks that run logic during agent lifecycle • Dispatch to remotely control Claude from anywhere • Chrome extension for frontend verification loops • Desktop app that auto-runs and tests servers • Fork sessions to explore parallel solutions • /btw for side queries while agents run • Git worktrees for parallel Claude agents • /batch to fan out massive changes across repos • --bare to speed up SDK startup up to 10x • --add-dir for multi-repo context • --agent to create custom AI roles • /voice to code by speaking  This turns Claude Code into:  → parallel AI engineers → autonomous coding loops → self-testing workflows → multi-repo orchestration → batch refactors → remote-controlled agents  Most people use Claude like ChatGPT. Power users run entire engineering teams.  Key docs from the thread:  CLI reference https://t.co/6XXDng8JJc…  Desktop auto testing https://t.co/kLiLoP0Sjj…  Chrome extension https://t.co/XOYx4mOO1a  Hooks lifecycle automation https://t.co/P6jSBQePaq  Scheduled tasks https://t.co/BFQopfGLZF…  Remote control / Dispatch https://t.co/LiKIzPoi7R…  Once you combine:  Hooks + Batch + Worktrees + Agents  Claude stops being a copilot and becomes an autonomous dev team.  This is the shift most developers haven’t noticed yet.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
-- @bibryam — [Really like this from @addyosmani 👌  🤩 Google engineering practices as agent skills🤩  ->  organized into 19 skills & 7 commands for AI agents.  → Plan - decompose into small, verifiable tasks → Build - incremental implementation, context engineering, clean API design → Verify - TDD, browser testing with DevTools, systematic debugging → Review - code quality, security hardening, performance optimization → Ship - git workflow, CI/CD, ADRs, pre-launch checklists https://t.co/JOPAOVvwLy](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
-- @karpathy — [Wow, this tweet went very viral!  I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.  So here's the idea in a gist format: https://t.co/NlAfEJjtJV  You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
-- @ghumare64 — [Karpathy just described the LLM Wiki pattern, here's the engine that already does it.  Open source = 100%  https://t.co/xtL6kMjVul https://t.co/QHbhdSxk4p](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
-- @Dinosn — [A pattern for building personal knowledge bases using LLMs. https://t.co/iavlcxLY2w](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
-- @dbreunig — [How Claude Code builds a system prompt: https://t.co/GU428S7VrJ](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
-- @github — [Single-prompt AI workflows often hit a performance plateau. Multi-agent systems can push past it, but they usually require a massive amount of setup.  Squad, an open source project built on GitHub Copilot, initializes a preconfigured AI team directly inside your repo.  Learn how to run multi-agent workflows that stay inspectable, predictable, and collaborative. https://t.co/1ewya9yPpC](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
-- @tom_doerr — [Library of skills for AI in education  https://t.co/zbC6ssm5Zl https://t.co/wkco4V3dP2](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
-- @NickSpisak_ — [Latest update of @karpathy's llm wiki I open sourced  → Works in Claude Code, Codex, Gemini → Optional installs for qmd, summarize, agent-browser → ingest, query, and lint support  Make it your own and hand to your harness of choice  Full Youtube setup with @coreyganim in the comments  Skill source code in the github below🔽 https://t.co/0vmGxXEtMm](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
-- @twtayaan — [🚨 S3 is no longer just Object Storage.  Yesterday (April 7, 2026), AWS officially launched Amazon S3 Files.  This is the biggest update to S3 in 20 years.  It can: → Mount S3 buckets as native file systems → Provide sub-millisecond file access → Handle POSIX permissions (UID/GID) natively → Connect to Lambda, EC2, and EKS directly → Eliminate the need for s3fs or data staging  Your AI agents can read/write to S3 like a local disk, while your data team access the same objects via API.  DevOps just got a massive upgrade.  Source: https://t.co/gwGIhDlInU](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
-- @jdecool — [Encoding Team Standards: https://t.co/ykUzkdx9yA](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
-- @adrianaia_ — [Alguien construyó exactamente lo que Andrej Karpathy dijo que alguien debería construir.  48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, esto apareció en GitHub. https://t.co/A3QsSSWRSZ](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
-- @GithubProjects — [A visual, example-driven guide to Claude Code  From basic concepts to advanced agents, with copy-paste templates that bring immediate value. https://t.co/Sa4WZhRmaQ](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
-- @jetbrains — ["Claude Code isn't magic. The harness layer is just software, and software is something any dev can shape to fit how they want to work."  Check out @Hacubu’s practical guide to building a custom agent with @LangChain’s Deep Agents, LangSmith, and ACP. https://t.co/tat5aBW8Vg](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
-- @rseroter — ["I think we’re going to see a lot more reimaginings, where people attack old problems with modern tactics. Coding agents lower the costs of taking on stalwarts and raise our ability to rapidly harden our software." https://t.co/rDAftsXXKe &lt; I like this point from @dbreunig](https://x.com/rseroter/status/2041902638405480536) `#2041902638405480536`
-- @danshipper — [We use OpenClaws to do all of our work at @every.   We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company Slack.  I chatted with @every COO Brandon (@bran_don_gell) and @every head of platform Willie (@bigwilliestyle) to share what we’ve learned.  We get into: - Why agents become mirrors of their owners, and how that influences how other people on the team interact with them - How a parallel AI org chart forms on its own. People have stopped tagging me on Slack with questions about Proof, the document editor I vibe coded, because they knew my agent R2-C2 can step in - The etiquette for human-agent collaboration is being invented in real time. Brandon's rule is that if there's an established process or documented answer, always ask the agent, not their human - Why everyone is a manager now, and why even experienced managers carry limiting beliefs about what their agents can do - This is a must-watch for anyone trying to understand how AI workers change daily operations, not just in theory, but inside a company that’s half-agent   Watch below!  Timestamps Introduction:  How Brandon built Zosia, an AI agent to run his household:  Brandon’s “aha” moment:  What happened when everyone on the team got their own agent:  How agents take on their owners' personalities, and why that matters inside an org:  Why it’s important for agents to work in public:  What we’re still figuring out when it comes to agent behavior, including memory gaps, group chat etiquette, and the "ant death spiral" problem:  How we built Plus One, our hosted OpenClaw product:  The cultural shift required to make agents work at scale:](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
-- @agrimsingh — [i took @karpathy's autoresearch loop and pointed it at business class flights because i wanna fly cheap but in class.  (at least in theory - i'm a poor founder flying coach)  here's autofare - autoresearch but for always flying in lie-flat beds  made with codex + gpt 5.4 mini  @gabrielchua @reach_vb @romainhuet @OpenAIDevs](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
-- @AnthropicAI — [New on the Engineering Blog:   Building Managed Agents—our hosted service for long-running agents—meant solving an old problem in computing: how to design a system for “programs as yet unthought of.”  Read more: https://t.co/YYaEub2QGV](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
-- @ghumare64 — [LLM Wiki by Karpathy was a mind-blowing read 🤯  And, that's why I had written LLM wiki v2 extending with how this can be plugged as a memory for scaling systems.  It got 111 stars on github gist file from last week.  Never believed it would be popular.  https://t.co/YZ2d6KnSOe](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
-- @addyosmani — [Memory makes your agent smarter over time.  The agent harness is key to the memory layer. You can't bolt one onto the other after the fact. Every decision the harness makes - what goes in context, what survives compaction, how skills get surfaced, how the working directory is exposed etc - is a memory decision.  A well written write-up by @hwchase17](https://x.com/addyosmani/status/2043447970507686248) `#2043447970507686248`
-- @rauchg — [Today we're open sourcing https://t.co/p76KVdY7dG, a reference platform for cloud coding agents.  You've heard that companies like Stripe (Minions), Ramp (Inspect), Spotify (Honk), Block (Goose), and others are building their own "AI software factories". Why?  1️⃣ On a technical level, off-the-shelf coding agents don't perform well with huge monorepos, don't have your institutional knowledge, integrations, and custom workflows.  2️⃣ On a business level, the moat of software companies will shift from 'the code they wrote', to the 'means of production' of that code. The alpha is in your factory.  Open Agents deploys to our agentic infrastructure: Fluid for running the agent's brain, Workflow for its long-running durability, Sandbox for secure code execution, AI Gateway for multi-model tokens.  (Because of our focus on Open SDKs and runtimes, this codebase is a gem even if you're not hosting on Vercel.)  TL;DR: if you're building an internal or user-facing agentic coding platform, deploy this: https://t.co/xdsc42nbDN](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
-- @Sandeepg33k — [Introducing Passmark: an open-source AI agent purpose-built for regression testing at scale.  Built on Playwright: natural language tests, multi-model assertions, smart caching, telemetry, AI gateway support and more!  github: bug0inc/passmark](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
-- @martinfowler — [Fragments: pragmatic summit video with Kent and Gergely, virtue of laziness, TDD and prompts, inspiration from Dark Star  https://t.co/6lq36iCaLW](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
-- @midudev — [¡Haz que tu IA deje de diseñar interfaces genéricas!  Han creado un repositorio con archivos DESIGN.md que replican la guía visual de grandes empresas.  Tienes de Apple, Airbnb, Tesla, Shopify, Uber y más...  Sin Figma. Sin JSON. Sin herramientas raras.  Copias el archivo en la raíz de tu proyecto y tu agente de IA entiende al instante cómo debe verse la interfaz.  Open source y gratis: → https://t.co/x6jKgy5Tst](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
-- @eng_khairallah1 — [This 25-minute Claude Code workshop by Anthropic's own applied AI team will teach  you more about Claude Code best practices and making your AI tools actually work together than everything you've scrolled past this year.  Bookmark this & watch, no matter what.  Then read the guide below.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
-- @McKinsey — [AI is everywhere. But most companies are still stuck in pilot mode.  The issue isn’t the tech. It’s that the work itself hasn’t changed.  Leaders are starting to rethink workflows, roles, and decisions end to end. That’s where the real value is unlocked. https://t.co/ask2NpJfwF https://t.co/2MyQlTxdVk](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
-- @sairahul1 — [The creator of Claude Code teaches more about vibe-coding in 30 minutes than most tutorials do in hours.   Save this — it'll change how you build forever. https://t.co/98DukOfuwG](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
-- @martinfowler — [Fragments: 34th Thoughtworks Technology Radar, what happens when developers don't read the LLM's code, DirectFile and tech in large organizations  https://t.co/brBXaa3xOc](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
-- @rseroter — [.@addyosmani shares hot takes:  "A decent model with a great harness beats a great model with a bad harness"  "The gap between what today’s models can do and what you see them doing is largely a harness gap."  "A harness is a living system, not a config file you set up once"  https://t.co/3hngQP8XTb](https://x.com/rseroter/status/2046646395634114988) `#2046646395634114988`
-- @ClaudeDevs — [Caching is critical for customers to lower both costs and TTFT.  We’re launching a new dashboard in Claude Developer Console to increase visibility and help customers optimize their usage.  Check it out here: https://t.co/zgBJ4dHXyI https://t.co/Uwje2iPbLT](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
-- @tom_doerr — [Multi-agent AI token usage tracker and dashboard  https://t.co/YtZ9NX14MQ https://t.co/SimhsOa2Pq](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
-- @codewithimanshu — [Anthropic's Claude Code team just teaches how to automate your entire engineering workflow with Claude Code SDK in under 30 minutes.  For Free. From the engineers who built it.  CANCEL Your Weekend Plans, and Learn to Automate Your Codebase Today.  Bookmark it. Watch it. Ship your first headless automation this weekend.  $5,000/month. $10,000/month. $25,000/month.  People are automating entire engineering teams with Claude Code SDK and charging clients $$$$. You're still copy-pasting code from ChatGPT manually.  This video fixes that tonight.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.  ↓  Sid Bidasaria runs engineering on Claude Code at Anthropic. He just gave away the entire SDK + GitHub Action playbook in 30 minutes.  This is the talk that separates people automating their entire codebase from people still manually writing every commit.  Here's everything inside.  Follow @codewithimanshu for weekly Claude automation breakdowns.  ↓  What the Claude Code SDK actually is.  Most devs don't know this exists. They use Claude in the chat interface and call it a day.  The SDK is the real unlock.  Programmatic access to the Claude Code agent in headless mode. The primitive building block for every serious automation you'd ever want to build.  Designed like a Unix tool. Drops directly into terminal pipelines, bash scripts, CI/CD automation.  Use it to review code. Write linters. Build chatbots. Manage remote code environments. Run an entire engineering pipeline.  This is how you stop "using AI" and start "shipping with AI."  Follow @codewithimanshu for full Claude SDK breakdowns every week.  ↓  Basic usage that 99% of devs miss.  `claude -p` to prompt the agent directly from your terminal. `--allowed-tools write` for controlled file system access.  Pipe anything into it:  > Pipe `ifconfig` output → ask Claude to debug your network > Pipe error logs → get a fix before your coffee finishes brewing > Pipe a file → get instant code review without opening an editor  `--output-format JSON` for structured responses you can parse in automated systems.  This is where Claude stops being a chat tool and becomes infrastructure.  Follow @codewithimanshu for daily Claude SDK one-liners that save hours.  ↓  Permission management without the security holes.  The biggest reason teams don't deploy AI in production: permission concerns.  Sid solves it cleanly:  > No destructive permissions by default > `--allowed-tools` to pre-configure exactly what the agent can touch > `--permission-prompt-tool` to delegate authorization to an MCP server in real time  Your AI agent gets full power exactly when it needs it. Zero access when it doesn't.  This is enterprise-grade AI security packaged as a single flag.  Most tutorials hand-wave this. This one shows the architecture.  Follow @codewithimanshu for production AI permission patterns every week.  ↓  Session persistence: the multi-turn unlock.  Most AI integrations forget everything between calls.  That's why your "AI assistant" feels like talking to someone with amnesia.  Return a `session ID` and Claude resumes exactly where you left off. Full context preserved. Multi-turn conversations across hours, days, deploys.  This is the foundation for building any real AI product that holds context.  Customize the system prompt while you're at it. `--system-prompt 'talk like a pirate'` if you want. Or build a serious agent persona for production.  Follow @codewithimanshu for persistent context patterns for AI agents.  ↓  The Claude GitHub Action demo that should scare every dev.  Sid runs a live demo on a real quiz app:  > Files an issue: "add a 50/50 power-up and a skip power-up" > Claude creates a to-do list > Claude modifies the files > Claude opens a Pull Request  The entire feature shipped from one issue. No human touching code.  This is automated code review, automated bug triage, automated feature implementation. From GitHub issues directly.  Junior dev work just got compressed into the time it takes to write an issue description.  Follow @codewithimanshu for GitHub Action setups for production.  ↓  Zero infrastructure required.  Every other AI automation tool needs:  > A separate server > A deployment pipeline > Monitoring infrastructure > Auth setup > Cost tracking  The Claude GitHub Action uses your existing GitHub Action runners.  `claude /install github action` in your local repo. Generates a YAML config. Done.  You go from idea to production AI automation in 60 seconds.  Most people pay $200/month for tools that do less than this free Action.  Follow @codewithimanshu for free Claude Action templates.  ↓  The 3-layer architecture nobody explains.  Sid breaks down the actual stack:  > Layer 1: SDK - the foundation, raw programmatic access > Layer 2: Base Action - wraps the SDK as a clean API interface > Layer 3: PR Action - adds comments, formatting, full GitHub UX  Understanding these layers is the difference between someone who copies tutorials and someone who builds custom AI infrastructure for clients.  This is the architectural insight that turns into $10K/month consulting contracts.  Follow @codewithimanshu for weekly architecture deep dives.  ↓  30 minutes from the engineer shipping this in production.  You'll learn more from this than from 6 months of YouTube tutorials made by people who've never automated a single deploy.  People who watch this understand Claude Code automation at the infrastructure level.  People who skip it keep manually reviewing PRs, manually filing issues, manually doing work that could've been automated last weekend.  Save the video. Watch it tonight. Ship your first Claude SDK automation this weekend.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
-- @sairahul1 — [Karpathy didn't make a course.  He made THE course.  3 hours. Free.  Tokenization. Attention. Hallucinations. Tool use. RLHF. DeepSeek. AlphaGo.  Every behavior you've ever wondered about in an LLM - where it comes from, why it exists, how it was engineered.  The gap between engineers who understand this and engineers who don't isn't technical depth.  It's the ability to conceive of entirely different things.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
-- @ghumare64 — [Instead of watching a movie, Learn how Andrej Karpathy (@karpathy), OpenAI co-founder, ex-Tesla AI, "vibe coding" creator explains why Claude Skills, MCP servers, and AI agents are past the hype and are now the new baseline for building in just 262 minutes ↓ https://t.co/UeHugmUJUO](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
-- @hasantoxr — [Stop using Claude Code without this plugin.  There's an official Anthropic plugin called claude-code-setup.  It scans your entire project and tells you exactly what to activate.  → Which hooks to set up → Which skills to install → Which MCP servers fit your stack → Which subagents to spin up → Step-by-step config for each one  You just run one command:  /plugin install claude-code-setup@claude-plugins-official  And it audits your setup like a senior engineer reviewing your repo](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
-- @eng_khairallah1 — [🚨 Anthropic's own team just showed how to build production AI agents.  30 minutes. free. from the engineers who built it.  watch the workshop. bookmark it.  you spent 6 months managing every workflow yourself.  they just showed how to put all of it on autopilot.  Then read the guide below.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
-- @rohit4verse — [Graph is the final boss of memory.  stacking markdown files isn't memory. it's context you keep re-loading into the prompt.  real memory is a graph. nodes, embeddings, traversal. it's how production agents remember.  the article is the workaround. the lecture is the architecture https://t.co/FeEpyYWiCe](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
-- @_vmlops — [AI Harness Engineering Interview Preparation Handbook  https://t.co/tSb85mN8JO https://t.co/QDy10WWIlY](https://x.com/_vmlops/status/2048082184171602385) `#2048082184171602385`
-- @McKinsey — [Agentic AI is changing how tech services create value.  We’re starting to see four distinct roles take shape, each with a different set of capabilities, bets and trade-offs.  The question isn’t whether to play but where to focus and how to build around it. https://t.co/Kg9LETGDur https://t.co/xPh9fS91UV](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
-- @VKazulkin — ["Simulating Expert Teams with Agentic AI and Amazon Bedrock AgentCore". In this post, we’ll walk through how this system works, demonstrate it  handling real queries, and extract patterns you can apply. https://t.co/o3hrQiCkBX](https://x.com/VKazulkin/status/2048087390712181059) `#2048087390712181059`
-- @tom_doerr — [High-speed web scraper for AI agents  https://t.co/jqtVg1PgN4 https://t.co/RLdOPulMTM](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
-- @KSimback — [Weekends are for building... except today it was mostly cleaning up messy code  So I am publishing a skill I made to save you all some time - it's one command /tech-debt-skill  And you'll get back a very thorough review file with everything that needs to be addressed  And not just bugs and issues, but things that work but could be cleaned up or done better  I spent half my day cleaning up Hermes Atlas, then did a review of everything that was done to clean it up and consolidated it into this skill, then ran it on another project and damn if it didn't find a lot  Before I started, I thought surely Claude Code has some built-in skills for this, but not really, and definitely not something that looks at tech debt holistically  So if AI is doing all your coding, and you're incrementally building within projects, you are 100% accumulating a lot of tech debt - use this skill every so often to clean it up and thank me later  https://t.co/qHmbwN1K3s](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
-- @GitTrend0x — [今天 GitHub 被工具到内存基建Agent军团彻底屠榜了🚀  5 个星标暴增最狠的项目，专业拆解下！  1.  Alishahryar1/free-claude-code  免费在终端、VSCode 或 Discord零成本跑 Claude Code，像 OpenClaw一样把付费 AI编码 Agent直接端到桌面上，彻底干掉高额订阅门槛。  🔗 直达 https://t.co/VdZzx8Ps02  程序员深夜还在为 Claude月费心疼？3975星一天直接把墙砸穿。现在你终端敲一行命令，Claude Agent就帮你把需求卷成代码，爽得像老板给你涨了10倍工资！  🟢  2.  huggingface/ml-intern  开源 ML工程师 Agent，自动读论文、训练模型、打包部署，一人顶整个 ML 团队，解决手动科研到落地的全链路痛点。  🔗 直达 https://t.co/Kem26lhM1G  以前 ML 实习生干到吐血，现在HuggingFace 直接甩出这个 AI 卷王。1236星暴增，老板喊“谁来训模型”，你直接扔repo：它比你还996！  🟢🟢  3.  luongnv89/claude-howto  Claude Code 从零到高级 Agent的全可视化教程+即抄即用模板，帮开发者瞬间跨越从入门到生产Agent的陡峭曲线。  🔗 直达 https://t.co/yGg2Iowfyb  以前看 Claude 文档头秃，现在 242星一天的傻瓜式 Agent速成班直接复制粘贴起飞。程序员看了直呼终于有人把 Claude玩明白了，我今晚就能造个顶流 Agent！  🟢🟢🟢  4.  alexzhang13/rlm  即插即用 Recursive Language Models 推理库，支持多种沙箱环境，解决传统 LLM在复杂 Agent任务里推理深度不够、容易迷路的硬伤。  🔗 直达 https://t.co/QnFC3rhW19  普通 LLM一轮思考就卡壳，这货递归下去像程序员熬夜 debug。227 星一天，Agent 终于能跟你一样“想三步走五步”，程序员共鸣拉满：AI也开始内卷了！  🟢🟢🟢🟢  5.  MemoriLabs/Memori  LLM 无关的 Agent 原生内存基础设施，把执行轨迹和对话转为结构化持久状态，彻底解决生产环境里Agent“聊完就忘”的致命Bug。  🔗 直达 https://t.co/TuAksDbtFJ  以前Agent上线聊两句就失忆翻车，现在115星一天直接给它装“永久硬盘”。生产系统再也不怕半夜报警，程序员上线第一句：哥们儿你还记得上周的任务吗？它记得，比你记性好！  ⚠️⚠️   总结  从 Claude 免费入口、ML 实习生Agent，到 Claude 教程、递归推理、再到持久内存基础设施。Agent 军团全链路武装完毕，一个人顶 10人团队的时代直接在GitHub上核爆了🚀🤖](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
-- @tom_doerr — [Programming book rules for AI coding agents  https://t.co/LVYXR3fteQ https://t.co/PIx87wINVB](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
-- @jcesarperez — [Claude EM es tu compañero AI Engineering Manager que conoce tu equipo, tu contexto y tus herramientas.  Ahora en su versión 1.3.0, con nueva skill y otras mejoras y fixes.  Pruébalo y me cuentas!  https://t.co/YyjCtC2GO5](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
-- @ds_nana_ — [Claude Code in Action  Learn how Claude Code reads files, runs commands, and edits code via its tool system plus techniques for context management, custom workflows, hooks, and external integrations  https://t.co/66h5bzb7X2](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
-- @aiDotEngineer — [🆕Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — @mappletons  https://t.co/7SEayJwZLe  Agentic engineering so far has been a solo story: one developer and a dozen agents moving at warp speed. But speed without thoughtful planning and team alignment is just wasting tokens. When everyone on a team is directing agents alone in their personal CLI tools with no shared context, you get duplicate work, conflicting changes, poorly-designed solutions, surprise features nobody else agreed to build, and everyone pulling in different directions.   Serious software still requires serious collaboration. You need multiple perspectives and types of expertise to build great things. We need agentic environments where people can plan together, think critically together, and share the same context. In this talk I'll demo how we've tackled these design problems in Ace, a multiplayer agent environment from GitHub Next that uses real-time collaboration, proactive agents, and sandboxed micro VMs for rapid prototyping and exploration.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
-- @steipete — [Wanted a truly local storage for my tweets so built birdclaw. Imoorts your archive, backs it up on github, has jobs so you can import your x bookmarks daily (since they are not fully accessible via the api).  https://t.co/4Nd1Ad0ZeY](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
-- @wsl8297 — [在 GitHub 上挖到一门很实用的开源课：Learn Harness Engineering，专门教你给 AI 编程助手搭一套更可靠的“工作台”。  它把 AI 协作拆成五个关键机制：指令、状态、验证、范围、会话，让每次任务都可追踪、可续接、可验证，不再靠运气出结果。  GitHub：https://t.co/G1kBghFqXg  官网：https://t.co/6OHbxJcWz6  课程结构很清晰：12 节理论 + 6 个实战项目，用同一个桌面应用贯穿推进，边做边演进。 从最基础的对比实验起步，逐步把整套工作环境搭起来；每个项目的产出，直接接到下一个项目继续用，越做越稳。  更贴心的是，它还提供可直接复用的模板文件：拷进自己的项目就能上手，不用完整学完，也能立刻提升 AI 的稳定性和可控性。  如果你已经在用 Claude Code 或 Codex 做真实开发，却总觉得 AI 时好时坏、难以复现，这门课很值得花时间看看。](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
-- @martinfowler — [NEW POST  Thoughtworks internal IT use a workflow for agentic programming called Structured-Prompt-Driven Development (SPDD). @WeiZhang595190  and Jessie Jie Xia describe how this works with a simple example plus details in a github project.   https://t.co/6cHnSPWr6L](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
-- @myfear — [AI coding agents do not just need "more context." In companies, they need approved context: internal frameworks, blueprints, best practices, runbooks, and security rules with owners and quality checks.  I wrote about MCP servers as an enterprise knowledge layer, not just a docs search toy.  https://t.co/TEqiN3TVCr  #mcp #ai](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
-- @martinfowler — [Fragments: updated guide on AI coding, video on harness engineering, how long should a function be, the problems of Software Brain and why AI is unpopular  https://t.co/7jSOtMhEE8](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
-- @ai_rohitt — [The creator of Claude Code teaches more about vibe-coding in 30 minutes than most tutorials do in hours.   Save this — it'll change how you build forever. https://t.co/XiUS4mq4ed](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
-- @omarsar0 — [// Agentic Harness Engineering //  Pay attention to this one, AI devs.  (bookmark it)  Most coding-agent harnesses are still tuned by hand or brittle trial-and-error self-evolution.  This new work introduces Agentic Harness Engineering, a framework that makes harness evolution observable. They do this through three layers: components as revertible files, experience as condensed evidence from millions of trajectory tokens, and decisions as falsifiable predictions checked against task outcomes.  Each edit becomes a contract you can verify or revert.  Results: pass@1 on Terminal-Bench 2 climbs from 69.7% to 77.0% in ten iterations, beating human-designed Codex-CLI (71.9%) and self-evolving baselines like ACE and TF-GRPO.  The evolved harness also transfers across model families with +5.1 to +10.1 point gains, while using 12% fewer tokens than the seed on SWE-bench-verified.  Harness work is the biggest hidden cost in most agent systems. This is the first credible recipe for letting the harness improve itself without drifting into noise.  Paper: https://t.co/9fEgqwlTSf  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
-- @helloitsaustin — [most growth marketers use AI to rewrite headlines and call it a day. here's how I actually use Claude on the growth marketing team at @AnthropicAI across chat, Claude Cowork, and Claude Code 👇 https://t.co/uHVosjt5bZ](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
-- @TheRealAdamG — [https://t.co/pmkDoTe9Ug  **NEW: GPT-5.5 Prompting Guide**  "GPT-5.5 works best when prompts define the outcome and leave room for the model to choose an efficient solution path. Compared with earlier models, you can often use shorter, more outcome-oriented prompts: describe what good looks like, what constraints matter, what evidence is available, and what the final answer should contain.  Avoid carrying over every instruction from an older prompt stack. Legacy prompts often over-specify the process because earlier models needed more help staying on track. With GPT-5.5, that can add noise, narrow the model’s search space, or lead to overly mechanical answers.  For more detail on GPT-5.5 behavior changes, start with the Using GPT-5.5 guide. This guide focuses on prompt changes that follow from those behavior changes.  The patterns here are starting points. Adapt them to your product surface, tools, evals, and user experience goals."](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
-- @Suryanshti777 — [The person who runs 49 features. 48 hours. Zero lines written by hand.  That's what Anthropic's Head of Claude Code just pulled off.  He recorded the exact workflow. 30 minutes. Free.  The developers who watch this will build differently.  The ones who skip it will wonder why they're still slow. Bookmark it for later](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
-- @brada — [Production-ready Claude API code, wherever you build. The claude-api skill now ships in @coderabbitai, @jetbrains, @resolveai,  @warpdotdev and Claude Code - fewer errors, better caching, cleaner agent patterns, smoother model migrations. https://t.co/sPXC8qG1pk](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
-- @Av1dlive — [Andrej Karpathy : 10x engineers are normal. real agentic engineers are 100x  this guy just shipped the playbook to become 100x  context engineering. tool design. orchestrator-subagent. evals. the harness mindset.  watch &amp; bookmark it for this weekend https://t.co/7qQNW8KJSN](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
-- @DeRonin_ — [Andrej Karpathy: "90% of what AI twitter tells you to learn will be dead in 6 months"  Here are 10 things senior AI engineers stopped wasting time on:  1. AutoGen / AG2: moved to community maintenance, releases stalled. dead for production  2. CrewAI: demos well, breaks in production. engineers building real systems already moved off it  3. Autonomous agent pitches: the AutoGPT / BabyAGI wave is dead in product form. the industry settled on supervised, bounded, evaluated agents  4. Agent app stores / marketplaces: promised since 2023, zero enterprise traction  5. SWE-bench leaderboard chasing: researchers proved nearly every public benchmark can be gamed without solving the underlying task  6. Microsoft Semantic Kernel: unless you're locked into Microsoft enterprise stack, it's not where the ecosystem is heading  7. DSPy: philosophical merit, niche audience. not a general agent framework  8. Horizontal "build any agent" platforms: Google Agentspace, AWS Bedrock Agents, Copilot Studio. confusing, slow-shipping, the math still favors building yourself  9. Per-seat SaaS pricing for agent products: market moved to outcome-based. per-seat is already dead  10. The framework that went viral on HN this week: wait 6 months. if it still matters, it'll be obvious  what actually compounds instead:  - context engineering - tool design - orchestrator-subagent pattern - eval discipline - the harness mindset (harness > model, always) - MCP as the protocol layer  be few steps ahead than your competitors and outperform this market till it became mass-opinion  study this.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
-- @cursor_ai — [Our agent harness makes models inside Cursor faster, smarter, and more token-efficient.  Here's how we test improvements to the harness, monitor and repair degradations, and customize it for different models.  https://t.co/YIXcEZW6ud](https://x.com/cursor_ai/status/2049901436918436249) `#2049901436918436249`
-- @bibryam — [🌟Subagents vs Advisor Patterns in Claude Code 🌟 https://t.co/6hjqO32XuL](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
-- @svpino — [30 agents every AI Engineer must build.  This is the most comprehensive and practical book on AI Engineering that I've ever seen.  I can't think of a single use case that they didn't cover here:  1. The autonomous decision-making agent 2. The planning agent 3. The memory-augmented agent 4. The knowledge retrieval agent 5. The document intelligence agent 6. The scientific research agent 7. The tool-using agent 8. The agentic workflow system 9. The data analysis agent 10. The verification and validation agent 11. The general problem solver agent 12. The code generation agent 13. The security-hardened agent 14. The self-improving agent 15. The conversational agent 16. The content creation agent 17. The recommendation agent 18. The vision language agent 19. The audio processing agent 20. The physical world sensing agent 21. The ethical reasoning agent 22. The explainable agent 23. The healthcare intelligence agent 24. The scientific discovery agent 25. The financial advisory agent 26. The legal intelligence agent 27. The education intelligence agent 28. The collective intelligence agent 29. The embodied intelligence agent 30. The domain-transforming integration agent  I also read 50 Algorithms Every Programmer Should Know by Imran. Same vibe.  Here is the Amazon link: https://t.co/buLPqjToiu](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
-- @aakashgupta — [Every AI tool you use right now is stuck at week-one performance.  Custom GPTs, Claude Projects, agent frameworks. Same prompt, same output, week 1 vs week 50. The skill files sit static while you re-explain your context every Monday. There is a hard ceiling: your prompts can only be as good as the day you wrote them.  Hermes broke that loop with one design choice. Every 15 tool calls, it pauses, reads what worked in the session, and rewrites the skill file. Same prompt next week. Different procedure underneath.  The numbers from my logs: 20 min for the competitive briefing in week one, 12 min by week four, 8 min by week six. I never edited the prompt. The agent rewrote its own procedure four times. By week six, the briefing was surfacing competitor patterns I had missed in three weeks of doing it manually.  This is what compounds. Static skills have a flat ceiling. Self-rewriting skills get sharper every session because they keep what worked and drop what didn't. The gap between someone running self-improving skills and someone running static prompts widens every week.  The other piece most PMs miss: the moat is local. Hermes runs Claude, GPT, Gemini, or Llama. Switch models tomorrow and your accumulated skill files come with you. Anthropic rate-limits you mid-launch, you have a fallback that kept its memory.  Full setup, 3 SKILL files I am running, and the 30-day rollout in the deep dive.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
-- @kunchenguid — [ok @steipete's acpx is a godsend https://t.co/jFuIzg7WWm  just added it in gnhf v0.1.31, and boom - gnhf now supports almost any agent harness you can name  for anyone building bring-your-own-agent apps, highly recommend calling acpx instead of building your own abstraction https://t.co/5tCv1TtJ3M](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
-- @aakashgupta — [Andrew Chen just called PM the most important role in tech again.  His argument in one line: when anyone can build, the person who decides WHAT to build becomes the bottleneck.  Boris Cherny’s Claude Code team at Anthropic shows what this looks like in practice. They ship hundreds of prototypes before committing to a feature. Boris personally runs 5 parallel Claude instances and ships 20-30 PRs a day. The team built Cowork, a full product for non-engineers, in about 10 days. Productivity per engineer grew 70% even as Anthropic tripled headcount.  The cost of building dropped through the floor. The cost of picking the right thing didn’t.  Anthropic’s PMs don’t even write traditional PRDs anymore. They review working software at 9am, kill 80% of it by noon, ship the rest by end of week. Pattern-matching across user research and technical feasibility while staring at a working prototype.  This is why AI PM offers at OpenAI, Anthropic, and Google DeepMind now run past $1M total comp. Anyone can build. Almost nobody can look at 15 working prototypes and call the 3 worth scaling. That judgment didn’t matter as much when shipping took 6 weeks. It matters enormously when shipping takes 45 minutes.  Andrew nailed the diagnosis. The harder question for every PM: can I be the one who picks?  Here’s how to build the muscle:  1. Modern PRD guide: https://t.co/9ivvVUmZfs 2. AI Prototyping tutorial: https://t.co/E36b6PG7u0 3. AI Roadmap: https://t.co/PyoqTGjGdM 4. PM Operating System: https://t.co/vDapougi85 5. Learn this live in my cohort: https://t.co/goFNR9uPjQ  The bottleneck moved. The pay moved with it.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
-- @_avichawla — [Sub-Agents vs Agent Teams in Claude Code:  Sub-agents get their own system prompt, their own tool set, and a clean context window. They report back to the parent and terminate.  Agent teams get all of that plus three things sub-agents don't have: - a shared task list with dependency tracking - peer-to-peer messaging between teammates - persistent context that accumulates over time.  I published an article today that dives into a lot more detail.  Read it below.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
-- @kristianfreeman — [replicate skills are a non-trivial addition to my agent's toolkit. i used to do this prompt-by-prompt in replicate webui, now the agent prompts, re-prompts, optimizes etc directly from replicate output  https://t.co/qsVyoVRhmC](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
-- @rubenhassid — [How to duplicate yourself into Claude in a weekend:   (even if you've never written a prompt before)  1. Download the desktop app. ☑ Go to claude .com/download ☑ Set Opus 4.7 as default ☑ Turn ON Extended Thinking  2. Open Cowork mode. ☑ Cowork = where your voice lives ☑ Click the top left tab ☑ Create your "Voice" folder inside  3. Install Wispr Flow (it's free). ☑ Turns your voice → text ☑ Voice = faster and more honest ☑ Typing kills the truth.  4. Run the interview. ☑ Paste Prompt 1 from https://t.co/LyV7feh2TK. ☑ 100 questions, 7 categories ☑ Push past every vague answer  5. Compress the dump. ☑ Paste prompt 2 from https://t.co/LyV7feh2TK. ☑ 20K words → 4K tokens ☑ Save as [your_name] .md  6. Test it in a blank chat. ☑ Open a fresh Claude chat ☑ Run a prompt only you would write ☑ If it sounds like you → ship it  7. Drop it into Cowork. ☑ Move [your_name] .md into your folder ☑ Claude now reads it on every turn ☑ Every draft = your voice, automatically  8. Port it everywhere. ☑ Upload to ChatGPT, Grok, Gemini ☑ Same file = same voice in every AI ☑ Hand it to your team or ghostwriter  9. Edit it forever. ☑ Install Obsidian (free) ☑ Open Cowork as a vault ☑ Update as your taste shifts  Full guide + prompts at https://t.co/LyV7feh2TK.  (save this to clone yourself into any AI)](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
-- @QingQ77 — [把单个 Claude Code 会话组织成完整的游戏开发工作室，用49个专职AI代理和72个工作流技能替代无结构的单助手模式。  https://t.co/OA6tQocRFV  一套 Claude Code 模板，49个代理按导演、主管、专员三级分工，72个斜杠命令管从脑暴到上线。代理之间垂直派活、横向商量，但拍板的始终是你——它们只出方案不替你做主。12个 Hook 自动卡提交校验，11条规则按目录管编码风格。](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
-- @srishticodes — [This CLAUDE.md turns Claude Code into a senior engineer who never forgets your standards.  Boris Cherny (creator of Claude Code at Anthropic) shared the internal workflows his team actually uses daily.  Someone turned those X threads into a structured file you can drop into any project.  What’s inside:  > Subagent orchestration > Verification gates before marking tasks done > Autonomous bug fixing loops > Self-improving rules from your own corrections  That last one is the whole game.  Every time you correct Claude, the rule gets encoded permanently.  > Next session it doesn’t repeat the mistake. > Next month it matches how you think. > Next year you’re not managing Claude. It’s working like someone who’s been on your team for years.  Drop it in any project. Start today.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
-- @AhmedHemaz — [The one agent skill that will completely change how you work with coding agents is  /grill-me  I’ve been using it for a while now and man it’s insanely good  Check also others skills Link: https://t.co/867R1cBJEA](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
-- @nihaliscoding — [https://t.co/SxbQVTQ2mN  is the best agent managing work-tool i have used ever.  The ease of spinning up work trees and managing agents is fucking unparalleled , the ones managing it have all my respect](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
-- @robert_lauko — [See the top ranked papers in AI, ML, Robotics, Quantum Physics, and more on @kurateorg. Hundreds of arXiv preprints ranked daily by scientific impact through pairwise tournaments judged by Claude, GPT, and Gemini.](https://x.com/robert_lauko/status/2050876479731278113) `#2050876479731278113`
-- @edans — [El emperador está desnudo: los LLM nunca fueron diseñados para dirigir una empresa https://t.co/5CKMhYBgFx](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
-- @bibryam — [Don't waste your back pressure (for agents) 👌 https://t.co/Hztd4W6esr https://t.co/YzSMwZEeHW](https://x.com/bibryam/status/2050954217104302281) `#2050954217104302281`
-- @dhruvtwt_ — [6 AI agent orchestration tools worth trying at least once:  1. Superset Link - https://t.co/SztnQeYAis  2. DP Code  Link - https://t.co/ifsYrfyRE5  3. Emdash  Link - https://t.co/ypL2ce82xy  4. Letta  Link - https://t.co/zfYv09gvmp  5. Conductor Link - https://t.co/ONEUorB1pe   6. Air Link - https://t.co/ZmAvxwrxSj](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
-- @atmoio — [ok this finally explains why greg is a billionaire at openai. he’s just a really chill dude! https://t.co/twtRSZFQpv](https://x.com/atmoio/status/2050981070846230942) `#2050981070846230942`
-- @tom_doerr — [Automates research with researcher, reviewer, and writer agents  https://t.co/6CRrF4LeDF https://t.co/O8mRsIf6Me](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
-- @every — [@MTSlive @danshipper Looking for a better way to do great writing with AI? Start a free trial for @TrySpiral, our AI writing partner with taste, trained on your style: https://t.co/8pt2mMJXKK](https://x.com/every/status/2051049659733533008) `#2051049659733533008`
-- @jetbrains — [AI writes the code. But does it follow your standards?  Join the live demo to see Qodana and TeamCity automatically analyze AI-generated code in CI – using same deterministic inspections on every PR before it reaches production.   📅 May 13  🔗 Register: https://t.co/7XyM6abdJN https://t.co/jtdlIh7CTh](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
-- @benln — [Andrej Karpathy on the shift to agentic engineering https://t.co/GP5drB5jrW](https://x.com/benln/status/2051285184369115154) `#2051285184369115154`
-- @samuel_wong_ — [Agentic Engineering - Part 1  https://t.co/12Fmtd9VXD](https://x.com/samuel_wong_/status/2051299948935963036) `#2051299948935963036`
-- @tom_doerr — [Validates AI agent skill quality with diagnostics  https://t.co/JyKqE6Nt0P https://t.co/jmFn7sXBWZ](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
-- @ashtom — [Today @EntireHQ is open sourcing our next release: Skills, teaching your agent how to use the full context the Entire CLI captures behind your code changes: prompts, transcripts, and the decisions behind every commit, alongside your git history.  Instead of looking up syntax or running commands yourself, you can ask in plain language and let your agent drive the workflow. This initial release enables your agent to: (1/5)  https://t.co/ApqJhEWSoj](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
-- @thorstenball — [The best coding agent in the world is back.  https://t.co/BU96nS5IcC https://t.co/QSnuu7kpkW](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
-- @rseroter — [[blog] How to force your custom agent to stop and seek human approval https://t.co/fPu5tjkMQ4 &lt; in which I use the new human-in-the-loop feature of the Agent Development Kit to approve AI-generated code tutorials. https://t.co/0xkrl1CKmj](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
-- @LLMpsycho — [TUI observability for AI coding agents. Traces cost, tokens, tool failures, latency, health across Claude Code, Codex CLI, Gemini, Hermes Agent and more. Local-first, zero backend. https://t.co/2zYzHD5xYe](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
-- @odysseus0z — [Managed Claude vs. Agent SDK?  One team read the log and the other didn't.  PS: it is LinkedIn engineering blog by creator of Kafka, not LinkedIn Linkedin slop!  https://t.co/O1TDCWnzuv](https://x.com/odysseus0z/status/2052447720166904138) `#2052447720166904138`
-- @unclebobmartin — [It turns out to be pretty trivial to have your agent create a code duplication tester.   Check out https://t.co/ZJ0kd36CXH.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
-- @rseroter — ["LLMs just parrot back what they've been trained on and don't create anything novel."  I hear that, but the @GoogleDeepMind AlphaEvolve agent is designing advanced algorithms that are making an impact in the real world.  Powerful update ... https://t.co/EwszAjFzch](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
-- @rseroter — [These are solid lessons for agentic coding, from @dbreunig.  Will these be the *same* lessons in six months? Who knows, but it's good to document what works today ... https://t.co/DzTFXwI2qm](https://x.com/rseroter/status/2052526138678001757) `#2052526138678001757`
-- @symfony — [Stop over-complicating your Symfony apps! At #SymfonyDay Montréal, Oskar Barcz shares a pragmatic guide to implementing Command Query Responsibility Segregation in #Symfony. Keep it simple. Keep it powerful 🚀 https://t.co/FboDrh9NOD](https://x.com/symfony/status/2052735679826657598) `#2052735679826657598`
-- @bibryam — [👌Agent Skills - @addyosmani  “Agent Skills” turns specs, tests, reviews, scope control, and verification into enforceable workflows.   🎤🫳 “A senior engineer’s job is mostly the parts that don’t show up in the diff.”   https://t.co/8qMvRRvQew](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
-- @mattpocockuk — [A flow I just tried and LOVED:  1. /grill-with-docs, talking about a new bit of UI 2. Asks me a question I can't answer unless I prototype 3. /prototype 4. Iterate on the prototype, burning tokens freely until we get a good spot 5. /rewind to the question, and select 'summarize' (Claude Code feature), saying 'summarize what we learned from prototyping' 6. Continue the grilling session, retaining the prototype  Smoooooooth](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
-- @GitTrend0x — [Hermes 强化版！  强化 fork 版，Web 管理仪表盘、零 token 技能进化插件、完整文档知识库、Superpowers 创意工作流…… 全网程序员把 Hermes 玩成了下一代 Agent 深度 hack 神器 + 浏览器指挥舱 + 自我卷王 + 知识圣经 + 创意超级英雄。  1️⃣ hermes-agent-fork（https://t.co/YxXA60KBDx）  强化 fork 版，保留自进化循环 + OpenClaw 迁移优化。 深度玩家直接上手 hack！  2️⃣ hermes-dashboard（https://t.co/cHVb26ZVd3）  Web 仪表盘：全配置 + MCP + cron + 模型管理，无 CLI。 浏览器里指挥 Agent 军团了😂  3️⃣ hermes-curator-evolver（https://t.co/TSwv4sVUWI）  本地零 token 技能进化插件，后台自动观察 + 生成 + 优化 skill。 Agent 自己卷自己，太狠了！  4️⃣ hermes-agent-docs（https://t.co/7woTLanHLZ）  v0.10.0+ self-improving 完整文档仓库。 Hermes 玩家的“官方圣经 2.0”！  5️⃣ hermes-agent-superpowers-chatgpt（https://t.co/M1wymJtJyI）  Superpowers 创意工作流包，设计哲学 + 品牌 pipeline 打包成 skill。 Agent 也要当创意超级英雄了！  //  为什么这些新进化体这么炸？  全吃 Hermes 底层循环当 DNA，社区再疯狂补强化 fork、浏览器仪表盘、零 token 进化、本地文档库、创意工作流……生态卷速肉眼可见。](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
-- @adocomplete — [So excited for Agent view (research preview) in Claude Code.  Run claude agents to list and start multiple sessions. Each one runs w/o taking up a terminal tab.  See what's running, what's blocked, and what's done. Reply inline or jump in and out of sessions with ease. https://t.co/zXlD9cEOgh](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
-- @rseroter — [Even if you don't care about all the AI transformation stuff, it does seem as if this executive urgency is forcing companies to finally fix longstanding pain points.  Here, Yum Brands is fixing their data estate so that they can get more out of AI. https://t.co/taQ5q4R9CP](https://x.com/rseroter/status/2053959835679604812) `#2053959835679604812`
-- @DanielMiessler — [Just had a crazy idea as a response to this excellent article by Lars Faye.  I think Lars' best argument was the benefit and enjoyment of manually wrangling with ideas in code.  What if we created some sort of new pseudo-code language that's like a step more technical than a spec, where you can actually try ideas and see how they work, but without building everything fully?  So it's like playing with ideas when writing prose, except it's doing so with functionality of an application.  Maybe this won't work because the details of the particular languages will make a difference, but I think the bigger issue is getting the ideas right.   So maybe it's possible to make an intermediary language that lets us play in this way, come up with a clean idea, and then add THAT to the spec as well. Like, here's what I REALLY mean...  And then we'd have the ability to use the pseudo-code as a language for talking back and forth with AI about the idea, but without all the bloat of the actual language and without abstracting the ideas so far from us that we don't understand what we built.  Thoughts?  https://t.co/u8zyaR4KYr](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
-- @QingQ77 — [为 Hermes Agent 提供一套开箱即用的技能和工作流层，覆盖从想法到部署再到运维的完整应用生命周期。  https://t.co/1efdKNob6b  Oh My Hermes 就是给 Hermes 装上"操作系统"——装一次，Hermes 就不再是聊天机器人，而是一个能干活的运维+开发搭档。  20 个技能覆盖需求澄清、产品简报、设计交接、引擎选择、代码实现、部署、数据库连接、监控、通知、GitHub 操作等完整环节；  5 个 Agent（CTO、PM、Dev、QA、Ops）各管一段，在看板上协同推进。Hermes 自己就是主操作者，Claude Code 和 Codex 只是可选的深度编码加速器。](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
-- @commte — [Google 公式 Skills が来た  13個のスキルが公開。Claude Code / Antigravity / Gemini CLI / Cursor / GitHub Copilot ほか主要エージェントが対応してる Agent Skills 標準準拠  https://t.co/9xvVKn004h](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
-- @JoliCode — [Comment intégrer l'IA dans son workflow UX/UI ? 🎨  Aujourd'hui sur le blog, Sophie partage son retour d'expérience sur l'utilisation de Figma Make, Claude Design, les prompts efficaces et ce qui change vraiment pour les designers 💡  https://t.co/zsuGjpt6Uh  #ui #ux #ia #design](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
-- @dotta — [📎 Paperclip v2026.512.1 is out. Featuring  👼  Stronger liveness - your clips will work harder, plan better, and run longer 🧩 Plugin managed agents, routines, and skills 🔐 Secrets - w/ first-class provider vaults 🧠 Planning mode 🔍 New Search  https://t.co/JMeAOP726n](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
-- @ghumare64 — [I'm excited to announce the AKBP protocol.  Git for agent knowledge.  I have thought through this in very detail, so this is not just some random research.  It was created on the basis of @karpathy's LLM wiki and wiki v2, which I wrote based on my agent memory findings.  I think https://t.co/weJFviWj5h is the perfect protocol standard agents need for memory.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
-- @rseroter — [Google Antigravity beats Claude at coding—but only if you stop acting like a programmer https://t.co/VJOmYpkuGY &lt; all these tools are great; just pick one. But regardless, don't bring your old approach to new tools.](https://x.com/rseroter/status/2054201313400107399) `#2054201313400107399`
-- @DataChaz — [🚨 Karpathy was right. He warned that 90% of AI advice dies in 6 months.  spoiler: most tools won't even survive 90 days.  this guy is literally giving away the exact 2026 playbook for AI Agents.  he covers exactly what to learn, build, and ignore entirely 👀  ↓ read this today https://t.co/yKSWKgfXEA](https://x.com/DataChaz/status/2054225085100151163) `#2054225085100151163`
-- @luisloaiza — [Mira esta herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, más rápida y potente que n8n. Podrás vender con catálogo y pagos integrados, automatizar el onboarding con validación de identidad y más. ¡Empieza gratis!](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
-- @NFTCPS — [Hermes 这波直接把 Agent 天花板给掀了！  全网程序员已经开始用它搭桌面神器、跑创意流水线、省 token 省到飞起——你还没跟上？  1️⃣ 先说 hermes-desktop，CLI 小玩具直接进化成 Mac/Windows 原生桌面 App，一键装好就能聊，多平台消息 + 自进化循环，这才叫真正的桌面伴侣。 🔗 https://t.co/oyfdZYhXUm  2️⃣ hermes-agent-idea-workflow 是给创意党准备的，脑子里一个粗糙想法，丢进去直接给你吐出 PRD + 设计文档 + 任务拆解，脑暴效率直接起飞。 🔗 https://t.co/s6x6wucygs  3️⃣ plur 解决了一个老大难问题——多个 Agent 实例之间记忆不互通。它用 open engram YAML 做共享记忆层，知识跨实例永不丢，Agent 终于有集体大脑了。 🔗 https://t.co/id0Em4R8Sf  4️⃣ rtk-hermes 是省钱黑科技，shell 输出自动压缩 60-90% 的 token，实战跑了 1100 万+ token 验证过的，上下文爆炸？不存在的。 🔗 https://t.co/bOCnPFF97L  5️⃣ hermesd 给运维党看，实时只读 TUI 仪表盘，10 大面板一眼监控 Gateway、Sessions、Tokens、Cron、Memory，Agent 在干啥一目了然。 🔗 https://t.co/CyTmAElrZ7  五个方向，五个开源项目，把 Hermes 玩成了下一代 Agent 的完整生态。现在不上车，等啥呢？](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
-- @every — [Long-running agents are getting better. But they're at their best after a human finds the prompt that lets the model cook.  To get started, try this flow from our team:    1. Find your longest agent run    What's the longest stretch you have trusted an agent on autopilot?  If you don't know, you can't push it.    2. Extend that runtime with a goal  Use long-running modes when the success criteria are clear. Codex and Claude Code have /goals commands that allow agents to pursue objectives across multiple turns without checking in.  3. Audit your existing loops    If you already have agents running overnight, ask:  How long did it run? With what guardrails? Against what feedback signal? At what verified accuracy?    That's how you keep inching closer to a 24/7 agent that completes tasks successfully.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
-- @milesdeutscher — [Anthropic just automated 99% of legal roles.  Claude for Legal is live now - and it's a marketplace with DOZENS of agents trained on legal roles.  Review agents, policy drafters, NDA agents &amp; much more.  Can't believe this is public.  https://t.co/EyPkD2wMWv https://t.co/EbOW0yEU5G](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
-- @_vmlops — [100 SecretCodes forClaude  https://t.co/IJctEu3UiE https://t.co/h5Kp7s4rG1](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
-- @tom_doerr — [Automates YouTube content creation and publishing with AI agents  https://t.co/unzY1U0czw https://t.co/qJndnmvAgn](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
-- @GitHub_Daily — [用 Claude Code 开发项目，代码库一大，每次探索代码结构都要扫一堆文件，工具调用多、速度慢，token 也跟着烧。  于是找到 CodeGraph 这个开源工具，给代码库预建一张语义知识图谱，让 Claude Code 直接查图而不是逐文件扫描。  效果颇为明显，工具调用减少 92%，探索速度提升 71%，像 VS Code 这种大型项目也能在十几秒内完成代码溯源。  GitHub：https://t.co/Nr6OYyxn9i  它能自动识别函数调用链、类继承、模块引用等关系，还能在修改代码前分析影响范围，避免改一处坏一片。  支持 19 种编程语言，还能识别 Django、Express、Spring 等 13 个框架的路由映射。  所有数据存在本地，不需要任何外部服务。一条命令安装，文件保存后自动同步图谱，基本不用额外操心。  如果你的项目代码量不小，又经常用 Claude Code 做代码探索和重构，装上能省不少时间和 token。](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
-- @AnthropicAI — [We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and technical support to programs in global health, life sciences, education, agriculture, and economic mobility.  Read more: https://t.co/eqCrLKtNCq](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
-- @martinfowler — [NEW POST  When I need to feed an LLM a lot of context, I can write it myself, or I can get an LLM to interview me for it.  https://t.co/n0IavQLGGZ](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
-- @ghumare64 — [This is Insane.  I just gave my agents infinite memory.  Your coding agent remembers everything. No more re-explaining.  No. 1 Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, and any MCP client. https://t.co/xtL6kMjVul](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
-- @AnthropicAI — [We've published a paper that explains our views on AI competition between the US and China.  The US and democratic allies hold the lead in frontier AI today. Read more on what it’ll take to keep that lead: https://t.co/TgJBeodWYK](https://x.com/AnthropicAI/status/2054987444664377374) `#2054987444664377374`
-- @rseroter — [An Engineer’s Guide to Better AI Skills: Implementing a Testing Process to Optimize Agent Performance in Any Repository or Skill https://t.co/BU6F49L9Ak &lt; from the Pinterest engineering team, with a couple of interesting takeaways](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
-- @danshipper — [when people ask me how to get their org agent-pilled i always say the same thing:  the #1 leading indicator is whether their leadership team personally uses Codex, Claude Code or Cowork day to day.   that’s why over the last few months we’ve been working privately with leadership teams of the top companies in tech, helping them get their hands deep into Claude Code, Cowork, Codex and more.   if you want @every to come and get your exec team agent-pilled, we’re opening up a few slots:  https://t.co/o8g3c1xKYr](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
-- @martinfowler — [Fragments: thoughts from a software development retreat, would I be a writer without text editors, use LLMs as functions, don't use LLM skills, is the future of everything lies?  https://t.co/M1V3vOytjR](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
-- @tom_doerr — [Orchestrates AI coding agents with persistent memory  https://t.co/9OtbNhOUh9 https://t.co/vdJ960iau4](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
-- @freekmurze — [🔗 Utilizing Claude Skills in client projects https://t.co/xtBi28sFhM #laravel #automation #livewire #ai #codegeneration](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
-- @midudev — [¡No quemes tokens con tu IA explorando tu proyecto! Crea un grafo semántico local de tu código con esto  ✓ -92% tool calls ✓ 71% más rápido explorando código ✓ Claude Code, Cursor, Codex y OpenCode  Local y de código abierto: → https://t.co/32g8VE4itM https://t.co/CSDPPq1Y8N](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
-- @ClaudeDevs — [What are best practices for running Claude Code at scale?  New blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices:  https://t.co/rJUYlIUiTT](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
-- @_vmlops — [HarnessEngineering A Design Guide to Claude Code  https://t.co/SZ4NcP6lDe https://t.co/4uIgr9xNKy](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
-- @0xMovez — [Spotify's Chief Architect just showed how they ship 4,5K deployments /day with Claude at Anthropic stage  27-minutes. free. By #1 music app dev   "More than 99% of our engineers use AI coding tools. Adoption took off after Opus 4.5"   Worth more than any $500 vibe-coding course. https://t.co/5g697TGtDu](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
-- @martinfowler — [NEW POST  Birgitta Böckeler begins an article about her experiences with sensors in an agent harness. This first part looks at static analysis with basic code linting.  https://t.co/1setOl8i5d](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
-- @ClaudeDevs — [Computer use turns Claude into an agent that can operate real UIs.   New blog post on making it reliable in production: getting click accuracy right, choosing thinking effort levels, keeping long sessions within context, and recording demonstrations Claude can replay:  https://t.co/JwSI3YDWcK](https://x.com/ClaudeDevs/status/2056835339193561170) `#2056835339193561170`
-- @AnthropicAI — [Over the past few months, we've been holding dialogues with scholars, philosophers, clergy, and ethicists on the questions AI raises—starting with how good character forms.  Read more about how we’re widening the conversation on frontier AI: https://t.co/vKGiODEq6q](https://x.com/AnthropicAI/status/2056880308851708233) `#2056880308851708233`
-- @adocomplete — [So many must know pro-tips on how to get the most out of computer and browser use with Claude.  If you've used computer use and had issues getting Claude to click the right thing (like I have), I'm confident this post will have at least 2 things to help you. https://t.co/TzsM9cbSc1](https://x.com/adocomplete/status/2057034715534676458) `#2057034715534676458`
-- @adocomplete — [Read the post: https://t.co/58xHZ3FNVg](https://x.com/adocomplete/status/2057034718198038751) `#2057034718198038751`
-- @jeslopcru — [Estupendo post sobre como trabajar con AI y guardrails https://t.co/81YbiDYToY  Ademas si usas kotlin da unas cuantas herramientas muy utiles](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
-- @martinfowler — [NEW §  Birgitta Böckeler adds exploration of three sensors for static code analysis, with mixed results. Computational sensors alone cannot help us much, AI is needed to add semantic interpretation, and consider trade-offs.  https://t.co/GtZqpRawAs](https://x.com/martinfowler/status/2057107389539553494) `#2057107389539553494`
-- @ParthJadhav8 — [HOLY SHIT !! @cursor_ai 's /thermo-nuclear-code-quality-review skill is nuts   It ran for around 30 mins on my PR and immensely improved the code quality.  It's 67x better than /simplify from Claude code..](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
-- @defileo — [Anthropic just paid millions to hire Andrej Karpathy.  He gave you the same knowledge for $0 the same week.  Co-founder of OpenAI, former head of AI at Tesla, the man who coined vibe coding.  No recruitment fee, no exclusive access, no $500,000 wire transfer, just a link and 29 minutes.  LLMs are ghosts not animals, vibe coding is dead, Software 3.0 is here...](https://x.com/defileo/status/2057924890330644925) `#2057924890330644925`
-- @every — [@tbpn 🫡 AI progress creates more work for humans, not less: https://t.co/VON5WmZMvk](https://x.com/every/status/2057933169085808788) `#2057933169085808788`
-- @Dinosn — [denissergeevitch/agents-best-practices: Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design. https://t.co/gAKogBCNxW](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
-- @0xMovez — [Anthropic AI engineer just showed how to give AI agents real memory in 4 steps - and it changes everything  in 28 minutes he shows exactly how agents can remember across sessions, completely free  worth more than any $500 AI engineering course  here's what he covers:  • why agents forget everything between sessions  • memory stores - agents read, write across sessions  • dreaming - agents that improve their own memory  • 95% cache hit rate, so it stays cheap  most people are still copy-pasting context into every new chat - while the people who figured this out are building agents that get smarter every single night  watch full video then read article below](https://x.com/0xMovez/status/2058193075181089247) `#2058193075181089247`
-- @Dinosn — [A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. https://t.co/AekeGIMhan](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
-- @addyosmani — ["Cognitive surrender is when you stop thinking altogether and blindly accept the answer the AI gives you" https://t.co/qfUVRH7LkB](https://x.com/addyosmani/status/2058281426257358947) `#2058281426257358947`
-- @slashdot — [Linus Torvalds on How AI is Impacting the Hunt for Linux Kernel Bugs https://t.co/CFknp6VttE](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
-- @antonarhipov — [Just published slides for my #KotlinConf 2026 talk on Spec-Driven Development  https://t.co/sPlih1WCEv](https://x.com/antonarhipov/status/2058489053385760947) `#2058489053385760947`
-- @lennysan — [My biggest takeaways from @danshipper:  1. The future of work will happen inside Codex or Claude Code. Instead of putting AI into your SaaS tool, you’ll use your SaaS tools inside your favorite AI agents' in-app browser. Dan spends all his time in Codex now—writing documents, managing email, doing research, everything. He's using Google Docs, PostHog, and everything he needs within the agent's in-app browser. The agent can see what he’s doing, and has all of his context, so he and his agent collaborate quickly and super effectively.  2. Automation is a lie—every automation needs a human. Dan's company doubled in size this year despite being incredibly AI-forward. Why? Because in order to make automation work well, you need humans making sure everything keeps working. This is why benchmarks are misleading—they measure AI on problems we’ve already framed and can score, but there’s always a higher frame.  3. PMs will win the AI era. Marcus, a former PM who previously ran Axios’s writing product, joined Every after getting super AI-pilled. Now he runs their product Spiral, and ships faster than anyone on the team. He pairs technical knowledge with spiky product sense, deep user empathy, and an eye for what matters. Dan thinks any PM who gets really AI-native will be incredibly dangerous because the building is done for you—what matters is figuring out what to build and if it’s great.  4. Full-stack designers are becoming superheroes. Designers used to make beautiful interactions that engineers didn’t want to build or couldn’t execute properly. Now designers don’t need to hand things off; they can build it themselves. Designers are naturally creative people, and AI is the perfect tool for them because it lets them bring their vision to life without the traditional bottlenecks.  5. SaaS is not dead. In fact, Dan is bullish on SaaS stocks. When users bring their own AI (via Codex or Claude Code) to use SaaS products, the user—not the SaaS company—pays for tokens. This saves SaaS company’s margins. Since the agents need their own seats, Dan predicts that agents will create massive new demand for SaaS because there will be tons of agents using these products at high volume.  6. Every company will have one “super-agent” inside their Slack that every employee will use. Dan initially thought every employee would have their personal work agent, like a shadow AI org chart, but he’s completely flipped his view. He realized agents need humans who care about them. When someone gets tired of maintaining their personal agent, it becomes useless. The winning model is one forward-deployed engineer or AI-savvy person who maintains a company-wide agent (like Shopify’s River or Viktor), and then it trickles down to more specialized team agents as models improve and become less fiddly.  7. The AI job apocalypse is not happening, but you do need to evolve to stay relevant. Models make yesterday’s human competence cheap. But because everyone uses the same models, it all looks the same if you use it the default way; it becomes commoditized slop. Humans then take that frozen competence and use it to make something new and interesting for their specific situation. The key: “ride the models”—use them for everything you do, try new models when they drop, keep turning over rocks.  8. We will read way more AI-generated writing, and we will like it. Human writing is incredibly important for things that matter, but for internal docs, planning, and email, AI-generated is often better because most people are bad at writing strategy documents.  9. Build software for humans and agents to use together. The current model is building a CLI that an agent uses independently. Instead, you and your agent should be using the app together. This creates new design challenges—agents can make a billion requests in three seconds, so you need approval flows, inboxes that summarize what happened, logs, and easy rollback.   10. Forward-deployed engineers are the new most essential role. The big model companies have teams of people managing their internal agents, and those teams aren’t going away. It’s different from traditional software building, and certain engineers love it. As models get better, this role will evolve—you’ll be managing more agents doing more things.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
-- @badlogicgames — [recommended reading.  https://t.co/2GgZb04PoE](https://x.com/badlogicgames/status/2059190700827140495) `#2059190700827140495`
-- @bibryam — [The 8 Levels of Agentic Engineering https://t.co/7aGzJCQIVG](https://x.com/bibryam/status/2059282155922948194) `#2059282155922948194`
-- @nurijanian — [my favorite engineering skills for AI:  - Compound Engineering: https://t.co/BM7tA2RAHf - Ryan Singer's shaping skills: https://t.co/yaWg0nI7Vm - Matt Pocock's skills: https://t.co/0WtRqce6x5  I switched from Superpowers to Compound Engineering as they perfected the plugin over time, and I'm pretty sure I still only use like 10% of it](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
-- @AnthropicAI — [New on the Engineering Blog: The access and permissions we grant agents should evolve with their capabilities. In our own products, we set these parameters through sandboxing, which limits the scope of any potentially destructive actions.  Read more: https://t.co/KfBKW8O9kP](https://x.com/AnthropicAI/status/2059351260243919269) `#2059351260243919269`
-- @every — [Here's the template Codex prompt we use to draft GTM plans at Every.  When you've already done the big picture thinking in meetings and @SlackHQ, the next step is just prompting an agent to make a plan for you and the agent to review together. https://t.co/cBn5fAiBAk](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
-- @bcherny — [Salesforce published a detailed writeup on going agentic with Claude Code. A couple things jumped out.  A migration they'd scoped at 231 days shipped in 13. One PR delivered 21 endpoints at 100% test coverage.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
-- @rseroter — ["The biggest lesson in this shift is that AI doesn’t eliminate bottlenecks in software development, but it does move them." https://t.co/wfqPcZZ7Sg &lt; some good lessons learned by @Dropbox and shared in this post](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
-- @ClaudeDevs — [How do you get Claude Code to check its own work before handing it back?  Watch how you can encode your manual checks so Claude closes its own feedback loop: https://t.co/gxastVL4QH](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
-- @vladikk — [Counting dependencies tells you the number of dependencies. It tells you nothing about the design. What matters is the kind of knowledge shared across component boundaries. A single reference sharing extraneous knowledge can cause orders of magnitude more cascading changes than a hundred dependencies through well-designed integration interfaces.  Read Birgitta's piece on @martinfowler blog: https://t.co/jDy0nFoYWx](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
-- @KirkDBorne — [Highly rated new book from @PacktPublishing @PacktDataML ...  "Architecting Generative AI Applications: Build, deploy, and scale production-ready GenAI systems with LLMOps best practices"  See it at https://t.co/qEfwoYVBdT https://t.co/kgcRnSBf5h](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
-- @bibryam — [Best practices to secure code with Claude https://t.co/wMaPLiFaWN](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
-- @bibryam — [How Boris Cherny Uses Claude Code https://t.co/yvTZnrEnPB](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
-- @pragdave — [A new article on the perils of forgetting the basics in the heat of AI-assisted coding.  Link below https://t.co/wzRjOpQtAr](https://x.com/pragdave/status/2063276005859393884) `#2063276005859393884`
-- @pragdave — [https://t.co/Y4H6rnwR4n](https://x.com/pragdave/status/2063276008619356280) `#2063276008619356280`
-- @0xchromium — [Andrej Karpathy spent 2h showing how he actually uses AI day to day  he's a co-founder of OpenAI and led AI at Tesla, so when he shows how he works, it’s worth watching  and the whole session is just him telling the machine what he wants in simple terms, like he's briefing a coworker  watch what's actually happening the entire time:  > he describes the task in normal words > it goes off and does the work > he glances at the result and nudges it with one more sentence  that's the whole skill, and you've had it since you learned to talk  the only gap between that and a worker that runs on its own is handing that sentence a schedule and the tools to act  check his work, then build the version that keeps working when you stop](https://x.com/0xchromium/status/2063321324605280569) `#2063321324605280569`
-- @bcherny — [We talk a lot about how important it is to set up self-verification loops. Especially in the age of powerful models that can run for long periods of time, self-verification is a key ingredient that enables the model to run for much longer, delivering a result that is closer to what you intended, so you can do more without having to constantly check in on Claude as it works.  @delba_oliveira gives a great breakdown of what that looks like and why it matters](https://x.com/bcherny/status/2064426115255730578) `#2064426115255730578`
-- @fabpot — [Nowadays I barely write code without an LLM, and my OSS productivity has gone through the roof. Look at what I've shipped on #Twig lately (more to come).  Steve Yegge's 8 levels of AI-assisted development described my last 2 years exactly.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
-- @fabpot — [But this isn't what I see at #Upsun: at the organization level, the challenges are different. So I tried to map a second scale, for AI engineering maturity in orgs: https://t.co/p25K9SudBY](https://x.com/fabpot/status/2065350660829094293) `#2065350660829094293`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
-- @trending_repos — [Trending repository of the month 🏆  Agent-Reach  Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.  Last month: 26,239 ⭐ Total: 47,845 ⭐️ https://t.co/BUp2aLe7ve](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
-- @mattpocockuk — [Can confirm that this is the best decision for my business I've made in a long time  Being able to plan courses in collaboration with an agent that understands my entire business context feels ridiculous  I can just say things like:  - "pull up what my students think about autocompact" - "Is this section missing any major talking points" - "What problems did people have with this section during the last cohort" - "What are people excited to learn right now"  Nucking futs](https://x.com/mattpocockuk/status/2072320135382073778) `#2072320135382073778`
-- @0xCodez — [Anthropic just dropped 5 workshops, revealing the latest capabilities of Fable 5:  • 00:00 - deep look into Fable 5 • 11:22 - Fable 5 and the capability curve • 30:54 - building managed agents with Fable 5 • 44:29 - real use cases of Fable 5 by teams • 57:43 - how to deploy agents with Fable 5  These 1-hour of sessions will replace 100 articles on how to actually use Fable 5.  Watch them today, then read the best practices from the sessions in the article below.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
-- @_avichawla — [Stanford researchers did it again.  They just built the agent-native version of Git.  When an agent works on a longer task, the run builds up a lot of state.  This includes files edited/created, a dev server, a database, installed packages, KV cache, etc.  Say the agent is at step 10 and makes a mistake, maybe it misreads a traceback and rewrites a file that was actually fine.  The tests start failing, and the run goes off track, although everything through step eight was correct.  By default, the agent just tries to fix it, which creates more edits and tool calls. This burns more tokens and grows the context.  The other options are a person stepping in to redirect it or restarting the whole run from step one.  That's wasteful, because it pays for every model/tool call again and re-prefills the context. Moreover, since an agent's run is non-deterministic, it doesn't reproduce the same early steps anyway.  The reason it's hard to just jump back exactly to a previous correct step and resume from there is that the trajectory is only a message log.  It records what the agent said and which tools it called, but not the live state underneath.  That state includes things like memory, open file handles, child processes, installed packages, /tmp, and KV cache. None of that is in the log.  Git can version the files, but it doesn't snapshot the running process or the KV cache. Checking out step eight moves the files back, but the process is still sitting in step-ten memory with a cold cache.  Shepherd is a runtime layer by Stanford that records the run as a trace of typed events rather than a flat log.  Each agent-environment interaction becomes a commit, similar to Git, but it tracks the live run.  Its commit includes the agent process and the filesystem together, copy-on-write, so a branch carries the actual state and not just the files.  Going back to a previous step is then a single call that forks from that commit and continues from the exact state.  The copy-on-write fork is roughly five times faster than docker commit, and because the prompt prefix through step eight is unchanged, the KV cache is reused over 95% on replay, so early steps aren't reprocessed again.  Once the run can be forked, a meta-agent can sit on top and operate it. It watches the trace and reverts as soon as it looks wrong, before the bad write is committed.  In practice, it's just Python calling fork, replay, and revert on the trace, rather than a separate control plane wired into the harness.  Not everything is reversible though.  Files and sandbox changes undo themselves, but a database write has no automatic undo, so it needs a matching undo step set up in advance.  Something external, like a sent email or a real charge, can't be undone, so the supervisor's job there is to catch it before it fires.  They tested this on a few public benchmarks. On CooperBench, where two agents work on the same codebase, adding a live supervisor took the pair-coding pass rate from 28.8% to 54.7%.  It's still early and labeled alpha. The benefit mostly shows up when a run gets branched a lot over a heavy sandbox state, which is exactly where restarting wastes the most tokens and time.  If Git was made to make file changes reversible, Shepherd is trying to do the same thing for a live agent run.  Shepherd Repo: https://t.co/5e8W5oxY6F  (don't forget to star it ⭐ )  That said, Shepherd reverts a bad step inside a run. The harness around it, the prompts, tools, and checks the supervisor relies on, still drifts across runs as models and dependencies change.  Akshay wrote about making that harness repair itself, where a failing trace gets diagnosed, the fix is verified against the exact input that failed, and the failure is locked as a regression test so it can't recur.  Read it below.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
-- @ClaudeDevs — [https://t.co/v694m8Eaj6](https://x.com/ClaudeDevs/status/2074208949205881033) `#2074208949205881033`
-- @mattpocockuk — [Here's a step-by-step process to kill all the bloat from your Claude Code system prompt:  1. Run a proxy so you can see exactly what gets sent to Claude Code (included in the article) 2. "Fuck, there is so much cruft in there" 3. Use my settings.json to kill all the bloat  Down to a clean 13K tokens to start each session with. Nice.  Full process here:  https://t.co/Kie84HMe2A](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
-- @martinfowler — [NEW POST  Birgitta Böckeler recently spent some time trying out running local LLMs for some programming tasks. In this memo she outlines the factors that influence how viable they are for the job.  https://t.co/ALp5q6p3g5](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
-- @steipete — [If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
-- @mattpocockuk — [Four of AI's most confusing terms explained:  An agent is just a model, harnessed, in an environment. https://t.co/w7DU7ej29Z](https://x.com/mattpocockuk/status/2075149990658191668) `#2075149990658191668`
-- @nicopreme — [Combined @mattpocockuk's "grill me" skill with the concepts from Thariq's "Finding Your Unknowns" article into one agent skill: grill-for-unknowns.  Your agent grills you to surface the unknowns FIRST, so you reach shared understanding before implementation. Works great with models like 5.6 that execute reliably once fully aligned. 😎  https://t.co/2kwo6P0d47](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+- @mattpocockuk — [Matt Pocock reflexiona sobre cómo el Domain-Driven Design (DDD) —lenguaje compartido, bounded contexts y ADRs— podría resolver muchos problemas comunes al trabajar con modelos de IA en bases de código grandes.](https://x.com/mattpocockuk/status/2044723788743360833) `#2044723788743360833`
 
-## Marketing & Redes
+## agent-development-kit
 
-- @himanshustwts — [Based on everything explored in the source code, here's the full technical recipe behind Claude Code's memory architecture:  [shared by claude code]  Claude Code’s memory system is actually insanely well-designed. It isn't like  “store everything” but constrained, structured and self-healing memory.  The architecture is doing a few very non-obvious things:  > Memory = index, not storage + MEMORY.md is always loaded, but it’s just pointers (~150 chars/line) + actual knowledge lives outside, fetched only when needed  > 3-layer design (bandwidth aware)  + index (always)  + topic files (on-demand) + transcripts (never read, only grep’d)  > Strict write discipline  +  write to file → then update index  + never dump content into the index  +  prevents entropy / context pollution  > Background “memory rewriting” (autoDream)  +  merges, dedupes, removes contradictions  +  converts vague → absolute  +  aggressively prunes  +  memory is continuously edited, not appended  > Staleness is first-class  + if memory ≠ reality → memory is wrong  +  code-derived facts are never stored  +  index is forcibly truncated  > Isolation matters  + consolidation runs in a forked subagent  + limited tools → prevents corruption of main context  > Retrieval is skeptical, not blind  +  memory is a hint, not truth  +  model must verify before using  > What they don’t store is the real insight  +  no debugging logs, no code structure, no PR history  +  if it’s derivable, don’t persist it](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
-- @lennysan — [OpenClaw: The complete guide  @ClaireVo has just put together the definitive guide to getting started with and mastering OpenClaw.  Building on our podcast episode, this post covers everything you need to know, from first install to multi-agent setups, plus the real costs and security gotchas most people skip over.  Whether you’re brand new to OpenClaw or already running one, Claire’s guide will level you up.  Find it here 🦞: https://t.co/x9h7gwH3cT](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
-- @karpathy — [Wow, this tweet went very viral!  I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.  So here's the idea in a gist format: https://t.co/NlAfEJjtJV  You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
-- @codewithimanshu — [Anthropic's Claude Code team just teaches how to automate your entire engineering workflow with Claude Code SDK in under 30 minutes.  For Free. From the engineers who built it.  CANCEL Your Weekend Plans, and Learn to Automate Your Codebase Today.  Bookmark it. Watch it. Ship your first headless automation this weekend.  $5,000/month. $10,000/month. $25,000/month.  People are automating entire engineering teams with Claude Code SDK and charging clients $$$$. You're still copy-pasting code from ChatGPT manually.  This video fixes that tonight.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.  ↓  Sid Bidasaria runs engineering on Claude Code at Anthropic. He just gave away the entire SDK + GitHub Action playbook in 30 minutes.  This is the talk that separates people automating their entire codebase from people still manually writing every commit.  Here's everything inside.  Follow @codewithimanshu for weekly Claude automation breakdowns.  ↓  What the Claude Code SDK actually is.  Most devs don't know this exists. They use Claude in the chat interface and call it a day.  The SDK is the real unlock.  Programmatic access to the Claude Code agent in headless mode. The primitive building block for every serious automation you'd ever want to build.  Designed like a Unix tool. Drops directly into terminal pipelines, bash scripts, CI/CD automation.  Use it to review code. Write linters. Build chatbots. Manage remote code environments. Run an entire engineering pipeline.  This is how you stop "using AI" and start "shipping with AI."  Follow @codewithimanshu for full Claude SDK breakdowns every week.  ↓  Basic usage that 99% of devs miss.  `claude -p` to prompt the agent directly from your terminal. `--allowed-tools write` for controlled file system access.  Pipe anything into it:  > Pipe `ifconfig` output → ask Claude to debug your network > Pipe error logs → get a fix before your coffee finishes brewing > Pipe a file → get instant code review without opening an editor  `--output-format JSON` for structured responses you can parse in automated systems.  This is where Claude stops being a chat tool and becomes infrastructure.  Follow @codewithimanshu for daily Claude SDK one-liners that save hours.  ↓  Permission management without the security holes.  The biggest reason teams don't deploy AI in production: permission concerns.  Sid solves it cleanly:  > No destructive permissions by default > `--allowed-tools` to pre-configure exactly what the agent can touch > `--permission-prompt-tool` to delegate authorization to an MCP server in real time  Your AI agent gets full power exactly when it needs it. Zero access when it doesn't.  This is enterprise-grade AI security packaged as a single flag.  Most tutorials hand-wave this. This one shows the architecture.  Follow @codewithimanshu for production AI permission patterns every week.  ↓  Session persistence: the multi-turn unlock.  Most AI integrations forget everything between calls.  That's why your "AI assistant" feels like talking to someone with amnesia.  Return a `session ID` and Claude resumes exactly where you left off. Full context preserved. Multi-turn conversations across hours, days, deploys.  This is the foundation for building any real AI product that holds context.  Customize the system prompt while you're at it. `--system-prompt 'talk like a pirate'` if you want. Or build a serious agent persona for production.  Follow @codewithimanshu for persistent context patterns for AI agents.  ↓  The Claude GitHub Action demo that should scare every dev.  Sid runs a live demo on a real quiz app:  > Files an issue: "add a 50/50 power-up and a skip power-up" > Claude creates a to-do list > Claude modifies the files > Claude opens a Pull Request  The entire feature shipped from one issue. No human touching code.  This is automated code review, automated bug triage, automated feature implementation. From GitHub issues directly.  Junior dev work just got compressed into the time it takes to write an issue description.  Follow @codewithimanshu for GitHub Action setups for production.  ↓  Zero infrastructure required.  Every other AI automation tool needs:  > A separate server > A deployment pipeline > Monitoring infrastructure > Auth setup > Cost tracking  The Claude GitHub Action uses your existing GitHub Action runners.  `claude /install github action` in your local repo. Generates a YAML config. Done.  You go from idea to production AI automation in 60 seconds.  Most people pay $200/month for tools that do less than this free Action.  Follow @codewithimanshu for free Claude Action templates.  ↓  The 3-layer architecture nobody explains.  Sid breaks down the actual stack:  > Layer 1: SDK - the foundation, raw programmatic access > Layer 2: Base Action - wraps the SDK as a clean API interface > Layer 3: PR Action - adds comments, formatting, full GitHub UX  Understanding these layers is the difference between someone who copies tutorials and someone who builds custom AI infrastructure for clients.  This is the architectural insight that turns into $10K/month consulting contracts.  Follow @codewithimanshu for weekly architecture deep dives.  ↓  30 minutes from the engineer shipping this in production.  You'll learn more from this than from 6 months of YouTube tutorials made by people who've never automated a single deploy.  People who watch this understand Claude Code automation at the infrastructure level.  People who skip it keep manually reviewing PRs, manually filing issues, manually doing work that could've been automated last weekend.  Save the video. Watch it tonight. Ship your first Claude SDK automation this weekend.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
-- @helloitsaustin — [most growth marketers use AI to rewrite headlines and call it a day. here's how I actually use Claude on the growth marketing team at @AnthropicAI across chat, Claude Cowork, and Claude Code 👇 https://t.co/uHVosjt5bZ](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
-- @DeRonin_ — [Andrej Karpathy: "90% of what AI twitter tells you to learn will be dead in 6 months"  Here are 10 things senior AI engineers stopped wasting time on:  1. AutoGen / AG2: moved to community maintenance, releases stalled. dead for production  2. CrewAI: demos well, breaks in production. engineers building real systems already moved off it  3. Autonomous agent pitches: the AutoGPT / BabyAGI wave is dead in product form. the industry settled on supervised, bounded, evaluated agents  4. Agent app stores / marketplaces: promised since 2023, zero enterprise traction  5. SWE-bench leaderboard chasing: researchers proved nearly every public benchmark can be gamed without solving the underlying task  6. Microsoft Semantic Kernel: unless you're locked into Microsoft enterprise stack, it's not where the ecosystem is heading  7. DSPy: philosophical merit, niche audience. not a general agent framework  8. Horizontal "build any agent" platforms: Google Agentspace, AWS Bedrock Agents, Copilot Studio. confusing, slow-shipping, the math still favors building yourself  9. Per-seat SaaS pricing for agent products: market moved to outcome-based. per-seat is already dead  10. The framework that went viral on HN this week: wait 6 months. if it still matters, it'll be obvious  what actually compounds instead:  - context engineering - tool design - orchestrator-subagent pattern - eval discipline - the harness mindset (harness > model, always) - MCP as the protocol layer  be few steps ahead than your competitors and outperform this market till it became mass-opinion  study this.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
-- @svpino — [30 agents every AI Engineer must build.  This is the most comprehensive and practical book on AI Engineering that I've ever seen.  I can't think of a single use case that they didn't cover here:  1. The autonomous decision-making agent 2. The planning agent 3. The memory-augmented agent 4. The knowledge retrieval agent 5. The document intelligence agent 6. The scientific research agent 7. The tool-using agent 8. The agentic workflow system 9. The data analysis agent 10. The verification and validation agent 11. The general problem solver agent 12. The code generation agent 13. The security-hardened agent 14. The self-improving agent 15. The conversational agent 16. The content creation agent 17. The recommendation agent 18. The vision language agent 19. The audio processing agent 20. The physical world sensing agent 21. The ethical reasoning agent 22. The explainable agent 23. The healthcare intelligence agent 24. The scientific discovery agent 25. The financial advisory agent 26. The legal intelligence agent 27. The education intelligence agent 28. The collective intelligence agent 29. The embodied intelligence agent 30. The domain-transforming integration agent  I also read 50 Algorithms Every Programmer Should Know by Imran. Same vibe.  Here is the Amazon link: https://t.co/buLPqjToiu](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
-- @tom_doerr — [Automates YouTube content creation and publishing with AI agents  https://t.co/unzY1U0czw https://t.co/qJndnmvAgn](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
-- @mattpocockuk — [@blackanger Yep it's pretty wild. I gave two talks about them which both went viral at the same time:  https://t.co/KG7gdqFo2j  https://t.co/gMtfs17H9k  Hence the crazy number of stars.](https://x.com/mattpocockuk/status/2056277047496843534) `#2056277047496843534`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+- @rseroter — [Richard Seroter escribe sobre cómo forzar a un agente personalizado a detenerse y pedir aprobación humana, usando la función de human-in-the-loop del Agent Development Kit para validar tutoriales de código generados por IA.](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
 
-## Política & Actualidad
+## agent-harness
 
-- @edans — [El emperador está desnudo: los LLM nunca fueron diseñados para dirigir una empresa https://t.co/5CKMhYBgFx](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
+- @addyosmani — [Addy Osmani explica que la memoria de un agente de IA depende del diseño del harness, ya que decisiones como qué entra en el contexto o cómo sobrevive a la compactación son decisiones de memoria; recomienda un artículo de @hwchase17 sobre el tema.](https://x.com/addyosmani/status/2043447970507686248) `#2043447970507686248`
+- @rseroter — [Richard Seroter recoge frases de Addy Osmani sobre la importancia del harness de un agente: un modelo decente con un buen harness supera a un gran modelo con un mal harness, y el harness debe evolucionar constantemente.](https://x.com/rseroter/status/2046646395634114988) `#2046646395634114988`
+- @cursor_ai — [Cursor explica cómo mejoran su "agent harness" para hacerlo más rápido y eficiente en tokens, y cómo prueban, monitorean y personalizan sus mejoras para distintos modelos.](https://x.com/cursor_ai/status/2049901436918436249) `#2049901436918436249`
+- @kunchenguid — [Kun Chen elogia 'acpx' de Peter Steinberger y explica que lo integró en la versión 0.1.31 de gnhf para dar soporte a prácticamente cualquier harness de agentes, recomendándolo frente a construir una abstracción propia.](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
 
-## Productividad & Herramientas
+## agent-performance
 
-- @amankk_9 — [AI Agent Project to Build this Weekend:  Build a Multi-Tool AI Agent from Scratch. https://t.co/nBEaPOWccC](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
-- @RoundtableSpace — [TOP 10 GITHUB REPOS TO ENHANCE YOUR CLAUDE CODE GAME  • SUPABASE https://t.co/WzPIYqVQXM  • NOTEBOOKLM https://t.co/LTlGoU3oPp  • OBSIDIAN https://t.co/ncEYHnw47k  • LANGCHAIN https://t.co/qlRw5rznwi  • FLOWISE  https://t.co/ggY1iS2sB7  • CLAUDE SKILLS https://t.co/pcXlvK7d9u  • AWESOME CLAUDE SKILLS https://t.co/5lbBAQSUuV  • REPOMIX https://t.co/KGAPZb14Du  • CLAUDE CODE BEST PRACTICE https://t.co/Bq5OzzlT2h  • EVERYTHING CLAUDE CODE https://t.co/xPk3fV9mGb](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
-- @vladikk — [So Anthropic accidentally published Claude Code's source code. Oops.  Naturally, I ran my modularity review skill on it!  Hey @AnthropicAI, you might want to look at your tool execution service. It hardcodes tool-specific logic with switch statements on tool names, so every time you add a tool with special requirements, you modify the orchestration layer. That's tight coupling in your highest-volatility code.  Three more significant issues in the full review: https://t.co/xu4FvHeB6z  Consider it peer review 😉](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
-- @NainsiDwiv50980 — [🚨Breaking: @bcherny just revealed how Claude Code actually works — and most developers are using only 10% of it.  This isn’t prompting. This is an AI engineering system.  Here’s the Claude Code power stack hidden in his thread:  • Hooks that run logic during agent lifecycle • Dispatch to remotely control Claude from anywhere • Chrome extension for frontend verification loops • Desktop app that auto-runs and tests servers • Fork sessions to explore parallel solutions • /btw for side queries while agents run • Git worktrees for parallel Claude agents • /batch to fan out massive changes across repos • --bare to speed up SDK startup up to 10x • --add-dir for multi-repo context • --agent to create custom AI roles • /voice to code by speaking  This turns Claude Code into:  → parallel AI engineers → autonomous coding loops → self-testing workflows → multi-repo orchestration → batch refactors → remote-controlled agents  Most people use Claude like ChatGPT. Power users run entire engineering teams.  Key docs from the thread:  CLI reference https://t.co/6XXDng8JJc…  Desktop auto testing https://t.co/kLiLoP0Sjj…  Chrome extension https://t.co/XOYx4mOO1a  Hooks lifecycle automation https://t.co/P6jSBQePaq  Scheduled tasks https://t.co/BFQopfGLZF…  Remote control / Dispatch https://t.co/LiKIzPoi7R…  Once you combine:  Hooks + Batch + Worktrees + Agents  Claude stops being a copilot and becomes an autonomous dev team.  This is the shift most developers haven’t noticed yet.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
-- @bibryam — [Really like this from @addyosmani 👌  🤩 Google engineering practices as agent skills🤩  ->  organized into 19 skills & 7 commands for AI agents.  → Plan - decompose into small, verifiable tasks → Build - incremental implementation, context engineering, clean API design → Verify - TDD, browser testing with DevTools, systematic debugging → Review - code quality, security hardening, performance optimization → Ship - git workflow, CI/CD, ADRs, pre-launch checklists https://t.co/JOPAOVvwLy](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
-- @karpathy — [Wow, this tweet went very viral!  I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.  So here's the idea in a gist format: https://t.co/NlAfEJjtJV  You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
-- @github — [Single-prompt AI workflows often hit a performance plateau. Multi-agent systems can push past it, but they usually require a massive amount of setup.  Squad, an open source project built on GitHub Copilot, initializes a preconfigured AI team directly inside your repo.  Learn how to run multi-agent workflows that stay inspectable, predictable, and collaborative. https://t.co/1ewya9yPpC](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
-- @adrianaia_ — [Alguien construyó exactamente lo que Andrej Karpathy dijo que alguien debería construir.  48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, esto apareció en GitHub. https://t.co/A3QsSSWRSZ](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
-- @GithubProjects — [A visual, example-driven guide to Claude Code  From basic concepts to advanced agents, with copy-paste templates that bring immediate value. https://t.co/Sa4WZhRmaQ](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
-- @rauchg — [Today we're open sourcing https://t.co/p76KVdY7dG, a reference platform for cloud coding agents.  You've heard that companies like Stripe (Minions), Ramp (Inspect), Spotify (Honk), Block (Goose), and others are building their own "AI software factories". Why?  1️⃣ On a technical level, off-the-shelf coding agents don't perform well with huge monorepos, don't have your institutional knowledge, integrations, and custom workflows.  2️⃣ On a business level, the moat of software companies will shift from 'the code they wrote', to the 'means of production' of that code. The alpha is in your factory.  Open Agents deploys to our agentic infrastructure: Fluid for running the agent's brain, Workflow for its long-running durability, Sandbox for secure code execution, AI Gateway for multi-model tokens.  (Because of our focus on Open SDKs and runtimes, this codebase is a gem even if you're not hosting on Vercel.)  TL;DR: if you're building an internal or user-facing agentic coding platform, deploy this: https://t.co/xdsc42nbDN](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
-- @midudev — [¡Haz que tu IA deje de diseñar interfaces genéricas!  Han creado un repositorio con archivos DESIGN.md que replican la guía visual de grandes empresas.  Tienes de Apple, Airbnb, Tesla, Shopify, Uber y más...  Sin Figma. Sin JSON. Sin herramientas raras.  Copias el archivo en la raíz de tu proyecto y tu agente de IA entiende al instante cómo debe verse la interfaz.  Open source y gratis: → https://t.co/x6jKgy5Tst](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
-- @McKinsey — [AI is everywhere. But most companies are still stuck in pilot mode.  The issue isn’t the tech. It’s that the work itself hasn’t changed.  Leaders are starting to rethink workflows, roles, and decisions end to end. That’s where the real value is unlocked. https://t.co/ask2NpJfwF https://t.co/2MyQlTxdVk](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
-- @codewithimanshu — [Anthropic's Claude Code team just teaches how to automate your entire engineering workflow with Claude Code SDK in under 30 minutes.  For Free. From the engineers who built it.  CANCEL Your Weekend Plans, and Learn to Automate Your Codebase Today.  Bookmark it. Watch it. Ship your first headless automation this weekend.  $5,000/month. $10,000/month. $25,000/month.  People are automating entire engineering teams with Claude Code SDK and charging clients $$$$. You're still copy-pasting code from ChatGPT manually.  This video fixes that tonight.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.  ↓  Sid Bidasaria runs engineering on Claude Code at Anthropic. He just gave away the entire SDK + GitHub Action playbook in 30 minutes.  This is the talk that separates people automating their entire codebase from people still manually writing every commit.  Here's everything inside.  Follow @codewithimanshu for weekly Claude automation breakdowns.  ↓  What the Claude Code SDK actually is.  Most devs don't know this exists. They use Claude in the chat interface and call it a day.  The SDK is the real unlock.  Programmatic access to the Claude Code agent in headless mode. The primitive building block for every serious automation you'd ever want to build.  Designed like a Unix tool. Drops directly into terminal pipelines, bash scripts, CI/CD automation.  Use it to review code. Write linters. Build chatbots. Manage remote code environments. Run an entire engineering pipeline.  This is how you stop "using AI" and start "shipping with AI."  Follow @codewithimanshu for full Claude SDK breakdowns every week.  ↓  Basic usage that 99% of devs miss.  `claude -p` to prompt the agent directly from your terminal. `--allowed-tools write` for controlled file system access.  Pipe anything into it:  > Pipe `ifconfig` output → ask Claude to debug your network > Pipe error logs → get a fix before your coffee finishes brewing > Pipe a file → get instant code review without opening an editor  `--output-format JSON` for structured responses you can parse in automated systems.  This is where Claude stops being a chat tool and becomes infrastructure.  Follow @codewithimanshu for daily Claude SDK one-liners that save hours.  ↓  Permission management without the security holes.  The biggest reason teams don't deploy AI in production: permission concerns.  Sid solves it cleanly:  > No destructive permissions by default > `--allowed-tools` to pre-configure exactly what the agent can touch > `--permission-prompt-tool` to delegate authorization to an MCP server in real time  Your AI agent gets full power exactly when it needs it. Zero access when it doesn't.  This is enterprise-grade AI security packaged as a single flag.  Most tutorials hand-wave this. This one shows the architecture.  Follow @codewithimanshu for production AI permission patterns every week.  ↓  Session persistence: the multi-turn unlock.  Most AI integrations forget everything between calls.  That's why your "AI assistant" feels like talking to someone with amnesia.  Return a `session ID` and Claude resumes exactly where you left off. Full context preserved. Multi-turn conversations across hours, days, deploys.  This is the foundation for building any real AI product that holds context.  Customize the system prompt while you're at it. `--system-prompt 'talk like a pirate'` if you want. Or build a serious agent persona for production.  Follow @codewithimanshu for persistent context patterns for AI agents.  ↓  The Claude GitHub Action demo that should scare every dev.  Sid runs a live demo on a real quiz app:  > Files an issue: "add a 50/50 power-up and a skip power-up" > Claude creates a to-do list > Claude modifies the files > Claude opens a Pull Request  The entire feature shipped from one issue. No human touching code.  This is automated code review, automated bug triage, automated feature implementation. From GitHub issues directly.  Junior dev work just got compressed into the time it takes to write an issue description.  Follow @codewithimanshu for GitHub Action setups for production.  ↓  Zero infrastructure required.  Every other AI automation tool needs:  > A separate server > A deployment pipeline > Monitoring infrastructure > Auth setup > Cost tracking  The Claude GitHub Action uses your existing GitHub Action runners.  `claude /install github action` in your local repo. Generates a YAML config. Done.  You go from idea to production AI automation in 60 seconds.  Most people pay $200/month for tools that do less than this free Action.  Follow @codewithimanshu for free Claude Action templates.  ↓  The 3-layer architecture nobody explains.  Sid breaks down the actual stack:  > Layer 1: SDK - the foundation, raw programmatic access > Layer 2: Base Action - wraps the SDK as a clean API interface > Layer 3: PR Action - adds comments, formatting, full GitHub UX  Understanding these layers is the difference between someone who copies tutorials and someone who builds custom AI infrastructure for clients.  This is the architectural insight that turns into $10K/month consulting contracts.  Follow @codewithimanshu for weekly architecture deep dives.  ↓  30 minutes from the engineer shipping this in production.  You'll learn more from this than from 6 months of YouTube tutorials made by people who've never automated a single deploy.  People who watch this understand Claude Code automation at the infrastructure level.  People who skip it keep manually reviewing PRs, manually filing issues, manually doing work that could've been automated last weekend.  Save the video. Watch it tonight. Ship your first Claude SDK automation this weekend.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
-- @alexdaubois — [If you're running your #PHP app using FrankenPHP, Ember detects it and adds a dedicated tab with per-thread introspection: state (busy/idle/inactive), current URI, request duration, memory usage with delta tracking, and a sparkline history.  You can even restart a worker directly from the TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
-- @sairahul1 — [Karpathy didn't make a course.  He made THE course.  3 hours. Free.  Tokenization. Attention. Hallucinations. Tool use. RLHF. DeepSeek. AlphaGo.  Every behavior you've ever wondered about in an LLM - where it comes from, why it exists, how it was engineered.  The gap between engineers who understand this and engineers who don't isn't technical depth.  It's the ability to conceive of entirely different things.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
-- @eng_khairallah1 — [🚨 Anthropic's own team just showed how to build production AI agents.  30 minutes. free. from the engineers who built it.  watch the workshop. bookmark it.  you spent 6 months managing every workflow yourself.  they just showed how to put all of it on autopilot.  Then read the guide below.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
-- @jcesarperez — [Claude EM es tu compañero AI Engineering Manager que conoce tu equipo, tu contexto y tus herramientas.  Ahora en su versión 1.3.0, con nueva skill y otras mejoras y fixes.  Pruébalo y me cuentas!  https://t.co/YyjCtC2GO5](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
-- @ds_nana_ — [Claude Code in Action  Learn how Claude Code reads files, runs commands, and edits code via its tool system plus techniques for context management, custom workflows, hooks, and external integrations  https://t.co/66h5bzb7X2](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
-- @martinfowler — [NEW POST  Thoughtworks internal IT use a workflow for agentic programming called Structured-Prompt-Driven Development (SPDD). @WeiZhang595190  and Jessie Jie Xia describe how this works with a simple example plus details in a github project.   https://t.co/6cHnSPWr6L](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
-- @Suryanshti777 — [The person who runs 49 features. 48 hours. Zero lines written by hand.  That's what Anthropic's Head of Claude Code just pulled off.  He recorded the exact workflow. 30 minutes. Free.  The developers who watch this will build differently.  The ones who skip it will wonder why they're still slow. Bookmark it for later](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
-- @Av1dlive — [Andrej Karpathy : 10x engineers are normal. real agentic engineers are 100x  this guy just shipped the playbook to become 100x  context engineering. tool design. orchestrator-subagent. evals. the harness mindset.  watch &amp; bookmark it for this weekend https://t.co/7qQNW8KJSN](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
-- @DeRonin_ — [Andrej Karpathy: "90% of what AI twitter tells you to learn will be dead in 6 months"  Here are 10 things senior AI engineers stopped wasting time on:  1. AutoGen / AG2: moved to community maintenance, releases stalled. dead for production  2. CrewAI: demos well, breaks in production. engineers building real systems already moved off it  3. Autonomous agent pitches: the AutoGPT / BabyAGI wave is dead in product form. the industry settled on supervised, bounded, evaluated agents  4. Agent app stores / marketplaces: promised since 2023, zero enterprise traction  5. SWE-bench leaderboard chasing: researchers proved nearly every public benchmark can be gamed without solving the underlying task  6. Microsoft Semantic Kernel: unless you're locked into Microsoft enterprise stack, it's not where the ecosystem is heading  7. DSPy: philosophical merit, niche audience. not a general agent framework  8. Horizontal "build any agent" platforms: Google Agentspace, AWS Bedrock Agents, Copilot Studio. confusing, slow-shipping, the math still favors building yourself  9. Per-seat SaaS pricing for agent products: market moved to outcome-based. per-seat is already dead  10. The framework that went viral on HN this week: wait 6 months. if it still matters, it'll be obvious  what actually compounds instead:  - context engineering - tool design - orchestrator-subagent pattern - eval discipline - the harness mindset (harness > model, always) - MCP as the protocol layer  be few steps ahead than your competitors and outperform this market till it became mass-opinion  study this.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
-- @svpino — [30 agents every AI Engineer must build.  This is the most comprehensive and practical book on AI Engineering that I've ever seen.  I can't think of a single use case that they didn't cover here:  1. The autonomous decision-making agent 2. The planning agent 3. The memory-augmented agent 4. The knowledge retrieval agent 5. The document intelligence agent 6. The scientific research agent 7. The tool-using agent 8. The agentic workflow system 9. The data analysis agent 10. The verification and validation agent 11. The general problem solver agent 12. The code generation agent 13. The security-hardened agent 14. The self-improving agent 15. The conversational agent 16. The content creation agent 17. The recommendation agent 18. The vision language agent 19. The audio processing agent 20. The physical world sensing agent 21. The ethical reasoning agent 22. The explainable agent 23. The healthcare intelligence agent 24. The scientific discovery agent 25. The financial advisory agent 26. The legal intelligence agent 27. The education intelligence agent 28. The collective intelligence agent 29. The embodied intelligence agent 30. The domain-transforming integration agent  I also read 50 Algorithms Every Programmer Should Know by Imran. Same vibe.  Here is the Amazon link: https://t.co/buLPqjToiu](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
-- @aakashgupta — [Every AI tool you use right now is stuck at week-one performance.  Custom GPTs, Claude Projects, agent frameworks. Same prompt, same output, week 1 vs week 50. The skill files sit static while you re-explain your context every Monday. There is a hard ceiling: your prompts can only be as good as the day you wrote them.  Hermes broke that loop with one design choice. Every 15 tool calls, it pauses, reads what worked in the session, and rewrites the skill file. Same prompt next week. Different procedure underneath.  The numbers from my logs: 20 min for the competitive briefing in week one, 12 min by week four, 8 min by week six. I never edited the prompt. The agent rewrote its own procedure four times. By week six, the briefing was surfacing competitor patterns I had missed in three weeks of doing it manually.  This is what compounds. Static skills have a flat ceiling. Self-rewriting skills get sharper every session because they keep what worked and drop what didn't. The gap between someone running self-improving skills and someone running static prompts widens every week.  The other piece most PMs miss: the moat is local. Hermes runs Claude, GPT, Gemini, or Llama. Switch models tomorrow and your accumulated skill files come with you. Anthropic rate-limits you mid-launch, you have a fallback that kept its memory.  Full setup, 3 SKILL files I am running, and the 30-day rollout in the deep dive.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
-- @_avichawla — [Sub-Agents vs Agent Teams in Claude Code:  Sub-agents get their own system prompt, their own tool set, and a clean context window. They report back to the parent and terminate.  Agent teams get all of that plus three things sub-agents don't have: - a shared task list with dependency tracking - peer-to-peer messaging between teammates - persistent context that accumulates over time.  I published an article today that dives into a lot more detail.  Read it below.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
-- @rubenhassid — [How to duplicate yourself into Claude in a weekend:   (even if you've never written a prompt before)  1. Download the desktop app. ☑ Go to claude .com/download ☑ Set Opus 4.7 as default ☑ Turn ON Extended Thinking  2. Open Cowork mode. ☑ Cowork = where your voice lives ☑ Click the top left tab ☑ Create your "Voice" folder inside  3. Install Wispr Flow (it's free). ☑ Turns your voice → text ☑ Voice = faster and more honest ☑ Typing kills the truth.  4. Run the interview. ☑ Paste Prompt 1 from https://t.co/LyV7feh2TK. ☑ 100 questions, 7 categories ☑ Push past every vague answer  5. Compress the dump. ☑ Paste prompt 2 from https://t.co/LyV7feh2TK. ☑ 20K words → 4K tokens ☑ Save as [your_name] .md  6. Test it in a blank chat. ☑ Open a fresh Claude chat ☑ Run a prompt only you would write ☑ If it sounds like you → ship it  7. Drop it into Cowork. ☑ Move [your_name] .md into your folder ☑ Claude now reads it on every turn ☑ Every draft = your voice, automatically  8. Port it everywhere. ☑ Upload to ChatGPT, Grok, Gemini ☑ Same file = same voice in every AI ☑ Hand it to your team or ghostwriter  9. Edit it forever. ☑ Install Obsidian (free) ☑ Open Cowork as a vault ☑ Update as your taste shifts  Full guide + prompts at https://t.co/LyV7feh2TK.  (save this to clone yourself into any AI)](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
-- @srishticodes — [This CLAUDE.md turns Claude Code into a senior engineer who never forgets your standards.  Boris Cherny (creator of Claude Code at Anthropic) shared the internal workflows his team actually uses daily.  Someone turned those X threads into a structured file you can drop into any project.  What’s inside:  > Subagent orchestration > Verification gates before marking tasks done > Autonomous bug fixing loops > Self-improving rules from your own corrections  That last one is the whole game.  Every time you correct Claude, the rule gets encoded permanently.  > Next session it doesn’t repeat the mistake. > Next month it matches how you think. > Next year you’re not managing Claude. It’s working like someone who’s been on your team for years.  Drop it in any project. Start today.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
-- @nihaliscoding — [https://t.co/SxbQVTQ2mN  is the best agent managing work-tool i have used ever.  The ease of spinning up work trees and managing agents is fucking unparalleled , the ones managing it have all my respect](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
-- @ashtom — [Today @EntireHQ is open sourcing our next release: Skills, teaching your agent how to use the full context the Entire CLI captures behind your code changes: prompts, transcripts, and the decisions behind every commit, alongside your git history.  Instead of looking up syntax or running commands yourself, you can ask in plain language and let your agent drive the workflow. This initial release enables your agent to: (1/5)  https://t.co/ApqJhEWSoj](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
-- @LLMpsycho — [TUI observability for AI coding agents. Traces cost, tokens, tool failures, latency, health across Claude Code, Codex CLI, Gemini, Hermes Agent and more. Local-first, zero backend. https://t.co/2zYzHD5xYe](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
-- @bibryam — [👌Agent Skills - @addyosmani  “Agent Skills” turns specs, tests, reviews, scope control, and verification into enforceable workflows.   🎤🫳 “A senior engineer’s job is mostly the parts that don’t show up in the diff.”   https://t.co/8qMvRRvQew](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
-- @GitTrend0x — [Hermes 强化版！  强化 fork 版，Web 管理仪表盘、零 token 技能进化插件、完整文档知识库、Superpowers 创意工作流…… 全网程序员把 Hermes 玩成了下一代 Agent 深度 hack 神器 + 浏览器指挥舱 + 自我卷王 + 知识圣经 + 创意超级英雄。  1️⃣ hermes-agent-fork（https://t.co/YxXA60KBDx）  强化 fork 版，保留自进化循环 + OpenClaw 迁移优化。 深度玩家直接上手 hack！  2️⃣ hermes-dashboard（https://t.co/cHVb26ZVd3）  Web 仪表盘：全配置 + MCP + cron + 模型管理，无 CLI。 浏览器里指挥 Agent 军团了😂  3️⃣ hermes-curator-evolver（https://t.co/TSwv4sVUWI）  本地零 token 技能进化插件，后台自动观察 + 生成 + 优化 skill。 Agent 自己卷自己，太狠了！  4️⃣ hermes-agent-docs（https://t.co/7woTLanHLZ）  v0.10.0+ self-improving 完整文档仓库。 Hermes 玩家的“官方圣经 2.0”！  5️⃣ hermes-agent-superpowers-chatgpt（https://t.co/M1wymJtJyI）  Superpowers 创意工作流包，设计哲学 + 品牌 pipeline 打包成 skill。 Agent 也要当创意超级英雄了！  //  为什么这些新进化体这么炸？  全吃 Hermes 底层循环当 DNA，社区再疯狂补强化 fork、浏览器仪表盘、零 token 进化、本地文档库、创意工作流……生态卷速肉眼可见。](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
-- @JoliCode — [Comment intégrer l'IA dans son workflow UX/UI ? 🎨  Aujourd'hui sur le blog, Sophie partage son retour d'expérience sur l'utilisation de Figma Make, Claude Design, les prompts efficaces et ce qui change vraiment pour les designers 💡  https://t.co/zsuGjpt6Uh  #ui #ux #ia #design](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
-- @luisloaiza — [Mira esta herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, más rápida y potente que n8n. Podrás vender con catálogo y pagos integrados, automatizar el onboarding con validación de identidad y más. ¡Empieza gratis!](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
-- @NFTCPS — [Hermes 这波直接把 Agent 天花板给掀了！  全网程序员已经开始用它搭桌面神器、跑创意流水线、省 token 省到飞起——你还没跟上？  1️⃣ 先说 hermes-desktop，CLI 小玩具直接进化成 Mac/Windows 原生桌面 App，一键装好就能聊，多平台消息 + 自进化循环，这才叫真正的桌面伴侣。 🔗 https://t.co/oyfdZYhXUm  2️⃣ hermes-agent-idea-workflow 是给创意党准备的，脑子里一个粗糙想法，丢进去直接给你吐出 PRD + 设计文档 + 任务拆解，脑暴效率直接起飞。 🔗 https://t.co/s6x6wucygs  3️⃣ plur 解决了一个老大难问题——多个 Agent 实例之间记忆不互通。它用 open engram YAML 做共享记忆层，知识跨实例永不丢，Agent 终于有集体大脑了。 🔗 https://t.co/id0Em4R8Sf  4️⃣ rtk-hermes 是省钱黑科技，shell 输出自动压缩 60-90% 的 token，实战跑了 1100 万+ token 验证过的，上下文爆炸？不存在的。 🔗 https://t.co/bOCnPFF97L  5️⃣ hermesd 给运维党看，实时只读 TUI 仪表盘，10 大面板一眼监控 Gateway、Sessions、Tokens、Cron、Memory，Agent 在干啥一目了然。 🔗 https://t.co/CyTmAElrZ7  五个方向，五个开源项目，把 Hermes 玩成了下一代 Agent 的完整生态。现在不上车，等啥呢？](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
-- @midudev — [¡No quemes tokens con tu IA explorando tu proyecto! Crea un grafo semántico local de tu código con esto  ✓ -92% tool calls ✓ 71% más rápido explorando código ✓ Claude Code, Cursor, Codex y OpenCode  Local y de código abierto: → https://t.co/32g8VE4itM https://t.co/CSDPPq1Y8N](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
-- @0xMovez — [Spotify's Chief Architect just showed how they ship 4,5K deployments /day with Claude at Anthropic stage  27-minutes. free. By #1 music app dev   "More than 99% of our engineers use AI coding tools. Adoption took off after Opus 4.5"   Worth more than any $500 vibe-coding course. https://t.co/5g697TGtDu](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
-- @jeslopcru — [Estupendo post sobre como trabajar con AI y guardrails https://t.co/81YbiDYToY  Ademas si usas kotlin da unas cuantas herramientas muy utiles](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
-- @lennysan — [My biggest takeaways from @danshipper:  1. The future of work will happen inside Codex or Claude Code. Instead of putting AI into your SaaS tool, you’ll use your SaaS tools inside your favorite AI agents' in-app browser. Dan spends all his time in Codex now—writing documents, managing email, doing research, everything. He's using Google Docs, PostHog, and everything he needs within the agent's in-app browser. The agent can see what he’s doing, and has all of his context, so he and his agent collaborate quickly and super effectively.  2. Automation is a lie—every automation needs a human. Dan's company doubled in size this year despite being incredibly AI-forward. Why? Because in order to make automation work well, you need humans making sure everything keeps working. This is why benchmarks are misleading—they measure AI on problems we’ve already framed and can score, but there’s always a higher frame.  3. PMs will win the AI era. Marcus, a former PM who previously ran Axios’s writing product, joined Every after getting super AI-pilled. Now he runs their product Spiral, and ships faster than anyone on the team. He pairs technical knowledge with spiky product sense, deep user empathy, and an eye for what matters. Dan thinks any PM who gets really AI-native will be incredibly dangerous because the building is done for you—what matters is figuring out what to build and if it’s great.  4. Full-stack designers are becoming superheroes. Designers used to make beautiful interactions that engineers didn’t want to build or couldn’t execute properly. Now designers don’t need to hand things off; they can build it themselves. Designers are naturally creative people, and AI is the perfect tool for them because it lets them bring their vision to life without the traditional bottlenecks.  5. SaaS is not dead. In fact, Dan is bullish on SaaS stocks. When users bring their own AI (via Codex or Claude Code) to use SaaS products, the user—not the SaaS company—pays for tokens. This saves SaaS company’s margins. Since the agents need their own seats, Dan predicts that agents will create massive new demand for SaaS because there will be tons of agents using these products at high volume.  6. Every company will have one “super-agent” inside their Slack that every employee will use. Dan initially thought every employee would have their personal work agent, like a shadow AI org chart, but he’s completely flipped his view. He realized agents need humans who care about them. When someone gets tired of maintaining their personal agent, it becomes useless. The winning model is one forward-deployed engineer or AI-savvy person who maintains a company-wide agent (like Shopify’s River or Viktor), and then it trickles down to more specialized team agents as models improve and become less fiddly.  7. The AI job apocalypse is not happening, but you do need to evolve to stay relevant. Models make yesterday’s human competence cheap. But because everyone uses the same models, it all looks the same if you use it the default way; it becomes commoditized slop. Humans then take that frozen competence and use it to make something new and interesting for their specific situation. The key: “ride the models”—use them for everything you do, try new models when they drop, keep turning over rocks.  8. We will read way more AI-generated writing, and we will like it. Human writing is incredibly important for things that matter, but for internal docs, planning, and email, AI-generated is often better because most people are bad at writing strategy documents.  9. Build software for humans and agents to use together. The current model is building a CLI that an agent uses independently. Instead, you and your agent should be using the app together. This creates new design challenges—agents can make a billion requests in three seconds, so you need approval flows, inboxes that summarize what happened, logs, and easy rollback.   10. Forward-deployed engineers are the new most essential role. The big model companies have teams of people managing their internal agents, and those teams aren’t going away. It’s different from traditional software building, and certain engineers love it. As models get better, this role will evolve—you’ll be managing more agents doing more things.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
-- @every — [Here's the template Codex prompt we use to draft GTM plans at Every.  When you've already done the big picture thinking in meetings and @SlackHQ, the next step is just prompting an agent to make a plan for you and the agent to review together. https://t.co/cBn5fAiBAk](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
-- @_avichawla — [Stanford researchers did it again.  They just built the agent-native version of Git.  When an agent works on a longer task, the run builds up a lot of state.  This includes files edited/created, a dev server, a database, installed packages, KV cache, etc.  Say the agent is at step 10 and makes a mistake, maybe it misreads a traceback and rewrites a file that was actually fine.  The tests start failing, and the run goes off track, although everything through step eight was correct.  By default, the agent just tries to fix it, which creates more edits and tool calls. This burns more tokens and grows the context.  The other options are a person stepping in to redirect it or restarting the whole run from step one.  That's wasteful, because it pays for every model/tool call again and re-prefills the context. Moreover, since an agent's run is non-deterministic, it doesn't reproduce the same early steps anyway.  The reason it's hard to just jump back exactly to a previous correct step and resume from there is that the trajectory is only a message log.  It records what the agent said and which tools it called, but not the live state underneath.  That state includes things like memory, open file handles, child processes, installed packages, /tmp, and KV cache. None of that is in the log.  Git can version the files, but it doesn't snapshot the running process or the KV cache. Checking out step eight moves the files back, but the process is still sitting in step-ten memory with a cold cache.  Shepherd is a runtime layer by Stanford that records the run as a trace of typed events rather than a flat log.  Each agent-environment interaction becomes a commit, similar to Git, but it tracks the live run.  Its commit includes the agent process and the filesystem together, copy-on-write, so a branch carries the actual state and not just the files.  Going back to a previous step is then a single call that forks from that commit and continues from the exact state.  The copy-on-write fork is roughly five times faster than docker commit, and because the prompt prefix through step eight is unchanged, the KV cache is reused over 95% on replay, so early steps aren't reprocessed again.  Once the run can be forked, a meta-agent can sit on top and operate it. It watches the trace and reverts as soon as it looks wrong, before the bad write is committed.  In practice, it's just Python calling fork, replay, and revert on the trace, rather than a separate control plane wired into the harness.  Not everything is reversible though.  Files and sandbox changes undo themselves, but a database write has no automatic undo, so it needs a matching undo step set up in advance.  Something external, like a sent email or a real charge, can't be undone, so the supervisor's job there is to catch it before it fires.  They tested this on a few public benchmarks. On CooperBench, where two agents work on the same codebase, adding a live supervisor took the pair-coding pass rate from 28.8% to 54.7%.  It's still early and labeled alpha. The benefit mostly shows up when a run gets branched a lot over a heavy sandbox state, which is exactly where restarting wastes the most tokens and time.  If Git was made to make file changes reversible, Shepherd is trying to do the same thing for a live agent run.  Shepherd Repo: https://t.co/5e8W5oxY6F  (don't forget to star it ⭐ )  That said, Shepherd reverts a bad step inside a run. The harness around it, the prompts, tools, and checks the supervisor relies on, still drifts across runs as models and dependencies change.  Akshay wrote about making that harness repair itself, where a failing trace gets diagnosed, the fix is verified against the exact input that failed, and the failure is locked as a regression test so it can't recur.  Read it below.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
-- @steipete — [If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+- @rseroter — [Richard Seroter comparte un artículo del equipo de ingeniería de Pinterest sobre cómo implementar un proceso de pruebas para optimizar el rendimiento de los agentes de IA con 'skills' en cualquier repositorio.](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
 
-## Programación & Dev
+## agent-reach
 
-- @unclebobmartin — [I've been using Claude for the last few days.  It seems to me that Codex is a bit more competent, but Claude is a bit more diligent.  I wonder if that even makes any sense.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
-- @bcherny — [I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.  Here goes.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
-- @coopTilleuls — [Introducing Ember v1.0, the ultimate open source monitoring companion for @caddyserver &amp; FrankenPHP. Stop configuring dashboards, start observing ⬇️  https://t.co/zKtXv58SeX https://t.co/84OEVUWWfe](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
-- @karpathy — [New supply chain attack this time for npm axios, the most popular HTTP client library with 300M weekly downloads.  Scanning my system I found a use imported from googleworkspace/cli from a few days ago when I was experimenting with gmail/gcal cli. The installed version (luckily) resolved to an unaffected 1.13.5, but the project dependency is not pinned, meaning that if I did this earlier today the code would have resolved to latest and I'd be pwned.  It's possible to personally defend against these to some extent with local settings e.g. release-age constraints, or containers or etc, but I think ultimately the defaults of package management projects (pip, npm etc) have to change so that a single infection (usually luckily fairly temporary in nature due to security scanning) does not spread through users at random and at scale via unpinned dependencies.  More comprehensive article: https://t.co/EJAZbqAPIQ](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
-- @vineetwts — [I created documentation over Claude Code's Codebase, which explains  - Its pipeline - How it works - How it handles Context - How it handles Memory &amp; More  Read it here - https://t.co/GngrSvWAmh https://t.co/zyHyj5z2a7](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
-- @himanshustwts — [Based on everything explored in the source code, here's the full technical recipe behind Claude Code's memory architecture:  [shared by claude code]  Claude Code’s memory system is actually insanely well-designed. It isn't like  “store everything” but constrained, structured and self-healing memory.  The architecture is doing a few very non-obvious things:  > Memory = index, not storage + MEMORY.md is always loaded, but it’s just pointers (~150 chars/line) + actual knowledge lives outside, fetched only when needed  > 3-layer design (bandwidth aware)  + index (always)  + topic files (on-demand) + transcripts (never read, only grep’d)  > Strict write discipline  +  write to file → then update index  + never dump content into the index  +  prevents entropy / context pollution  > Background “memory rewriting” (autoDream)  +  merges, dedupes, removes contradictions  +  converts vague → absolute  +  aggressively prunes  +  memory is continuously edited, not appended  > Staleness is first-class  + if memory ≠ reality → memory is wrong  +  code-derived facts are never stored  +  index is forcibly truncated  > Isolation matters  + consolidation runs in a forked subagent  + limited tools → prevents corruption of main context  > Retrieval is skeptical, not blind  +  memory is a hint, not truth  +  model must verify before using  > What they don’t store is the real insight  +  no debugging logs, no code structure, no PR history  +  if it’s derivable, don’t persist it](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
-- @dunglas — [I've just dramatically improved my "Symfony Docker" project.  It now supports Dev Containers, autonomous (YOLO) coding agents such as Claude Code, Xdebug out of the box, instantaneous hot reloading with FrankenPHP, and slim, rootless images for production. 🐘  I presented these features at @symfony_live Paris. Here is the detailed breakdown and the slides from my talk: https://t.co/eCEg48MoYt](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
-- @martinfowler — [NEW POST  The quality of what AI coding assistants produce depends on how well the prompter articulates team standards. @techygarg proposes treating such instructions as infrastructure: versioned, reviewed, and shared artifacts.  https://t.co/fqAeB6irlB](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
-- @karpathy — [@itsolelehmann They've released a number of features already heavily hinting on nudging Code into Claw directions, i.e. it's a speedrun of https://t.co/ZlMz0FnNqS](https://x.com/karpathy/status/2039057005802082814) `#2039057005802082814`
-- @RoundtableSpace — [TOP 10 GITHUB REPOS TO ENHANCE YOUR CLAUDE CODE GAME  • SUPABASE https://t.co/WzPIYqVQXM  • NOTEBOOKLM https://t.co/LTlGoU3oPp  • OBSIDIAN https://t.co/ncEYHnw47k  • LANGCHAIN https://t.co/qlRw5rznwi  • FLOWISE  https://t.co/ggY1iS2sB7  • CLAUDE SKILLS https://t.co/pcXlvK7d9u  • AWESOME CLAUDE SKILLS https://t.co/5lbBAQSUuV  • REPOMIX https://t.co/KGAPZb14Du  • CLAUDE CODE BEST PRACTICE https://t.co/Bq5OzzlT2h  • EVERYTHING CLAUDE CODE https://t.co/xPk3fV9mGb](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
-- @vladikk — [So Anthropic accidentally published Claude Code's source code. Oops.  Naturally, I ran my modularity review skill on it!  Hey @AnthropicAI, you might want to look at your tool execution service. It hardcodes tool-specific logic with switch statements on tool names, so every time you add a tool with special requirements, you modify the orchestration layer. That's tight coupling in your highest-volatility code.  Three more significant issues in the full review: https://t.co/xu4FvHeB6z  Consider it peer review 😉](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
-- @NainsiDwiv50980 — [🚨Breaking: @bcherny just revealed how Claude Code actually works — and most developers are using only 10% of it.  This isn’t prompting. This is an AI engineering system.  Here’s the Claude Code power stack hidden in his thread:  • Hooks that run logic during agent lifecycle • Dispatch to remotely control Claude from anywhere • Chrome extension for frontend verification loops • Desktop app that auto-runs and tests servers • Fork sessions to explore parallel solutions • /btw for side queries while agents run • Git worktrees for parallel Claude agents • /batch to fan out massive changes across repos • --bare to speed up SDK startup up to 10x • --add-dir for multi-repo context • --agent to create custom AI roles • /voice to code by speaking  This turns Claude Code into:  → parallel AI engineers → autonomous coding loops → self-testing workflows → multi-repo orchestration → batch refactors → remote-controlled agents  Most people use Claude like ChatGPT. Power users run entire engineering teams.  Key docs from the thread:  CLI reference https://t.co/6XXDng8JJc…  Desktop auto testing https://t.co/kLiLoP0Sjj…  Chrome extension https://t.co/XOYx4mOO1a  Hooks lifecycle automation https://t.co/P6jSBQePaq  Scheduled tasks https://t.co/BFQopfGLZF…  Remote control / Dispatch https://t.co/LiKIzPoi7R…  Once you combine:  Hooks + Batch + Worktrees + Agents  Claude stops being a copilot and becomes an autonomous dev team.  This is the shift most developers haven’t noticed yet.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
-- @bibryam — [Really like this from @addyosmani 👌  🤩 Google engineering practices as agent skills🤩  ->  organized into 19 skills & 7 commands for AI agents.  → Plan - decompose into small, verifiable tasks → Build - incremental implementation, context engineering, clean API design → Verify - TDD, browser testing with DevTools, systematic debugging → Review - code quality, security hardening, performance optimization → Ship - git workflow, CI/CD, ADRs, pre-launch checklists https://t.co/JOPAOVvwLy](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
-- @plainionist — [Maturity as a developer means understanding the importance of documenting design and architecture decisions.  👇👇 https://t.co/VvTws4XgDs](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
-- @karpathy — [Wow, this tweet went very viral!  I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.  So here's the idea in a gist format: https://t.co/NlAfEJjtJV  You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
-- @ghumare64 — [Karpathy just described the LLM Wiki pattern, here's the engine that already does it.  Open source = 100%  https://t.co/xtL6kMjVul https://t.co/QHbhdSxk4p](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
-- @Dinosn — [A pattern for building personal knowledge bases using LLMs. https://t.co/iavlcxLY2w](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
-- @dbreunig — [How Claude Code builds a system prompt: https://t.co/GU428S7VrJ](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
-- @github — [Single-prompt AI workflows often hit a performance plateau. Multi-agent systems can push past it, but they usually require a massive amount of setup.  Squad, an open source project built on GitHub Copilot, initializes a preconfigured AI team directly inside your repo.  Learn how to run multi-agent workflows that stay inspectable, predictable, and collaborative. https://t.co/1ewya9yPpC](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
-- @tom_doerr — [Library of skills for AI in education  https://t.co/zbC6ssm5Zl https://t.co/wkco4V3dP2](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
-- @NickSpisak_ — [Latest update of @karpathy's llm wiki I open sourced  → Works in Claude Code, Codex, Gemini → Optional installs for qmd, summarize, agent-browser → ingest, query, and lint support  Make it your own and hand to your harness of choice  Full Youtube setup with @coreyganim in the comments  Skill source code in the github below🔽 https://t.co/0vmGxXEtMm](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
-- @vivekgalatage — [An Introduction to Distributed Systems by Kyle Kingsbury  https://t.co/W7WQFkGXdH https://t.co/TcykufRhv1](https://x.com/vivekgalatage/status/2041764549158957323) `#2041764549158957323`
-- @twtayaan — [🚨 S3 is no longer just Object Storage.  Yesterday (April 7, 2026), AWS officially launched Amazon S3 Files.  This is the biggest update to S3 in 20 years.  It can: → Mount S3 buckets as native file systems → Provide sub-millisecond file access → Handle POSIX permissions (UID/GID) natively → Connect to Lambda, EC2, and EKS directly → Eliminate the need for s3fs or data staging  Your AI agents can read/write to S3 like a local disk, while your data team access the same objects via API.  DevOps just got a massive upgrade.  Source: https://t.co/gwGIhDlInU](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
-- @jdecool — [Encoding Team Standards: https://t.co/ykUzkdx9yA](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
-- @GithubProjects — [A visual, example-driven guide to Claude Code  From basic concepts to advanced agents, with copy-paste templates that bring immediate value. https://t.co/Sa4WZhRmaQ](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
-- @jetbrains — ["Claude Code isn't magic. The harness layer is just software, and software is something any dev can shape to fit how they want to work."  Check out @Hacubu’s practical guide to building a custom agent with @LangChain’s Deep Agents, LangSmith, and ACP. https://t.co/tat5aBW8Vg](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
-- @rseroter — ["I think we’re going to see a lot more reimaginings, where people attack old problems with modern tactics. Coding agents lower the costs of taking on stalwarts and raise our ability to rapidly harden our software." https://t.co/rDAftsXXKe &lt; I like this point from @dbreunig](https://x.com/rseroter/status/2041902638405480536) `#2041902638405480536`
-- @danshipper — [We use OpenClaws to do all of our work at @every.   We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company Slack.  I chatted with @every COO Brandon (@bran_don_gell) and @every head of platform Willie (@bigwilliestyle) to share what we’ve learned.  We get into: - Why agents become mirrors of their owners, and how that influences how other people on the team interact with them - How a parallel AI org chart forms on its own. People have stopped tagging me on Slack with questions about Proof, the document editor I vibe coded, because they knew my agent R2-C2 can step in - The etiquette for human-agent collaboration is being invented in real time. Brandon's rule is that if there's an established process or documented answer, always ask the agent, not their human - Why everyone is a manager now, and why even experienced managers carry limiting beliefs about what their agents can do - This is a must-watch for anyone trying to understand how AI workers change daily operations, not just in theory, but inside a company that’s half-agent   Watch below!  Timestamps Introduction:  How Brandon built Zosia, an AI agent to run his household:  Brandon’s “aha” moment:  What happened when everyone on the team got their own agent:  How agents take on their owners' personalities, and why that matters inside an org:  Why it’s important for agents to work in public:  What we’re still figuring out when it comes to agent behavior, including memory gaps, group chat etiquette, and the "ant death spiral" problem:  How we built Plus One, our hosted OpenClaw product:  The cultural shift required to make agents work at scale:](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
-- @agrimsingh — [i took @karpathy's autoresearch loop and pointed it at business class flights because i wanna fly cheap but in class.  (at least in theory - i'm a poor founder flying coach)  here's autofare - autoresearch but for always flying in lie-flat beds  made with codex + gpt 5.4 mini  @gabrielchua @reach_vb @romainhuet @OpenAIDevs](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
-- @ghumare64 — [LLM Wiki by Karpathy was a mind-blowing read 🤯  And, that's why I had written LLM wiki v2 extending with how this can be plugged as a memory for scaling systems.  It got 111 stars on github gist file from last week.  Never believed it would be popular.  https://t.co/YZ2d6KnSOe](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
-- @rauchg — [Today we're open sourcing https://t.co/p76KVdY7dG, a reference platform for cloud coding agents.  You've heard that companies like Stripe (Minions), Ramp (Inspect), Spotify (Honk), Block (Goose), and others are building their own "AI software factories". Why?  1️⃣ On a technical level, off-the-shelf coding agents don't perform well with huge monorepos, don't have your institutional knowledge, integrations, and custom workflows.  2️⃣ On a business level, the moat of software companies will shift from 'the code they wrote', to the 'means of production' of that code. The alpha is in your factory.  Open Agents deploys to our agentic infrastructure: Fluid for running the agent's brain, Workflow for its long-running durability, Sandbox for secure code execution, AI Gateway for multi-model tokens.  (Because of our focus on Open SDKs and runtimes, this codebase is a gem even if you're not hosting on Vercel.)  TL;DR: if you're building an internal or user-facing agentic coding platform, deploy this: https://t.co/xdsc42nbDN](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
-- @Sandeepg33k — [Introducing Passmark: an open-source AI agent purpose-built for regression testing at scale.  Built on Playwright: natural language tests, multi-model assertions, smart caching, telemetry, AI gateway support and more!  github: bug0inc/passmark](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
-- @martinfowler — [Fragments: pragmatic summit video with Kent and Gergely, virtue of laziness, TDD and prompts, inspiration from Dark Star  https://t.co/6lq36iCaLW](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
-- @midudev — [¡Haz que tu IA deje de diseñar interfaces genéricas!  Han creado un repositorio con archivos DESIGN.md que replican la guía visual de grandes empresas.  Tienes de Apple, Airbnb, Tesla, Shopify, Uber y más...  Sin Figma. Sin JSON. Sin herramientas raras.  Copias el archivo en la raíz de tu proyecto y tu agente de IA entiende al instante cómo debe verse la interfaz.  Open source y gratis: → https://t.co/x6jKgy5Tst](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
-- @mattpocockuk — [I'm starting to think that DDD might be the answer to all of my problems  - Model not doing what you want? Shared language - Can't navigate a massive codebase? Bounded contexts with global mapping - Don't know why a decision was made? ADR's  It's just so freaking elegant](https://x.com/mattpocockuk/status/2044723788743360833) `#2044723788743360833`
-- @eng_khairallah1 — [This 25-minute Claude Code workshop by Anthropic's own applied AI team will teach  you more about Claude Code best practices and making your AI tools actually work together than everything you've scrolled past this year.  Bookmark this & watch, no matter what.  Then read the guide below.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
-- @sairahul1 — [The creator of Claude Code teaches more about vibe-coding in 30 minutes than most tutorials do in hours.   Save this — it'll change how you build forever. https://t.co/98DukOfuwG](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
-- @martinfowler — [Fragments: 34th Thoughtworks Technology Radar, what happens when developers don't read the LLM's code, DirectFile and tech in large organizations  https://t.co/brBXaa3xOc](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
-- @ClaudeDevs — [Caching is critical for customers to lower both costs and TTFT.  We’re launching a new dashboard in Claude Developer Console to increase visibility and help customers optimize their usage.  Check it out here: https://t.co/zgBJ4dHXyI https://t.co/Uwje2iPbLT](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
-- @tom_doerr — [Multi-agent AI token usage tracker and dashboard  https://t.co/YtZ9NX14MQ https://t.co/SimhsOa2Pq](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
-- @mattpocockuk — [FYI I just shipped a huge improvement to /improve-codebase-architecture  It now ships with a glossary of terminology to describe good/bad codebases  Essential reading for anyone wanting to improve their codebases:  https://t.co/mz3BRV044f](https://x.com/mattpocockuk/status/2047759493581156377) `#2047759493581156377`
-- @codewithimanshu — [Anthropic's Claude Code team just teaches how to automate your entire engineering workflow with Claude Code SDK in under 30 minutes.  For Free. From the engineers who built it.  CANCEL Your Weekend Plans, and Learn to Automate Your Codebase Today.  Bookmark it. Watch it. Ship your first headless automation this weekend.  $5,000/month. $10,000/month. $25,000/month.  People are automating entire engineering teams with Claude Code SDK and charging clients $$$$. You're still copy-pasting code from ChatGPT manually.  This video fixes that tonight.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.  ↓  Sid Bidasaria runs engineering on Claude Code at Anthropic. He just gave away the entire SDK + GitHub Action playbook in 30 minutes.  This is the talk that separates people automating their entire codebase from people still manually writing every commit.  Here's everything inside.  Follow @codewithimanshu for weekly Claude automation breakdowns.  ↓  What the Claude Code SDK actually is.  Most devs don't know this exists. They use Claude in the chat interface and call it a day.  The SDK is the real unlock.  Programmatic access to the Claude Code agent in headless mode. The primitive building block for every serious automation you'd ever want to build.  Designed like a Unix tool. Drops directly into terminal pipelines, bash scripts, CI/CD automation.  Use it to review code. Write linters. Build chatbots. Manage remote code environments. Run an entire engineering pipeline.  This is how you stop "using AI" and start "shipping with AI."  Follow @codewithimanshu for full Claude SDK breakdowns every week.  ↓  Basic usage that 99% of devs miss.  `claude -p` to prompt the agent directly from your terminal. `--allowed-tools write` for controlled file system access.  Pipe anything into it:  > Pipe `ifconfig` output → ask Claude to debug your network > Pipe error logs → get a fix before your coffee finishes brewing > Pipe a file → get instant code review without opening an editor  `--output-format JSON` for structured responses you can parse in automated systems.  This is where Claude stops being a chat tool and becomes infrastructure.  Follow @codewithimanshu for daily Claude SDK one-liners that save hours.  ↓  Permission management without the security holes.  The biggest reason teams don't deploy AI in production: permission concerns.  Sid solves it cleanly:  > No destructive permissions by default > `--allowed-tools` to pre-configure exactly what the agent can touch > `--permission-prompt-tool` to delegate authorization to an MCP server in real time  Your AI agent gets full power exactly when it needs it. Zero access when it doesn't.  This is enterprise-grade AI security packaged as a single flag.  Most tutorials hand-wave this. This one shows the architecture.  Follow @codewithimanshu for production AI permission patterns every week.  ↓  Session persistence: the multi-turn unlock.  Most AI integrations forget everything between calls.  That's why your "AI assistant" feels like talking to someone with amnesia.  Return a `session ID` and Claude resumes exactly where you left off. Full context preserved. Multi-turn conversations across hours, days, deploys.  This is the foundation for building any real AI product that holds context.  Customize the system prompt while you're at it. `--system-prompt 'talk like a pirate'` if you want. Or build a serious agent persona for production.  Follow @codewithimanshu for persistent context patterns for AI agents.  ↓  The Claude GitHub Action demo that should scare every dev.  Sid runs a live demo on a real quiz app:  > Files an issue: "add a 50/50 power-up and a skip power-up" > Claude creates a to-do list > Claude modifies the files > Claude opens a Pull Request  The entire feature shipped from one issue. No human touching code.  This is automated code review, automated bug triage, automated feature implementation. From GitHub issues directly.  Junior dev work just got compressed into the time it takes to write an issue description.  Follow @codewithimanshu for GitHub Action setups for production.  ↓  Zero infrastructure required.  Every other AI automation tool needs:  > A separate server > A deployment pipeline > Monitoring infrastructure > Auth setup > Cost tracking  The Claude GitHub Action uses your existing GitHub Action runners.  `claude /install github action` in your local repo. Generates a YAML config. Done.  You go from idea to production AI automation in 60 seconds.  Most people pay $200/month for tools that do less than this free Action.  Follow @codewithimanshu for free Claude Action templates.  ↓  The 3-layer architecture nobody explains.  Sid breaks down the actual stack:  > Layer 1: SDK - the foundation, raw programmatic access > Layer 2: Base Action - wraps the SDK as a clean API interface > Layer 3: PR Action - adds comments, formatting, full GitHub UX  Understanding these layers is the difference between someone who copies tutorials and someone who builds custom AI infrastructure for clients.  This is the architectural insight that turns into $10K/month consulting contracts.  Follow @codewithimanshu for weekly architecture deep dives.  ↓  30 minutes from the engineer shipping this in production.  You'll learn more from this than from 6 months of YouTube tutorials made by people who've never automated a single deploy.  People who watch this understand Claude Code automation at the infrastructure level.  People who skip it keep manually reviewing PRs, manually filing issues, manually doing work that could've been automated last weekend.  Save the video. Watch it tonight. Ship your first Claude SDK automation this weekend.  Follow @codewithimanshu for more high-signal content that actually moves your AI engineering career forward.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
-- @hasantoxr — [Stop using Claude Code without this plugin.  There's an official Anthropic plugin called claude-code-setup.  It scans your entire project and tells you exactly what to activate.  → Which hooks to set up → Which skills to install → Which MCP servers fit your stack → Which subagents to spin up → Step-by-step config for each one  You just run one command:  /plugin install claude-code-setup@claude-plugins-official  And it audits your setup like a senior engineer reviewing your repo](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
-- @AYi_AInotes — [说个暴论，这可能是今年对AI辅助开发影响最大的一次更新，  TS大神@mattpocockuk Pocock刚刚给他的代码架构改进技能，加了一份只有37行的官方术语表，  要求所有AI输出必须严格使用里面的词汇，不能用component service API boundary这些烂大街的词，  一开始以为这就是多此一举，看完才反应过来，这才是解决AI乱改代码的终极方案，  以前AI给你的架构建议永远是正确的废话，它会告诉你要解耦要模块化，但不知道什么是深模块什么是浅模块，  现在有了这套统一语言，它终于能准确说出这个模块是透传的没有价值，那个接口太浅应该合并，  最狠的是那个删除测试，想象删掉这个模块，如果复杂度消失了，它就不该存在，  如果复杂度分散到了所有调用方，它才真正创造了价值，  不像是给人看的词汇表，更像是给AI定的思考规则，它把架构改进从凭感觉的艺术，变成了可重复可验证的工程。 https://t.co/SNGLeKFDUZ](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
-- @winspyredotcom — [This book drains the swamp.   Other books teach you to wrestle alligators better.   Simple, costless actions that collapse complexity. Not another static 7-step framework.  Grab it on Amazon →](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
-- @rohit4verse — [Graph is the final boss of memory.  stacking markdown files isn't memory. it's context you keep re-loading into the prompt.  real memory is a graph. nodes, embeddings, traversal. it's how production agents remember.  the article is the workaround. the lecture is the architecture https://t.co/FeEpyYWiCe](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
-- @tom_doerr — [High-speed web scraper for AI agents  https://t.co/jqtVg1PgN4 https://t.co/RLdOPulMTM](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
-- @KSimback — [Weekends are for building... except today it was mostly cleaning up messy code  So I am publishing a skill I made to save you all some time - it's one command /tech-debt-skill  And you'll get back a very thorough review file with everything that needs to be addressed  And not just bugs and issues, but things that work but could be cleaned up or done better  I spent half my day cleaning up Hermes Atlas, then did a review of everything that was done to clean it up and consolidated it into this skill, then ran it on another project and damn if it didn't find a lot  Before I started, I thought surely Claude Code has some built-in skills for this, but not really, and definitely not something that looks at tech debt holistically  So if AI is doing all your coding, and you're incrementally building within projects, you are 100% accumulating a lot of tech debt - use this skill every so often to clean it up and thank me later  https://t.co/qHmbwN1K3s](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
-- @GitTrend0x — [今天 GitHub 被工具到内存基建Agent军团彻底屠榜了🚀  5 个星标暴增最狠的项目，专业拆解下！  1.  Alishahryar1/free-claude-code  免费在终端、VSCode 或 Discord零成本跑 Claude Code，像 OpenClaw一样把付费 AI编码 Agent直接端到桌面上，彻底干掉高额订阅门槛。  🔗 直达 https://t.co/VdZzx8Ps02  程序员深夜还在为 Claude月费心疼？3975星一天直接把墙砸穿。现在你终端敲一行命令，Claude Agent就帮你把需求卷成代码，爽得像老板给你涨了10倍工资！  🟢  2.  huggingface/ml-intern  开源 ML工程师 Agent，自动读论文、训练模型、打包部署，一人顶整个 ML 团队，解决手动科研到落地的全链路痛点。  🔗 直达 https://t.co/Kem26lhM1G  以前 ML 实习生干到吐血，现在HuggingFace 直接甩出这个 AI 卷王。1236星暴增，老板喊“谁来训模型”，你直接扔repo：它比你还996！  🟢🟢  3.  luongnv89/claude-howto  Claude Code 从零到高级 Agent的全可视化教程+即抄即用模板，帮开发者瞬间跨越从入门到生产Agent的陡峭曲线。  🔗 直达 https://t.co/yGg2Iowfyb  以前看 Claude 文档头秃，现在 242星一天的傻瓜式 Agent速成班直接复制粘贴起飞。程序员看了直呼终于有人把 Claude玩明白了，我今晚就能造个顶流 Agent！  🟢🟢🟢  4.  alexzhang13/rlm  即插即用 Recursive Language Models 推理库，支持多种沙箱环境，解决传统 LLM在复杂 Agent任务里推理深度不够、容易迷路的硬伤。  🔗 直达 https://t.co/QnFC3rhW19  普通 LLM一轮思考就卡壳，这货递归下去像程序员熬夜 debug。227 星一天，Agent 终于能跟你一样“想三步走五步”，程序员共鸣拉满：AI也开始内卷了！  🟢🟢🟢🟢  5.  MemoriLabs/Memori  LLM 无关的 Agent 原生内存基础设施，把执行轨迹和对话转为结构化持久状态，彻底解决生产环境里Agent“聊完就忘”的致命Bug。  🔗 直达 https://t.co/TuAksDbtFJ  以前Agent上线聊两句就失忆翻车，现在115星一天直接给它装“永久硬盘”。生产系统再也不怕半夜报警，程序员上线第一句：哥们儿你还记得上周的任务吗？它记得，比你记性好！  ⚠️⚠️   总结  从 Claude 免费入口、ML 实习生Agent，到 Claude 教程、递归推理、再到持久内存基础设施。Agent 军团全链路武装完毕，一个人顶 10人团队的时代直接在GitHub上核爆了🚀🤖](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
-- @tom_doerr — [Programming book rules for AI coding agents  https://t.co/LVYXR3fteQ https://t.co/PIx87wINVB](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
-- @jcesarperez — [Claude EM es tu compañero AI Engineering Manager que conoce tu equipo, tu contexto y tus herramientas.  Ahora en su versión 1.3.0, con nueva skill y otras mejoras y fixes.  Pruébalo y me cuentas!  https://t.co/YyjCtC2GO5](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
-- @ds_nana_ — [Claude Code in Action  Learn how Claude Code reads files, runs commands, and edits code via its tool system plus techniques for context management, custom workflows, hooks, and external integrations  https://t.co/66h5bzb7X2](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
-- @aiDotEngineer — [🆕Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — @mappletons  https://t.co/7SEayJwZLe  Agentic engineering so far has been a solo story: one developer and a dozen agents moving at warp speed. But speed without thoughtful planning and team alignment is just wasting tokens. When everyone on a team is directing agents alone in their personal CLI tools with no shared context, you get duplicate work, conflicting changes, poorly-designed solutions, surprise features nobody else agreed to build, and everyone pulling in different directions.   Serious software still requires serious collaboration. You need multiple perspectives and types of expertise to build great things. We need agentic environments where people can plan together, think critically together, and share the same context. In this talk I'll demo how we've tackled these design problems in Ace, a multiplayer agent environment from GitHub Next that uses real-time collaboration, proactive agents, and sandboxed micro VMs for rapid prototyping and exploration.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
-- @mattpocockuk — [Nearly 23K stars for a collection of markdown files I wrote  I guess they must be pretty good  I want to invest more time in this repo. So, folks who starred it, what can I do to make these skills more obvious to you?  - A docs site for the skills? - Send them to plugin marketplaces?  Help me help you  https://t.co/64UuxC8V0T](https://x.com/mattpocockuk/status/2048490818848075846) `#2048490818848075846`
-- @steipete — [Wanted a truly local storage for my tweets so built birdclaw. Imoorts your archive, backs it up on github, has jobs so you can import your x bookmarks daily (since they are not fully accessible via the api).  https://t.co/4Nd1Ad0ZeY](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
-- @wsl8297 — [在 GitHub 上挖到一门很实用的开源课：Learn Harness Engineering，专门教你给 AI 编程助手搭一套更可靠的“工作台”。  它把 AI 协作拆成五个关键机制：指令、状态、验证、范围、会话，让每次任务都可追踪、可续接、可验证，不再靠运气出结果。  GitHub：https://t.co/G1kBghFqXg  官网：https://t.co/6OHbxJcWz6  课程结构很清晰：12 节理论 + 6 个实战项目，用同一个桌面应用贯穿推进，边做边演进。 从最基础的对比实验起步，逐步把整套工作环境搭起来；每个项目的产出，直接接到下一个项目继续用，越做越稳。  更贴心的是，它还提供可直接复用的模板文件：拷进自己的项目就能上手，不用完整学完，也能立刻提升 AI 的稳定性和可控性。  如果你已经在用 Claude Code 或 Codex 做真实开发，却总觉得 AI 时好时坏、难以复现，这门课很值得花时间看看。](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
-- @myfear — [AI coding agents do not just need "more context." In companies, they need approved context: internal frameworks, blueprints, best practices, runbooks, and security rules with owners and quality checks.  I wrote about MCP servers as an enterprise knowledge layer, not just a docs search toy.  https://t.co/TEqiN3TVCr  #mcp #ai](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
-- @martinfowler — [Fragments: updated guide on AI coding, video on harness engineering, how long should a function be, the problems of Software Brain and why AI is unpopular  https://t.co/7jSOtMhEE8](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
-- @ai_rohitt — [The creator of Claude Code teaches more about vibe-coding in 30 minutes than most tutorials do in hours.   Save this — it'll change how you build forever. https://t.co/XiUS4mq4ed](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
-- @omarsar0 — [// Agentic Harness Engineering //  Pay attention to this one, AI devs.  (bookmark it)  Most coding-agent harnesses are still tuned by hand or brittle trial-and-error self-evolution.  This new work introduces Agentic Harness Engineering, a framework that makes harness evolution observable. They do this through three layers: components as revertible files, experience as condensed evidence from millions of trajectory tokens, and decisions as falsifiable predictions checked against task outcomes.  Each edit becomes a contract you can verify or revert.  Results: pass@1 on Terminal-Bench 2 climbs from 69.7% to 77.0% in ten iterations, beating human-designed Codex-CLI (71.9%) and self-evolving baselines like ACE and TF-GRPO.  The evolved harness also transfers across model families with +5.1 to +10.1 point gains, while using 12% fewer tokens than the seed on SWE-bench-verified.  Harness work is the biggest hidden cost in most agent systems. This is the first credible recipe for letting the harness improve itself without drifting into noise.  Paper: https://t.co/9fEgqwlTSf  Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
-- @helloitsaustin — [most growth marketers use AI to rewrite headlines and call it a day. here's how I actually use Claude on the growth marketing team at @AnthropicAI across chat, Claude Cowork, and Claude Code 👇 https://t.co/uHVosjt5bZ](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
-- @TheRealAdamG — [https://t.co/pmkDoTe9Ug  **NEW: GPT-5.5 Prompting Guide**  "GPT-5.5 works best when prompts define the outcome and leave room for the model to choose an efficient solution path. Compared with earlier models, you can often use shorter, more outcome-oriented prompts: describe what good looks like, what constraints matter, what evidence is available, and what the final answer should contain.  Avoid carrying over every instruction from an older prompt stack. Legacy prompts often over-specify the process because earlier models needed more help staying on track. With GPT-5.5, that can add noise, narrow the model’s search space, or lead to overly mechanical answers.  For more detail on GPT-5.5 behavior changes, start with the Using GPT-5.5 guide. This guide focuses on prompt changes that follow from those behavior changes.  The patterns here are starting points. Adapt them to your product surface, tools, evals, and user experience goals."](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
-- @Suryanshti777 — [The person who runs 49 features. 48 hours. Zero lines written by hand.  That's what Anthropic's Head of Claude Code just pulled off.  He recorded the exact workflow. 30 minutes. Free.  The developers who watch this will build differently.  The ones who skip it will wonder why they're still slow. Bookmark it for later](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
-- @brada — [Production-ready Claude API code, wherever you build. The claude-api skill now ships in @coderabbitai, @jetbrains, @resolveai,  @warpdotdev and Claude Code - fewer errors, better caching, cleaner agent patterns, smoother model migrations. https://t.co/sPXC8qG1pk](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
-- @DeRonin_ — [Andrej Karpathy: "90% of what AI twitter tells you to learn will be dead in 6 months"  Here are 10 things senior AI engineers stopped wasting time on:  1. AutoGen / AG2: moved to community maintenance, releases stalled. dead for production  2. CrewAI: demos well, breaks in production. engineers building real systems already moved off it  3. Autonomous agent pitches: the AutoGPT / BabyAGI wave is dead in product form. the industry settled on supervised, bounded, evaluated agents  4. Agent app stores / marketplaces: promised since 2023, zero enterprise traction  5. SWE-bench leaderboard chasing: researchers proved nearly every public benchmark can be gamed without solving the underlying task  6. Microsoft Semantic Kernel: unless you're locked into Microsoft enterprise stack, it's not where the ecosystem is heading  7. DSPy: philosophical merit, niche audience. not a general agent framework  8. Horizontal "build any agent" platforms: Google Agentspace, AWS Bedrock Agents, Copilot Studio. confusing, slow-shipping, the math still favors building yourself  9. Per-seat SaaS pricing for agent products: market moved to outcome-based. per-seat is already dead  10. The framework that went viral on HN this week: wait 6 months. if it still matters, it'll be obvious  what actually compounds instead:  - context engineering - tool design - orchestrator-subagent pattern - eval discipline - the harness mindset (harness > model, always) - MCP as the protocol layer  be few steps ahead than your competitors and outperform this market till it became mass-opinion  study this.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
-- @bibryam — [🌟Subagents vs Advisor Patterns in Claude Code 🌟 https://t.co/6hjqO32XuL](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
-- @svpino — [30 agents every AI Engineer must build.  This is the most comprehensive and practical book on AI Engineering that I've ever seen.  I can't think of a single use case that they didn't cover here:  1. The autonomous decision-making agent 2. The planning agent 3. The memory-augmented agent 4. The knowledge retrieval agent 5. The document intelligence agent 6. The scientific research agent 7. The tool-using agent 8. The agentic workflow system 9. The data analysis agent 10. The verification and validation agent 11. The general problem solver agent 12. The code generation agent 13. The security-hardened agent 14. The self-improving agent 15. The conversational agent 16. The content creation agent 17. The recommendation agent 18. The vision language agent 19. The audio processing agent 20. The physical world sensing agent 21. The ethical reasoning agent 22. The explainable agent 23. The healthcare intelligence agent 24. The scientific discovery agent 25. The financial advisory agent 26. The legal intelligence agent 27. The education intelligence agent 28. The collective intelligence agent 29. The embodied intelligence agent 30. The domain-transforming integration agent  I also read 50 Algorithms Every Programmer Should Know by Imran. Same vibe.  Here is the Amazon link: https://t.co/buLPqjToiu](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
-- @aakashgupta — [Every AI tool you use right now is stuck at week-one performance.  Custom GPTs, Claude Projects, agent frameworks. Same prompt, same output, week 1 vs week 50. The skill files sit static while you re-explain your context every Monday. There is a hard ceiling: your prompts can only be as good as the day you wrote them.  Hermes broke that loop with one design choice. Every 15 tool calls, it pauses, reads what worked in the session, and rewrites the skill file. Same prompt next week. Different procedure underneath.  The numbers from my logs: 20 min for the competitive briefing in week one, 12 min by week four, 8 min by week six. I never edited the prompt. The agent rewrote its own procedure four times. By week six, the briefing was surfacing competitor patterns I had missed in three weeks of doing it manually.  This is what compounds. Static skills have a flat ceiling. Self-rewriting skills get sharper every session because they keep what worked and drop what didn't. The gap between someone running self-improving skills and someone running static prompts widens every week.  The other piece most PMs miss: the moat is local. Hermes runs Claude, GPT, Gemini, or Llama. Switch models tomorrow and your accumulated skill files come with you. Anthropic rate-limits you mid-launch, you have a fallback that kept its memory.  Full setup, 3 SKILL files I am running, and the 30-day rollout in the deep dive.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
-- @code_kartik — [https://t.co/HZcci755lZ](https://x.com/code_kartik/status/2050631735529095575) `#2050631735529095575`
-- @kunchenguid — [ok @steipete's acpx is a godsend https://t.co/jFuIzg7WWm  just added it in gnhf v0.1.31, and boom - gnhf now supports almost any agent harness you can name  for anyone building bring-your-own-agent apps, highly recommend calling acpx instead of building your own abstraction https://t.co/5tCv1TtJ3M](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
-- @dhh — [We can just decide that our world should be different. That modern JavaScript can be made with #nobuild. That SaaS services can move out of the cloud. That Apple is not the end of history. https://t.co/DD1WRfvaZg](https://x.com/dhh/status/2050670200702328890) `#2050670200702328890`
-- @FredKSchott — [Blown away by the response to https://t.co/oGh1BOOkkh over the last 24hr. Feels like we're onto something special here.   Grateful to everyone who's tried it, shared it, or sent feedback. We're already on PR #35... 😅](https://x.com/FredKSchott/status/2050675029948723570) `#2050675029948723570`
-- @aakashgupta — [Andrew Chen just called PM the most important role in tech again.  His argument in one line: when anyone can build, the person who decides WHAT to build becomes the bottleneck.  Boris Cherny’s Claude Code team at Anthropic shows what this looks like in practice. They ship hundreds of prototypes before committing to a feature. Boris personally runs 5 parallel Claude instances and ships 20-30 PRs a day. The team built Cowork, a full product for non-engineers, in about 10 days. Productivity per engineer grew 70% even as Anthropic tripled headcount.  The cost of building dropped through the floor. The cost of picking the right thing didn’t.  Anthropic’s PMs don’t even write traditional PRDs anymore. They review working software at 9am, kill 80% of it by noon, ship the rest by end of week. Pattern-matching across user research and technical feasibility while staring at a working prototype.  This is why AI PM offers at OpenAI, Anthropic, and Google DeepMind now run past $1M total comp. Anyone can build. Almost nobody can look at 15 working prototypes and call the 3 worth scaling. That judgment didn’t matter as much when shipping took 6 weeks. It matters enormously when shipping takes 45 minutes.  Andrew nailed the diagnosis. The harder question for every PM: can I be the one who picks?  Here’s how to build the muscle:  1. Modern PRD guide: https://t.co/9ivvVUmZfs 2. AI Prototyping tutorial: https://t.co/E36b6PG7u0 3. AI Roadmap: https://t.co/PyoqTGjGdM 4. PM Operating System: https://t.co/vDapougi85 5. Learn this live in my cohort: https://t.co/goFNR9uPjQ  The bottleneck moved. The pay moved with it.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
-- @_avichawla — [Sub-Agents vs Agent Teams in Claude Code:  Sub-agents get their own system prompt, their own tool set, and a clean context window. They report back to the parent and terminate.  Agent teams get all of that plus three things sub-agents don't have: - a shared task list with dependency tracking - peer-to-peer messaging between teammates - persistent context that accumulates over time.  I published an article today that dives into a lot more detail.  Read it below.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
-- @kristianfreeman — [replicate skills are a non-trivial addition to my agent's toolkit. i used to do this prompt-by-prompt in replicate webui, now the agent prompts, re-prompts, optimizes etc directly from replicate output  https://t.co/qsVyoVRhmC](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
-- @rubenhassid — [How to duplicate yourself into Claude in a weekend:   (even if you've never written a prompt before)  1. Download the desktop app. ☑ Go to claude .com/download ☑ Set Opus 4.7 as default ☑ Turn ON Extended Thinking  2. Open Cowork mode. ☑ Cowork = where your voice lives ☑ Click the top left tab ☑ Create your "Voice" folder inside  3. Install Wispr Flow (it's free). ☑ Turns your voice → text ☑ Voice = faster and more honest ☑ Typing kills the truth.  4. Run the interview. ☑ Paste Prompt 1 from https://t.co/LyV7feh2TK. ☑ 100 questions, 7 categories ☑ Push past every vague answer  5. Compress the dump. ☑ Paste prompt 2 from https://t.co/LyV7feh2TK. ☑ 20K words → 4K tokens ☑ Save as [your_name] .md  6. Test it in a blank chat. ☑ Open a fresh Claude chat ☑ Run a prompt only you would write ☑ If it sounds like you → ship it  7. Drop it into Cowork. ☑ Move [your_name] .md into your folder ☑ Claude now reads it on every turn ☑ Every draft = your voice, automatically  8. Port it everywhere. ☑ Upload to ChatGPT, Grok, Gemini ☑ Same file = same voice in every AI ☑ Hand it to your team or ghostwriter  9. Edit it forever. ☑ Install Obsidian (free) ☑ Open Cowork as a vault ☑ Update as your taste shifts  Full guide + prompts at https://t.co/LyV7feh2TK.  (save this to clone yourself into any AI)](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
-- @QingQ77 — [把单个 Claude Code 会话组织成完整的游戏开发工作室，用49个专职AI代理和72个工作流技能替代无结构的单助手模式。  https://t.co/OA6tQocRFV  一套 Claude Code 模板，49个代理按导演、主管、专员三级分工，72个斜杠命令管从脑暴到上线。代理之间垂直派活、横向商量，但拍板的始终是你——它们只出方案不替你做主。12个 Hook 自动卡提交校验，11条规则按目录管编码风格。](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
-- @srishticodes — [This CLAUDE.md turns Claude Code into a senior engineer who never forgets your standards.  Boris Cherny (creator of Claude Code at Anthropic) shared the internal workflows his team actually uses daily.  Someone turned those X threads into a structured file you can drop into any project.  What’s inside:  > Subagent orchestration > Verification gates before marking tasks done > Autonomous bug fixing loops > Self-improving rules from your own corrections  That last one is the whole game.  Every time you correct Claude, the rule gets encoded permanently.  > Next session it doesn’t repeat the mistake. > Next month it matches how you think. > Next year you’re not managing Claude. It’s working like someone who’s been on your team for years.  Drop it in any project. Start today.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
-- @AhmedHemaz — [The one agent skill that will completely change how you work with coding agents is  /grill-me  I’ve been using it for a while now and man it’s insanely good  Check also others skills Link: https://t.co/867R1cBJEA](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
-- @tom_doerr — [Knowledge graph for codebases written in markdown  https://t.co/ypwXkhyRLQ https://t.co/glnSEcR0SJ](https://x.com/tom_doerr/status/2050852962998657477) `#2050852962998657477`
-- @simonbrown — [Spec-driven development makes very little sense to me.  The software development industry has repeatedly shown that devs don't like writing docs, often saying "it's tedious and time-consuming; I'd rather be coding".   - How will this turn out to be different?  - Why automate the fun part (coding) and force devs to write docs instead?  https://t.co/CYxnCgeBmp](https://x.com/simonbrown/status/2050878045750276268) `#2050878045750276268`
-- @edans — [El emperador está desnudo: los LLM nunca fueron diseñados para dirigir una empresa https://t.co/5CKMhYBgFx](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
-- @dhruvtwt_ — [6 AI agent orchestration tools worth trying at least once:  1. Superset Link - https://t.co/SztnQeYAis  2. DP Code  Link - https://t.co/ifsYrfyRE5  3. Emdash  Link - https://t.co/ypL2ce82xy  4. Letta  Link - https://t.co/zfYv09gvmp  5. Conductor Link - https://t.co/ONEUorB1pe   6. Air Link - https://t.co/ZmAvxwrxSj](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
-- @tom_doerr — [Automates research with researcher, reviewer, and writer agents  https://t.co/6CRrF4LeDF https://t.co/O8mRsIf6Me](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
-- @jetbrains — [AI writes the code. But does it follow your standards?  Join the live demo to see Qodana and TeamCity automatically analyze AI-generated code in CI – using same deterministic inspections on every PR before it reaches production.   📅 May 13  🔗 Register: https://t.co/7XyM6abdJN https://t.co/jtdlIh7CTh](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
-- @dhh — [Omarchy 3.7 is out! Huge release with new CLI, tons more gaming options, unlock screen themeing, OCR text extraction, cliamp, Asus ExpertBook PTL compatibility, and a million other fixes and improvements. https://t.co/jsBbPFDo9o https://t.co/feWzCzonUQ](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
-- @mattpocockuk — [@loftyPuma https://t.co/dUVD3rF2uC](https://x.com/mattpocockuk/status/2051329647271461271) `#2051329647271461271`
-- @tom_doerr — [Validates AI agent skill quality with diagnostics  https://t.co/JyKqE6Nt0P https://t.co/jmFn7sXBWZ](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
-- @trevin — [Created some quick docs for #CompoundEngineering plugin that explains each of the key skills: https://t.co/WebaZq88rQ](https://x.com/trevin/status/2051736297883291826) `#2051736297883291826`
-- @ashtom — [Today @EntireHQ is open sourcing our next release: Skills, teaching your agent how to use the full context the Entire CLI captures behind your code changes: prompts, transcripts, and the decisions behind every commit, alongside your git history.  Instead of looking up syntax or running commands yourself, you can ask in plain language and let your agent drive the workflow. This initial release enables your agent to: (1/5)  https://t.co/ApqJhEWSoj](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
-- @thorstenball — [The best coding agent in the world is back.  https://t.co/BU96nS5IcC https://t.co/QSnuu7kpkW](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
-- @rseroter — [[blog] How to force your custom agent to stop and seek human approval https://t.co/fPu5tjkMQ4 &lt; in which I use the new human-in-the-loop feature of the Agent Development Kit to approve AI-generated code tutorials. https://t.co/0xkrl1CKmj](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
-- @LLMpsycho — [TUI observability for AI coding agents. Traces cost, tokens, tool failures, latency, health across Claude Code, Codex CLI, Gemini, Hermes Agent and more. Local-first, zero backend. https://t.co/2zYzHD5xYe](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
-- @unclebobmartin — [It turns out to be pretty trivial to have your agent create a code duplication tester.   Check out https://t.co/ZJ0kd36CXH.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
-- @rseroter — [These are solid lessons for agentic coding, from @dbreunig.  Will these be the *same* lessons in six months? Who knows, but it's good to document what works today ... https://t.co/DzTFXwI2qm](https://x.com/rseroter/status/2052526138678001757) `#2052526138678001757`
-- @kieranklaassen — [Pretty exited about how well https://t.co/7AdQ97igXq is working for me with compound engineering. Will make a video, this week was busy](https://x.com/kieranklaassen/status/2052529355709108651) `#2052529355709108651`
-- @mattpocockuk — [A flow I just tried and LOVED:  1. /grill-with-docs, talking about a new bit of UI 2. Asks me a question I can't answer unless I prototype 3. /prototype 4. Iterate on the prototype, burning tokens freely until we get a good spot 5. /rewind to the question, and select 'summarize' (Claude Code feature), saying 'summarize what we learned from prototyping' 6. Continue the grilling session, retaining the prototype  Smoooooooth](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
-- @badlogicgames — [recommended reading. don't get confused by the title.  https://t.co/0E8qWNCWWh](https://x.com/badlogicgames/status/2053747834696995181) `#2053747834696995181`
-- @GitTrend0x — [Hermes 强化版！  强化 fork 版，Web 管理仪表盘、零 token 技能进化插件、完整文档知识库、Superpowers 创意工作流…… 全网程序员把 Hermes 玩成了下一代 Agent 深度 hack 神器 + 浏览器指挥舱 + 自我卷王 + 知识圣经 + 创意超级英雄。  1️⃣ hermes-agent-fork（https://t.co/YxXA60KBDx）  强化 fork 版，保留自进化循环 + OpenClaw 迁移优化。 深度玩家直接上手 hack！  2️⃣ hermes-dashboard（https://t.co/cHVb26ZVd3）  Web 仪表盘：全配置 + MCP + cron + 模型管理，无 CLI。 浏览器里指挥 Agent 军团了😂  3️⃣ hermes-curator-evolver（https://t.co/TSwv4sVUWI）  本地零 token 技能进化插件，后台自动观察 + 生成 + 优化 skill。 Agent 自己卷自己，太狠了！  4️⃣ hermes-agent-docs（https://t.co/7woTLanHLZ）  v0.10.0+ self-improving 完整文档仓库。 Hermes 玩家的“官方圣经 2.0”！  5️⃣ hermes-agent-superpowers-chatgpt（https://t.co/M1wymJtJyI）  Superpowers 创意工作流包，设计哲学 + 品牌 pipeline 打包成 skill。 Agent 也要当创意超级英雄了！  //  为什么这些新进化体这么炸？  全吃 Hermes 底层循环当 DNA，社区再疯狂补强化 fork、浏览器仪表盘、零 token 进化、本地文档库、创意工作流……生态卷速肉眼可见。](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
-- @JustSteveKing — [Most PHP devs know PSR-4 and PSR-12. But there are other standards you’re probably ignoring that change how you write PHP entirely.  PSR 7, 14, 15, 17, and 18 - they give you a complete model for HTTP-aware PHP that’s tied to no framework.  Write to the interface, not the implementation.  https://t.co/EvqrpZiJvJ](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
-- @adocomplete — [So excited for Agent view (research preview) in Claude Code.  Run claude agents to list and start multiple sessions. Each one runs w/o taking up a terminal tab.  See what's running, what's blocked, and what's done. Reply inline or jump in and out of sessions with ease. https://t.co/zXlD9cEOgh](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
-- @DanielMiessler — [Just had a crazy idea as a response to this excellent article by Lars Faye.  I think Lars' best argument was the benefit and enjoyment of manually wrangling with ideas in code.  What if we created some sort of new pseudo-code language that's like a step more technical than a spec, where you can actually try ideas and see how they work, but without building everything fully?  So it's like playing with ideas when writing prose, except it's doing so with functionality of an application.  Maybe this won't work because the details of the particular languages will make a difference, but I think the bigger issue is getting the ideas right.   So maybe it's possible to make an intermediary language that lets us play in this way, come up with a clean idea, and then add THAT to the spec as well. Like, here's what I REALLY mean...  And then we'd have the ability to use the pseudo-code as a language for talking back and forth with AI about the idea, but without all the bloat of the actual language and without abstracting the ideas so far from us that we don't understand what we built.  Thoughts?  https://t.co/u8zyaR4KYr](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
-- @tom_doerr — [Generates UI with 67% fewer tokens than JSON  https://t.co/B8crPruCiS https://t.co/rcPiZ2wFbw](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
-- @QingQ77 — [为 Hermes Agent 提供一套开箱即用的技能和工作流层，覆盖从想法到部署再到运维的完整应用生命周期。  https://t.co/1efdKNob6b  Oh My Hermes 就是给 Hermes 装上"操作系统"——装一次，Hermes 就不再是聊天机器人，而是一个能干活的运维+开发搭档。  20 个技能覆盖需求澄清、产品简报、设计交接、引擎选择、代码实现、部署、数据库连接、监控、通知、GitHub 操作等完整环节；  5 个 Agent（CTO、PM、Dev、QA、Ops）各管一段，在看板上协同推进。Hermes 自己就是主操作者，Claude Code 和 Codex 只是可选的深度编码加速器。](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
-- @commte — [Google 公式 Skills が来た  13個のスキルが公開。Claude Code / Antigravity / Gemini CLI / Cursor / GitHub Copilot ほか主要エージェントが対応してる Agent Skills 標準準拠  https://t.co/9xvVKn004h](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
-- @JoliCode — [Comment intégrer l'IA dans son workflow UX/UI ? 🎨  Aujourd'hui sur le blog, Sophie partage son retour d'expérience sur l'utilisation de Figma Make, Claude Design, les prompts efficaces et ce qui change vraiment pour les designers 💡  https://t.co/zsuGjpt6Uh  #ui #ux #ia #design](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
-- @dotta — [📎 Paperclip v2026.512.1 is out. Featuring  👼  Stronger liveness - your clips will work harder, plan better, and run longer 🧩 Plugin managed agents, routines, and skills 🔐 Secrets - w/ first-class provider vaults 🧠 Planning mode 🔍 New Search  https://t.co/JMeAOP726n](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
-- @martinfowler — [NEW POST  Will there be source code in the future? To wrestle with this, we have to understand what code is. Unmesh Joshi sees code as having two distinct but intertwined purposes: instructions to a machine and a conceptual model of the problem domain.   https://t.co/GsjgtYysno](https://x.com/martinfowler/status/2054193359397253225) `#2054193359397253225`
-- @ghumare64 — [I'm excited to announce the AKBP protocol.  Git for agent knowledge.  I have thought through this in very detail, so this is not just some random research.  It was created on the basis of @karpathy's LLM wiki and wiki v2, which I wrote based on my agent memory findings.  I think https://t.co/weJFviWj5h is the perfect protocol standard agents need for memory.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
-- @NFTCPS — [Hermes 这波直接把 Agent 天花板给掀了！  全网程序员已经开始用它搭桌面神器、跑创意流水线、省 token 省到飞起——你还没跟上？  1️⃣ 先说 hermes-desktop，CLI 小玩具直接进化成 Mac/Windows 原生桌面 App，一键装好就能聊，多平台消息 + 自进化循环，这才叫真正的桌面伴侣。 🔗 https://t.co/oyfdZYhXUm  2️⃣ hermes-agent-idea-workflow 是给创意党准备的，脑子里一个粗糙想法，丢进去直接给你吐出 PRD + 设计文档 + 任务拆解，脑暴效率直接起飞。 🔗 https://t.co/s6x6wucygs  3️⃣ plur 解决了一个老大难问题——多个 Agent 实例之间记忆不互通。它用 open engram YAML 做共享记忆层，知识跨实例永不丢，Agent 终于有集体大脑了。 🔗 https://t.co/id0Em4R8Sf  4️⃣ rtk-hermes 是省钱黑科技，shell 输出自动压缩 60-90% 的 token，实战跑了 1100 万+ token 验证过的，上下文爆炸？不存在的。 🔗 https://t.co/bOCnPFF97L  5️⃣ hermesd 给运维党看，实时只读 TUI 仪表盘，10 大面板一眼监控 Gateway、Sessions、Tokens、Cron、Memory，Agent 在干啥一目了然。 🔗 https://t.co/CyTmAElrZ7  五个方向，五个开源项目，把 Hermes 玩成了下一代 Agent 的完整生态。现在不上车，等啥呢？](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
-- @every — [Long-running agents are getting better. But they're at their best after a human finds the prompt that lets the model cook.  To get started, try this flow from our team:    1. Find your longest agent run    What's the longest stretch you have trusted an agent on autopilot?  If you don't know, you can't push it.    2. Extend that runtime with a goal  Use long-running modes when the success criteria are clear. Codex and Claude Code have /goals commands that allow agents to pursue objectives across multiple turns without checking in.  3. Audit your existing loops    If you already have agents running overnight, ask:  How long did it run? With what guardrails? Against what feedback signal? At what verified accuracy?    That's how you keep inching closer to a 24/7 agent that completes tasks successfully.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
-- @milesdeutscher — [Anthropic just automated 99% of legal roles.  Claude for Legal is live now - and it's a marketplace with DOZENS of agents trained on legal roles.  Review agents, policy drafters, NDA agents &amp; much more.  Can't believe this is public.  https://t.co/EyPkD2wMWv https://t.co/EbOW0yEU5G](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
-- @_vmlops — [100 SecretCodes forClaude  https://t.co/IJctEu3UiE https://t.co/h5Kp7s4rG1](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
-- @sqs — [Most people have Amp installed directly, and that's what we recommend. But if you've installed Amp via npm, the package now contains a precompiled executable, not sources. This makes Amp faster and Amp plugins better supported across platforms.  https://t.co/JcuZyO3X3J https://t.co/otERQZ87TK](https://x.com/sqs/status/2054794044426101245) `#2054794044426101245`
-- @tom_doerr — [Automates YouTube content creation and publishing with AI agents  https://t.co/unzY1U0czw https://t.co/qJndnmvAgn](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
-- @GitHub_Daily — [用 Claude Code 开发项目，代码库一大，每次探索代码结构都要扫一堆文件，工具调用多、速度慢，token 也跟着烧。  于是找到 CodeGraph 这个开源工具，给代码库预建一张语义知识图谱，让 Claude Code 直接查图而不是逐文件扫描。  效果颇为明显，工具调用减少 92%，探索速度提升 71%，像 VS Code 这种大型项目也能在十几秒内完成代码溯源。  GitHub：https://t.co/Nr6OYyxn9i  它能自动识别函数调用链、类继承、模块引用等关系，还能在修改代码前分析影响范围，避免改一处坏一片。  支持 19 种编程语言，还能识别 Django、Express、Spring 等 13 个框架的路由映射。  所有数据存在本地，不需要任何外部服务。一条命令安装，文件保存后自动同步图谱，基本不用额外操心。  如果你的项目代码量不小，又经常用 Claude Code 做代码探索和重构，装上能省不少时间和 token。](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
-- @mattpocockuk — [/improve-codebase-architecture will soon output HTML  This rocks, thanks @trq212 https://t.co/RJWh0RCuW8](https://x.com/mattpocockuk/status/2054922772573303293) `#2054922772573303293`
-- @martinfowler — [NEW POST  When I need to feed an LLM a lot of context, I can write it myself, or I can get an LLM to interview me for it.  https://t.co/n0IavQLGGZ](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
-- @vladikk — [Principles > Ceremony   When I wrote Learning Domain-Driven Design, I made a deliberate choice: instead of pages of code listings, I focused on the principles behind the tactical patterns. I wanted to make sure the reader understands why only one instance of an aggregate participates in a transaction, why value objects must be immutable, and the rationale behind other tactical patterns. 🧵 1/3](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
-- @ghumare64 — [This is Insane.  I just gave my agents infinite memory.  Your coding agent remembers everything. No more re-explaining.  No. 1 Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, and any MCP client. https://t.co/xtL6kMjVul](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
-- @danshipper — [when people ask me how to get their org agent-pilled i always say the same thing:  the #1 leading indicator is whether their leadership team personally uses Codex, Claude Code or Cowork day to day.   that’s why over the last few months we’ve been working privately with leadership teams of the top companies in tech, helping them get their hands deep into Claude Code, Cowork, Codex and more.   if you want @every to come and get your exec team agent-pilled, we’re opening up a few slots:  https://t.co/o8g3c1xKYr](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
-- @martinfowler — [Fragments: thoughts from a software development retreat, would I be a writer without text editors, use LLMs as functions, don't use LLM skills, is the future of everything lies?  https://t.co/M1V3vOytjR](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
-- @plainionist — [If you think code no longer matters, read this 👇😉  https://t.co/ak6Vs54KtB](https://x.com/plainionist/status/2056010598689751405) `#2056010598689751405`
-- @tom_doerr — [Orchestrates AI coding agents with persistent memory  https://t.co/9OtbNhOUh9 https://t.co/vdJ960iau4](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
-- @freekmurze — [🔗 Utilizing Claude Skills in client projects https://t.co/xtBi28sFhM #laravel #automation #livewire #ai #codegeneration](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
-- @midudev — [¡No quemes tokens con tu IA explorando tu proyecto! Crea un grafo semántico local de tu código con esto  ✓ -92% tool calls ✓ 71% más rápido explorando código ✓ Claude Code, Cursor, Codex y OpenCode  Local y de código abierto: → https://t.co/32g8VE4itM https://t.co/CSDPPq1Y8N](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
-- @ClaudeDevs — [What are best practices for running Claude Code at scale?  New blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices:  https://t.co/rJUYlIUiTT](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
-- @_vmlops — [HarnessEngineering A Design Guide to Claude Code  https://t.co/SZ4NcP6lDe https://t.co/4uIgr9xNKy](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
-- @0xMovez — [Spotify's Chief Architect just showed how they ship 4,5K deployments /day with Claude at Anthropic stage  27-minutes. free. By #1 music app dev   "More than 99% of our engineers use AI coding tools. Adoption took off after Opus 4.5"   Worth more than any $500 vibe-coding course. https://t.co/5g697TGtDu](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
-- @martinfowler — [NEW POST  Birgitta Böckeler begins an article about her experiences with sensors in an agent harness. This first part looks at static analysis with basic code linting.  https://t.co/1setOl8i5d](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
-- @freekmurze — [🔗 Notes on software quality https://t.co/a3sutw8QVy #bestpractices #codequality #philosophy #craftsmanship](https://x.com/freekmurze/status/2057076497593040970) `#2057076497593040970`
-- @martinfowler — [NEW §  Birgitta Böckeler adds exploration of three sensors for static code analysis, with mixed results. Computational sensors alone cannot help us much, AI is needed to add semantic interpretation, and consider trade-offs.  https://t.co/GtZqpRawAs](https://x.com/martinfowler/status/2057107389539553494) `#2057107389539553494`
-- @ParthJadhav8 — [HOLY SHIT !! @cursor_ai 's /thermo-nuclear-code-quality-review skill is nuts   It ran for around 30 mins on my PR and immensely improved the code quality.  It's 67x better than /simplify from Claude code..](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
-- @_vmlops — [GOOGLE OPENED THE VAULT  Their internal engineering practices the actual code review guidelines used by every engineer at google are public on github  → two guides: one for reviewers, one for authors → explains what "LGTM" and "CL" mean internally  most devs write code... few know how to review it  google does  https://t.co/J5bboiiYwh](https://x.com/_vmlops/status/2058057460792074625) `#2058057460792074625`
-- @Dinosn — [denissergeevitch/agents-best-practices: Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design. https://t.co/gAKogBCNxW](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
-- @Dinosn — [A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. https://t.co/AekeGIMhan](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
-- @addyosmani — [The full video for our "fireside chat on the evolution of developer craft" is live: https://t.co/baSTziDwOz with @rseroter @the_thagomizer &amp; Ciera Jaspan](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
-- @slashdot — [Linus Torvalds on How AI is Impacting the Hunt for Linux Kernel Bugs https://t.co/CFknp6VttE](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
-- @lennysan — [My biggest takeaways from @danshipper:  1. The future of work will happen inside Codex or Claude Code. Instead of putting AI into your SaaS tool, you’ll use your SaaS tools inside your favorite AI agents' in-app browser. Dan spends all his time in Codex now—writing documents, managing email, doing research, everything. He's using Google Docs, PostHog, and everything he needs within the agent's in-app browser. The agent can see what he’s doing, and has all of his context, so he and his agent collaborate quickly and super effectively.  2. Automation is a lie—every automation needs a human. Dan's company doubled in size this year despite being incredibly AI-forward. Why? Because in order to make automation work well, you need humans making sure everything keeps working. This is why benchmarks are misleading—they measure AI on problems we’ve already framed and can score, but there’s always a higher frame.  3. PMs will win the AI era. Marcus, a former PM who previously ran Axios’s writing product, joined Every after getting super AI-pilled. Now he runs their product Spiral, and ships faster than anyone on the team. He pairs technical knowledge with spiky product sense, deep user empathy, and an eye for what matters. Dan thinks any PM who gets really AI-native will be incredibly dangerous because the building is done for you—what matters is figuring out what to build and if it’s great.  4. Full-stack designers are becoming superheroes. Designers used to make beautiful interactions that engineers didn’t want to build or couldn’t execute properly. Now designers don’t need to hand things off; they can build it themselves. Designers are naturally creative people, and AI is the perfect tool for them because it lets them bring their vision to life without the traditional bottlenecks.  5. SaaS is not dead. In fact, Dan is bullish on SaaS stocks. When users bring their own AI (via Codex or Claude Code) to use SaaS products, the user—not the SaaS company—pays for tokens. This saves SaaS company’s margins. Since the agents need their own seats, Dan predicts that agents will create massive new demand for SaaS because there will be tons of agents using these products at high volume.  6. Every company will have one “super-agent” inside their Slack that every employee will use. Dan initially thought every employee would have their personal work agent, like a shadow AI org chart, but he’s completely flipped his view. He realized agents need humans who care about them. When someone gets tired of maintaining their personal agent, it becomes useless. The winning model is one forward-deployed engineer or AI-savvy person who maintains a company-wide agent (like Shopify’s River or Viktor), and then it trickles down to more specialized team agents as models improve and become less fiddly.  7. The AI job apocalypse is not happening, but you do need to evolve to stay relevant. Models make yesterday’s human competence cheap. But because everyone uses the same models, it all looks the same if you use it the default way; it becomes commoditized slop. Humans then take that frozen competence and use it to make something new and interesting for their specific situation. The key: “ride the models”—use them for everything you do, try new models when they drop, keep turning over rocks.  8. We will read way more AI-generated writing, and we will like it. Human writing is incredibly important for things that matter, but for internal docs, planning, and email, AI-generated is often better because most people are bad at writing strategy documents.  9. Build software for humans and agents to use together. The current model is building a CLI that an agent uses independently. Instead, you and your agent should be using the app together. This creates new design challenges—agents can make a billion requests in three seconds, so you need approval flows, inboxes that summarize what happened, logs, and easy rollback.   10. Forward-deployed engineers are the new most essential role. The big model companies have teams of people managing their internal agents, and those teams aren’t going away. It’s different from traditional software building, and certain engineers love it. As models get better, this role will evolve—you’ll be managing more agents doing more things.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
-- @badlogicgames — [recommended reading.  https://t.co/2GgZb04PoE](https://x.com/badlogicgames/status/2059190700827140495) `#2059190700827140495`
-- @nurijanian — [my favorite engineering skills for AI:  - Compound Engineering: https://t.co/BM7tA2RAHf - Ryan Singer's shaping skills: https://t.co/yaWg0nI7Vm - Matt Pocock's skills: https://t.co/0WtRqce6x5  I switched from Superpowers to Compound Engineering as they perfected the plugin over time, and I'm pretty sure I still only use like 10% of it](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
-- @every — [Here's the template Codex prompt we use to draft GTM plans at Every.  When you've already done the big picture thinking in meetings and @SlackHQ, the next step is just prompting an agent to make a plan for you and the agent to review together. https://t.co/cBn5fAiBAk](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
-- @bcherny — [Salesforce published a detailed writeup on going agentic with Claude Code. A couple things jumped out.  A migration they'd scoped at 231 days shipped in 13. One PR delivered 21 endpoints at 100% test coverage.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
-- @rseroter — ["The biggest lesson in this shift is that AI doesn’t eliminate bottlenecks in software development, but it does move them." https://t.co/wfqPcZZ7Sg &lt; some good lessons learned by @Dropbox and shared in this post](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
-- @ClaudeDevs — [How do you get Claude Code to check its own work before handing it back?  Watch how you can encode your manual checks so Claude closes its own feedback loop: https://t.co/gxastVL4QH](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
-- @Kikobeats — [Cutting Docker build size by ~99.8% (1.87 GB → 2.5 MB)  Just using https://t.co/3t0TQ3aP9Q 😌 https://t.co/JylO9BBhbz](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
-- @vladikk — [Counting dependencies tells you the number of dependencies. It tells you nothing about the design. What matters is the kind of knowledge shared across component boundaries. A single reference sharing extraneous knowledge can cause orders of magnitude more cascading changes than a hundred dependencies through well-designed integration interfaces.  Read Birgitta's piece on @martinfowler blog: https://t.co/jDy0nFoYWx](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
-- @KirkDBorne — [Highly rated new book from @PacktPublishing @PacktDataML ...  "Architecting Generative AI Applications: Build, deploy, and scale production-ready GenAI systems with LLMOps best practices"  See it at https://t.co/qEfwoYVBdT https://t.co/kgcRnSBf5h](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
-- @bibryam — [Best practices to secure code with Claude https://t.co/wMaPLiFaWN](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
-- @bibryam — [How Boris Cherny Uses Claude Code https://t.co/yvTZnrEnPB](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
-- @fabpot — [Nowadays I barely write code without an LLM, and my OSS productivity has gone through the roof. Look at what I've shipped on #Twig lately (more to come).  Steve Yegge's 8 levels of AI-assisted development described my last 2 years exactly.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
-- @AndrewYNg — [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.  Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.  The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!  Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.  The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience.  When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful.  AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.  External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent.  With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both!  I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).  [Original text: The Batch]](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
-- @trending_repos — [Trending repository of the month 🏆  Agent-Reach  Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.  Last month: 26,239 ⭐ Total: 47,845 ⭐️ https://t.co/BUp2aLe7ve](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
-- @0xCodez — [Anthropic just dropped 5 workshops, revealing the latest capabilities of Fable 5:  • 00:00 - deep look into Fable 5 • 11:22 - Fable 5 and the capability curve • 30:54 - building managed agents with Fable 5 • 44:29 - real use cases of Fable 5 by teams • 57:43 - how to deploy agents with Fable 5  These 1-hour of sessions will replace 100 articles on how to actually use Fable 5.  Watch them today, then read the best practices from the sessions in the article below.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
-- @_avichawla — [Stanford researchers did it again.  They just built the agent-native version of Git.  When an agent works on a longer task, the run builds up a lot of state.  This includes files edited/created, a dev server, a database, installed packages, KV cache, etc.  Say the agent is at step 10 and makes a mistake, maybe it misreads a traceback and rewrites a file that was actually fine.  The tests start failing, and the run goes off track, although everything through step eight was correct.  By default, the agent just tries to fix it, which creates more edits and tool calls. This burns more tokens and grows the context.  The other options are a person stepping in to redirect it or restarting the whole run from step one.  That's wasteful, because it pays for every model/tool call again and re-prefills the context. Moreover, since an agent's run is non-deterministic, it doesn't reproduce the same early steps anyway.  The reason it's hard to just jump back exactly to a previous correct step and resume from there is that the trajectory is only a message log.  It records what the agent said and which tools it called, but not the live state underneath.  That state includes things like memory, open file handles, child processes, installed packages, /tmp, and KV cache. None of that is in the log.  Git can version the files, but it doesn't snapshot the running process or the KV cache. Checking out step eight moves the files back, but the process is still sitting in step-ten memory with a cold cache.  Shepherd is a runtime layer by Stanford that records the run as a trace of typed events rather than a flat log.  Each agent-environment interaction becomes a commit, similar to Git, but it tracks the live run.  Its commit includes the agent process and the filesystem together, copy-on-write, so a branch carries the actual state and not just the files.  Going back to a previous step is then a single call that forks from that commit and continues from the exact state.  The copy-on-write fork is roughly five times faster than docker commit, and because the prompt prefix through step eight is unchanged, the KV cache is reused over 95% on replay, so early steps aren't reprocessed again.  Once the run can be forked, a meta-agent can sit on top and operate it. It watches the trace and reverts as soon as it looks wrong, before the bad write is committed.  In practice, it's just Python calling fork, replay, and revert on the trace, rather than a separate control plane wired into the harness.  Not everything is reversible though.  Files and sandbox changes undo themselves, but a database write has no automatic undo, so it needs a matching undo step set up in advance.  Something external, like a sent email or a real charge, can't be undone, so the supervisor's job there is to catch it before it fires.  They tested this on a few public benchmarks. On CooperBench, where two agents work on the same codebase, adding a live supervisor took the pair-coding pass rate from 28.8% to 54.7%.  It's still early and labeled alpha. The benefit mostly shows up when a run gets branched a lot over a heavy sandbox state, which is exactly where restarting wastes the most tokens and time.  If Git was made to make file changes reversible, Shepherd is trying to do the same thing for a live agent run.  Shepherd Repo: https://t.co/5e8W5oxY6F  (don't forget to star it ⭐ )  That said, Shepherd reverts a bad step inside a run. The harness around it, the prompts, tools, and checks the supervisor relies on, still drifts across runs as models and dependencies change.  Akshay wrote about making that harness repair itself, where a failing trace gets diagnosed, the fix is verified against the exact input that failed, and the failure is locked as a regression test so it can't recur.  Read it below.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
-- @mattpocockuk — [This is a PRD based on a multi-day /wayfinder session  Look how detailed it is  Look how every assertion is linked back to the session where it was decided  Secondary source -&gt; Primary source  Beautiful  https://t.co/AMVKBNJq6X](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
-- @mattpocockuk — [Here's a step-by-step process to kill all the bloat from your Claude Code system prompt:  1. Run a proxy so you can see exactly what gets sent to Claude Code (included in the article) 2. "Fuck, there is so much cruft in there" 3. Use my settings.json to kill all the bloat  Down to a clean 13K tokens to start each session with. Nice.  Full process here:  https://t.co/Kie84HMe2A](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
-- @martinfowler — [NEW POST  Birgitta Böckeler recently spent some time trying out running local LLMs for some programming tasks. In this memo she outlines the factors that influence how viable they are for the job.  https://t.co/ALp5q6p3g5](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
-- @steipete — [If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
-- @nicopreme — [Combined @mattpocockuk's "grill me" skill with the concepts from Thariq's "Finding Your Unknowns" article into one agent skill: grill-for-unknowns.  Your agent grills you to surface the unknowns FIRST, so you reach shared understanding before implementation. Works great with models like 5.6 that execute reliably once fully aligned. 😎  https://t.co/2kwo6P0d47](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+- @trending_repos — [Presentación del repositorio de GitHub en tendencia 'Agent-Reach', que da a los agentes de IA capacidad de leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu mediante una sola CLI sin coste de APIs.](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
 
-## Sin categoría
+## agent-rules
 
-- @bibryam — [Top 10 Architecture Characteristics Cheatsheet https://t.co/WrozRsKeQQ](https://x.com/bibryam/status/1549333232943894529) `#1549333232943894529`
-- @dhh — [Kimi K2.5 Turbo is hilariously fast on @FireworksAI_HQ. https://t.co/dX4rMxvRIY](https://x.com/dhh/status/2037619581674541357) `#2037619581674541357`
-- @GeoffreyHuntley — [https://t.co/lXeKrFSPPB](https://x.com/GeoffreyHuntley/status/2038420699459752092) `#2038420699459752092`
-- @dabit3 — [https://t.co/mpQSGFPKwu](https://x.com/dabit3/status/2038608435105726862) `#2038608435105726862`
-- @itsolelehmann — [https://t.co/LPpbf2ZJny](https://x.com/itsolelehmann/status/2038661433626333649) `#2038661433626333649`
-- @intheworldofai — [https://t.co/xmtqfP0r9A](https://x.com/intheworldofai/status/2041632641716514947) `#2041632641716514947`
-- @ashpreetbedi — [https://t.co/0MgpKyo2Ra](https://x.com/ashpreetbedi/status/2041901460523270409) `#2041901460523270409`
-- @spacesuit_app — [Introducing Spacesuit.  A futuristic canvas for your personal development.  Download on macOS, Windows and Linux.](https://x.com/spacesuit_app/status/2043052113983402360) `#2043052113983402360`
-- @mattpocockuk — [My new skill lineup:  /domain-model - replaces /grill-me, integrates some DDD concepts and adds docs & ADR's during discussions /to-prd - create a PRD /to-issues - create issues with blocking /github-triage - triage issues with a state machine-based labelling system /tdd - do TDD where appropriate  Still more to flesh out, but this is feeling AWESOME](https://x.com/mattpocockuk/status/2045110469426323900) `#2045110469426323900`
-- @dabit3 — [Nice little reference: 56 laws of software engineering.  Especially great for juniors (worth bookmarking), and I also learned a few things. https://t.co/Drr0DJXqXm https://t.co/zTkVCmAVaQ](https://x.com/dabit3/status/2046592545530982880) `#2046592545530982880`
-- @Suryanshti777 — [https://t.co/5dcmppYtsT](https://x.com/Suryanshti777/status/2047694444787577236) `#2047694444787577236`
-- @dani_avila7 — [https://t.co/iWGhR4tZj0](https://x.com/dani_avila7/status/2048486242321662189) `#2048486242321662189`
-- @itsalexvacca — [https://t.co/BxYHp4nIiG](https://x.com/itsalexvacca/status/2048486401105358933) `#2048486401105358933`
-- @aparnadhinak — [https://t.co/5Vk6U2wDxo](https://x.com/aparnadhinak/status/2048492731929149929) `#2048492731929149929`
-- @aakashgupta — [If you want to get more out of Clade without hitting limits, read this.](https://x.com/aakashgupta/status/2048497322276065549) `#2048497322276065549`
-- @mfpiccolo — [https://t.co/NW1N0Q6DDG](https://x.com/mfpiccolo/status/2049139067359568032) `#2049139067359568032`
-- @manthanguptaa — [https://t.co/Ao2BtfmkK5](https://x.com/manthanguptaa/status/2049472248806027440) `#2049472248806027440`
-- @tonygentilcore — [https://t.co/z2qVEEVhv5](https://x.com/tonygentilcore/status/2049482833111232694) `#2049482833111232694`
-- @mattpocockuk — [Here's the repo:  https://t.co/sk0zh6Qitj](https://x.com/mattpocockuk/status/2049506974081953924) `#2049506974081953924`
-- @SebSmith1 — [great article by @kentcdodds and echos lot of what conclusions i’ve been drawing over the last 12 months. well worth a read  https://t.co/uBSTqjYvvJ](https://x.com/SebSmith1/status/2050553191901667810) `#2050553191901667810`
-- @kentcdodds — [@Grady_Booch This is the big secret to gaining understanding. I teach so I can solidify my own understanding. https://t.co/76Ce9sb89s](https://x.com/kentcdodds/status/2050801846269489650) `#2050801846269489650`
-- @shinzui — [https://t.co/I7qMViX5Q1](https://x.com/shinzui/status/2050963939060838501) `#2050963939060838501`
-- @ericzakariasson — [this is cursor team kit: a plugin for some skills we use to build cursor at cursor  skills for verifying changes, driving local tools, and shipping reviewable PRs https://t.co/8R4XNCUOfe](https://x.com/ericzakariasson/status/2051255780167610522) `#2051255780167610522`
-- @mattpocockuk — [/handoff might be my new favourite skill https://t.co/VZ4nTjqWdx](https://x.com/mattpocockuk/status/2052489881088049407) `#2052489881088049407`
-- @amitiitbhu — [New article: Context Engineering  Read here: https://t.co/xe6H4klego https://t.co/FJjpH3TBkq](https://x.com/amitiitbhu/status/2052617405336277305) `#2052617405336277305`
-- @symfony — [🚀 New in Symfony 8.1: Console Argument Resolvers ➡️ https://t.co/YUprqd9pah](https://x.com/symfony/status/2052649763074425053) `#2052649763074425053`
-- @mattpocockuk — [This is super neat and I'll be trying this immediately](https://x.com/mattpocockuk/status/2053065993241477227) `#2053065993241477227`
-- @morganlinton — [Great read on harness engineering.](https://x.com/morganlinton/status/2053265173507703247) `#2053265173507703247`
-- @michaeldyrynda — [I don’t always use PHP’s property hooks, but they’re a handy way to handle exposing virtual properties without doing a better dance or wiring them up in class constructors.   Perfect for POPOs and DTOs  https://t.co/8xKHMaQicH](https://x.com/michaeldyrynda/status/2053818254209249498) `#2053818254209249498`
-- @_vmlops — [This is the best site on the internet to learn harness engineering  https://t.co/n8bV1yKSTS https://t.co/dCc1Q4LHCr](https://x.com/_vmlops/status/2055887618303570151) `#2055887618303570151`
-- @addyosmani — [https://t.co/jKCIAEzai7](https://x.com/addyosmani/status/2056078124346228860) `#2056078124346228860`
-- @blackanger — [排名第一这个 skills 是啥 。。。增长这么快啊 https://t.co/R8DzBbAQj3](https://x.com/blackanger/status/2056125973460852962) `#2056125973460852962`
-- @addyosmani — [https://t.co/0DyFIXJueI](https://x.com/addyosmani/status/2059844244907696186) `#2059844244907696186`
-- @trq212 — [https://t.co/R6exTuF7P8](https://x.com/trq212/status/2061907337154367865) `#2061907337154367865`
-- @Kikobeats — [@sihmael this explains https://t.co/pTD87Uyyub](https://x.com/Kikobeats/status/2062257863729332325) `#2062257863729332325`
-- @every — [Our Opus 4.8 pulse check after another week of testing: https://t.co/J7qDoTqwII](https://x.com/every/status/2062273703447233004) `#2062273703447233004`
-- @KirkDBorne — [The Art of Problem Solving (AoPS) in Mathematics — 13 volumes: https://t.co/Co5WBgtb6H — 🌟BRILLIANT🌟  Precalculus Calculus Number Theory Prealgebra Algebra Intermediate Algebra Geometry Probability Solutions Manuals and more!  Read this and then get the books….](https://x.com/KirkDBorne/status/2063382238931152907) `#2063382238931152907`
-- @addyosmani — [https://t.co/hIe0UX7z6T](https://x.com/addyosmani/status/2064127981161959567) `#2064127981161959567`
-- @GeoffreyHuntley — [banger https://t.co/vQe4Djz28K](https://x.com/GeoffreyHuntley/status/2075347173378859307) `#2075347173378859307`
+- @tom_doerr — [Tom Dörr comparte un repositorio de GitHub (agent-rules-books) con reglas extraídas de libros de programación adaptadas para agentes de codificación con IA.](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
+
+## agent-skills
+
+- @bibryam — [Bilgin Ibryam destaca un repositorio de Addy Osmani que convierte las prácticas de ingeniería de Google en 19 skills y 7 comandos para agentes de IA, organizados en fases de planificación, construcción, verificación, revisión y despliegue.](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
+- @bibryam — [Bilgin Ibryam destaca el artículo de Addy Osmani sobre 'Agent Skills', que convierte especificaciones, tests, revisiones y control de alcance en flujos de trabajo verificables para agentes de codificación.](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
+- @commte — [コムテ informa que Google lanzó oficialmente 13 skills compatibles con el estándar Agent Skills, soportado por Claude Code, Antigravity, Gemini CLI, Cursor y GitHub Copilot, entre otros.](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
+- @Dinosn — [Comparte un repositorio de GitHub con una 'Agent Skill' neutral respecto al proveedor, pensada para Codex, Claude Code y el diseño de harnesses agénticos en general.](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
+- @steipete — [Peter Steinberger recomienda una skill de GitHub ('codex-first') que hace que Fable use Codex como motor principal de trabajo dentro de este flujo.](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+
+## agent-teams
+
+- @_avichawla — [Compara sub-agentes y equipos de agentes en Claude Code: los sub-agentes tienen su propio prompt, herramientas y contexto limpio, mientras que los equipos de agentes añaden lista de tareas compartida, mensajería entre pares y contexto persistente.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
+
+## agent-view
+
+- @adocomplete — [Se muestra entusiasmado por la 'Agent view' (vista previa de investigación) en Claude Code, que permite listar e iniciar múltiples sesiones de agentes sin ocupar una pestaña de terminal, viendo qué está en ejecución, bloqueado o terminado.](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
+
+## agente-ia
+
+- @Sandeepg33k — [Sandeep presenta Passmark, un agente de IA de código abierto construido sobre Playwright para pruebas de regresión a escala, con tests en lenguaje natural, aserciones multi-modelo y caching inteligente.](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
+
+## agentes
+
+- @GithubProjects — [Anuncia una guía visual y con ejemplos sobre Claude Code, desde conceptos básicos hasta agentes avanzados, con plantillas listas para copiar y pegar.](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
+
+## agentes-de-codificacion
+
+- @rseroter — [Richard Seroter cita a @dbreunig sobre cómo los agentes de codificación reducen el coste de abordar problemas antiguos con tácticas modernas, enlazando a un artículo sobre la segunda fase del desarrollo agéntico.](https://x.com/rseroter/status/2041902638405480536) `#2041902638405480536`
+
+## agentes-de-codigo
+
+- @rauchg — [Guillermo Rauch (Vercel) anuncia la apertura como open source de Open Agents, una plataforma de referencia para agentes de codificación en la nube, comparándola con las 'fábricas de software con IA' internas de empresas como Stripe, Ramp, Spotify y Block.](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
+- @thorstenball — [Thorsten Ball anuncia el regreso de lo que describe como 'el mejor agente de codificación del mundo', enlazando a la noticia de Amp (Neo).](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
+- @rseroter — [Comparte un artículo que sostiene que Google Antigravity supera a Claude en tareas de programación, pero solo si el desarrollador cambia su forma tradicional de trabajar como programador.](https://x.com/rseroter/status/2054201313400107399) `#2054201313400107399`
+- @tom_doerr — [Presenta un proyecto de GitHub que orquesta agentes de codificación con IA dotados de memoria persistente.](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
+- @martinfowler — [Martin Fowler comparte el inicio de un artículo de Birgitta Böckeler sobre 'sensores' en un harness de agentes; esta primera parte se centra en el análisis estático y el linting básico de código.](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
+
+## agentes-de-larga-duracion
+
+- @every — [Every explica un flujo de trabajo para aprovechar mejor los agentes de larga duración: identificar tu ejecución más larga, extenderla con objetivos claros usando comandos como /goals en Codex y Claude Code, y auditar los loops existentes según su duración y precisión verificada.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
+
+## agentes-gestionados
+
+- @0xCodez — [Resume cinco workshops publicados por Anthropic sobre las capacidades de 'Fable 5', incluyendo una visión en profundidad, la curva de capacidades, la construcción de agentes gestionados y casos de uso reales por parte de equipos.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
+
+## agentes-ia
+
+- @addyosmani — [Addy Osmani anima a construir proyectos personales ambiciosos con agentes de IA, en vez de usarlos solo para hacer más rápido lo mismo de siempre.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
+- @lennysan — [Lenny Rachitsky comparte la guía completa de Claire Vo sobre OpenClaw, que cubre desde la instalación hasta configuraciones multi-agente, además de los costes reales y los aspectos de seguridad a tener en cuenta.](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
+- @ghumare64 — [Señala que Andrej Karpathy describió el patrón 'LLM Wiki' y enlaza un motor de código abierto (agentmemory) que ya lo implementa.](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
+- @github — [GitHub presenta Squad, un proyecto open source construido sobre GitHub Copilot que despliega un equipo preconfigurado de agentes de IA dentro de un repositorio para superar el límite de los flujos de un solo prompt.](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
+- @danshipper — [Dan Shipper explica que en Every, empresa de 25 empleados, cada persona tiene su propio agente de IA (OpenClaws) integrado en Slack, y comparte una conversación con su COO y su jefe de plataforma sobre cómo esto cambia la colaboración humano-agente y la gestión de equipos.](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería un artículo sobre Managed Agents, su servicio alojado para agentes de larga duración, y los retos de diseñar un sistema para programas todavía no imaginados.](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
+- @rseroter — [Richard Seroter recoge frases de Addy Osmani sobre la importancia del harness de un agente: un modelo decente con un buen harness supera a un gran modelo con un mal harness, y el harness debe evolucionar constantemente.](https://x.com/rseroter/status/2046646395634114988) `#2046646395634114988`
+- @tom_doerr — [Comparte un rastreador y panel (dashboard) de uso de tokens para sistemas multiagente de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
+- @ghumare64 — [Rohit Ghumare recomienda un video de 262 minutos de Andrej Karpathy en el que explica por qué Claude Skills, los servidores MCP y los agentes de IA ya son la base estándar para construir software.](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
+- @rohit4verse — [Argumenta que la memoria real de los agentes de IA no consiste en apilar archivos markdown, sino en usar grafos con nodos, embeddings y recorrido (traversal) para lograr memoria persistente en producción.](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
+- @GitTrend0x — [Resumen en chino de cinco repositorios de GitHub en tendencia sobre agentes de IA: una alternativa gratuita a Claude Code, un agente de ingeniería ML de Hugging Face, un tutorial de Claude Code, una librería de modelos de lenguaje recursivos y una infraestructura de memoria persistente para agentes.](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
+- @wsl8297 — [El autor recomienda el curso open source 'Learn Harness Engineering' en GitHub, que enseña a construir un entorno de trabajo más fiable para asistentes de codificación con IA a través de 12 lecciones teóricas y 6 proyectos prácticos, cubriendo instrucciones, estado, verificación, alcance y sesión.](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
+- @myfear — [Argumenta que los agentes de codificación con IA en empresas necesitan 'contexto aprobado' (frameworks internos, blueprints, buenas prácticas, runbooks y reglas de seguridad) y enlaza un artículo sobre servidores MCP como capa de conocimiento empresarial.](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
+- @omarsar0 — [Elvis resume un paper sobre 'Agentic Harness Engineering', un framework que hace observable la evolución del harness de agentes de codificación y eleva el pass@1 en Terminal-Bench 2 del 69.7% al 77.0% en diez iteraciones, superando a Codex-CLI y a baselines auto-evolutivos.](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+- @Av1dlive — [Avid destaca un video de Karpathy sobre cómo convertirse en un ingeniero '100x' mediante context engineering, diseño de herramientas, el patrón orquestador-subagente, evals y una mentalidad de harness.](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
+- @DeRonin_ — [A partir de una cita de Karpathy, enumera 10 herramientas y prácticas de IA que los ingenieros senior ya han abandonado (AutoGen, CrewAI, agentes autónomos, Semantic Kernel, DSPy, entre otras) y qué sí compensa a largo plazo: ingeniería de contexto, diseño de herramientas, patrón orquestador-subagente, disciplina de evaluación y MCP.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
+- @svpino — [Santiago recomienda un libro que cataloga 30 tipos de agentes de IA que, según él, todo ingeniero de IA debería saber construir, y menciona también el libro '50 Algorithms Every Programmer Should Know'.](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
+- @aakashgupta — [Explica cómo Hermes evita que los agentes de IA se estanquen reescribiendo automáticamente sus propios archivos de skill cada 15 llamadas a herramientas, mejorando el rendimiento semana a semana sin tocar el prompt.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
+- @QingQ77 — [Presenta una plantilla para Claude Code que organiza una sola sesión como un estudio completo de desarrollo de videojuegos, con 49 agentes de IA especializados y 72 habilidades de flujo de trabajo jerarquizados en tres niveles, más 12 hooks de validación automática.](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
+- @AhmedHemaz — [Recomienda la skill de agente '/grill-me' como algo que cambia por completo la forma de trabajar con agentes de codificación, y enlaza otras skills en un repositorio de GitHub.](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
+- @bibryam — [Comparte un artículo sobre cómo no desperdiciar la 'back pressure' (contrapresión) al diseñar agentes.](https://x.com/bibryam/status/2050954217104302281) `#2050954217104302281`
+- @tom_doerr — [Presenta un proyecto de GitHub que automatiza la investigación mediante agentes especializados de investigador, revisor y redactor.](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
+- @samuel_wong_ — [Comparte la primera parte de una serie de blog titulada 'Agentic Engineering', sobre ingeniería de agentes de IA.](https://x.com/samuel_wong_/status/2051299948935963036) `#2051299948935963036`
+- @ashtom — [Thomas Dohmke (GitHub) anuncia que Entire HQ libera en open source 'Skills', que permite a los agentes usar el contexto completo capturado por Entire CLI (prompts, transcripciones y decisiones detrás de cada commit) junto al historial de git.](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
+- @rseroter — [Richard Seroter escribe sobre cómo forzar a un agente personalizado a detenerse y pedir aprobación humana, usando la función de human-in-the-loop del Agent Development Kit para validar tutoriales de código generados por IA.](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
+- @LLMpsycho — [Presenta una herramienta TUI de observabilidad para agentes de codificación con IA que rastrea coste, tokens, fallos de herramientas, latencia y salud en Claude Code, Codex CLI, Gemini, Hermes y otros, de forma local y sin backend.](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
+- @morganlinton — [Recomienda una lectura sobre 'harness engineering', sin enlace ni más detalles en el texto.](https://x.com/morganlinton/status/2053265173507703247) `#2053265173507703247`
+- @GitTrend0x — [Resumen en chino de cinco proyectos de GitHub que amplían el agente Hermes: un fork reforzado, un panel web de control, un plugin de evolución de habilidades sin coste de tokens, una documentación completa y un paquete de flujos de trabajo creativos ('Superpowers').](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
+- @QingQ77 — [Presenta 'Oh My Hermes', una capa de habilidades y flujos de trabajo para el agente Hermes que cubre todo el ciclo de vida de una aplicación, desde la idea hasta el despliegue y la operación, con 20 skills y 5 agentes especializados (CTO, PM, Dev, QA, Ops) coordinados en un tablero kanban.](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
+- @DataChaz — [Charly Wargnier resalta la advertencia de Karpathy de que el 90% de los consejos sobre IA caducan en 6 meses, y destaca un contenido que ofrece un playbook de 2026 sobre qué aprender, construir e ignorar en IA.](https://x.com/DataChaz/status/2054225085100151163) `#2054225085100151163`
+- @milesdeutscher — [Miles Deutscher anuncia el lanzamiento de Claude for Legal, un marketplace de Anthropic con decenas de agentes de IA especializados en roles legales como revisión de documentos, redacción de políticas y NDAs.](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
+- @tom_doerr — [Comparte un proyecto de GitHub que automatiza la creación y publicación de contenido en YouTube mediante agentes de IA.](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
+- @ghumare64 — [Anuncia una herramienta de memoria persistente para agentes de codificación (Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenCode y cualquier cliente MCP) para que no haya que volver a explicar el contexto.](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
+- @_vmlops — [Vaishnavi recomienda un sitio web como el mejor recurso en internet para aprender 'harness engineering' de agentes de IA.](https://x.com/_vmlops/status/2055887618303570151) `#2055887618303570151`
+- @ClaudeDevs — [ClaudeDevs comparte un artículo sobre cómo hacer fiable en producción el 'computer use' de Claude: precisión de clics, niveles de esfuerzo de razonamiento, gestión del contexto en sesiones largas y grabación de demostraciones reproducibles.](https://x.com/ClaudeDevs/status/2056835339193561170) `#2056835339193561170`
+- @0xMovez — [Movez resume un video de 28 minutos de un ingeniero de Anthropic que explica en 4 pasos cómo dar memoria persistente entre sesiones a los agentes de IA, con almacenes de memoria y una tasa de acierto de caché del 95%.](https://x.com/0xMovez/status/2058193075181089247) `#2058193075181089247`
+- @lennysan — [Lenny Rachitsky resume diez conclusiones de Dan Shipper sobre el futuro del trabajo con IA: el trabajo se hará dentro de Codex o Claude Code, la automatización siempre necesita humanos, los PMs y diseñadores full-stack ganarán protagonismo, y cada empresa tendrá un 'super-agente' compartido.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
+- @bcherny — [Boris Cherny explica la importancia de los bucles de autoverificación para que los modelos de IA puedan trabajar durante periodos largos con resultados más alineados con la intención del usuario, y destaca una explicación de Delba Oliveira sobre el tema.](https://x.com/bcherny/status/2064426115255730578) `#2064426115255730578`
+- @mattpocockuk — [Matt Pocock describe cómo planifica sus cursos en colaboración con un agente de IA que entiende todo el contexto de su negocio, permitiéndole hacer preguntas como qué opinan sus estudiantes de una función o qué problemas tuvieron en secciones anteriores.](https://x.com/mattpocockuk/status/2072320135382073778) `#2072320135382073778`
+- @_avichawla — [Avi Chawla explica Shepherd, una herramienta de Stanford descrita como un 'Git nativo para agentes': registra cada interacción agente-entorno como un commit que incluye el proceso y el sistema de archivos, permitiendo revertir o bifurcar una ejecución a un paso anterior sin reiniciar desde cero ni perder la caché KV.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
+- @mattpocockuk — [Matt Pocock ofrece, dentro de una serie sobre los términos más confusos de la IA, una definición concisa de 'agente': simplemente un modelo, dotado de un harness, dentro de un entorno.](https://x.com/mattpocockuk/status/2075149990658191668) `#2075149990658191668`
+
+## agentic-ai
+
+- @VKazulkin — [Comparte un artículo sobre cómo simular equipos de expertos con IA agéntica usando Amazon Bedrock AgentCore, mostrando ejemplos de consultas reales y patrones aplicables.](https://x.com/VKazulkin/status/2048087390712181059) `#2048087390712181059`
+
+## agentic-coding
+
+- @DanielMiessler — [Daniel Miessler propone, en respuesta a un artículo de Lars Faye sobre los riesgos de la programación agéntica, crear un lenguaje pseudocódigo intermedio que permita experimentar con ideas de funcionalidad antes de escribirlas como especificación completa o código final.](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
+
+## agentic-engineering
+
+- @samuel_wong_ — [Comparte la primera parte de una serie de blog titulada 'Agentic Engineering', sobre ingeniería de agentes de IA.](https://x.com/samuel_wong_/status/2051299948935963036) `#2051299948935963036`
+- @bibryam — [Enlaza un artículo titulado "The 8 Levels of Agentic Engineering", que describe niveles progresivos de madurez en ingeniería agéntica.](https://x.com/bibryam/status/2059282155922948194) `#2059282155922948194`
+
+## agents-best-practices
+
+- @Dinosn — [Comparte un repositorio de GitHub con una 'Agent Skill' neutral respecto al proveedor, pensada para Codex, Claude Code y el diseño de harnesses agénticos en general.](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
+
+## ai-agents
+
+- @amankk_9 — [Propone un proyecto de fin de semana para construir desde cero un agente de IA con múltiples herramientas, enlazando a un tutorial paso a paso.](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
+- @midudev — [Miguel Ángel Durán presenta un repositorio open source con archivos DESIGN.md que replican las guías visuales de empresas como Apple, Airbnb, Tesla, Shopify y Uber, para que un agente de IA entienda el estilo de interfaz deseado sin usar Figma.](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
+- @eng_khairallah1 — [Promociona un taller gratuito de 30 minutos, impartido por ingenieros de Anthropic, sobre cómo construir agentes de IA en producción.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
+- @AYi_AInotes — [Comentario en chino sobre el skill 'improve-codebase-architecture' de Matt Pocock, que añade un glosario oficial de 37 líneas para forzar que la IA use una terminología precisa (módulos profundos/superficiales, etc.) y convertir la mejora de arquitectura en un proceso reproducible.](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
+- @tom_doerr — [Tom Dörr comparte 'webclaw', un scraper web de alta velocidad diseñado para agentes de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
+- @aiDotEngineer — [Anuncio de la charla 'Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment' de @mappletons, sobre Ace, un entorno multijugador de agentes de GitHub Next con colaboración en tiempo real y micro VMs en sandbox.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
+- @cursor_ai — [Cursor explica cómo mejoran su "agent harness" para hacerlo más rápido y eficiente en tokens, y cómo prueban, monitorean y personalizan sus mejoras para distintos modelos.](https://x.com/cursor_ai/status/2049901436918436249) `#2049901436918436249`
+- @kristianfreeman — [Comenta que las "replicate skills" son una incorporación útil al toolkit de su agente, que ahora puede invocar, reintentar y optimizar directamente a partir de la salida de Replicate.](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
+- @dhruvtwt_ — [Lista de seis herramientas de orquestación de agentes de IA que vale la pena probar: Superset, DP Code, Emdash, Letta, Conductor y Air, cada una con su enlace.](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
+- @benln — [Referencia a una intervención de Andrej Karpathy sobre el cambio hacia la 'ingeniería agéntica' en el desarrollo de software.](https://x.com/benln/status/2051285184369115154) `#2051285184369115154`
+- @tom_doerr — [Comparte "skill-check", una herramienta open source que valida la calidad de las skills de agentes de IA mediante diagnósticos.](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
+- @unclebobmartin — [Uncle Bob Martin comenta que resulta muy sencillo pedirle a un agente de IA que cree un detector de duplicación de código, enlazando el proyecto 'dry4clj' en GitHub.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
+- @dotta — [Anuncia el lanzamiento de Paperclip v2026.512.1, con mejoras de estabilidad, agentes y rutinas gestionados por plugins, gestión de secretos, modo de planificación y nueva búsqueda.](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
+- @NFTCPS — [Presenta el ecosistema open source de Hermes: una app de escritorio nativa, un flujo para convertir ideas en PRD/documentos de diseño, una capa de memoria compartida entre agentes (plur), una herramienta de compresión de tokens y un dashboard de monitorización.](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
+- @every — [Every explica un flujo de trabajo para aprovechar mejor los agentes de larga duración: identificar tu ejecución más larga, extenderla con objetivos claros usando comandos como /goals en Codex y Claude Code, y auditar los loops existentes según su duración y precisión verificada.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
+- @bibryam — [Enlaza un artículo titulado "The 8 Levels of Agentic Engineering", que describe niveles progresivos de madurez en ingeniería agéntica.](https://x.com/bibryam/status/2059282155922948194) `#2059282155922948194`
+- @rseroter — [Cita una lección de Dropbox: la IA no elimina los cuellos de botella en el desarrollo de software, sino que los desplaza a otra parte del proceso.](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
+- @0xchromium — [Describe una sesión de dos horas de Andrej Karpathy mostrando cómo usa la IA en su día a día: describe la tarea en lenguaje natural, deja que el agente trabaje y ajusta el resultado con una frase, como si instruyera a un compañero.](https://x.com/0xchromium/status/2063321324605280569) `#2063321324605280569`
+- @AndrewYNg — [Andrew Ng explica el concepto de "loop engineering" y describe sus tres bucles clave para construir productos de cero a uno: el bucle de codificación agéntica, el bucle de feedback del desarrollador y el bucle de feedback externo.](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+- @trending_repos — [Presentación del repositorio de GitHub en tendencia 'Agent-Reach', que da a los agentes de IA capacidad de leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu mediante una sola CLI sin coste de APIs.](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
+- @nicopreme — [Nico Bailon presenta "grill-for-unknowns", una skill de agente que combina la skill "grill me" de Matt Pocock con las ideas del artículo "Finding Your Unknowns" de Thariq, para que el agente identifique primero lo desconocido antes de implementar.](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+
+## ai-assisted-coding
+
+- @pragdave — [Dave Thomas comparte un artículo sobre los peligros de olvidar los fundamentos de programación en medio del auge de la codificación asistida por IA.](https://x.com/pragdave/status/2063276005859393884) `#2063276005859393884`
+
+## ai-coding
+
+- @martinfowler — [Martin Fowler enlaza otra recopilación de 'Fragments', con una guía actualizada sobre programación con IA, un video sobre 'harness engineering', la duración ideal de una función y una reflexión sobre por qué la IA es impopular.](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
+- @badlogicgames — [Mario Zechner recomienda un artículo titulado 'I'm going back to writing code by hand', advirtiendo que no hay que dejarse confundir por el título.](https://x.com/badlogicgames/status/2053747834696995181) `#2053747834696995181`
+- @DanielMiessler — [Daniel Miessler propone, en respuesta a un artículo de Lars Faye sobre los riesgos de la programación agéntica, crear un lenguaje pseudocódigo intermedio que permita experimentar con ideas de funcionalidad antes de escribirlas como especificación completa o código final.](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
+
+## ai-coding-assistants
+
+- @martinfowler — [Martin Fowler comparte un artículo de @techygarg que propone tratar las instrucciones de estándares de equipo para asistentes de codificación con IA como infraestructura versionada, revisada y compartida.](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
+
+## ai-ethics
+
+- @addyosmani — [Cita sobre la "rendición cognitiva": dejar de pensar por completo y aceptar sin cuestionar la respuesta que da la IA.](https://x.com/addyosmani/status/2058281426257358947) `#2058281426257358947`
+
+## ai-governance
+
+- @omarsar0 — [Resume un nuevo informe de Google que sostiene que la "singularidad" de la IA no será una mente superinteligente única, sino sistemas multiagente y configuraciones humano-IA; señala que modelos como DeepSeek-R1 ya desarrollan "sociedades de pensamiento" internas mediante RL.](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
+
+## ai-marketing
+
+- @helloitsaustin — [Austin Lau, del equipo de growth marketing de Anthropic, explica cómo usa Claude más allá de reescribir titulares, combinando el chat, Claude Cowork y Claude Code en su trabajo diario.](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
+
+## ai-policy
+
+- @AnthropicAI — [Anthropic publica un paper sobre la competencia en IA entre EE.UU. y China, argumentando que EE.UU. y sus aliados democráticos mantienen la delantera en IA de frontera y explicando qué hace falta para conservarla.](https://x.com/AnthropicAI/status/2054987444664377374) `#2054987444664377374`
+
+## ai-progress
+
+- @every — [Every comparte un ensayo que argumenta que el progreso de la IA está generando más trabajo para los humanos, no menos.](https://x.com/every/status/2057933169085808788) `#2057933169085808788`
+
+## ai-skills
+
+- @rseroter — [Richard Seroter comparte un artículo del equipo de ingeniería de Pinterest sobre cómo implementar un proceso de pruebas para optimizar el rendimiento de los agentes de IA con 'skills' en cualquier repositorio.](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
+
+## ai-transformation
+
+- @rseroter — [Richard Seroter comenta un caso de Yum Brands, que está modernizando su infraestructura de datos por la urgencia de adoptar IA, resolviendo así problemas de larga data.](https://x.com/rseroter/status/2053959835679604812) `#2053959835679604812`
+
+## akbp
+
+- @ghumare64 — [Rohit Ghumare anuncia AKBP, un protocolo que describe como 'Git para el conocimiento de los agentes', desarrollado a partir de la LLM wiki de Andrej Karpathy.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
+
+## alex-vacca
+
+- @itsalexvacca — [Enlace a un artículo largo publicado en x.com por Alex Vacca, sin texto adicional que describa su contenido.](https://x.com/itsalexvacca/status/2048486401105358933) `#2048486401105358933`
+
+## algoritmos
+
+- @rseroter — [Richard Seroter responde a la crítica de que los LLM solo repiten lo aprendido señalando que el agente AlphaEvolve de Google DeepMind está diseñando algoritmos avanzados con impacto real.](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
+
+## almacenamiento-en-la-nube
+
+- @twtayaan — [El autor anuncia el lanzamiento de Amazon S3 Files, que permite montar buckets de S3 como sistemas de archivos nativos con acceso POSIX y sub-milisegundo, conectable a Lambda, EC2 y EKS.](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
+
+## alphaevolve
+
+- @rseroter — [Richard Seroter responde a la crítica de que los LLM solo repiten lo aprendido señalando que el agente AlphaEvolve de Google DeepMind está diseñando algoritmos avanzados con impacto real.](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
+
+## amp
+
+- @sqs — [Quinn Slack anuncia que el paquete npm de Amp ahora incluye un ejecutable precompilado en lugar del código fuente, lo que lo hace más rápido y mejora el soporte de sus plugins entre plataformas.](https://x.com/sqs/status/2054794044426101245) `#2054794044426101245`
+
+## amp-code
+
+- @thorstenball — [Thorsten Ball anuncia el regreso de lo que describe como 'el mejor agente de codificación del mundo', enlazando a la noticia de Amp (Neo).](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
+
+## analisis-estatico
+
+- @martinfowler — [Martin Fowler comparte el inicio de un artículo de Birgitta Böckeler sobre 'sensores' en un harness de agentes; esta primera parte se centra en el análisis estático y el linting básico de código.](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
+- @martinfowler — [Martin Fowler destaca un nuevo artículo de Birgitta Böckeler que explora tres 'sensores' para el análisis estático de código, concluyendo que los sensores puramente computacionales no bastan y que se necesita IA para añadir interpretación semántica.](https://x.com/martinfowler/status/2057107389539553494) `#2057107389539553494`
+
+## andrej-karpathy
+
+- @sairahul1 — [Destaca un curso gratuito de 3 horas de Andrej Karpathy que explica en profundidad conceptos clave de los LLM como tokenización, atención, alucinaciones, uso de herramientas, RLHF, DeepSeek y AlphaGo.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
+- @benln — [Referencia a una intervención de Andrej Karpathy sobre el cambio hacia la 'ingeniería agéntica' en el desarrollo de software.](https://x.com/benln/status/2051285184369115154) `#2051285184369115154`
+- @defileo — [Comenta que Andrej Karpathy compartió gratis, en una charla de 29 minutos, ideas como que "los LLM son fantasmas, no animales", que el "vibe coding" ha muerto y que "Software 3.0" ya está aquí, poco después de que Anthropic lo contratara.](https://x.com/defileo/status/2057924890330644925) `#2057924890330644925`
+- @0xchromium — [Describe una sesión de dos horas de Andrej Karpathy mostrando cómo usa la IA en su día a día: describe la tarea en lenguaje natural, deja que el agente trabaje y ajusta el resultado con una frase, como si instruyera a un compañero.](https://x.com/0xchromium/status/2063321324605280569) `#2063321324605280569`
+
+## andrew-ng
+
+- @AndrewYNg — [Andrew Ng explica el concepto de "loop engineering" y describe sus tres bucles clave para construir productos de cero a uno: el bucle de codificación agéntica, el bucle de feedback del desarrollador y el bucle de feedback externo.](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+
+## anthropic
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería un artículo sobre Managed Agents, su servicio alojado para agentes de larga duración, y los retos de diseñar un sistema para programas todavía no imaginados.](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
+- @eng_khairallah1 — [El autor recomienda un taller de 25 minutos del equipo de IA aplicada de Anthropic sobre buenas prácticas con Claude Code y cómo integrar herramientas de IA entre sí.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
+- @codewithimanshu — [Hilo promocional extenso sobre el Claude Code SDK, basado en una charla de Sid Bidasaria (Anthropic): uso headless, gestión de permisos, persistencia de sesión y la GitHub Action de Claude para automatizar flujos de ingeniería completos.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
+- @eng_khairallah1 — [Promociona un taller gratuito de 30 minutos, impartido por ingenieros de Anthropic, sobre cómo construir agentes de IA en producción.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
+- @helloitsaustin — [Austin Lau, del equipo de growth marketing de Anthropic, explica cómo usa Claude más allá de reescribir titulares, combinando el chat, Claude Cowork y Claude Code en su trabajo diario.](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
+- @Suryanshti777 — [El autor destaca que el Head of Claude Code de Anthropic implementó 49 funcionalidades en 48 horas sin escribir código a mano, y grabó el flujo de trabajo completo en un vídeo gratuito de 30 minutos.](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
+- @aakashgupta — [Aakash Gupta argumenta que el product manager se vuelve el rol clave en la era de la IA, usando como ejemplo al equipo de Claude Code de Anthropic (liderado por Boris Cherny), que construyó el producto Cowork en unos 10 días y aumentó la productividad por ingeniero un 70%.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
+- @milesdeutscher — [Miles Deutscher anuncia el lanzamiento de Claude for Legal, un marketplace de Anthropic con decenas de agentes de IA especializados en roles legales como revisión de documentos, redacción de políticas y NDAs.](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
+- @AnthropicAI — [Anthropic anuncia una alianza con la Fundación Gates, comprometiendo 200 millones de dólares en subvenciones, créditos de Claude y soporte técnico para programas de salud global, ciencias de la vida, educación, agricultura y movilidad económica.](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
+- @AnthropicAI — [Anthropic publica un paper sobre la competencia en IA entre EE.UU. y China, argumentando que EE.UU. y sus aliados democráticos mantienen la delantera en IA de frontera y explicando qué hace falta para conservarla.](https://x.com/AnthropicAI/status/2054987444664377374) `#2054987444664377374`
+- @0xMovez — [El autor comenta una charla del Chief Architect de Spotify en el escenario de Anthropic sobre cómo logran 4.500 despliegues diarios con Claude, señalando que más del 99% de sus ingenieros usan herramientas de IA desde la llegada de Opus 4.5.](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
+- @AnthropicAI — [Anthropic explica que ha mantenido diálogos con académicos, filósofos, clérigos y especialistas en ética sobre cómo se forma el buen carácter de la IA, ampliando la conversación sobre la IA de frontera.](https://x.com/AnthropicAI/status/2056880308851708233) `#2056880308851708233`
+- @0xMovez — [Movez resume un video de 28 minutos de un ingeniero de Anthropic que explica en 4 pasos cómo dar memoria persistente entre sesiones a los agentes de IA, con almacenes de memoria y una tasa de acierto de caché del 95%.](https://x.com/0xMovez/status/2058193075181089247) `#2058193075181089247`
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería que los permisos y el acceso otorgados a los agentes deben evolucionar junto a sus capacidades, y explica cómo usan el sandboxing para limitar acciones potencialmente destructivas.](https://x.com/AnthropicAI/status/2059351260243919269) `#2059351260243919269`
+- @every — [Comparte un 'pulse check' semanal sobre el modelo Opus 4.8 tras otra semana de pruebas.](https://x.com/every/status/2062273703447233004) `#2062273703447233004`
+- @0xCodez — [Resume cinco workshops publicados por Anthropic sobre las capacidades de 'Fable 5', incluyendo una visión en profundidad, la curva de capacidades, la construcción de agentes gestionados y casos de uso reales por parte de equipos.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
+
+## aops
+
+- @KirkDBorne — [Recomendación de la colección de 13 volúmenes 'The Art of Problem Solving' (AoPS), sobre matemáticas (precálculo, cálculo, teoría de números, álgebra, geometría, probabilidad, entre otros).](https://x.com/KirkDBorne/status/2063382238931152907) `#2063382238931152907`
+
+## app-de-escritorio
+
+- @spacesuit_app — [Presentación de Spacesuit, descrita como un 'lienzo futurista' para el desarrollo personal, disponible para macOS, Windows y Linux.](https://x.com/spacesuit_app/status/2043052113983402360) `#2043052113983402360`
+
+## aprendizaje
+
+- @kentcdodds — [Kent C. Dodds responde a Grady Booch que enseñar es la manera de solidificar la propia comprensión de un tema.](https://x.com/kentcdodds/status/2050801846269489650) `#2050801846269489650`
+
+## architecture-decision-records
+
+- @plainionist — [Sostiene que la madurez de un desarrollador se refleja en la importancia que da a documentar decisiones de diseño y arquitectura, enlazando al artículo de Martin Fowler sobre Architecture Decision Records.](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
+
+## argument-resolvers
+
+- @symfony — [Symfony anuncia una nueva funcionalidad en la versión 8.1: los Console Argument Resolvers, con enlace a la entrada del blog oficial.](https://x.com/symfony/status/2052649763074425053) `#2052649763074425053`
+
+## arquitectura
+
+- @vineetwts — [El autor creó documentación sobre la base de código de Claude Code, explicando su pipeline, funcionamiento, manejo de contexto y memoria, publicada en Mintlify.](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
+- @bibryam — [Comparte un artículo sobre cómo no desperdiciar la 'back pressure' (contrapresión) al diseñar agentes.](https://x.com/bibryam/status/2050954217104302281) `#2050954217104302281`
+
+## arquitectura-de-agentes
+
+- @bibryam — [Bilgin Ibryam comparte un artículo que compara los patrones de subagentes y de 'advisor' (asesor) en Claude Code.](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
+- @_avichawla — [Compara sub-agentes y equipos de agentes en Claude Code: los sub-agentes tienen su propio prompt, herramientas y contexto limpio, mientras que los equipos de agentes añaden lista de tareas compartida, mensajería entre pares y contexto persistente.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
+
+## arquitectura-de-ia
+
+- @KirkDBorne — [Promoción del libro 'Architecting Generative AI Applications', que explica cómo construir, desplegar y escalar sistemas de IA generativa en producción siguiendo buenas prácticas de LLMOps.](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
+
+## arquitectura-de-software
+
+- @mattpocockuk — [Matt Pocock reflexiona sobre cómo el Domain-Driven Design (DDD) —lenguaje compartido, bounded contexts y ADRs— podría resolver muchos problemas comunes al trabajar con modelos de IA en bases de código grandes.](https://x.com/mattpocockuk/status/2044723788743360833) `#2044723788743360833`
+- @AYi_AInotes — [Comentario en chino sobre el skill 'improve-codebase-architecture' de Matt Pocock, que añade un glosario oficial de 37 líneas para forzar que la IA use una terminología precisa (módulos profundos/superficiales, etc.) y convertir la mejora de arquitectura en un proceso reproducible.](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
+- @symfony — [Symfony comparte que en SymfonyDay Montréal, Oskar Barcz presentó una guía pragmática para implementar CQRS (Command Query Responsibility Segregation) en aplicaciones Symfony sin sobrecomplicarlas.](https://x.com/symfony/status/2052735679826657598) `#2052735679826657598`
+- @mattpocockuk — [Matt Pocock anuncia que su skill '/improve-codebase-architecture' pronto generará salida en HTML, agradeciendo la contribución de @trq212.](https://x.com/mattpocockuk/status/2054922772573303293) `#2054922772573303293`
+- @vladikk — [Vlad Khononov explica que en su libro 'Learning Domain-Driven Design' priorizó los principios sobre los listados de código, para que el lector entienda el porqué de patrones tácticos como los value objects inmutables.](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
+
+## arquitectura-software
+
+- @bibryam — [Comparte un enlace a una chuleta (cheatsheet) sobre las 10 principales características de arquitectura de software, es decir, los requisitos no funcionales más importantes.](https://x.com/bibryam/status/1549333232943894529) `#1549333232943894529`
+- @plainionist — [Sostiene que la madurez de un desarrollador se refleja en la importancia que da a documentar decisiones de diseño y arquitectura, enlazando al artículo de Martin Fowler sobre Architecture Decision Records.](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
+
+## articulo
+
+- @dani_avila7 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional que explique su contenido.](https://x.com/dani_avila7/status/2048486242321662189) `#2048486242321662189`
+- @tonygentilcore — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/tonygentilcore/status/2049482833111232694) `#2049482833111232694`
+- @SebSmith1 — [El autor recomienda un artículo de Kent C. Dodds que coincide con conclusiones propias sobre la evolución del rol del ingeniero de software.](https://x.com/SebSmith1/status/2050553191901667810) `#2050553191901667810`
+- @trq212 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/trq212/status/2061907337154367865) `#2061907337154367865`
+- @addyosmani — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2064127981161959567) `#2064127981161959567`
+
+## articulo-x
+
+- @dabit3 — [Enlace a un artículo de X (Twitter) compartido por Nader Dabit, sin texto descriptivo adicional.](https://x.com/dabit3/status/2038608435105726862) `#2038608435105726862`
+- @itsolelehmann — [Enlace a un artículo largo publicado en x.com por Ole Lehmann, sin texto adicional que describa su contenido.](https://x.com/itsolelehmann/status/2038661433626333649) `#2038661433626333649`
+- @intheworldofai — [Enlace a un artículo de X publicado por la cuenta WorldofAI, sin texto descriptivo adicional en el tuit.](https://x.com/intheworldofai/status/2041632641716514947) `#2041632641716514947`
+- @ashpreetbedi — [Enlace a un artículo de X (Twitter) compartido por Ashpreet Bedi, sin texto descriptivo adicional.](https://x.com/ashpreetbedi/status/2041901460523270409) `#2041901460523270409`
+- @Suryanshti777 — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/Suryanshti777/status/2047694444787577236) `#2047694444787577236`
+- @itsalexvacca — [Enlace a un artículo largo publicado en x.com por Alex Vacca, sin texto adicional que describa su contenido.](https://x.com/itsalexvacca/status/2048486401105358933) `#2048486401105358933`
+- @aparnadhinak — [Enlace a un artículo de X sin texto descriptivo que lo acompañe.](https://x.com/aparnadhinak/status/2048492731929149929) `#2048492731929149929`
+- @mfpiccolo — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/mfpiccolo/status/2049139067359568032) `#2049139067359568032`
+- @addyosmani — [Enlace a un artículo de X publicado por Addy Osmani, sin texto descriptivo adicional en el tuit.](https://x.com/addyosmani/status/2059844244907696186) `#2059844244907696186`
+
+## arxiv
+
+- @omarsar0 — [Elvis resume un paper sobre 'Agentic Harness Engineering', un framework que hace observable la evolución del harness de agentes de codificación y eleva el pass@1 en Terminal-Bench 2 del 69.7% al 77.0% en diez iteraciones, superando a Codex-CLI y a baselines auto-evolutivos.](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+- @robert_lauko — [Robert Lauko presenta Kurate, una plataforma que clasifica diariamente los preprints más relevantes de arXiv en IA, ML, robótica y física cuántica mediante torneos de comparación por pares evaluados por Claude, GPT y Gemini.](https://x.com/robert_lauko/status/2050876479731278113) `#2050876479731278113`
+
+## ashpreet-bedi
+
+- @ashpreetbedi — [Enlace a un artículo de X (Twitter) compartido por Ashpreet Bedi, sin texto descriptivo adicional.](https://x.com/ashpreetbedi/status/2041901460523270409) `#2041901460523270409`
+
+## autoayuda
+
+- @winspyredotcom — [Promoción de un libro en Amazon que promete acciones simples y sin coste para reducir la complejidad, a diferencia de otros libros con frameworks estáticos de pasos.](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
+
+## automation
+
+- @kristianfreeman — [Comenta que las "replicate skills" son una incorporación útil al toolkit de su agente, que ahora puede invocar, reintentar y optimizar directamente a partir de la salida de Replicate.](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
+- @0xchromium — [Describe una sesión de dos horas de Andrej Karpathy mostrando cómo usa la IA en su día a día: describe la tarea en lenguaje natural, deja que el agente trabaje y ajusta el resultado con una frase, como si instruyera a un compañero.](https://x.com/0xchromium/status/2063321324605280569) `#2063321324605280569`
+
+## automatizacion
+
+- @NainsiDwiv50980 — [Hilo que resume funciones avanzadas de Claude Code reveladas por @bcherny (hooks, control remoto, extensión de Chrome, worktrees de Git, comandos como /batch y /voice), presentándolas como un sistema completo de ingeniería con IA.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
+- @codewithimanshu — [Hilo promocional extenso sobre el Claude Code SDK, basado en una charla de Sid Bidasaria (Anthropic): uso headless, gestión de permisos, persistencia de sesión y la GitHub Action de Claude para automatizar flujos de ingeniería completos.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
+- @QingQ77 — [Presenta una plantilla para Claude Code que organiza una sola sesión como un estudio completo de desarrollo de videojuegos, con 49 agentes de IA especializados y 72 habilidades de flujo de trabajo jerarquizados en tres niveles, más 12 hooks de validación automática.](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
+- @GitTrend0x — [Resumen en chino de cinco proyectos de GitHub que amplían el agente Hermes: un fork reforzado, un panel web de control, un plugin de evolución de habilidades sin coste de tokens, una documentación completa y un paquete de flujos de trabajo creativos ('Superpowers').](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
+- @QingQ77 — [Presenta 'Oh My Hermes', una capa de habilidades y flujos de trabajo para el agente Hermes que cubre todo el ciclo de vida de una aplicación, desde la idea hasta el despliegue y la operación, con 20 skills y 5 agentes especializados (CTO, PM, Dev, QA, Ops) coordinados en un tablero kanban.](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
+- @luisloaiza — [Presenta una herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, que permite vender con catálogo y pagos integrados y automatizar el onboarding con validación de identidad, descrita como más rápida y potente que n8n.](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
+- @every — [Every explica un flujo de trabajo para aprovechar mejor los agentes de larga duración: identificar tu ejecución más larga, extenderla con objetivos claros usando comandos como /goals en Codex y Claude Code, y auditar los loops existentes según su duración y precisión verificada.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
+- @tom_doerr — [Comparte un proyecto de GitHub que automatiza la creación y publicación de contenido en YouTube mediante agentes de IA.](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
+- @every — [Every comparte un ensayo que argumenta que el progreso de la IA está generando más trabajo para los humanos, no menos.](https://x.com/every/status/2057933169085808788) `#2057933169085808788`
+- @ClaudeDevs — [ClaudeDevs plantea cómo lograr que Claude Code revise su propio trabajo antes de entregarlo, mostrando cómo codificar comprobaciones manuales para cerrar el bucle de feedback del agente.](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
+- @bcherny — [Boris Cherny explica la importancia de los bucles de autoverificación para que los modelos de IA puedan trabajar durante periodos largos con resultados más alineados con la intención del usuario, y destaca una explicación de Delba Oliveira sobre el tema.](https://x.com/bcherny/status/2064426115255730578) `#2064426115255730578`
+
+## automatizacion-investigacion
+
+- @tom_doerr — [Presenta un proyecto de GitHub que automatiza la investigación mediante agentes especializados de investigador, revisor y redactor.](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
+
+## autoresearch
+
+- @agrimsingh — [Agrim Singh adapta el 'autoresearch loop' de Karpathy para buscar vuelos baratos en clase business, creando el proyecto 'autofare' con Codex y GPT-5.4 mini.](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
+
+## aws
+
+- @twtayaan — [El autor anuncia el lanzamiento de Amazon S3 Files, que permite montar buckets de S3 como sistemas de archivos nativos con acceso POSIX y sub-milisegundo, conectable a Lambda, EC2 y EKS.](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
+- @VKazulkin — [Comparte un artículo sobre cómo simular equipos de expertos con IA agéntica usando Amazon Bedrock AgentCore, mostrando ejemplos de consultas reales y patrones aplicables.](https://x.com/VKazulkin/status/2048087390712181059) `#2048087390712181059`
+
+## axios
+
+- @karpathy — [Karpathy alerta sobre un ataque a la cadena de suministro en el paquete npm de axios (300M de descargas semanales) y advierte que las dependencias no fijadas (unpinned) pueden hacer que un proyecto resuelva a una versión maliciosa; enlaza un artículo con más detalles del incidente.](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
+
+## backpressure
+
+- @bibryam — [Comparte un artículo sobre cómo no desperdiciar la 'back pressure' (contrapresión) al diseñar agentes.](https://x.com/bibryam/status/2050954217104302281) `#2050954217104302281`
+
+## backup
+
+- @steipete — [Peter Steinberger presenta 'birdclaw', una herramienta que crea almacenamiento local de tuits, importa el archivo de Twitter, hace copias de seguridad en GitHub y permite importar bookmarks de X diariamente.](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
+
+## base-de-conocimiento
+
+- @karpathy — [Karpathy comparte, en formato de 'idea file' (un gist), una versión mejorada de un tuit que se hizo viral: la idea de compartir conceptos en lugar de código para que el agente LLM de cada persona construya y personalice su propia wiki de LLM.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
+- @adrianaia_ — [AdrIAna comenta que, 48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, alguien construyó exactamente esa idea y la subió a GitHub.](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
+
+## bedrock-agentcore
+
+- @VKazulkin — [Comparte un artículo sobre cómo simular equipos de expertos con IA agéntica usando Amazon Bedrock AgentCore, mostrando ejemplos de consultas reales y patrones aplicables.](https://x.com/VKazulkin/status/2048087390712181059) `#2048087390712181059`
+
+## benchmarking
+
+- @every — [Comparte un 'pulse check' semanal sobre el modelo Opus 4.8 tras otra semana de pruebas.](https://x.com/every/status/2062273703447233004) `#2062273703447233004`
+
+## best-practices
+
+- @dabit3 — [Recomienda un sitio de referencia con "56 leyes de la ingeniería de software", especialmente útil para desarrolladores junior.](https://x.com/dabit3/status/2046592545530982880) `#2046592545530982880`
+- @ClaudeDevs — [Blog post de ClaudeDevs sobre buenas prácticas para ejecutar Claude Code a gran escala, basado en la experiencia de equipos con monorepos de millones de líneas, sistemas legacy y microservicios distribuidos.](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
+
+## birdclaw
+
+- @steipete — [Peter Steinberger presenta 'birdclaw', una herramienta que crea almacenamiento local de tuits, importa el archivo de Twitter, hace copias de seguridad en GitHub y permite importar bookmarks de X diariamente.](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
+
+## blog
+
+- @badlogicgames — [Recomienda la lectura de un artículo, sin más comentario en el texto del tuit.](https://x.com/badlogicgames/status/2059190700827140495) `#2059190700827140495`
+- @GeoffreyHuntley — [Comparte, con un breve comentario de aprobación ('banger'), un artículo titulado 'The Great Divergence in Software Engineering'.](https://x.com/GeoffreyHuntley/status/2075347173378859307) `#2075347173378859307`
+
+## bookmarks
+
+- @steipete — [Peter Steinberger presenta 'birdclaw', una herramienta que crea almacenamiento local de tuits, importa el archivo de Twitter, hace copias de seguridad en GitHub y permite importar bookmarks de X diariamente.](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
+
+## boris-cherny
+
+- @aakashgupta — [Aakash Gupta argumenta que el product manager se vuelve el rol clave en la era de la IA, usando como ejemplo al equipo de Claude Code de Anthropic (liderado por Boris Cherny), que construyó el producto Cowork en unos 10 días y aumentó la productividad por ingeniero un 70%.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
+- @srishticodes — [Srishti describe un archivo CLAUDE.md, creado a partir de los hilos de Boris Cherny (creador de Claude Code), que incluye orquestación de subagentes, verificación antes de marcar tareas como completas y reglas que se autocorrigen con el feedback del usuario.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
+- @bibryam — [Bilgin Ibryam comparte un artículo sobre cómo Boris Cherny, creador de Claude Code, utiliza la herramienta en su propio flujo de trabajo.](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
+
+## bottlenecks
+
+- @rseroter — [Cita una lección de Dropbox: la IA no elimina los cuellos de botella en el desarrollo de software, sino que los desplaza a otra parte del proceso.](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
+
+## bounded-contexts
+
+- @mattpocockuk — [Matt Pocock reflexiona sobre cómo el Domain-Driven Design (DDD) —lenguaje compartido, bounded contexts y ADRs— podría resolver muchos problemas comunes al trabajar con modelos de IA en bases de código grandes.](https://x.com/mattpocockuk/status/2044723788743360833) `#2044723788743360833`
+
+## browser-automation
+
+- @adocomplete — [Comparte una publicación con consejos prácticos para mejorar el uso de "computer use" y navegación web con Claude, orientados a lograr que haga clic en el elemento correcto.](https://x.com/adocomplete/status/2057034715534676458) `#2057034715534676458`
+
+## browser-use
+
+- @adocomplete — [Enlace a la entrada del blog de Claude sobre buenas prácticas para el uso de ordenador y navegador con Claude ('computer use' y 'browser use').](https://x.com/adocomplete/status/2057034718198038751) `#2057034718198038751`
+
+## buenas-practicas
+
+- @bibryam — [Bilgin Ibryam destaca un repositorio de Addy Osmani que convierte las prácticas de ingeniería de Google en 19 skills y 7 comandos para agentes de IA, organizados en fases de planificación, construcción, verificación, revisión y despliegue.](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
+- @jdecool — [Comparte el artículo de Martin Fowler titulado 'Encoding Team Standards', sobre cómo codificar los estándares de un equipo para reducir la fricción al trabajar con IA.](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
+- @eng_khairallah1 — [El autor recomienda un taller de 25 minutos del equipo de IA aplicada de Anthropic sobre buenas prácticas con Claude Code y cómo integrar herramientas de IA entre sí.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
+- @tom_doerr — [Tom Dörr comparte un repositorio de GitHub (agent-rules-books) con reglas extraídas de libros de programación adaptadas para agentes de codificación con IA.](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
+- @rseroter — [Richard Seroter comparte un artículo de @dbreunig con lecciones prácticas sobre programación agéntica, preguntándose si seguirán siendo válidas dentro de seis meses.](https://x.com/rseroter/status/2052526138678001757) `#2052526138678001757`
+- @bibryam — [Bilgin Ibryam destaca el artículo de Addy Osmani sobre 'Agent Skills', que convierte especificaciones, tests, revisiones y control de alcance en flujos de trabajo verificables para agentes de codificación.](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
+- @adocomplete — [Enlace a la entrada del blog de Claude sobre buenas prácticas para el uso de ordenador y navegador con Claude ('computer use' y 'browser use').](https://x.com/adocomplete/status/2057034718198038751) `#2057034718198038751`
+- @freekmurze — [Freek Van der Herten comparte un enlace con notas sobre la calidad del software, centradas en buenas prácticas, filosofía y artesanía en la programación.](https://x.com/freekmurze/status/2057076497593040970) `#2057076497593040970`
+- @_vmlops — [El autor destaca que Google ha publicado en GitHub sus guías internas de revisión de código (para revisores y para autores), incluyendo el significado de términos internos como 'LGTM' y 'CL'.](https://x.com/_vmlops/status/2058057460792074625) `#2058057460792074625`
+- @Dinosn — [Comparte un único archivo CLAUDE.md para mejorar el comportamiento de Claude Code, basado en las observaciones de Andrej Karpathy sobre los errores habituales de la codificación con LLM.](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
+- @bibryam — [Bilgin Ibryam comparte un artículo del blog de Claude sobre buenas prácticas para asegurar código usando Claude.](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
+- @pragdave — [Dave Thomas comparte un artículo sobre los peligros de olvidar los fundamentos de programación en medio del auge de la codificación asistida por IA.](https://x.com/pragdave/status/2063276005859393884) `#2063276005859393884`
+
+## bugs
+
+- @slashdot — [Slashdot enlaza a un artículo sobre las declaraciones de Linus Torvalds acerca de cómo la IA está afectando a la búsqueda de bugs en el kernel de Linux.](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
+
+## cache
+
+- @ClaudeDevs — [ClaudeDevs presenta un nuevo panel en Claude Developer Console para dar visibilidad al uso de la caché y ayudar a los clientes a reducir costes y el tiempo hasta el primer token (TTFT).](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
+- @0xMovez — [Movez resume un video de 28 minutos de un ingeniero de Anthropic que explica en 4 pasos cómo dar memoria persistente entre sesiones a los agentes de IA, con almacenes de memoria y una tasa de acierto de caché del 95%.](https://x.com/0xMovez/status/2058193075181089247) `#2058193075181089247`
+
+## caddy
+
+- @coopTilleuls — [Les-Tilleuls.coop presenta Ember v1.0, una herramienta open source de monitorización en tiempo real para Caddy y FrankenPHP, con enlace a un artículo explicativo en su blog.](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
+
+## calidad-de-codigo
+
+- @jetbrains — [JetBrains invita a una demo en vivo sobre cómo Qodana y TeamCity analizan automáticamente en CI el código generado por IA con las mismas inspecciones deterministas en cada PR, antes de llegar a producción.](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
+- @ParthJadhav8 — [Elogia la skill '/thermo-nuclear-code-quality-review' de Cursor, que tras 30 minutos de ejecución en un PR mejoró notablemente la calidad del código, afirmando que es muy superior a '/simplify' de Claude Code.](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
+
+## calidad-de-software
+
+- @freekmurze — [Freek Van der Herten comparte un enlace con notas sobre la calidad del software, centradas en buenas prácticas, filosofía y artesanía en la programación.](https://x.com/freekmurze/status/2057076497593040970) `#2057076497593040970`
+
+## caracter-ia
+
+- @AnthropicAI — [Anthropic explica que ha mantenido diálogos con académicos, filósofos, clérigos y especialistas en ética sobre cómo se forma el buen carácter de la IA, ampliando la conversación sobre la IA de frontera.](https://x.com/AnthropicAI/status/2056880308851708233) `#2056880308851708233`
+
+## caso-de-uso
+
+- @bcherny — [Comenta un artículo de Salesforce sobre su adopción agéntica de Claude Code, destacando una migración estimada en 231 días que se completó en 13, y un PR que entregó 21 endpoints con 100% de cobertura de tests.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
+
+## catalogo-de-agentes
+
+- @svpino — [Santiago recomienda un libro que cataloga 30 tipos de agentes de IA que, según él, todo ingeniero de IA debería saber construir, y menciona también el libro '50 Algorithms Every Programmer Should Know'.](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
+
+## charla
+
+- @aiDotEngineer — [Anuncio de la charla 'Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment' de @mappletons, sobre Ace, un entorno multijugador de agentes de GitHub Next con colaboración en tiempo real y micro VMs en sandbox.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
+- @addyosmani — [Addy Osmani publica el video completo de una charla sobre la evolución del oficio del desarrollador, junto a Richard Seroter, the_thagomizer y Ciera Jaspan.](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
+- @antonarhipov — [Anton Arhipov publica las diapositivas de su charla en KotlinConf 2026 sobre desarrollo dirigido por especificaciones (Spec-Driven Development) con agentes de IA.](https://x.com/antonarhipov/status/2058489053385760947) `#2058489053385760947`
+
+## charlas-tecnicas
+
+- @mattpocockuk — [Matt Pocock responde confirmando que dio dos charlas sobre un tema que se volvieron virales simultáneamente, y enlaza a ambos vídeos en YouTube.](https://x.com/mattpocockuk/status/2056277047496843534) `#2056277047496843534`
+
+## cheatsheet
+
+- @bibryam — [Comparte un enlace a una chuleta (cheatsheet) sobre las 10 principales características de arquitectura de software, es decir, los requisitos no funcionales más importantes.](https://x.com/bibryam/status/1549333232943894529) `#1549333232943894529`
+
+## checkpointing
+
+- @_avichawla — [Avi Chawla explica Shepherd, una herramienta de Stanford descrita como un 'Git nativo para agentes': registra cada interacción agente-entorno como un commit que incluye el proceso y el sistema de archivos, permitiendo revertir o bifurcar una ejecución a un paso anterior sin reiniciar desde cero ni perder la caché KV.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
+
+## ci-cd
+
+- @jetbrains — [JetBrains invita a una demo en vivo sobre cómo Qodana y TeamCity analizan automáticamente en CI el código generado por IA con las mismas inspecciones deterministas en cada PR, antes de llegar a producción.](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
+- @0xMovez — [El autor comenta una charla del Chief Architect de Spotify en el escenario de Anthropic sobre cómo logran 4.500 despliegues diarios con Claude, señalando que más del 99% de sus ingenieros usan herramientas de IA desde la llegada de Opus 4.5.](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
+
+## ciclo-de-vida-software
+
+- @QingQ77 — [Presenta 'Oh My Hermes', una capa de habilidades y flujos de trabajo para el agente Hermes que cubre todo el ciclo de vida de una aplicación, desde la idea hasta el despliegue y la operación, con 20 skills y 5 agentes especializados (CTO, PM, Dev, QA, Ops) coordinados en un tablero kanban.](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
+
+## claude
+
+- @unclebobmartin — [Uncle Bob Martin compara su experiencia usando Claude y Codex: le parece que Codex es algo más competente, pero Claude resulta más diligente.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
+- @aakashgupta — [Recomienda leer un artículo con consejos para aprovechar más Claude sin alcanzar los límites de uso.](https://x.com/aakashgupta/status/2048497322276065549) `#2048497322276065549`
+- @helloitsaustin — [Austin Lau, del equipo de growth marketing de Anthropic, explica cómo usa Claude más allá de reescribir titulares, combinando el chat, Claude Cowork y Claude Code en su trabajo diario.](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
+- @rseroter — [Comparte un artículo que sostiene que Google Antigravity supera a Claude en tareas de programación, pero solo si el desarrollador cambia su forma tradicional de trabajar como programador.](https://x.com/rseroter/status/2054201313400107399) `#2054201313400107399`
+- @_vmlops — [Comparte un documento de Google Drive con '100 códigos secretos' (presumiblemente trucos o prompts) para usar con Claude.](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
+- @0xMovez — [El autor comenta una charla del Chief Architect de Spotify en el escenario de Anthropic sobre cómo logran 4.500 despliegues diarios con Claude, señalando que más del 99% de sus ingenieros usan herramientas de IA desde la llegada de Opus 4.5.](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
+- @adocomplete — [Comparte una publicación con consejos prácticos para mejorar el uso de "computer use" y navegación web con Claude, orientados a lograr que haga clic en el elemento correcto.](https://x.com/adocomplete/status/2057034715534676458) `#2057034715534676458`
+- @bibryam — [Bilgin Ibryam comparte un artículo del blog de Claude sobre buenas prácticas para asegurar código usando Claude.](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
+
+## claude-agent-sdk
+
+- @odysseus0z — [Comparte un artículo del blog de ingeniería de LinkedIn (escrito por el creador de Kafka) sobre logs distribuidos, en el contexto de comparar Managed Claude frente al Agent SDK.](https://x.com/odysseus0z/status/2052447720166904138) `#2052447720166904138`
+
+## claude-ai
+
+- @rubenhassid — [Guía de Ruben Hassid para 'clonar tu voz' en Claude durante un fin de semana: usar el modo Cowork, transcribir entrevistas por voz con Wispr Flow, comprimir las respuestas en un archivo de texto y cargarlo para que Claude escriba con tu estilo en cualquier IA.](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
+- @adocomplete — [Enlace a la entrada del blog de Claude sobre buenas prácticas para el uso de ordenador y navegador con Claude ('computer use' y 'browser use').](https://x.com/adocomplete/status/2057034718198038751) `#2057034718198038751`
+
+## claude-api
+
+- @ClaudeDevs — [ClaudeDevs presenta un nuevo panel en Claude Developer Console para dar visibilidad al uso de la caché y ayudar a los clientes a reducir costes y el tiempo hasta el primer token (TTFT).](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
+- @brada — [Brad Abrams anuncia que la skill 'claude-api' para escribir código listo para producción ya está disponible en CodeRabbit, JetBrains, Resolve AI, Warp y Claude Code, mejorando la caché y los patrones de agentes.](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
+
+## claude-blog
+
+- @ClaudeDevs — [ClaudeDevs comparte un artículo sobre cómo hacer fiable en producción el 'computer use' de Claude: precisión de clics, niveles de esfuerzo de razonamiento, gestión del contexto en sesiones largas y grabación de demostraciones reproducibles.](https://x.com/ClaudeDevs/status/2056835339193561170) `#2056835339193561170`
+
+## claude-code
+
+- @bcherny — [Boris Cherny, creador de Claude Code, anuncia un hilo con sus funciones ocultas y poco utilizadas favoritas de la herramienta.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
+- @vineetwts — [El autor creó documentación sobre la base de código de Claude Code, explicando su pipeline, funcionamiento, manejo de contexto y memoria, publicada en Mintlify.](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
+- @himanshustwts — [Describe en detalle la arquitectura de memoria de Claude Code a partir del código fuente: un índice ligero siempre cargado, archivos temáticos a demanda, reescritura en segundo plano ("autoDream") y aislamiento del proceso de consolidación.](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
+- @dunglas — [Kévin Dunglas anuncia mejoras importantes en su proyecto Symfony Docker: soporte para Dev Containers, agentes de código autónomos como Claude Code, Xdebug integrado y recarga en caliente instantánea con FrankenPHP; incluye el resumen de su charla en Symfony Live Paris.](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
+- @karpathy — [Karpathy responde que varias funciones recientes ya apuntaban a llevar 'Code' hacia direcciones de 'Claw', calificándolo de una especie de speedrun, y enlaza a un tuit anterior suyo sobre el tema.](https://x.com/karpathy/status/2039057005802082814) `#2039057005802082814`
+- @RoundtableSpace — [Lista de los 10 mejores repositorios de GitHub para mejorar el uso de Claude Code, incluyendo Supabase, NotebookLM, Obsidian, LangChain, Flowise, colecciones de Claude Skills, Repomix y guías de buenas prácticas.](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
+- @vladikk — [Vlad Khononov comenta que Anthropic publicó por error el código fuente de Claude Code y aplicó su skill de revisión de modularidad, señalando un acoplamiento fuerte en el servicio de ejecución de herramientas (switch statements por nombre de herramienta).](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
+- @NainsiDwiv50980 — [Hilo que resume funciones avanzadas de Claude Code reveladas por @bcherny (hooks, control remoto, extensión de Chrome, worktrees de Git, comandos como /batch y /voice), presentándolas como un sistema completo de ingeniería con IA.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
+- @bibryam — [Bilgin Ibryam destaca un repositorio de Addy Osmani que convierte las prácticas de ingeniería de Google en 19 skills y 7 comandos para agentes de IA, organizados en fases de planificación, construcción, verificación, revisión y despliegue.](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
+- @dbreunig — [Drew Breunig comparte un artículo que explica cómo Claude Code construye su system prompt.](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
+- @NickSpisak_ — [Anuncia una actualización de su versión open source del "LLM wiki" de Karpathy, compatible con Claude Code, Codex y Gemini, con soporte de ingesta, consulta y lint.](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
+- @GithubProjects — [Anuncia una guía visual y con ejemplos sobre Claude Code, desde conceptos básicos hasta agentes avanzados, con plantillas listas para copiar y pegar.](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
+- @eng_khairallah1 — [El autor recomienda un taller de 25 minutos del equipo de IA aplicada de Anthropic sobre buenas prácticas con Claude Code y cómo integrar herramientas de IA entre sí.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
+- @sairahul1 — [Recomienda un vídeo de 30 minutos del creador de Claude Code enseñando sobre 'vibe coding'.](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
+- @hasantoxr — [Promociona el plugin oficial de Anthropic 'claude-code-setup', que analiza el proyecto y recomienda qué hooks, skills, servidores MCP y subagentes activar, instalable con un solo comando.](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
+- @KSimback — [Kevin Simback publica una skill de Claude Code (/tech-debt-skill) que genera un informe exhaustivo de deuda técnica, identificando no solo bugs sino también código que funciona pero podría mejorarse.](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
+- @GitTrend0x — [Resumen en chino de cinco repositorios de GitHub en tendencia sobre agentes de IA: una alternativa gratuita a Claude Code, un agente de ingeniería ML de Hugging Face, un tutorial de Claude Code, una librería de modelos de lenguaje recursivos y una infraestructura de memoria persistente para agentes.](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
+- @ds_nana_ — [Enlaza un recurso ("Claude Code in Action") que explica cómo Claude Code lee archivos, ejecuta comandos y edita código, además de técnicas de gestión de contexto, hooks e integraciones externas.](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
+- @wsl8297 — [El autor recomienda el curso open source 'Learn Harness Engineering' en GitHub, que enseña a construir un entorno de trabajo más fiable para asistentes de codificación con IA a través de 12 lecciones teóricas y 6 proyectos prácticos, cubriendo instrucciones, estado, verificación, alcance y sesión.](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
+- @ai_rohitt — [Recomienda un vídeo en el que el creador de Claude Code explica el 'vibe-coding' en 30 minutos, calificándolo de más útil que muchos tutoriales largos.](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
+- @Suryanshti777 — [El autor destaca que el Head of Claude Code de Anthropic implementó 49 funcionalidades en 48 horas sin escribir código a mano, y grabó el flujo de trabajo completo en un vídeo gratuito de 30 minutos.](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
+- @bibryam — [Bilgin Ibryam comparte un artículo que compara los patrones de subagentes y de 'advisor' (asesor) en Claude Code.](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
+- @aakashgupta — [Aakash Gupta argumenta que el product manager se vuelve el rol clave en la era de la IA, usando como ejemplo al equipo de Claude Code de Anthropic (liderado por Boris Cherny), que construyó el producto Cowork en unos 10 días y aumentó la productividad por ingeniero un 70%.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
+- @_avichawla — [Compara sub-agentes y equipos de agentes en Claude Code: los sub-agentes tienen su propio prompt, herramientas y contexto limpio, mientras que los equipos de agentes añaden lista de tareas compartida, mensajería entre pares y contexto persistente.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
+- @QingQ77 — [Presenta una plantilla para Claude Code que organiza una sola sesión como un estudio completo de desarrollo de videojuegos, con 49 agentes de IA especializados y 72 habilidades de flujo de trabajo jerarquizados en tres niveles, más 12 hooks de validación automática.](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
+- @srishticodes — [Srishti describe un archivo CLAUDE.md, creado a partir de los hilos de Boris Cherny (creador de Claude Code), que incluye orquestación de subagentes, verificación antes de marcar tareas como completas y reglas que se autocorrigen con el feedback del usuario.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
+- @LLMpsycho — [Presenta una herramienta TUI de observabilidad para agentes de codificación con IA que rastrea coste, tokens, fallos de herramientas, latencia y salud en Claude Code, Codex CLI, Gemini, Hermes y otros, de forma local y sin backend.](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
+- @mattpocockuk — [Matt Pocock comenta que la skill '/handoff' se ha convertido en una de sus favoritas, sin dar más detalles sobre su funcionamiento.](https://x.com/mattpocockuk/status/2052489881088049407) `#2052489881088049407`
+- @mattpocockuk — [Matt Pocock describe un flujo de trabajo en Claude Code que combina las skills "/grill-with-docs" y "/prototype" con la función "/rewind" para resumir lo aprendido durante la prototipación y continuar la conversación con contexto reducido.](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
+- @adocomplete — [Se muestra entusiasmado por la 'Agent view' (vista previa de investigación) en Claude Code, que permite listar e iniciar múltiples sesiones de agentes sin ocupar una pestaña de terminal, viendo qué está en ejecución, bloqueado o terminado.](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
+- @commte — [コムテ informa que Google lanzó oficialmente 13 skills compatibles con el estándar Agent Skills, soportado por Claude Code, Antigravity, Gemini CLI, Cursor y GitHub Copilot, entre otros.](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
+- @every — [Every explica un flujo de trabajo para aprovechar mejor los agentes de larga duración: identificar tu ejecución más larga, extenderla con objetivos claros usando comandos como /goals en Codex y Claude Code, y auditar los loops existentes según su duración y precisión verificada.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
+- @GitHub_Daily — [Presenta CodeGraph, una herramienta open source que construye un grafo de conocimiento semántico del código para que Claude Code consulte la estructura del proyecto en lugar de escanear archivo por archivo, reduciendo un 92% las llamadas a herramientas y acelerando la exploración un 71%.](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
+- @danshipper — [Dan Shipper afirma que el mejor indicador de si una organización adopta la IA es que su equipo directivo use personalmente Codex, Claude Code o Cowork, y anuncia que su empresa Every abre cupos de consultoría para ayudar a equipos ejecutivos a adoptar estas herramientas.](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
+- @midudev — [Presenta una herramienta open source y local para crear un grafo semántico del código y así evitar que la IA gaste tokens explorando el proyecto, con un 92% menos de llamadas a herramientas y un 71% más de rapidez explorando código; compatible con Claude Code, Cursor, Codex y OpenCode.](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
+- @ClaudeDevs — [Blog post de ClaudeDevs sobre buenas prácticas para ejecutar Claude Code a gran escala, basado en la experiencia de equipos con monorepos de millones de líneas, sistemas legacy y microservicios distribuidos.](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
+- @_vmlops — [Anuncio de 'Harness Engineering: A Design Guide to Claude Code', con enlace a un documento alojado en Google Drive.](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
+- @ParthJadhav8 — [Elogia la skill '/thermo-nuclear-code-quality-review' de Cursor, que tras 30 minutos de ejecución en un PR mejoró notablemente la calidad del código, afirmando que es muy superior a '/simplify' de Claude Code.](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
+- @Dinosn — [Comparte un repositorio de GitHub con una 'Agent Skill' neutral respecto al proveedor, pensada para Codex, Claude Code y el diseño de harnesses agénticos en general.](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
+- @Dinosn — [Comparte un único archivo CLAUDE.md para mejorar el comportamiento de Claude Code, basado en las observaciones de Andrej Karpathy sobre los errores habituales de la codificación con LLM.](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
+- @lennysan — [Lenny Rachitsky resume diez conclusiones de Dan Shipper sobre el futuro del trabajo con IA: el trabajo se hará dentro de Codex o Claude Code, la automatización siempre necesita humanos, los PMs y diseñadores full-stack ganarán protagonismo, y cada empresa tendrá un 'super-agente' compartido.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
+- @bcherny — [Comenta un artículo de Salesforce sobre su adopción agéntica de Claude Code, destacando una migración estimada en 231 días que se completó en 13, y un PR que entregó 21 endpoints con 100% de cobertura de tests.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
+- @ClaudeDevs — [ClaudeDevs plantea cómo lograr que Claude Code revise su propio trabajo antes de entregarlo, mostrando cómo codificar comprobaciones manuales para cerrar el bucle de feedback del agente.](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
+- @bibryam — [Bilgin Ibryam comparte un artículo sobre cómo Boris Cherny, creador de Claude Code, utiliza la herramienta en su propio flujo de trabajo.](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
+- @bcherny — [Boris Cherny explica la importancia de los bucles de autoverificación para que los modelos de IA puedan trabajar durante periodos largos con resultados más alineados con la intención del usuario, y destaca una explicación de Delba Oliveira sobre el tema.](https://x.com/bcherny/status/2064426115255730578) `#2064426115255730578`
+- @mattpocockuk — [Matt Pocock detalla un proceso paso a paso para eliminar el exceso de contenido del system prompt de Claude Code usando un proxy para inspeccionarlo y un archivo settings.json personalizado, reduciéndolo a unos 13.000 tokens.](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
+
+## claude-code-sdk
+
+- @codewithimanshu — [Hilo promocional extenso sobre el Claude Code SDK, basado en una charla de Sid Bidasaria (Anthropic): uso headless, gestión de permisos, persistencia de sesión y la GitHub Action de Claude para automatizar flujos de ingeniería completos.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
+
+## claude-computer-use
+
+- @ClaudeDevs — [ClaudeDevs comparte un artículo sobre cómo hacer fiable en producción el 'computer use' de Claude: precisión de clics, niveles de esfuerzo de razonamiento, gestión del contexto en sesiones largas y grabación de demostraciones reproducibles.](https://x.com/ClaudeDevs/status/2056835339193561170) `#2056835339193561170`
+
+## claude-design
+
+- @JoliCode — [JoliCode publica en su blog cómo integrar la IA en el flujo de trabajo UX/UI: Sophie comparte su experiencia con Figma Make, Claude Design y prompts eficaces, y qué cambia realmente para los diseñadores.](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
+
+## claude-em
+
+- @jcesarperez — [Presenta la versión 1.3.0 de Claude EM, un compañero de IA para engineering managers que conoce al equipo, su contexto y sus herramientas, con una nueva skill y mejoras.](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
+
+## claude-for-legal
+
+- @milesdeutscher — [Miles Deutscher anuncia el lanzamiento de Claude for Legal, un marketplace de Anthropic con decenas de agentes de IA especializados en roles legales como revisión de documentos, redacción de políticas y NDAs.](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
+
+## claude-md
+
+- @srishticodes — [Srishti describe un archivo CLAUDE.md, creado a partir de los hilos de Boris Cherny (creador de Claude Code), que incluye orquestación de subagentes, verificación antes de marcar tareas como completas y reglas que se autocorrigen con el feedback del usuario.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
+- @Dinosn — [Comparte un único archivo CLAUDE.md para mejorar el comportamiento de Claude Code, basado en las observaciones de Andrej Karpathy sobre los errores habituales de la codificación con LLM.](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
+
+## claude-skills
+
+- @RoundtableSpace — [Lista de los 10 mejores repositorios de GitHub para mejorar el uso de Claude Code, incluyendo Supabase, NotebookLM, Obsidian, LangChain, Flowise, colecciones de Claude Skills, Repomix y guías de buenas prácticas.](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
+- @tom_doerr — [Comparte una biblioteca de skills de IA orientada a educación, alojada en GitHub.](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
+- @mattpocockuk — [Matt Pocock comparte su nueva lista de skills personalizados (domain-model, to-prd, to-issues, github-triage, tdd) para mejorar su flujo de trabajo de desarrollo asistido por IA.](https://x.com/mattpocockuk/status/2045110469426323900) `#2045110469426323900`
+- @mattpocockuk — [Matt Pocock anuncia una mejora en su skill "/improve-codebase-architecture", que ahora incluye un glosario de terminología para describir código bueno y malo.](https://x.com/mattpocockuk/status/2047759493581156377) `#2047759493581156377`
+- @ghumare64 — [Rohit Ghumare recomienda un video de 262 minutos de Andrej Karpathy en el que explica por qué Claude Skills, los servidores MCP y los agentes de IA ya son la base estándar para construir software.](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
+- @AYi_AInotes — [Comentario en chino sobre el skill 'improve-codebase-architecture' de Matt Pocock, que añade un glosario oficial de 37 líneas para forzar que la IA use una terminología precisa (módulos profundos/superficiales, etc.) y convertir la mejora de arquitectura en un proceso reproducible.](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
+- @mattpocockuk — [Matt Pocock celebra que su repositorio de skills (mattpocock/skills) llegó a casi 23K estrellas en GitHub y pregunta a la comunidad cómo hacer estos skills más visibles: ¿un sitio de documentación?, ¿enviarlos a marketplaces de plugins?](https://x.com/mattpocockuk/status/2048490818848075846) `#2048490818848075846`
+- @AhmedHemaz — [Recomienda la skill de agente '/grill-me' como algo que cambia por completo la forma de trabajar con agentes de codificación, y enlaza otras skills en un repositorio de GitHub.](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
+- @trevin — [Trevin Chow comparte una documentación rápida que explica cada uno de los skills clave del plugin de Compound Engineering, con enlace al repositorio en GitHub.](https://x.com/trevin/status/2051736297883291826) `#2051736297883291826`
+- @mattpocockuk — [Matt Pocock anuncia que su skill '/improve-codebase-architecture' pronto generará salida en HTML, agradeciendo la contribución de @trq212.](https://x.com/mattpocockuk/status/2054922772573303293) `#2054922772573303293`
+- @blackanger — [Comentario en chino preguntando qué es el skill que ocupa el primer puesto en un ranking y comentando lo rápido que está creciendo, sin más contexto ni enlace.](https://x.com/blackanger/status/2056125973460852962) `#2056125973460852962`
+- @freekmurze — [Freek Van der Herten enlaza un artículo sobre cómo utilizar Claude Skills en proyectos de clientes, relacionado con Laravel, Livewire y generación de código.](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
+- @nurijanian — [El autor comparte sus skills de ingeniería con IA favoritos —Compound Engineering, las 'shaping skills' de Ryan Singer y los skills de Matt Pocock— y comenta que cambió de Superpowers a Compound Engineering.](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
+- @nicopreme — [Nico Bailon presenta "grill-for-unknowns", una skill de agente que combina la skill "grill me" de Matt Pocock con las ideas del artículo "Finding Your Unknowns" de Thariq, para que el agente identifique primero lo desconocido antes de implementar.](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+
+## claudedevs
+
+- @ClaudeDevs — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/ClaudeDevs/status/2074208949205881033) `#2074208949205881033`
+
+## cli
+
+- @bcherny — [Boris Cherny, creador de Claude Code, anuncia un hilo con sus funciones ocultas y poco utilizadas favoritas de la herramienta.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
+- @NainsiDwiv50980 — [Hilo que resume funciones avanzadas de Claude Code reveladas por @bcherny (hooks, control remoto, extensión de Chrome, worktrees de Git, comandos como /batch y /voice), presentándolas como un sistema completo de ingeniería con IA.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
+- @symfony — [Symfony anuncia una nueva funcionalidad en la versión 8.1: los Console Argument Resolvers, con enlace a la entrada del blog oficial.](https://x.com/symfony/status/2052649763074425053) `#2052649763074425053`
+- @trending_repos — [Presentación del repositorio de GitHub en tendencia 'Agent-Reach', que da a los agentes de IA capacidad de leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu mediante una sola CLI sin coste de APIs.](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
+
+## cli-tools
+
+- @sqs — [Quinn Slack anuncia que el paquete npm de Amp ahora incluye un ejecutable precompilado en lugar del código fuente, lo que lo hace más rápido y mejora el soporte de sus plugins entre plataformas.](https://x.com/sqs/status/2054794044426101245) `#2054794044426101245`
+
+## clojure
+
+- @unclebobmartin — [Uncle Bob Martin comenta que resulta muy sencillo pedirle a un agente de IA que cree un detector de duplicación de código, enlazando el proyecto 'dry4clj' en GitHub.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
+
+## code-exploration
+
+- @GitHub_Daily — [Presenta CodeGraph, una herramienta open source que construye un grafo de conocimiento semántico del código para que Claude Code consulte la estructura del proyecto en lugar de escanear archivo por archivo, reduciendo un 92% las llamadas a herramientas y acelerando la exploración un 71%.](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
+
+## code-quality
+
+- @mattpocockuk — [Matt Pocock anuncia una mejora en su skill "/improve-codebase-architecture", que ahora incluye un glosario de terminología para describir código bueno y malo.](https://x.com/mattpocockuk/status/2047759493581156377) `#2047759493581156377`
+
+## code-review
+
+- @vladikk — [Vlad Khononov comenta que Anthropic publicó por error el código fuente de Claude Code y aplicó su skill de revisión de modularidad, señalando un acoplamiento fuerte en el servicio de ejecución de herramientas (switch statements por nombre de herramienta).](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
+- @KSimback — [Kevin Simback publica una skill de Claude Code (/tech-debt-skill) que genera un informe exhaustivo de deuda técnica, identificando no solo bugs sino también código que funciona pero podría mejorarse.](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
+- @ericzakariasson — [Presenta "cursor team kit", un plugin con las skills que el propio equipo de Cursor usa internamente para verificar cambios, ejecutar herramientas locales y enviar PRs revisables.](https://x.com/ericzakariasson/status/2051255780167610522) `#2051255780167610522`
+- @ParthJadhav8 — [Elogia la skill '/thermo-nuclear-code-quality-review' de Cursor, que tras 30 minutos de ejecución en un PR mejoró notablemente la calidad del código, afirmando que es muy superior a '/simplify' de Claude Code.](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
+- @_vmlops — [El autor destaca que Google ha publicado en GitHub sus guías internas de revisión de código (para revisores y para autores), incluyendo el significado de términos internos como 'LGTM' y 'CL'.](https://x.com/_vmlops/status/2058057460792074625) `#2058057460792074625`
+
+## codebase-analysis
+
+- @tom_doerr — [Comparte un proyecto open source que genera un grafo de conocimiento de bases de código, representado en formato markdown.](https://x.com/tom_doerr/status/2050852962998657477) `#2050852962998657477`
+
+## codegeneration
+
+- @freekmurze — [Freek Van der Herten enlaza un artículo sobre cómo utilizar Claude Skills en proyectos de clientes, relacionado con Laravel, Livewire y generación de código.](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
+
+## codegraph
+
+- @GitHub_Daily — [Presenta CodeGraph, una herramienta open source que construye un grafo de conocimiento semántico del código para que Claude Code consulte la estructura del proyecto en lugar de escanear archivo por archivo, reduciendo un 92% las llamadas a herramientas y acelerando la exploración un 71%.](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
+- @midudev — [Presenta una herramienta open source y local para crear un grafo semántico del código y así evitar que la IA gaste tokens explorando el proyecto, con un 92% menos de llamadas a herramientas y un 71% más de rapidez explorando código; compatible con Claude Code, Cursor, Codex y OpenCode.](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
+
+## codex
+
+- @unclebobmartin — [Uncle Bob Martin compara su experiencia usando Claude y Codex: le parece que Codex es algo más competente, pero Claude resulta más diligente.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
+- @agrimsingh — [Agrim Singh adapta el 'autoresearch loop' de Karpathy para buscar vuelos baratos en clase business, creando el proyecto 'autofare' con Codex y GPT-5.4 mini.](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
+- @wsl8297 — [El autor recomienda el curso open source 'Learn Harness Engineering' en GitHub, que enseña a construir un entorno de trabajo más fiable para asistentes de codificación con IA a través de 12 lecciones teóricas y 6 proyectos prácticos, cubriendo instrucciones, estado, verificación, alcance y sesión.](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
+- @every — [Every explica un flujo de trabajo para aprovechar mejor los agentes de larga duración: identificar tu ejecución más larga, extenderla con objetivos claros usando comandos como /goals en Codex y Claude Code, y auditar los loops existentes según su duración y precisión verificada.](https://x.com/every/status/2054597972420132926) `#2054597972420132926`
+- @danshipper — [Dan Shipper afirma que el mejor indicador de si una organización adopta la IA es que su equipo directivo use personalmente Codex, Claude Code o Cowork, y anuncia que su empresa Every abre cupos de consultoría para ayudar a equipos ejecutivos a adoptar estas herramientas.](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
+- @Dinosn — [Comparte un repositorio de GitHub con una 'Agent Skill' neutral respecto al proveedor, pensada para Codex, Claude Code y el diseño de harnesses agénticos en general.](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
+- @lennysan — [Lenny Rachitsky resume diez conclusiones de Dan Shipper sobre el futuro del trabajo con IA: el trabajo se hará dentro de Codex o Claude Code, la automatización siempre necesita humanos, los PMs y diseñadores full-stack ganarán protagonismo, y cada empresa tendrá un 'super-agente' compartido.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
+- @every — [Every comparte la plantilla de prompt de Codex que utilizan internamente para redactar planes de 'go-to-market' (GTM) a partir de lo ya discutido en reuniones y Slack.](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
+- @steipete — [Peter Steinberger recomienda una skill de GitHub ('codex-first') que hace que Fable use Codex como motor principal de trabajo dentro de este flujo.](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+
+## codigo
+
+- @plainionist — [Recomienda leer un artículo de Martin Fowler sobre qué es realmente el código, dirigido a quienes creen que el código ya no importa.](https://x.com/plainionist/status/2056010598689751405) `#2056010598689751405`
+
+## codigo-fuente
+
+- @martinfowler — [Martin Fowler enlaza un nuevo artículo que explora si habrá código fuente en el futuro, basado en la idea de Unmesh Joshi de que el código tiene dos propósitos: instrucciones para una máquina y modelo conceptual del dominio del problema.](https://x.com/martinfowler/status/2054193359397253225) `#2054193359397253225`
+
+## codigo-manual
+
+- @badlogicgames — [Mario Zechner recomienda un artículo titulado 'I'm going back to writing code by hand', advirtiendo que no hay que dejarse confundir por el título.](https://x.com/badlogicgames/status/2053747834696995181) `#2053747834696995181`
+
+## coding-agent
+
+- @thorstenball — [Thorsten Ball anuncia el regreso de lo que describe como 'el mejor agente de codificación del mundo', enlazando a la noticia de Amp (Neo).](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
+
+## coding-agents
+
+- @unclebobmartin — [Uncle Bob Martin compara su experiencia usando Claude y Codex: le parece que Codex es algo más competente, pero Claude resulta más diligente.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
+- @tom_doerr — [Tom Dörr comparte un repositorio de GitHub (agent-rules-books) con reglas extraídas de libros de programación adaptadas para agentes de codificación con IA.](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
+- @vladikk — [Vlad Khononov argumenta que contar dependencias no revela nada sobre la calidad del diseño; lo importante es el tipo de conocimiento compartido entre componentes. Enlaza un artículo del blog de Martin Fowler sobre "sensores para agentes de codificación".](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
+
+## cognitive-surrender
+
+- @addyosmani — [Cita sobre la "rendición cognitiva": dejar de pensar por completo y aceptar sin cuestionar la respuesta que da la IA.](https://x.com/addyosmani/status/2058281426257358947) `#2058281426257358947`
+
+## comparativa-herramientas
+
+- @rseroter — [Comparte un artículo que sostiene que Google Antigravity supera a Claude en tareas de programación, pero solo si el desarrollador cambia su forma tradicional de trabajar como programador.](https://x.com/rseroter/status/2054201313400107399) `#2054201313400107399`
+
+## comparativa-llm
+
+- @unclebobmartin — [Uncle Bob Martin compara su experiencia usando Claude y Codex: le parece que Codex es algo más competente, pero Claude resulta más diligente.](https://x.com/unclebobmartin/status/2038384866446696597) `#2038384866446696597`
+
+## compound-engineering
+
+- @trevin — [Trevin Chow comparte una documentación rápida que explica cada uno de los skills clave del plugin de Compound Engineering, con enlace al repositorio en GitHub.](https://x.com/trevin/status/2051736297883291826) `#2051736297883291826`
+- @kieranklaassen — [El autor comenta que una herramienta le está funcionando muy bien para 'compound engineering' y promete publicar un vídeo próximamente.](https://x.com/kieranklaassen/status/2052529355709108651) `#2052529355709108651`
+- @nurijanian — [El autor comparte sus skills de ingeniería con IA favoritos —Compound Engineering, las 'shaping skills' de Ryan Singer y los skills de Matt Pocock— y comenta que cambió de Superpowers a Compound Engineering.](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
+
+## computer-use
+
+- @adocomplete — [Comparte una publicación con consejos prácticos para mejorar el uso de "computer use" y navegación web con Claude, orientados a lograr que haga clic en el elemento correcto.](https://x.com/adocomplete/status/2057034715534676458) `#2057034715534676458`
+- @adocomplete — [Enlace a la entrada del blog de Claude sobre buenas prácticas para el uso de ordenador y navegador con Claude ('computer use' y 'browser use').](https://x.com/adocomplete/status/2057034718198038751) `#2057034718198038751`
+
+## conocimiento-corporativo
+
+- @myfear — [Argumenta que los agentes de codificación con IA en empresas necesitan 'contexto aprobado' (frameworks internos, blueprints, buenas prácticas, runbooks y reglas de seguridad) y enlaza un artículo sobre servidores MCP como capa de conocimiento empresarial.](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
+
+## consultoria
+
+- @McKinsey — [McKinsey señala que la IA agéntica está cambiando la creación de valor en los servicios tecnológicos, identificando cuatro roles distintos con diferentes capacidades y apuestas.](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
+- @danshipper — [Dan Shipper afirma que el mejor indicador de si una organización adopta la IA es que su equipo directivo use personalmente Codex, Claude Code o Cowork, y anuncia que su empresa Every abre cupos de consultoría para ayudar a equipos ejecutivos a adoptar estas herramientas.](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
+
+## contenido
+
+- @tom_doerr — [Comparte un proyecto de GitHub que automatiza la creación y publicación de contenido en YouTube mediante agentes de IA.](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
+
+## context-engineering
+
+- @addyosmani — [Addy Osmani explica que la memoria de un agente de IA depende del diseño del harness, ya que decisiones como qué entra en el contexto o cómo sobrevive a la compactación son decisiones de memoria; recomienda un artículo de @hwchase17 sobre el tema.](https://x.com/addyosmani/status/2043447970507686248) `#2043447970507686248`
+- @Av1dlive — [Avid destaca un video de Karpathy sobre cómo convertirse en un ingeniero '100x' mediante context engineering, diseño de herramientas, el patrón orquestador-subagente, evals y una mentalidad de harness.](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
+- @amitiitbhu — [Comparte un nuevo artículo sobre "Context Engineering", la ingeniería de contexto para modelos de lenguaje.](https://x.com/amitiitbhu/status/2052617405336277305) `#2052617405336277305`
+
+## context-management
+
+- @himanshustwts — [Describe en detalle la arquitectura de memoria de Claude Code a partir del código fuente: un índice ligero siempre cargado, archivos temáticos a demanda, reescritura en segundo plano ("autoDream") y aislamiento del proceso de consolidación.](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
+- @ds_nana_ — [Enlaza un recurso ("Claude Code in Action") que explica cómo Claude Code lee archivos, ejecuta comandos y edita código, además de técnicas de gestión de contexto, hooks e integraciones externas.](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
+- @mattpocockuk — [Matt Pocock describe un flujo de trabajo en Claude Code que combina las skills "/grill-with-docs" y "/prototype" con la función "/rewind" para resumir lo aprendido durante la prototipación y continuar la conversación con contexto reducido.](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
+
+## contexto
+
+- @martinfowler — [Martin Fowler describe, en su nuevo artículo sobre 'Interrogatory LLM', la técnica de dejar que un LLM te entreviste para extraer el contexto necesario en lugar de escribirlo todo manualmente.](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
+
+## contexto-empresarial
+
+- @myfear — [Argumenta que los agentes de codificación con IA en empresas necesitan 'contexto aprobado' (frameworks internos, blueprints, buenas prácticas, runbooks y reglas de seguridad) y enlaza un artículo sobre servidores MCP como capa de conocimiento empresarial.](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
+- @mattpocockuk — [Matt Pocock describe cómo planifica sus cursos en colaboración con un agente de IA que entiende todo el contexto de su negocio, permitiéndole hacer preguntas como qué opinan sus estudiantes de una función o qué problemas tuvieron en secciones anteriores.](https://x.com/mattpocockuk/status/2072320135382073778) `#2072320135382073778`
+
+## contratacion
+
+- @jetbrains — [JetBrains anuncia que está contratando en España, con Madrid como punto de partida, ofreciendo más de 70 puestos abiertos en remoto por todo el país.](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+
+## coupling
+
+- @vladikk — [Vlad Khononov argumenta que contar dependencias no revela nada sobre la calidad del diseño; lo importante es el tipo de conocimiento compartido entre componentes. Enlaza un artículo del blog de Martin Fowler sobre "sensores para agentes de codificación".](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
+
+## cowork
+
+- @aakashgupta — [Aakash Gupta argumenta que el product manager se vuelve el rol clave en la era de la IA, usando como ejemplo al equipo de Claude Code de Anthropic (liderado por Boris Cherny), que construyó el producto Cowork en unos 10 días y aumentó la productividad por ingeniero un 70%.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
+- @rubenhassid — [Guía de Ruben Hassid para 'clonar tu voz' en Claude durante un fin de semana: usar el modo Cowork, transcribir entrevistas por voz con Wispr Flow, comprimir las respuestas en un archivo de texto y cargarlo para que Claude escriba con tu estilo en cualquier IA.](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
+
+## cqrs
+
+- @symfony — [Symfony comparte que en SymfonyDay Montréal, Oskar Barcz presentó una guía pragmática para implementar CQRS (Command Query Responsibility Segregation) en aplicaciones Symfony sin sobrecomplicarlas.](https://x.com/symfony/status/2052735679826657598) `#2052735679826657598`
+
+## craftsmanship
+
+- @freekmurze — [Freek Van der Herten comparte un enlace con notas sobre la calidad del software, centradas en buenas prácticas, filosofía y artesanía en la programación.](https://x.com/freekmurze/status/2057076497593040970) `#2057076497593040970`
+
+## critica-ia
+
+- @edans — [Enrique Dans publica un artículo titulado 'El emperador está desnudo', argumentando que los LLM nunca fueron diseñados para dirigir una empresa.](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
+
+## critical-thinking
+
+- @addyosmani — [Cita sobre la "rendición cognitiva": dejar de pensar por completo y aceptar sin cuestionar la respuesta que da la IA.](https://x.com/addyosmani/status/2058281426257358947) `#2058281426257358947`
+
+## cultura-empresarial
+
+- @danshipper — [Dan Shipper explica que en Every, empresa de 25 empleados, cada persona tiene su propio agente de IA (OpenClaws) integrado en Slack, y comparte una conversación con su COO y su jefe de plataforma sobre cómo esto cambia la colaboración humano-agente y la gestión de equipos.](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
+
+## curso
+
+- @vivekgalatage — [Recomendación del curso 'An Introduction to Distributed Systems' de Kyle Kingsbury, con enlace a su repositorio en GitHub.](https://x.com/vivekgalatage/status/2041764549158957323) `#2041764549158957323`
+- @wsl8297 — [El autor recomienda el curso open source 'Learn Harness Engineering' en GitHub, que enseña a construir un entorno de trabajo más fiable para asistentes de codificación con IA a través de 12 lecciones teóricas y 6 proyectos prácticos, cubriendo instrucciones, estado, verificación, alcance y sesión.](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
+
+## curso-gratuito
+
+- @sairahul1 — [Destaca un curso gratuito de 3 horas de Andrej Karpathy que explica en profundidad conceptos clave de los LLM como tokenización, atención, alucinaciones, uso de herramientas, RLHF, DeepSeek y AlphaGo.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
+
+## cursor
+
+- @cursor_ai — [Cursor explica cómo mejoran su "agent harness" para hacerlo más rápido y eficiente en tokens, y cómo prueban, monitorean y personalizan sus mejoras para distintos modelos.](https://x.com/cursor_ai/status/2049901436918436249) `#2049901436918436249`
+- @ericzakariasson — [Presenta "cursor team kit", un plugin con las skills que el propio equipo de Cursor usa internamente para verificar cambios, ejecutar herramientas locales y enviar PRs revisables.](https://x.com/ericzakariasson/status/2051255780167610522) `#2051255780167610522`
+- @ParthJadhav8 — [Elogia la skill '/thermo-nuclear-code-quality-review' de Cursor, que tras 30 minutos de ejecución en un PR mejoró notablemente la calidad del código, afirmando que es muy superior a '/simplify' de Claude Code.](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
+
+## custom-agents
+
+- @jetbrains — [JetBrains comparte una guía práctica para construir un agente personalizado con Deep Agents de LangChain, LangSmith y el protocolo ACP, partiendo de la idea de que la capa "harness" de Claude Code es solo software que cualquiera puede moldear.](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
+
+## dashboard
+
+- @tom_doerr — [Comparte un rastreador y panel (dashboard) de uso de tokens para sistemas multiagente de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
+
+## data-modernization
+
+- @rseroter — [Richard Seroter comenta un caso de Yum Brands, que está modernizando su infraestructura de datos por la urgencia de adoptar IA, resolviendo así problemas de larga data.](https://x.com/rseroter/status/2053959835679604812) `#2053959835679604812`
+
+## dbreunig
+
+- @rseroter — [Richard Seroter comparte un artículo de @dbreunig con lecciones prácticas sobre programación agéntica, preguntándose si seguirán siendo válidas dentro de seis meses.](https://x.com/rseroter/status/2052526138678001757) `#2052526138678001757`
+
+## ddd
+
+- @mattpocockuk — [Matt Pocock reflexiona sobre cómo el Domain-Driven Design (DDD) —lenguaje compartido, bounded contexts y ADRs— podría resolver muchos problemas comunes al trabajar con modelos de IA en bases de código grandes.](https://x.com/mattpocockuk/status/2044723788743360833) `#2044723788743360833`
+
+## deep-agents
+
+- @jetbrains — [JetBrains comparte una guía práctica para construir un agente personalizado con Deep Agents de LangChain, LangSmith y el protocolo ACP, partiendo de la idea de que la capa "harness" de Claude Code es solo software que cualquiera puede moldear.](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
+
+## deep-learning
+
+- @sairahul1 — [Destaca un curso gratuito de 3 horas de Andrej Karpathy que explica en profundidad conceptos clave de los LLM como tokenización, atención, alucinaciones, uso de herramientas, RLHF, DeepSeek y AlphaGo.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
+
+## deepmind
+
+- @rseroter — [Richard Seroter responde a la crítica de que los LLM solo repiten lo aprendido señalando que el agente AlphaEvolve de Google DeepMind está diseñando algoritmos avanzados con impacto real.](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
+
+## deepseek-r1
+
+- @omarsar0 — [Resume un nuevo informe de Google que sostiene que la "singularidad" de la IA no será una mente superinteligente única, sino sistemas multiagente y configuraciones humano-IA; señala que modelos como DeepSeek-R1 ya desarrollan "sociedades de pensamiento" internas mediante RL.](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
+
+## definiciones-ia
+
+- @mattpocockuk — [Matt Pocock ofrece, dentro de una serie sobre los términos más confusos de la IA, una definición concisa de 'agente': simplemente un modelo, dotado de un harness, dentro de un entorno.](https://x.com/mattpocockuk/status/2075149990658191668) `#2075149990658191668`
+
+## dependencias
+
+- @karpathy — [Karpathy alerta sobre un ataque a la cadena de suministro en el paquete npm de axios (300M de descargas semanales) y advierte que las dependencias no fijadas (unpinned) pueden hacer que un proyecto resuelva a una versión maliciosa; enlaza un artículo con más detalles del incidente.](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
+
+## desarrollo-agentico
+
+- @rseroter — [Richard Seroter cita a @dbreunig sobre cómo los agentes de codificación reducen el coste de abordar problemas antiguos con tácticas modernas, enlazando a un artículo sobre la segunda fase del desarrollo agéntico.](https://x.com/rseroter/status/2041902638405480536) `#2041902638405480536`
+
+## desarrollo-de-agentes
+
+- @brada — [Brad Abrams anuncia que la skill 'claude-api' para escribir código listo para producción ya está disponible en CodeRabbit, JetBrains, Resolve AI, Warp y Claude Code, mejorando la caché y los patrones de agentes.](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
+
+## desarrollo-de-software
+
+- @martinfowler — [Martin Fowler comparte 'fragments' sobre un vídeo del pragmatic summit con Kent Beck y Gergely, la virtud de la pereza, TDD y prompts, con inspiración de Dark Star.](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
+- @martinfowler — [Martin Fowler presenta un nuevo artículo sobre Structured-Prompt-Driven Development (SPDD), un flujo de trabajo de programación agéntica usado internamente en Thoughtworks, descrito por Wei Zhang y Jessie Jie Xia.](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
+- @simonbrown — [Simon Brown cuestiona el sentido del 'spec-driven development', argumentando que automatiza la parte más divertida (programar) y obliga a los desarrolladores a escribir documentación, algo que históricamente no les gusta.](https://x.com/simonbrown/status/2050878045750276268) `#2050878045750276268`
+- @pragdave — [Comparte un enlace a un artículo en Substack titulado 'Failing Faster', sin texto adicional en el tuit.](https://x.com/pragdave/status/2063276008619356280) `#2063276008619356280`
+- @GeoffreyHuntley — [Comparte, con un breve comentario de aprobación ('banger'), un artículo titulado 'The Great Divergence in Software Engineering'.](https://x.com/GeoffreyHuntley/status/2075347173378859307) `#2075347173378859307`
+
+## desarrollo-de-videojuegos
+
+- @QingQ77 — [Presenta una plantilla para Claude Code que organiza una sola sesión como un estudio completo de desarrollo de videojuegos, con 49 agentes de IA especializados y 72 habilidades de flujo de trabajo jerarquizados en tres niveles, más 12 hooks de validación automática.](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
+
+## desarrollo-personal
+
+- @spacesuit_app — [Presentación de Spacesuit, descrita como un 'lienzo futurista' para el desarrollo personal, disponible para macOS, Windows y Linux.](https://x.com/spacesuit_app/status/2043052113983402360) `#2043052113983402360`
+- @kentcdodds — [Kent C. Dodds responde a Grady Booch que enseñar es la manera de solidificar la propia comprensión de un tema.](https://x.com/kentcdodds/status/2050801846269489650) `#2050801846269489650`
+
+## desarrollo-seguro
+
+- @jeslopcru — [Jesus L.C. recomienda un artículo sobre cómo trabajar con IA y guardrails, señalando que también ofrece herramientas útiles si se usa Kotlin.](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
+
+## design-systems
+
+- @midudev — [Miguel Ángel Durán presenta un repositorio open source con archivos DESIGN.md que replican las guías visuales de empresas como Apple, Airbnb, Tesla, Shopify y Uber, para que un agente de IA entienda el estilo de interfaz deseado sin usar Figma.](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
+
+## deteccion-de-duplicados
+
+- @unclebobmartin — [Uncle Bob Martin comenta que resulta muy sencillo pedirle a un agente de IA que cree un detector de duplicación de código, enlazando el proyecto 'dry4clj' en GitHub.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
+
+## deuda-tecnica
+
+- @KSimback — [Kevin Simback publica una skill de Claude Code (/tech-debt-skill) que genera un informe exhaustivo de deuda técnica, identificando no solo bugs sino también código que funciona pero podría mejorarse.](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
+
+## dev-tools
+
+- @mattpocockuk — [Matt Pocock comparte su nueva lista de skills personalizados (domain-model, to-prd, to-issues, github-triage, tdd) para mejorar su flujo de trabajo de desarrollo asistido por IA.](https://x.com/mattpocockuk/status/2045110469426323900) `#2045110469426323900`
+
+## devcontainers
+
+- @dunglas — [Kévin Dunglas anuncia mejoras importantes en su proyecto Symfony Docker: soporte para Dev Containers, agentes de código autónomos como Claude Code, Xdebug integrado y recarga en caliente instantánea con FrankenPHP; incluye el resumen de su charla en Symfony Live Paris.](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
+
+## developer-console
+
+- @ClaudeDevs — [ClaudeDevs presenta un nuevo panel en Claude Developer Console para dar visibilidad al uso de la caché y ayudar a los clientes a reducir costes y el tiempo hasta el primer token (TTFT).](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
+
+## developer-craft
+
+- @addyosmani — [Addy Osmani publica el video completo de una charla sobre la evolución del oficio del desarrollador, junto a Richard Seroter, the_thagomizer y Ciera Jaspan.](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
+
+## developer-tools
+
+- @ericzakariasson — [Presenta "cursor team kit", un plugin con las skills que el propio equipo de Cursor usa internamente para verificar cambios, ejecutar herramientas locales y enviar PRs revisables.](https://x.com/ericzakariasson/status/2051255780167610522) `#2051255780167610522`
+
+## devops
+
+- @twtayaan — [El autor anuncia el lanzamiento de Amazon S3 Files, que permite montar buckets de S3 como sistemas de archivos nativos con acceso POSIX y sub-milisegundo, conectable a Lambda, EC2 y EKS.](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
+- @Kikobeats — [Kiko Beats muestra cómo redujo el tamaño de una imagen Docker en un 99,8% (de 1,87 GB a 2,5 MB) usando su herramienta de código abierto 'untracked'.](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
+
+## dhh
+
+- @dhh — [DHH reflexiona sobre poder decidir un futuro tecnológico distinto: JavaScript moderno sin build (#nobuild), servicios SaaS fuera de la nube, y cuestionando el dominio de Apple.](https://x.com/dhh/status/2050670200702328890) `#2050670200702328890`
+
+## diapositivas
+
+- @antonarhipov — [Anton Arhipov publica las diapositivas de su charla en KotlinConf 2026 sobre desarrollo dirigido por especificaciones (Spec-Driven Development) con agentes de IA.](https://x.com/antonarhipov/status/2058489053385760947) `#2058489053385760947`
+
+## direccion-de-producto
+
+- @karpathy — [Karpathy responde que varias funciones recientes ya apuntaban a llevar 'Code' hacia direcciones de 'Claw', calificándolo de una especie de speedrun, y enlaza a un tuit anterior suyo sobre el tema.](https://x.com/karpathy/status/2039057005802082814) `#2039057005802082814`
+
+## diseno-ia
+
+- @JoliCode — [JoliCode publica en su blog cómo integrar la IA en el flujo de trabajo UX/UI: Sophie comparte su experiencia con Figma Make, Claude Design y prompts eficaces, y qué cambia realmente para los diseñadores.](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
+
+## distribucion-de-software
+
+- @sqs — [Quinn Slack anuncia que el paquete npm de Amp ahora incluye un ejecutable precompilado en lugar del código fuente, lo que lo hace más rápido y mejora el soporte de sus plugins entre plataformas.](https://x.com/sqs/status/2054794044426101245) `#2054794044426101245`
+
+## distributed-systems
+
+- @odysseus0z — [Comparte un artículo del blog de ingeniería de LinkedIn (escrito por el creador de Kafka) sobre logs distribuidos, en el contexto de comparar Managed Claude frente al Agent SDK.](https://x.com/odysseus0z/status/2052447720166904138) `#2052447720166904138`
+
+## divergencia-ingenieria
+
+- @GeoffreyHuntley — [Comparte, con un breve comentario de aprobación ('banger'), un artículo titulado 'The Great Divergence in Software Engineering'.](https://x.com/GeoffreyHuntley/status/2075347173378859307) `#2075347173378859307`
+
+## docker
+
+- @dunglas — [Kévin Dunglas anuncia mejoras importantes en su proyecto Symfony Docker: soporte para Dev Containers, agentes de código autónomos como Claude Code, Xdebug integrado y recarga en caliente instantánea con FrankenPHP; incluye el resumen de su charla en Symfony Live Paris.](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
+- @Kikobeats — [Kiko Beats muestra cómo redujo el tamaño de una imagen Docker en un 99,8% (de 1,87 GB a 2,5 MB) usando su herramienta de código abierto 'untracked'.](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
+
+## documentacion
+
+- @vineetwts — [El autor creó documentación sobre la base de código de Claude Code, explicando su pipeline, funcionamiento, manejo de contexto y memoria, publicada en Mintlify.](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
+- @plainionist — [Sostiene que la madurez de un desarrollador se refleja en la importancia que da a documentar decisiones de diseño y arquitectura, enlazando al artículo de Martin Fowler sobre Architecture Decision Records.](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
+- @mattpocockuk — [Matt Pocock celebra que su repositorio de skills (mattpocock/skills) llegó a casi 23K estrellas en GitHub y pregunta a la comunidad cómo hacer estos skills más visibles: ¿un sitio de documentación?, ¿enviarlos a marketplaces de plugins?](https://x.com/mattpocockuk/status/2048490818848075846) `#2048490818848075846`
+- @simonbrown — [Simon Brown cuestiona el sentido del 'spec-driven development', argumentando que automatiza la parte más divertida (programar) y obliga a los desarrolladores a escribir documentación, algo que históricamente no les gusta.](https://x.com/simonbrown/status/2050878045750276268) `#2050878045750276268`
+- @trevin — [Trevin Chow comparte una documentación rápida que explica cada uno de los skills clave del plugin de Compound Engineering, con enlace al repositorio en GitHub.](https://x.com/trevin/status/2051736297883291826) `#2051736297883291826`
+- @mattpocockuk — [Destaca un PRD basado en una sesión de varios días con '/wayfinder', muy detallado, donde cada afirmación queda enlazada a la sesión en la que se decidió, yendo de la fuente secundaria a la primaria.](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
+
+## domain-driven-design
+
+- @vladikk — [Vlad Khononov explica que en su libro 'Learning Domain-Driven Design' priorizó los principios sobre los listados de código, para que el lector entienda el porqué de patrones tácticos como los value objects inmutables.](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
+
+## dropbox
+
+- @rseroter — [Cita una lección de Dropbox: la IA no elimina los cuellos de botella en el desarrollo de software, sino que los desplaza a otra parte del proceso.](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
+
+## dto
+
+- @michaeldyrynda — [Michael Dyrynda explica que los property hooks de PHP son una forma práctica de exponer propiedades virtuales sin necesidad de wiring manual en constructores, ideal para POPOs y DTOs.](https://x.com/michaeldyrynda/status/2053818254209249498) `#2053818254209249498`
+
+## educacion
+
+- @tom_doerr — [Comparte una biblioteca de skills de IA orientada a educación, alojada en GitHub.](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
+- @mattpocockuk — [Matt Pocock describe cómo planifica sus cursos en colaboración con un agente de IA que entiende todo el contexto de su negocio, permitiéndole hacer preguntas como qué opinan sus estudiantes de una función o qué problemas tuvieron en secciones anteriores.](https://x.com/mattpocockuk/status/2072320135382073778) `#2072320135382073778`
+
+## embeddings
+
+- @rohit4verse — [Argumenta que la memoria real de los agentes de IA no consiste en apilar archivos markdown, sino en usar grafos con nodos, embeddings y recorrido (traversal) para lograr memoria persistente en producción.](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
+
+## ember
+
+- @coopTilleuls — [Les-Tilleuls.coop presenta Ember v1.0, una herramienta open source de monitorización en tiempo real para Caddy y FrankenPHP, con enlace a un artículo explicativo en su blog.](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
+- @alexdaubois — [Alexandre Daubois describe cómo Ember detecta automáticamente FrankenPHP en apps PHP y añade una pestaña con introspección por hilo (estado, URI, duración, memoria) y la posibilidad de reiniciar workers desde la TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
+
+## empleo
+
+- @jetbrains — [JetBrains anuncia que está contratando en España, con Madrid como punto de partida, ofreciendo más de 70 puestos abiertos en remoto por todo el país.](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+
+## eng-practices
+
+- @_vmlops — [El autor destaca que Google ha publicado en GitHub sus guías internas de revisión de código (para revisores y para autores), incluyendo el significado de términos internos como 'LGTM' y 'CL'.](https://x.com/_vmlops/status/2058057460792074625) `#2058057460792074625`
+
+## engineering-blog
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería un artículo sobre Managed Agents, su servicio alojado para agentes de larga duración, y los retos de diseñar un sistema para programas todavía no imaginados.](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
+
+## engineering-manager
+
+- @jcesarperez — [Presenta la versión 1.3.0 de Claude EM, un compañero de IA para engineering managers que conoce al equipo, su contexto y sus herramientas, con una nueva skill y mejoras.](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
+
+## engineering-productivity
+
+- @rseroter — [Cita una lección de Dropbox: la IA no elimina los cuellos de botella en el desarrollo de software, sino que los desplaza a otra parte del proceso.](https://x.com/rseroter/status/2060432233878487512) `#2060432233878487512`
+
+## enlace
+
+- @intheworldofai — [Enlace a un artículo de X publicado por la cuenta WorldofAI, sin texto descriptivo adicional en el tuit.](https://x.com/intheworldofai/status/2041632641716514947) `#2041632641716514947`
+- @Suryanshti777 — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/Suryanshti777/status/2047694444787577236) `#2047694444787577236`
+- @aparnadhinak — [Enlace a un artículo de X sin texto descriptivo que lo acompañe.](https://x.com/aparnadhinak/status/2048492731929149929) `#2048492731929149929`
+- @mfpiccolo — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/mfpiccolo/status/2049139067359568032) `#2049139067359568032`
+- @manthanguptaa — [Tuit sin texto descriptivo; solo contiene un enlace corto sin contexto adicional que permita identificar su contenido.](https://x.com/manthanguptaa/status/2049472248806027440) `#2049472248806027440`
+- @code_kartik — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/code_kartik/status/2050631735529095575) `#2050631735529095575`
+- @shinzui — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/shinzui/status/2050963939060838501) `#2050963939060838501`
+- @addyosmani — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2056078124346228860) `#2056078124346228860`
+- @addyosmani — [Enlace a un artículo de X publicado por Addy Osmani, sin texto descriptivo adicional en el tuit.](https://x.com/addyosmani/status/2059844244907696186) `#2059844244907696186`
+- @Kikobeats — [Respuesta breve de Kiko Beats ('esto lo explica') con un enlace, sin más contexto textual sobre el contenido enlazado.](https://x.com/Kikobeats/status/2062257863729332325) `#2062257863729332325`
+
+## enlace-sin-texto
+
+- @dabit3 — [Enlace a un artículo de X (Twitter) compartido por Nader Dabit, sin texto descriptivo adicional.](https://x.com/dabit3/status/2038608435105726862) `#2038608435105726862`
+- @ashpreetbedi — [Enlace a un artículo de X (Twitter) compartido por Ashpreet Bedi, sin texto descriptivo adicional.](https://x.com/ashpreetbedi/status/2041901460523270409) `#2041901460523270409`
+
+## enrique-dans
+
+- @edans — [Enrique Dans publica un artículo titulado 'El emperador está desnudo', argumentando que los LLM nunca fueron diseñados para dirigir una empresa.](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
+
+## ensayo
+
+- @martinfowler — [Martin Fowler publica una colección de reflexiones breves ('Fragments') sobre un retiro de desarrollo de software, el uso de los LLM como funciones y si el futuro será todo mentiras.](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
+- @every — [Every comparte un ensayo que argumenta que el progreso de la IA está generando más trabajo para los humanos, no menos.](https://x.com/every/status/2057933169085808788) `#2057933169085808788`
+
+## ensenanza
+
+- @kentcdodds — [Kent C. Dodds responde a Grady Booch que enseñar es la manera de solidificar la propia comprensión de un tema.](https://x.com/kentcdodds/status/2050801846269489650) `#2050801846269489650`
+
+## enterprise-ai
+
+- @rseroter — [Richard Seroter comenta un caso de Yum Brands, que está modernizando su infraestructura de datos por la urgencia de adoptar IA, resolviendo así problemas de larga data.](https://x.com/rseroter/status/2053959835679604812) `#2053959835679604812`
+
+## entire-cli
+
+- @ashtom — [Thomas Dohmke (GitHub) anuncia que Entire HQ libera en open source 'Skills', que permite a los agentes usar el contexto completo capturado por Entire CLI (prompts, transcripciones y decisiones detrás de cada commit) junto al historial de git.](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
+
+## entrevista
+
+- @bibryam — [Bilgin Ibryam comparte un artículo sobre cómo Boris Cherny, creador de Claude Code, utiliza la herramienta en su propio flujo de trabajo.](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
+
+## entrevistas-de-trabajo
+
+- @_vmlops — [Vaishnavi comparte un manual de preparación de entrevistas sobre 'AI Harness Engineering' en un documento de Google Drive.](https://x.com/_vmlops/status/2048082184171602385) `#2048082184171602385`
+
+## espana
+
+- @jetbrains — [JetBrains anuncia que está contratando en España, con Madrid como punto de partida, ofreciendo más de 70 puestos abiertos en remoto por todo el país.](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+
+## especificaciones
+
+- @DanielMiessler — [Daniel Miessler propone, en respuesta a un artículo de Lars Faye sobre los riesgos de la programación agéntica, crear un lenguaje pseudocódigo intermedio que permita experimentar con ideas de funcionalidad antes de escribirlas como especificación completa o código final.](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
+
+## estandares
+
+- @JustSteveKing — [JustSteveKing explica que, más allá de PSR-4 y PSR-12, los estándares PSR 7, 14, 15, 17 y 18 ofrecen un modelo completo para trabajar con HTTP en PHP sin depender de un framework concreto.](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
+
+## estandares-de-equipo
+
+- @martinfowler — [Martin Fowler comparte un artículo de @techygarg que propone tratar las instrucciones de estándares de equipo para asistentes de codificación con IA como infraestructura versionada, revisada y compartida.](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
+- @jdecool — [Comparte el artículo de Martin Fowler titulado 'Encoding Team Standards', sobre cómo codificar los estándares de un equipo para reducir la fricción al trabajar con IA.](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
+
+## estrategia-empresarial
+
+- @McKinsey — [McKinsey señala que muchas empresas siguen atascadas en la fase piloto con la IA porque el problema no es la tecnología sino que aún no han rediseñado sus flujos de trabajo, roles y decisiones de forma integral.](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
+- @McKinsey — [McKinsey señala que la IA agéntica está cambiando la creación de valor en los servicios tecnológicos, identificando cuatro roles distintos con diferentes capacidades y apuestas.](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
+
+## etica-ia
+
+- @AnthropicAI — [Anthropic explica que ha mantenido diálogos con académicos, filósofos, clérigos y especialistas en ética sobre cómo se forma el buen carácter de la IA, ampliando la conversación sobre la IA de frontera.](https://x.com/AnthropicAI/status/2056880308851708233) `#2056880308851708233`
+
+## evaluacion-de-modelos
+
+- @every — [Comparte un 'pulse check' semanal sobre el modelo Opus 4.8 tras otra semana de pruebas.](https://x.com/every/status/2062273703447233004) `#2062273703447233004`
+
+## fable
+
+- @steipete — [Peter Steinberger recomienda una skill de GitHub ('codex-first') que hace que Fable use Codex como motor principal de trabajo dentro de este flujo.](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+
+## fable-5
+
+- @0xCodez — [Resume cinco workshops publicados por Anthropic sobre las capacidades de 'Fable 5', incluyendo una visión en profundidad, la curva de capacidades, la construcción de agentes gestionados y casos de uso reales por parte de equipos.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
+
+## failing-faster
+
+- @pragdave — [Comparte un enlace a un artículo en Substack titulado 'Failing Faster', sin texto adicional en el tuit.](https://x.com/pragdave/status/2063276008619356280) `#2063276008619356280`
+
+## feedback-loop
+
+- @ClaudeDevs — [ClaudeDevs plantea cómo lograr que Claude Code revise su propio trabajo antes de entregarlo, mostrando cómo codificar comprobaciones manuales para cerrar el bucle de feedback del agente.](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
+
+## figma
+
+- @JoliCode — [JoliCode publica en su blog cómo integrar la IA en el flujo de trabajo UX/UI: Sophie comparte su experiencia con Figma Make, Claude Design y prompts eficaces, y qué cambia realmente para los diseñadores.](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
+
+## filantropia
+
+- @AnthropicAI — [Anthropic anuncia una alianza con la Fundación Gates, comprometiendo 200 millones de dólares en subvenciones, créditos de Claude y soporte técnico para programas de salud global, ciencias de la vida, educación, agricultura y movilidad económica.](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
+
+## filosofia
+
+- @AnthropicAI — [Anthropic explica que ha mantenido diálogos con académicos, filósofos, clérigos y especialistas en ética sobre cómo se forma el buen carácter de la IA, ampliando la conversación sobre la IA de frontera.](https://x.com/AnthropicAI/status/2056880308851708233) `#2056880308851708233`
+- @freekmurze — [Freek Van der Herten comparte un enlace con notas sobre la calidad del software, centradas en buenas prácticas, filosofía y artesanía en la programación.](https://x.com/freekmurze/status/2057076497593040970) `#2057076497593040970`
+
+## filosofia-de-programacion
+
+- @plainionist — [Recomienda leer un artículo de Martin Fowler sobre qué es realmente el código, dirigido a quienes creen que el código ya no importa.](https://x.com/plainionist/status/2056010598689751405) `#2056010598689751405`
+
+## filosofia-tecnologica
+
+- @dhh — [DHH reflexiona sobre poder decidir un futuro tecnológico distinto: JavaScript moderno sin build (#nobuild), servicios SaaS fuera de la nube, y cuestionando el dominio de Apple.](https://x.com/dhh/status/2050670200702328890) `#2050670200702328890`
+
+## fireworks-ai
+
+- @dhh — [DHH comenta que el modelo Kimi K2.5 Turbo es extremadamente rápido cuando se ejecuta en la plataforma Fireworks AI.](https://x.com/dhh/status/2037619581674541357) `#2037619581674541357`
+
+## flue-framework
+
+- @FredKSchott — [El autor celebra la gran acogida recibida en las últimas 24 horas por su proyecto Flue Framework, que ya acumula 35 pull requests.](https://x.com/FredKSchott/status/2050675029948723570) `#2050675029948723570`
+
+## flujo-de-trabajo
+
+- @mattpocockuk — [Matt Pocock comparte su nueva lista de skills personalizados (domain-model, to-prd, to-issues, github-triage, tdd) para mejorar su flujo de trabajo de desarrollo asistido por IA.](https://x.com/mattpocockuk/status/2045110469426323900) `#2045110469426323900`
+- @srishticodes — [Srishti describe un archivo CLAUDE.md, creado a partir de los hilos de Boris Cherny (creador de Claude Code), que incluye orquestación de subagentes, verificación antes de marcar tareas como completas y reglas que se autocorrigen con el feedback del usuario.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
+- @bibryam — [Bilgin Ibryam destaca el artículo de Addy Osmani sobre 'Agent Skills', que convierte especificaciones, tests, revisiones y control de alcance en flujos de trabajo verificables para agentes de codificación.](https://x.com/bibryam/status/2053111885612957869) `#2053111885612957869`
+- @bibryam — [Bilgin Ibryam comparte un artículo sobre cómo Boris Cherny, creador de Claude Code, utiliza la herramienta en su propio flujo de trabajo.](https://x.com/bibryam/status/2063132526936277399) `#2063132526936277399`
+
+## formacion
+
+- @sairahul1 — [Destaca un curso gratuito de 3 horas de Andrej Karpathy que explica en profundidad conceptos clave de los LLM como tokenización, atención, alucinaciones, uso de herramientas, RLHF, DeepSeek y AlphaGo.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
+- @0xCodez — [Resume cinco workshops publicados por Anthropic sobre las capacidades de 'Fable 5', incluyendo una visión en profundidad, la curva de capacidades, la construcción de agentes gestionados y casos de uso reales por parte de equipos.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
+
+## framework
+
+- @FredKSchott — [El autor celebra la gran acogida recibida en las últimas 24 horas por su proyecto Flue Framework, que ya acumula 35 pull requests.](https://x.com/FredKSchott/status/2050675029948723570) `#2050675029948723570`
+- @bibryam — [Enlaza un artículo titulado "The 8 Levels of Agentic Engineering", que describe niveles progresivos de madurez en ingeniería agéntica.](https://x.com/bibryam/status/2059282155922948194) `#2059282155922948194`
+
+## frameworks-ia
+
+- @DeRonin_ — [A partir de una cita de Karpathy, enumera 10 herramientas y prácticas de IA que los ingenieros senior ya han abandonado (AutoGen, CrewAI, agentes autónomos, Semantic Kernel, DSPy, entre otras) y qué sí compensa a largo plazo: ingeniería de contexto, diseño de herramientas, patrón orquestador-subagente, disciplina de evaluación y MCP.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
+
+## frankenphp
+
+- @coopTilleuls — [Les-Tilleuls.coop presenta Ember v1.0, una herramienta open source de monitorización en tiempo real para Caddy y FrankenPHP, con enlace a un artículo explicativo en su blog.](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
+- @dunglas — [Kévin Dunglas anuncia mejoras importantes en su proyecto Symfony Docker: soporte para Dev Containers, agentes de código autónomos como Claude Code, Xdebug integrado y recarga en caliente instantánea con FrankenPHP; incluye el resumen de su charla en Symfony Live Paris.](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
+- @alexdaubois — [Alexandre Daubois describe cómo Ember detecta automáticamente FrankenPHP en apps PHP y añade una pestaña con introspección por hilo (estado, URI, duración, memoria) y la posibilidad de reiniciar workers desde la TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
+
+## fundamentos
+
+- @pragdave — [Dave Thomas comparte un artículo sobre los peligros de olvidar los fundamentos de programación en medio del auge de la codificación asistida por IA.](https://x.com/pragdave/status/2063276005859393884) `#2063276005859393884`
+
+## futuro-del-codigo
+
+- @martinfowler — [Martin Fowler enlaza un nuevo artículo que explora si habrá código fuente en el futuro, basado en la idea de Unmesh Joshi de que el código tiene dos propósitos: instrucciones para una máquina y modelo conceptual del dominio del problema.](https://x.com/martinfowler/status/2054193359397253225) `#2054193359397253225`
+
+## futuro-del-trabajo
+
+- @every — [Every comparte un ensayo que argumenta que el progreso de la IA está generando más trabajo para los humanos, no menos.](https://x.com/every/status/2057933169085808788) `#2057933169085808788`
+- @lennysan — [Lenny Rachitsky resume diez conclusiones de Dan Shipper sobre el futuro del trabajo con IA: el trabajo se hará dentro de Codex o Claude Code, la automatización siempre necesita humanos, los PMs y diseñadores full-stack ganarán protagonismo, y cada empresa tendrá un 'super-agente' compartido.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
+
+## gates-foundation
+
+- @AnthropicAI — [Anthropic anuncia una alianza con la Fundación Gates, comprometiendo 200 millones de dólares en subvenciones, créditos de Claude y soporte técnico para programas de salud global, ciencias de la vida, educación, agricultura y movilidad económica.](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
+
+## gemini-cli
+
+- @commte — [コムテ informa que Google lanzó oficialmente 13 skills compatibles con el estándar Agent Skills, soportado por Claude Code, Antigravity, Gemini CLI, Cursor y GitHub Copilot, entre otros.](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
+
+## genai
+
+- @KirkDBorne — [Promoción del libro 'Architecting Generative AI Applications', que explica cómo construir, desplegar y escalar sistemas de IA generativa en producción siguiendo buenas prácticas de LLMOps.](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
+
+## generacion-de-ui
+
+- @tom_doerr — [Tom Dörr comparte OpenUI, un proyecto que genera interfaces de usuario usando un 67% menos tokens que JSON.](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
+
+## geopolitics
+
+- @AnthropicAI — [Anthropic publica un paper sobre la competencia en IA entre EE.UU. y China, argumentando que EE.UU. y sus aliados democráticos mantienen la delantera en IA de frontera y explicando qué hace falta para conservarla.](https://x.com/AnthropicAI/status/2054987444664377374) `#2054987444664377374`
+
+## gestion-de-agentes
+
+- @nihaliscoding — [El autor elogia una herramienta de gestión de trabajo con agentes de IA (enlazada en super.engineering), destacando lo fácil que resulta crear worktrees y gestionar agentes con ella.](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
+
+## gestion-de-contexto
+
+- @vineetwts — [El autor creó documentación sobre la base de código de Claude Code, explicando su pipeline, funcionamiento, manejo de contexto y memoria, publicada en Mintlify.](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
+
+## gestion-de-equipos
+
+- @danshipper — [Dan Shipper explica que en Every, empresa de 25 empleados, cada persona tiene su propio agente de IA (OpenClaws) integrado en Slack, y comparte una conversación con su COO y su jefe de plataforma sobre cómo esto cambia la colaboración humano-agente y la gestión de equipos.](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
+
+## gestion-empresarial
+
+- @edans — [Enrique Dans publica un artículo titulado 'El emperador está desnudo', argumentando que los LLM nunca fueron diseñados para dirigir una empresa.](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
+
+## gist
+
+- @karpathy — [Karpathy comparte, en formato de 'idea file' (un gist), una versión mejorada de un tuit que se hizo viral: la idea de compartir conceptos en lugar de código para que el agente LLM de cada persona construya y personalice su propia wiki de LLM.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
+
+## git
+
+- @ashtom — [Thomas Dohmke (GitHub) anuncia que Entire HQ libera en open source 'Skills', que permite a los agentes usar el contexto completo capturado por Entire CLI (prompts, transcripciones y decisiones detrás de cada commit) junto al historial de git.](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
+
+## git-worktrees
+
+- @NainsiDwiv50980 — [Hilo que resume funciones avanzadas de Claude Code reveladas por @bcherny (hooks, control remoto, extensión de Chrome, worktrees de Git, comandos como /batch y /voice), presentándolas como un sistema completo de ingeniería con IA.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
+- @nihaliscoding — [El autor elogia una herramienta de gestión de trabajo con agentes de IA (enlazada en super.engineering), destacando lo fácil que resulta crear worktrees y gestionar agentes con ella.](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
+
+## github
+
+- @RoundtableSpace — [Lista de los 10 mejores repositorios de GitHub para mejorar el uso de Claude Code, incluyendo Supabase, NotebookLM, Obsidian, LangChain, Flowise, colecciones de Claude Skills, Repomix y guías de buenas prácticas.](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
+- @vivekgalatage — [Recomendación del curso 'An Introduction to Distributed Systems' de Kyle Kingsbury, con enlace a su repositorio en GitHub.](https://x.com/vivekgalatage/status/2041764549158957323) `#2041764549158957323`
+- @adrianaia_ — [AdrIAna comenta que, 48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, alguien construyó exactamente esa idea y la subió a GitHub.](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
+- @ghumare64 — [El autor cuenta que extendió el "LLM Wiki" de Karpathy en una v2 orientada a servir de memoria para sistemas a escala, y que su gist en GitHub alcanzó 111 estrellas.](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
+- @tom_doerr — [Tom Dörr comparte 'webclaw', un scraper web de alta velocidad diseñado para agentes de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
+- @KSimback — [Kevin Simback publica una skill de Claude Code (/tech-debt-skill) que genera un informe exhaustivo de deuda técnica, identificando no solo bugs sino también código que funciona pero podría mejorarse.](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
+- @tom_doerr — [Tom Dörr comparte un repositorio de GitHub (agent-rules-books) con reglas extraídas de libros de programación adaptadas para agentes de codificación con IA.](https://x.com/tom_doerr/status/2048358448014704705) `#2048358448014704705`
+- @jcesarperez — [Presenta la versión 1.3.0 de Claude EM, un compañero de IA para engineering managers que conoce al equipo, su contexto y sus herramientas, con una nueva skill y mejoras.](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
+- @mattpocockuk — [Matt Pocock celebra que su repositorio de skills (mattpocock/skills) llegó a casi 23K estrellas en GitHub y pregunta a la comunidad cómo hacer estos skills más visibles: ¿un sitio de documentación?, ¿enviarlos a marketplaces de plugins?](https://x.com/mattpocockuk/status/2048490818848075846) `#2048490818848075846`
+- @steipete — [Peter Steinberger presenta 'birdclaw', una herramienta que crea almacenamiento local de tuits, importa el archivo de Twitter, hace copias de seguridad en GitHub y permite importar bookmarks de X diariamente.](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
+- @mattpocockuk — [Comparte el enlace a un repositorio de código, sin más texto de contexto.](https://x.com/mattpocockuk/status/2049506974081953924) `#2049506974081953924`
+- @kunchenguid — [Kun Chen elogia 'acpx' de Peter Steinberger y explica que lo integró en la versión 0.1.31 de gnhf para dar soporte a prácticamente cualquier harness de agentes, recomendándolo frente a construir una abstracción propia.](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
+- @AhmedHemaz — [Recomienda la skill de agente '/grill-me' como algo que cambia por completo la forma de trabajar con agentes de codificación, y enlaza otras skills en un repositorio de GitHub.](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
+- @tom_doerr — [Presenta un proyecto de GitHub que automatiza la investigación mediante agentes especializados de investigador, revisor y redactor.](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
+- @mattpocockuk — [Respuesta a otro usuario con un enlace a un repositorio de GitHub (sandcastle), sin más contexto textual.](https://x.com/mattpocockuk/status/2051329647271461271) `#2051329647271461271`
+- @trevin — [Trevin Chow comparte una documentación rápida que explica cada uno de los skills clave del plugin de Compound Engineering, con enlace al repositorio en GitHub.](https://x.com/trevin/status/2051736297883291826) `#2051736297883291826`
+- @tom_doerr — [Presenta un proyecto de GitHub que orquesta agentes de codificación con IA dotados de memoria persistente.](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
+- @Dinosn — [Comparte un repositorio de GitHub con una 'Agent Skill' neutral respecto al proveedor, pensada para Codex, Claude Code y el diseño de harnesses agénticos en general.](https://x.com/Dinosn/status/2058074600060137892) `#2058074600060137892`
+- @Dinosn — [Comparte un único archivo CLAUDE.md para mejorar el comportamiento de Claude Code, basado en las observaciones de Andrej Karpathy sobre los errores habituales de la codificación con LLM.](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
+- @Kikobeats — [Kiko Beats muestra cómo redujo el tamaño de una imagen Docker en un 99,8% (de 1,87 GB a 2,5 MB) usando su herramienta de código abierto 'untracked'.](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
+- @trending_repos — [Presentación del repositorio de GitHub en tendencia 'Agent-Reach', que da a los agentes de IA capacidad de leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu mediante una sola CLI sin coste de APIs.](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
+- @mattpocockuk — [Destaca un PRD basado en una sesión de varios días con '/wayfinder', muy detallado, donde cada afirmación queda enlazada a la sesión en la que se decidió, yendo de la fuente secundaria a la primaria.](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
+- @steipete — [Peter Steinberger recomienda una skill de GitHub ('codex-first') que hace que Fable use Codex como motor principal de trabajo dentro de este flujo.](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+
+## github-actions
+
+- @codewithimanshu — [Hilo promocional extenso sobre el Claude Code SDK, basado en una charla de Sid Bidasaria (Anthropic): uso headless, gestión de permisos, persistencia de sesión y la GitHub Action de Claude para automatizar flujos de ingeniería completos.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
+
+## github-copilot
+
+- @github — [GitHub presenta Squad, un proyecto open source construido sobre GitHub Copilot que despliega un equipo preconfigurado de agentes de IA dentro de un repositorio para superar el límite de los flujos de un solo prompt.](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
+- @commte — [コムテ informa que Google lanzó oficialmente 13 skills compatibles con el estándar Agent Skills, soportado por Claude Code, Antigravity, Gemini CLI, Cursor y GitHub Copilot, entre otros.](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
+
+## github-next
+
+- @aiDotEngineer — [Anuncio de la charla 'Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment' de @mappletons, sobre Ace, un entorno multijugador de agentes de GitHub Next con colaboración en tiempo real y micro VMs en sandbox.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
+
+## github-trending
+
+- @GitTrend0x — [Resumen en chino de cinco repositorios de GitHub en tendencia sobre agentes de IA: una alternativa gratuita a Claude Code, un agente de ingeniería ML de Hugging Face, un tutorial de Claude Code, una librería de modelos de lenguaje recursivos y una infraestructura de memoria persistente para agentes.](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
+- @GitTrend0x — [Resumen en chino de cinco proyectos de GitHub que amplían el agente Hermes: un fork reforzado, un panel web de control, un plugin de evolución de habilidades sin coste de tokens, una documentación completa y un paquete de flujos de trabajo creativos ('Superpowers').](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
+
+## glossary
+
+- @mattpocockuk — [Matt Pocock anuncia una mejora en su skill "/improve-codebase-architecture", que ahora incluye un glosario de terminología para describir código bueno y malo.](https://x.com/mattpocockuk/status/2047759493581156377) `#2047759493581156377`
+
+## gnhf
+
+- @kunchenguid — [Kun Chen elogia 'acpx' de Peter Steinberger y explica que lo integró en la versión 0.1.31 de gnhf para dar soporte a prácticamente cualquier harness de agentes, recomendándolo frente a construir una abstracción propia.](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
+
+## google
+
+- @bibryam — [Bilgin Ibryam destaca un repositorio de Addy Osmani que convierte las prácticas de ingeniería de Google en 19 skills y 7 comandos para agentes de IA, organizados en fases de planificación, construcción, verificación, revisión y despliegue.](https://x.com/bibryam/status/2040334954538688672) `#2040334954538688672`
+- @_vmlops — [El autor destaca que Google ha publicado en GitHub sus guías internas de revisión de código (para revisores y para autores), incluyendo el significado de términos internos como 'LGTM' y 'CL'.](https://x.com/_vmlops/status/2058057460792074625) `#2058057460792074625`
+
+## google-adk
+
+- @rseroter — [Richard Seroter escribe sobre cómo forzar a un agente personalizado a detenerse y pedir aprobación humana, usando la función de human-in-the-loop del Agent Development Kit para validar tutoriales de código generados por IA.](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
+
+## google-antigravity
+
+- @rseroter — [Comparte un artículo que sostiene que Google Antigravity supera a Claude en tareas de programación, pero solo si el desarrollador cambia su forma tradicional de trabajar como programador.](https://x.com/rseroter/status/2054201313400107399) `#2054201313400107399`
+
+## google-drive
+
+- @_vmlops — [Vaishnavi comparte un manual de preparación de entrevistas sobre 'AI Harness Engineering' en un documento de Google Drive.](https://x.com/_vmlops/status/2048082184171602385) `#2048082184171602385`
+
+## google-research
+
+- @omarsar0 — [Resume un nuevo informe de Google que sostiene que la "singularidad" de la IA no será una mente superinteligente única, sino sistemas multiagente y configuraciones humano-IA; señala que modelos como DeepSeek-R1 ya desarrollan "sociedades de pensamiento" internas mediante RL.](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
+
+## google-skills
+
+- @commte — [コムテ informa que Google lanzó oficialmente 13 skills compatibles con el estándar Agent Skills, soportado por Claude Code, Antigravity, Gemini CLI, Cursor y GitHub Copilot, entre otros.](https://x.com/commte/status/2054136870016356408) `#2054136870016356408`
+
+## gpt
+
+- @agrimsingh — [Agrim Singh adapta el 'autoresearch loop' de Karpathy para buscar vuelos baratos en clase business, creando el proyecto 'autofare' con Codex y GPT-5.4 mini.](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
+
+## gpt-5-5
+
+- @TheRealAdamG — [Adam.GPT comparte la nueva 'GPT-5.5 Prompting Guide' de OpenAI, que recomienda prompts más orientados a resultados y menos prescriptivos que con modelos anteriores.](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
+
+## grafo-semantico
+
+- @midudev — [Presenta una herramienta open source y local para crear un grafo semántico del código y así evitar que la IA gaste tokens explorando el proyecto, con un 92% menos de llamadas a herramientas y un 71% más de rapidez explorando código; compatible con Claude Code, Cursor, Codex y OpenCode.](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
+
+## grafos
+
+- @rohit4verse — [Argumenta que la memoria real de los agentes de IA no consiste en apilar archivos markdown, sino en usar grafos con nodos, embeddings y recorrido (traversal) para lograr memoria persistente en producción.](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
+
+## greg-brockman
+
+- @atmoio — [Comentario informal sobre un vídeo que muestra el carácter tranquilo de Greg (de OpenAI) como explicación de su éxito.](https://x.com/atmoio/status/2050981070846230942) `#2050981070846230942`
+
+## grill-me
+
+- @AhmedHemaz — [Recomienda la skill de agente '/grill-me' como algo que cambia por completo la forma de trabajar con agentes de codificación, y enlaza otras skills en un repositorio de GitHub.](https://x.com/AhmedHemaz/status/2050852711902425382) `#2050852711902425382`
+
+## growth-marketing
+
+- @helloitsaustin — [Austin Lau, del equipo de growth marketing de Anthropic, explica cómo usa Claude más allá de reescribir titulares, combinando el chat, Claude Cowork y Claude Code en su trabajo diario.](https://x.com/helloitsaustin/status/2049516788715827569) `#2049516788715827569`
+
+## gtm
+
+- @every — [Every comparte la plantilla de prompt de Codex que utilizan internamente para redactar planes de 'go-to-market' (GTM) a partir de lo ya discutido en reuniones y Slack.](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
+
+## guardrails
+
+- @jeslopcru — [Jesus L.C. recomienda un artículo sobre cómo trabajar con IA y guardrails, señalando que también ofrece herramientas útiles si se usa Kotlin.](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
+
+## guia
+
+- @lennysan — [Lenny Rachitsky comparte la guía completa de Claire Vo sobre OpenClaw, que cubre desde la instalación hasta configuraciones multi-agente, además de los costes reales y los aspectos de seguridad a tener en cuenta.](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
+- @GithubProjects — [Anuncia una guía visual y con ejemplos sobre Claude Code, desde conceptos básicos hasta agentes avanzados, con plantillas listas para copiar y pegar.](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
+
+## guia-de-diseno
+
+- @_vmlops — [Anuncio de 'Harness Engineering: A Design Guide to Claude Code', con enlace a un documento alojado en Google Drive.](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
+
+## guia-de-prompts
+
+- @TheRealAdamG — [Adam.GPT comparte la nueva 'GPT-5.5 Prompting Guide' de OpenAI, que recomienda prompts más orientados a resultados y menos prescriptivos que con modelos anteriores.](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
+
+## handoff
+
+- @mattpocockuk — [Matt Pocock comenta que la skill '/handoff' se ha convertido en una de sus favoritas, sin dar más detalles sobre su funcionamiento.](https://x.com/mattpocockuk/status/2052489881088049407) `#2052489881088049407`
+
+## harness
+
+- @mattpocockuk — [Matt Pocock ofrece, dentro de una serie sobre los términos más confusos de la IA, una definición concisa de 'agente': simplemente un modelo, dotado de un harness, dentro de un entorno.](https://x.com/mattpocockuk/status/2075149990658191668) `#2075149990658191668`
+
+## harness-engineering
+
+- @_vmlops — [Vaishnavi comparte un manual de preparación de entrevistas sobre 'AI Harness Engineering' en un documento de Google Drive.](https://x.com/_vmlops/status/2048082184171602385) `#2048082184171602385`
+- @wsl8297 — [El autor recomienda el curso open source 'Learn Harness Engineering' en GitHub, que enseña a construir un entorno de trabajo más fiable para asistentes de codificación con IA a través de 12 lecciones teóricas y 6 proyectos prácticos, cubriendo instrucciones, estado, verificación, alcance y sesión.](https://x.com/wsl8297/status/2048929452579799164) `#2048929452579799164`
+- @martinfowler — [Martin Fowler enlaza otra recopilación de 'Fragments', con una guía actualizada sobre programación con IA, un video sobre 'harness engineering', la duración ideal de una función y una reflexión sobre por qué la IA es impopular.](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
+- @omarsar0 — [Elvis resume un paper sobre 'Agentic Harness Engineering', un framework que hace observable la evolución del harness de agentes de codificación y eleva el pass@1 en Terminal-Bench 2 del 69.7% al 77.0% en diez iteraciones, superando a Codex-CLI y a baselines auto-evolutivos.](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+- @Av1dlive — [Avid destaca un video de Karpathy sobre cómo convertirse en un ingeniero '100x' mediante context engineering, diseño de herramientas, el patrón orquestador-subagente, evals y una mentalidad de harness.](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
+- @morganlinton — [Recomienda una lectura sobre 'harness engineering', sin enlace ni más detalles en el texto.](https://x.com/morganlinton/status/2053265173507703247) `#2053265173507703247`
+- @_vmlops — [Vaishnavi recomienda un sitio web como el mejor recurso en internet para aprender 'harness engineering' de agentes de IA.](https://x.com/_vmlops/status/2055887618303570151) `#2055887618303570151`
+- @_vmlops — [Anuncio de 'Harness Engineering: A Design Guide to Claude Code', con enlace a un documento alojado en Google Drive.](https://x.com/_vmlops/status/2056417039825428550) `#2056417039825428550`
+- @_avichawla — [Avi Chawla explica Shepherd, una herramienta de Stanford descrita como un 'Git nativo para agentes': registra cada interacción agente-entorno como un commit que incluye el proceso y el sistema de archivos, permitiendo revertir o bifurcar una ejecución a un paso anterior sin reiniciar desde cero ni perder la caché KV.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
+
+## headless
+
+- @codewithimanshu — [Hilo promocional extenso sobre el Claude Code SDK, basado en una charla de Sid Bidasaria (Anthropic): uso headless, gestión de permisos, persistencia de sesión y la GitHub Action de Claude para automatizar flujos de ingeniería completos.](https://x.com/codewithimanshu/status/2047875091174981780) `#2047875091174981780`
+
+## hermes
+
+- @aakashgupta — [Explica cómo Hermes evita que los agentes de IA se estanquen reescribiendo automáticamente sus propios archivos de skill cada 15 llamadas a herramientas, mejorando el rendimiento semana a semana sin tocar el prompt.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
+- @NFTCPS — [Presenta el ecosistema open source de Hermes: una app de escritorio nativa, un flujo para convertir ideas en PRD/documentos de diseño, una capa de memoria compartida entre agentes (plur), una herramienta de compresión de tokens y un dashboard de monitorización.](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
+
+## hermes-agent
+
+- @GitTrend0x — [Resumen en chino de cinco proyectos de GitHub que amplían el agente Hermes: un fork reforzado, un panel web de control, un plugin de evolución de habilidades sin coste de tokens, una documentación completa y un paquete de flujos de trabajo creativos ('Superpowers').](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
+- @QingQ77 — [Presenta 'Oh My Hermes', una capa de habilidades y flujos de trabajo para el agente Hermes que cubre todo el ciclo de vida de una aplicación, desde la idea hasta el despliegue y la operación, con 20 skills y 5 agentes especializados (CTO, PM, Dev, QA, Ops) coordinados en un tablero kanban.](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
+
+## herramientas
+
+- @dhruvtwt_ — [Lista de seis herramientas de orquestación de agentes de IA que vale la pena probar: Superset, DP Code, Emdash, Letta, Conductor y Air, cada una con su enlace.](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
+- @kieranklaassen — [El autor comenta que una herramienta le está funcionando muy bien para 'compound engineering' y promete publicar un vídeo próximamente.](https://x.com/kieranklaassen/status/2052529355709108651) `#2052529355709108651`
+- @mattpocockuk — [Matt Pocock anuncia que su skill '/improve-codebase-architecture' pronto generará salida en HTML, agradeciendo la contribución de @trq212.](https://x.com/mattpocockuk/status/2054922772573303293) `#2054922772573303293`
+- @Kikobeats — [Kiko Beats muestra cómo redujo el tamaño de una imagen Docker en un 99,8% (de 1,87 GB a 2,5 MB) usando su herramienta de código abierto 'untracked'.](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
+
+## herramientas-de-desarrollo
+
+- @kunchenguid — [Kun Chen elogia 'acpx' de Peter Steinberger y explica que lo integró en la versión 0.1.31 de gnhf para dar soporte a prácticamente cualquier harness de agentes, recomendándolo frente a construir una abstracción propia.](https://x.com/kunchenguid/status/2050648794640113947) `#2050648794640113947`
+- @nihaliscoding — [El autor elogia una herramienta de gestión de trabajo con agentes de IA (enlazada en super.engineering), destacando lo fácil que resulta crear worktrees y gestionar agentes con ella.](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
+
+## herramientas-ia
+
+- @RoundtableSpace — [Lista de los 10 mejores repositorios de GitHub para mejorar el uso de Claude Code, incluyendo Supabase, NotebookLM, Obsidian, LangChain, Flowise, colecciones de Claude Skills, Repomix y guías de buenas prácticas.](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
+
+## herramientas-productividad
+
+- @mattpocockuk — [Matt Pocock comenta que la skill '/handoff' se ha convertido en una de sus favoritas, sin dar más detalles sobre su funcionamiento.](https://x.com/mattpocockuk/status/2052489881088049407) `#2052489881088049407`
+
+## hooks
+
+- @NainsiDwiv50980 — [Hilo que resume funciones avanzadas de Claude Code reveladas por @bcherny (hooks, control remoto, extensión de Chrome, worktrees de Git, comandos como /batch y /voice), presentándolas como un sistema completo de ingeniería con IA.](https://x.com/NainsiDwiv50980/status/2039379859638821146) `#2039379859638821146`
+- @hasantoxr — [Promociona el plugin oficial de Anthropic 'claude-code-setup', que analiza el proyecto y recomienda qué hooks, skills, servidores MCP y subagentes activar, instalable con un solo comando.](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
+- @ds_nana_ — [Enlaza un recurso ("Claude Code in Action") que explica cómo Claude Code lee archivos, ejecuta comandos y edita código, además de técnicas de gestión de contexto, hooks e integraciones externas.](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
+
+## http
+
+- @JustSteveKing — [JustSteveKing explica que, más allá de PSR-4 y PSR-12, los estándares PSR 7, 14, 15, 17 y 18 ofrecen un modelo completo para trabajar con HTTP en PHP sin depender de un framework concreto.](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
+
+## human-in-the-loop
+
+- @rseroter — [Richard Seroter escribe sobre cómo forzar a un agente personalizado a detenerse y pedir aprobación humana, usando la función de human-in-the-loop del Agent Development Kit para validar tutoriales de código generados por IA.](https://x.com/rseroter/status/2052064628625354847) `#2052064628625354847`
+
+## humor
+
+- @atmoio — [Comentario informal sobre un vídeo que muestra el carácter tranquilo de Greg (de OpenAI) como explicación de su éxito.](https://x.com/atmoio/status/2050981070846230942) `#2050981070846230942`
+
+## ia
+
+- @jcesarperez — [Presenta la versión 1.3.0 de Claude EM, un compañero de IA para engineering managers que conoce al equipo, su contexto y sus herramientas, con una nueva skill y mejoras.](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
+- @luisloaiza — [Presenta una herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, que permite vender con catálogo y pagos integrados y automatizar el onboarding con validación de identidad, descrita como más rápida y potente que n8n.](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
+- @jeslopcru — [Jesus L.C. recomienda un artículo sobre cómo trabajar con IA y guardrails, señalando que también ofrece herramientas útiles si se usa Kotlin.](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
+- @slashdot — [Slashdot enlaza a un artículo sobre las declaraciones de Linus Torvalds acerca de cómo la IA está afectando a la búsqueda de bugs en el kernel de Linux.](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
+
+## ia-agentica
+
+- @McKinsey — [McKinsey señala que la IA agéntica está cambiando la creación de valor en los servicios tecnológicos, identificando cuatro roles distintos con diferentes capacidades y apuestas.](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
+
+## ia-educativa
+
+- @tom_doerr — [Comparte una biblioteca de skills de IA orientada a educación, alojada en GitHub.](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
+
+## ia-en-codigo
+
+- @martinfowler — [Martin Fowler destaca un nuevo artículo de Birgitta Böckeler que explora tres 'sensores' para el análisis estático de código, concluyendo que los sensores puramente computacionales no bastan y que se necesita IA para añadir interpretación semántica.](https://x.com/martinfowler/status/2057107389539553494) `#2057107389539553494`
+
+## ia-en-desarrollo
+
+- @jdecool — [Comparte el artículo de Martin Fowler titulado 'Encoding Team Standards', sobre cómo codificar los estándares de un equipo para reducir la fricción al trabajar con IA.](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
+
+## ia-en-programacion
+
+- @badlogicgames — [Recomienda la lectura de un artículo, sin más comentario en el texto del tuit.](https://x.com/badlogicgames/status/2059190700827140495) `#2059190700827140495`
+
+## ia-para-escritura
+
+- @every — [La cuenta de Every promociona una prueba gratuita de Spiral, su asistente de escritura con IA entrenado con el estilo del usuario.](https://x.com/every/status/2051049659733533008) `#2051049659733533008`
+
+## idea-file
+
+- @karpathy — [Karpathy comparte, en formato de 'idea file' (un gist), una versión mejorada de un tuit que se hizo viral: la idea de compartir conceptos en lugar de código para que el agente LLM de cada persona construya y personalice su propia wiki de LLM.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
+
+## infraestructura
+
+- @twtayaan — [El autor anuncia el lanzamiento de Amazon S3 Files, que permite montar buckets de S3 como sistemas de archivos nativos con acceso POSIX y sub-milisegundo, conectable a Lambda, EC2 y EKS.](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
+
+## infraestructura-de-agentes
+
+- @rauchg — [Guillermo Rauch (Vercel) anuncia la apertura como open source de Open Agents, una plataforma de referencia para agentes de codificación en la nube, comparándola con las 'fábricas de software con IA' internas de empresas como Stripe, Ramp, Spotify y Block.](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
+
+## infraestructura-ml
+
+- @Hi_Mrinal — [Recomendación de lectura sobre infraestructura de modelos de machine learning en Netflix, con enlace al artículo técnico de su blog de ingeniería sobre enrutamiento en el servicio de modelos.](https://x.com/Hi_Mrinal/status/2050454027897540635) `#2050454027897540635`
+
+## ingenieria
+
+- @rseroter — [Richard Seroter comparte un artículo del equipo de ingeniería de Pinterest sobre cómo implementar un proceso de pruebas para optimizar el rendimiento de los agentes de IA con 'skills' en cualquier repositorio.](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
+
+## ingenieria-agentica
+
+- @benln — [Referencia a una intervención de Andrej Karpathy sobre el cambio hacia la 'ingeniería agéntica' en el desarrollo de software.](https://x.com/benln/status/2051285184369115154) `#2051285184369115154`
+
+## ingenieria-colaborativa
+
+- @aiDotEngineer — [Anuncio de la charla 'Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment' de @mappletons, sobre Ace, un entorno multijugador de agentes de GitHub Next con colaboración en tiempo real y micro VMs en sandbox.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
+
+## ingenieria-de-contexto
+
+- @DeRonin_ — [A partir de una cita de Karpathy, enumera 10 herramientas y prácticas de IA que los ingenieros senior ya han abandonado (AutoGen, CrewAI, agentes autónomos, Semantic Kernel, DSPy, entre otras) y qué sí compensa a largo plazo: ingeniería de contexto, diseño de herramientas, patrón orquestador-subagente, disciplina de evaluación y MCP.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
+
+## ingenieria-de-prompts
+
+- @dbreunig — [Drew Breunig comparte un artículo que explica cómo Claude Code construye su system prompt.](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
+- @DanielMiessler — [Daniel Miessler propone, en respuesta a un artículo de Lars Faye sobre los riesgos de la programación agéntica, crear un lenguaje pseudocódigo intermedio que permita experimentar con ideas de funcionalidad antes de escribirlas como especificación completa o código final.](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
+
+## ingenieria-de-sistemas
+
+- @bibryam — [Comparte un artículo sobre cómo no desperdiciar la 'back pressure' (contrapresión) al diseñar agentes.](https://x.com/bibryam/status/2050954217104302281) `#2050954217104302281`
+
+## ingenieria-de-software
+
+- @martinfowler — [Martin Fowler enlaza su recopilación de 'Fragments', que incluye el 34º Technology Radar de Thoughtworks, una reflexión sobre cuando los desarrolladores no leen el código generado por LLMs, y temas sobre DirectFile y tecnología en grandes organizaciones.](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
+- @martinfowler — [Martin Fowler enlaza otra recopilación de 'Fragments', con una guía actualizada sobre programación con IA, un video sobre 'harness engineering', la duración ideal de una función y una reflexión sobre por qué la IA es impopular.](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
+- @SebSmith1 — [El autor recomienda un artículo de Kent C. Dodds que coincide con conclusiones propias sobre la evolución del rol del ingeniero de software.](https://x.com/SebSmith1/status/2050553191901667810) `#2050553191901667810`
+
+## ingenieria-ia
+
+- @fabpot — [Fabien Potencier comenta que en Upsun los retos a nivel organizacional son distintos, y comparte un mapa de las etapas de madurez de la ingeniería de IA en las organizaciones.](https://x.com/fabpot/status/2065350660829094293) `#2065350660829094293`
+
+## ingenieria-software
+
+- @bibryam — [Comparte un enlace a una chuleta (cheatsheet) sobre las 10 principales características de arquitectura de software, es decir, los requisitos no funcionales más importantes.](https://x.com/bibryam/status/1549333232943894529) `#1549333232943894529`
+
+## integraciones
+
+- @brada — [Brad Abrams anuncia que la skill 'claude-api' para escribir código listo para producción ya está disponible en CodeRabbit, JetBrains, Resolve AI, Warp y Claude Code, mejorando la caché y los patrones de agentes.](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
+
+## investigacion-cientifica
+
+- @robert_lauko — [Robert Lauko presenta Kurate, una plataforma que clasifica diariamente los preprints más relevantes de arXiv en IA, ML, robótica y física cuántica mediante torneos de comparación por pares evaluados por Claude, GPT y Gemini.](https://x.com/robert_lauko/status/2050876479731278113) `#2050876479731278113`
+
+## investigacion-ia
+
+- @GeoffreyHuntley — [Enlace a un documento en PDF (model-engineering.info) sin texto descriptivo adicional.](https://x.com/GeoffreyHuntley/status/2038420699459752092) `#2038420699459752092`
+
+## javascript
+
+- @dhh — [DHH reflexiona sobre poder decidir un futuro tecnológico distinto: JavaScript moderno sin build (#nobuild), servicios SaaS fuera de la nube, y cuestionando el dominio de Apple.](https://x.com/dhh/status/2050670200702328890) `#2050670200702328890`
+
+## jetbrains
+
+- @jetbrains — [JetBrains anuncia que está contratando en España, con Madrid como punto de partida, ofreciendo más de 70 puestos abiertos en remoto por todo el país.](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+- @jetbrains — [JetBrains invita a una demo en vivo sobre cómo Qodana y TeamCity analizan automáticamente en CI el código generado por IA con las mismas inspecciones deterministas en cada PR, antes de llegar a producción.](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
+
+## junior-developers
+
+- @dabit3 — [Recomienda un sitio de referencia con "56 leyes de la ingeniería de software", especialmente útil para desarrolladores junior.](https://x.com/dabit3/status/2046592545530982880) `#2046592545530982880`
+
+## kafka
+
+- @odysseus0z — [Comparte un artículo del blog de ingeniería de LinkedIn (escrito por el creador de Kafka) sobre logs distribuidos, en el contexto de comparar Managed Claude frente al Agent SDK.](https://x.com/odysseus0z/status/2052447720166904138) `#2052447720166904138`
+
+## karpathy
+
+- @karpathy — [Karpathy responde que varias funciones recientes ya apuntaban a llevar 'Code' hacia direcciones de 'Claw', calificándolo de una especie de speedrun, y enlaza a un tuit anterior suyo sobre el tema.](https://x.com/karpathy/status/2039057005802082814) `#2039057005802082814`
+- @karpathy — [Karpathy comparte, en formato de 'idea file' (un gist), una versión mejorada de un tuit que se hizo viral: la idea de compartir conceptos en lugar de código para que el agente LLM de cada persona construya y personalice su propia wiki de LLM.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
+- @ghumare64 — [Señala que Andrej Karpathy describió el patrón 'LLM Wiki' y enlaza un motor de código abierto (agentmemory) que ya lo implementa.](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
+- @Dinosn — [Comparte un patrón, en un gist de Andrej Karpathy, para construir bases de conocimiento personales usando LLMs.](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
+- @NickSpisak_ — [Anuncia una actualización de su versión open source del "LLM wiki" de Karpathy, compatible con Claude Code, Codex y Gemini, con soporte de ingesta, consulta y lint.](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
+- @adrianaia_ — [AdrIAna comenta que, 48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, alguien construyó exactamente esa idea y la subió a GitHub.](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
+- @ghumare64 — [El autor cuenta que extendió el "LLM Wiki" de Karpathy en una v2 orientada a servir de memoria para sistemas a escala, y que su gist en GitHub alcanzó 111 estrellas.](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
+- @ghumare64 — [Rohit Ghumare recomienda un video de 262 minutos de Andrej Karpathy en el que explica por qué Claude Skills, los servidores MCP y los agentes de IA ya son la base estándar para construir software.](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
+- @Av1dlive — [Avid destaca un video de Karpathy sobre cómo convertirse en un ingeniero '100x' mediante context engineering, diseño de herramientas, el patrón orquestador-subagente, evals y una mentalidad de harness.](https://x.com/Av1dlive/status/2049561210593685876) `#2049561210593685876`
+- @DeRonin_ — [A partir de una cita de Karpathy, enumera 10 herramientas y prácticas de IA que los ingenieros senior ya han abandonado (AutoGen, CrewAI, agentes autónomos, Semantic Kernel, DSPy, entre otras) y qué sí compensa a largo plazo: ingeniería de contexto, diseño de herramientas, patrón orquestador-subagente, disciplina de evaluación y MCP.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
+- @ghumare64 — [Rohit Ghumare anuncia AKBP, un protocolo que describe como 'Git para el conocimiento de los agentes', desarrollado a partir de la LLM wiki de Andrej Karpathy.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
+- @DataChaz — [Charly Wargnier resalta la advertencia de Karpathy de que el 90% de los consejos sobre IA caducan en 6 meses, y destaca un contenido que ofrece un playbook de 2026 sobre qué aprender, construir e ignorar en IA.](https://x.com/DataChaz/status/2054225085100151163) `#2054225085100151163`
+- @Dinosn — [Comparte un único archivo CLAUDE.md para mejorar el comportamiento de Claude Code, basado en las observaciones de Andrej Karpathy sobre los errores habituales de la codificación con LLM.](https://x.com/Dinosn/status/2058255964931776938) `#2058255964931776938`
+
+## kent-c-dodds
+
+- @SebSmith1 — [El autor recomienda un artículo de Kent C. Dodds que coincide con conclusiones propias sobre la evolución del rol del ingeniero de software.](https://x.com/SebSmith1/status/2050553191901667810) `#2050553191901667810`
+- @kentcdodds — [Kent C. Dodds responde a Grady Booch que enseñar es la manera de solidificar la propia comprensión de un tema.](https://x.com/kentcdodds/status/2050801846269489650) `#2050801846269489650`
+
+## kimi-k2
+
+- @dhh — [DHH comenta que el modelo Kimi K2.5 Turbo es extremadamente rápido cuando se ejecuta en la plataforma Fireworks AI.](https://x.com/dhh/status/2037619581674541357) `#2037619581674541357`
+
+## knowledge-base
+
+- @Dinosn — [Comparte un patrón, en un gist de Andrej Karpathy, para construir bases de conocimiento personales usando LLMs.](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
+
+## knowledge-graph
+
+- @tom_doerr — [Comparte un proyecto open source que genera un grafo de conocimiento de bases de código, representado en formato markdown.](https://x.com/tom_doerr/status/2050852962998657477) `#2050852962998657477`
+- @GitHub_Daily — [Presenta CodeGraph, una herramienta open source que construye un grafo de conocimiento semántico del código para que Claude Code consulte la estructura del proyecto en lugar de escanear archivo por archivo, reduciendo un 92% las llamadas a herramientas y acelerando la exploración un 71%.](https://x.com/GitHub_Daily/status/2054917184158318628) `#2054917184158318628`
+
+## kotlin
+
+- @jeslopcru — [Jesus L.C. recomienda un artículo sobre cómo trabajar con IA y guardrails, señalando que también ofrece herramientas útiles si se usa Kotlin.](https://x.com/jeslopcru/status/2057046584446091295) `#2057046584446091295`
+
+## kotlinconf
+
+- @antonarhipov — [Anton Arhipov publica las diapositivas de su charla en KotlinConf 2026 sobre desarrollo dirigido por especificaciones (Spec-Driven Development) con agentes de IA.](https://x.com/antonarhipov/status/2058489053385760947) `#2058489053385760947`
+
+## kyle-kingsbury
+
+- @vivekgalatage — [Recomendación del curso 'An Introduction to Distributed Systems' de Kyle Kingsbury, con enlace a su repositorio en GitHub.](https://x.com/vivekgalatage/status/2041764549158957323) `#2041764549158957323`
+
+## langchain
+
+- @jetbrains — [JetBrains comparte una guía práctica para construir un agente personalizado con Deep Agents de LangChain, LangSmith y el protocolo ACP, partiendo de la idea de que la capa "harness" de Claude Code es solo software que cualquiera puede moldear.](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
+- @addyosmani — [Addy Osmani explica que la memoria de un agente de IA depende del diseño del harness, ya que decisiones como qué entra en el contexto o cómo sobrevive a la compactación son decisiones de memoria; recomienda un artículo de @hwchase17 sobre el tema.](https://x.com/addyosmani/status/2043447970507686248) `#2043447970507686248`
+
+## langsmith
+
+- @jetbrains — [JetBrains comparte una guía práctica para construir un agente personalizado con Deep Agents de LangChain, LangSmith y el protocolo ACP, partiendo de la idea de que la capa "harness" de Claude Code es solo software que cualquiera puede moldear.](https://x.com/jetbrains/status/2041878762342502731) `#2041878762342502731`
+
+## lanzamiento
+
+- @FredKSchott — [El autor celebra la gran acogida recibida en las últimas 24 horas por su proyecto Flue Framework, que ya acumula 35 pull requests.](https://x.com/FredKSchott/status/2050675029948723570) `#2050675029948723570`
+- @thorstenball — [Thorsten Ball anuncia el regreso de lo que describe como 'el mejor agente de codificación del mundo', enlazando a la noticia de Amp (Neo).](https://x.com/thorstenball/status/2052047171692736567) `#2052047171692736567`
+
+## laravel
+
+- @freekmurze — [Freek Van der Herten enlaza un artículo sobre cómo utilizar Claude Skills en proyectos de clientes, relacionado con Laravel, Livewire y generación de código.](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
+
+## lectura-recomendada
+
+- @morganlinton — [Recomienda una lectura sobre 'harness engineering', sin enlace ni más detalles en el texto.](https://x.com/morganlinton/status/2053265173507703247) `#2053265173507703247`
+- @badlogicgames — [Mario Zechner recomienda un artículo titulado 'I'm going back to writing code by hand', advirtiendo que no hay que dejarse confundir por el título.](https://x.com/badlogicgames/status/2053747834696995181) `#2053747834696995181`
+- @badlogicgames — [Recomienda la lectura de un artículo, sin más comentario en el texto del tuit.](https://x.com/badlogicgames/status/2059190700827140495) `#2059190700827140495`
+
+## legaltech
+
+- @milesdeutscher — [Miles Deutscher anuncia el lanzamiento de Claude for Legal, un marketplace de Anthropic con decenas de agentes de IA especializados en roles legales como revisión de documentos, redacción de políticas y NDAs.](https://x.com/milesdeutscher/status/2054678395867599250) `#2054678395867599250`
+
+## libro
+
+- @winspyredotcom — [Promoción de un libro en Amazon que promete acciones simples y sin coste para reducir la complejidad, a diferencia de otros libros con frameworks estáticos de pasos.](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
+- @vladikk — [Vlad Khononov explica que en su libro 'Learning Domain-Driven Design' priorizó los principios sobre los listados de código, para que el lector entienda el porqué de patrones tácticos como los value objects inmutables.](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
+- @KirkDBorne — [Promoción del libro 'Architecting Generative AI Applications', que explica cómo construir, desplegar y escalar sistemas de IA generativa en producción siguiendo buenas prácticas de LLMOps.](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
+
+## libro-recomendado
+
+- @svpino — [Santiago recomienda un libro que cataloga 30 tipos de agentes de IA que, según él, todo ingeniero de IA debería saber construir, y menciona también el libro '50 Algorithms Every Programmer Should Know'.](https://x.com/svpino/status/2050593671326883974) `#2050593671326883974`
+
+## libros
+
+- @KirkDBorne — [Recomendación de la colección de 13 volúmenes 'The Art of Problem Solving' (AoPS), sobre matemáticas (precálculo, cálculo, teoría de números, álgebra, geometría, probabilidad, entre otros).](https://x.com/KirkDBorne/status/2063382238931152907) `#2063382238931152907`
+
+## liderazgo
+
+- @danshipper — [Dan Shipper afirma que el mejor indicador de si una organización adopta la IA es que su equipo directivo use personalmente Codex, Claude Code o Cowork, y anuncia que su empresa Every abre cupos de consultoría para ayudar a equipos ejecutivos a adoptar estas herramientas.](https://x.com/danshipper/status/2055015466054410400) `#2055015466054410400`
+
+## linting
+
+- @martinfowler — [Martin Fowler comparte el inicio de un artículo de Birgitta Böckeler sobre 'sensores' en un harness de agentes; esta primera parte se centra en el análisis estático y el linting básico de código.](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
+
+## linus-torvalds
+
+- @slashdot — [Slashdot enlaza a un artículo sobre las declaraciones de Linus Torvalds acerca de cómo la IA está afectando a la búsqueda de bugs en el kernel de Linux.](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
+
+## linux
+
+- @dhh — [DHH anuncia el lanzamiento de Omarchy 3.7, con una nueva CLI, más opciones de gaming, temas para la pantalla de bloqueo, extracción de texto por OCR y compatibilidad con el Asus ExpertBook PTL, entre otras mejoras.](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
+
+## linux-kernel
+
+- @slashdot — [Slashdot enlaza a un artículo sobre las declaraciones de Linus Torvalds acerca de cómo la IA está afectando a la búsqueda de bugs en el kernel de Linux.](https://x.com/slashdot/status/2058362981293887893) `#2058362981293887893`
+
+## lista
+
+- @dhruvtwt_ — [Lista de seis herramientas de orquestación de agentes de IA que vale la pena probar: Superset, DP Code, Emdash, Letta, Conductor y Air, cada una con su enlace.](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
+
+## livewire
+
+- @freekmurze — [Freek Van der Herten enlaza un artículo sobre cómo utilizar Claude Skills en proyectos de clientes, relacionado con Laravel, Livewire y generación de código.](https://x.com/freekmurze/status/2056351726152622308) `#2056351726152622308`
+
+## llm
+
+- @dhh — [DHH comenta que el modelo Kimi K2.5 Turbo es extremadamente rápido cuando se ejecuta en la plataforma Fireworks AI.](https://x.com/dhh/status/2037619581674541357) `#2037619581674541357`
+- @Dinosn — [Comparte un patrón, en un gist de Andrej Karpathy, para construir bases de conocimiento personales usando LLMs.](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
+- @dbreunig — [Drew Breunig comparte un artículo que explica cómo Claude Code construye su system prompt.](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
+- @martinfowler — [Martin Fowler enlaza su recopilación de 'Fragments', que incluye el 34º Technology Radar de Thoughtworks, una reflexión sobre cuando los desarrolladores no leen el código generado por LLMs, y temas sobre DirectFile y tecnología en grandes organizaciones.](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
+- @rseroter — [Richard Seroter recoge frases de Addy Osmani sobre la importancia del harness de un agente: un modelo decente con un buen harness supera a un gran modelo con un mal harness, y el harness debe evolucionar constantemente.](https://x.com/rseroter/status/2046646395634114988) `#2046646395634114988`
+- @sairahul1 — [Destaca un curso gratuito de 3 horas de Andrej Karpathy que explica en profundidad conceptos clave de los LLM como tokenización, atención, alucinaciones, uso de herramientas, RLHF, DeepSeek y AlphaGo.](https://x.com/sairahul1/status/2047955648357576920) `#2047955648357576920`
+- @edans — [Enrique Dans publica un artículo titulado 'El emperador está desnudo', argumentando que los LLM nunca fueron diseñados para dirigir una empresa.](https://x.com/edans/status/2050882478936559660) `#2050882478936559660`
+- @rseroter — [Richard Seroter responde a la crítica de que los LLM solo repiten lo aprendido señalando que el agente AlphaEvolve de Google DeepMind está diseñando algoritmos avanzados con impacto real.](https://x.com/rseroter/status/2052478851859862000) `#2052478851859862000`
+- @amitiitbhu — [Comparte un nuevo artículo sobre "Context Engineering", la ingeniería de contexto para modelos de lenguaje.](https://x.com/amitiitbhu/status/2052617405336277305) `#2052617405336277305`
+- @tom_doerr — [Tom Dörr comparte OpenUI, un proyecto que genera interfaces de usuario usando un 67% menos tokens que JSON.](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
+- @martinfowler — [Martin Fowler describe, en su nuevo artículo sobre 'Interrogatory LLM', la técnica de dejar que un LLM te entreviste para extraer el contexto necesario en lugar de escribirlo todo manualmente.](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
+- @martinfowler — [Martin Fowler publica una colección de reflexiones breves ('Fragments') sobre un retiro de desarrollo de software, el uso de los LLM como funciones y si el futuro será todo mentiras.](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
+- @defileo — [Comenta que Andrej Karpathy compartió gratis, en una charla de 29 minutos, ideas como que "los LLM son fantasmas, no animales", que el "vibe coding" ha muerto y que "Software 3.0" ya está aquí, poco después de que Anthropic lo contratara.](https://x.com/defileo/status/2057924890330644925) `#2057924890330644925`
+- @bibryam — [Bilgin Ibryam comparte un artículo del blog de Claude sobre buenas prácticas para asegurar código usando Claude.](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
+
+## llm-agents
+
+- @himanshustwts — [Describe en detalle la arquitectura de memoria de Claude Code a partir del código fuente: un índice ligero siempre cargado, archivos temáticos a demanda, reescritura en segundo plano ("autoDream") y aislamiento del proceso de consolidación.](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
+- @karpathy — [Karpathy comparte, en formato de 'idea file' (un gist), una versión mejorada de un tuit que se hizo viral: la idea de compartir conceptos en lugar de código para que el agente LLM de cada persona construya y personalice su propia wiki de LLM.](https://x.com/karpathy/status/2040470801506541998) `#2040470801506541998`
+
+## llm-coding
+
+- @fabpot — [Fabien Potencier cuenta que apenas escribe código sin la ayuda de un LLM y que su productividad en proyectos de código abierto como Twig se ha disparado, citando los '8 niveles de desarrollo asistido por IA' de Steve Yegge.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
+
+## llm-judge
+
+- @robert_lauko — [Robert Lauko presenta Kurate, una plataforma que clasifica diariamente los preprints más relevantes de arXiv en IA, ML, robótica y física cuántica mediante torneos de comparación por pares evaluados por Claude, GPT y Gemini.](https://x.com/robert_lauko/status/2050876479731278113) `#2050876479731278113`
+
+## llm-local
+
+- @martinfowler — [Martin Fowler comparte un memo de Birgitta Böckeler sobre los factores que determinan la viabilidad de usar LLMs locales para tareas de programación.](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
+
+## llm-wiki
+
+- @NickSpisak_ — [Anuncia una actualización de su versión open source del "LLM wiki" de Karpathy, compatible con Claude Code, Codex y Gemini, con soporte de ingesta, consulta y lint.](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
+- @ghumare64 — [El autor cuenta que extendió el "LLM Wiki" de Karpathy en una v2 orientada a servir de memoria para sistemas a escala, y que su gist en GitHub alcanzó 111 estrellas.](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
+
+## llm-workflow
+
+- @adrianaia_ — [AdrIAna comenta que, 48 horas después de que Karpathy publicara su workflow de bases de conocimiento con LLMs, alguien construyó exactamente esa idea y la subió a GitHub.](https://x.com/adrianaia_/status/2041818475417792778) `#2041818475417792778`
+
+## llmops
+
+- @KirkDBorne — [Promoción del libro 'Architecting Generative AI Applications', que explica cómo construir, desplegar y escalar sistemas de IA generativa en producción siguiendo buenas prácticas de LLMOps.](https://x.com/KirkDBorne/status/2062909794512429087) `#2062909794512429087`
+
+## logging
+
+- @odysseus0z — [Comparte un artículo del blog de ingeniería de LinkedIn (escrito por el creador de Kafka) sobre logs distribuidos, en el contexto de comparar Managed Claude frente al Agent SDK.](https://x.com/odysseus0z/status/2052447720166904138) `#2052447720166904138`
+
+## loop-engineering
+
+- @AndrewYNg — [Andrew Ng explica el concepto de "loop engineering" y describe sus tres bucles clave para construir productos de cero a uno: el bucle de codificación agéntica, el bucle de feedback del desarrollador y el bucle de feedback externo.](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+
+## madurez-ia
+
+- @fabpot — [Fabien Potencier comenta que en Upsun los retos a nivel organizacional son distintos, y comparte un mapa de las etapas de madurez de la ingeniería de IA en las organizaciones.](https://x.com/fabpot/status/2065350660829094293) `#2065350660829094293`
+
+## managed-agents
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería un artículo sobre Managed Agents, su servicio alojado para agentes de larga duración, y los retos de diseñar un sistema para programas todavía no imaginados.](https://x.com/AnthropicAI/status/2041929199976640948) `#2041929199976640948`
+
+## markdown
+
+- @tom_doerr — [Comparte un proyecto open source que genera un grafo de conocimiento de bases de código, representado en formato markdown.](https://x.com/tom_doerr/status/2050852962998657477) `#2050852962998657477`
+
+## marketing
+
+- @every — [Every comparte la plantilla de prompt de Codex que utilizan internamente para redactar planes de 'go-to-market' (GTM) a partir de lo ya discutido en reuniones y Slack.](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
+
+## martin-fowler
+
+- @martinfowler — [Martin Fowler comparte un artículo de @techygarg que propone tratar las instrucciones de estándares de equipo para asistentes de codificación con IA como infraestructura versionada, revisada y compartida.](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
+- @plainionist — [Sostiene que la madurez de un desarrollador se refleja en la importancia que da a documentar decisiones de diseño y arquitectura, enlazando al artículo de Martin Fowler sobre Architecture Decision Records.](https://x.com/plainionist/status/2040465921324482568) `#2040465921324482568`
+- @jdecool — [Comparte el artículo de Martin Fowler titulado 'Encoding Team Standards', sobre cómo codificar los estándares de un equipo para reducir la fricción al trabajar con IA.](https://x.com/jdecool/status/2041774011273687434) `#2041774011273687434`
+- @martinfowler — [Martin Fowler comparte 'fragments' sobre un vídeo del pragmatic summit con Kent Beck y Gergely, la virtud de la pereza, TDD y prompts, con inspiración de Dark Star.](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
+- @martinfowler — [Martin Fowler enlaza su recopilación de 'Fragments', que incluye el 34º Technology Radar de Thoughtworks, una reflexión sobre cuando los desarrolladores no leen el código generado por LLMs, y temas sobre DirectFile y tecnología en grandes organizaciones.](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
+- @martinfowler — [Martin Fowler presenta un nuevo artículo sobre Structured-Prompt-Driven Development (SPDD), un flujo de trabajo de programación agéntica usado internamente en Thoughtworks, descrito por Wei Zhang y Jessie Jie Xia.](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
+- @martinfowler — [Martin Fowler enlaza otra recopilación de 'Fragments', con una guía actualizada sobre programación con IA, un video sobre 'harness engineering', la duración ideal de una función y una reflexión sobre por qué la IA es impopular.](https://x.com/martinfowler/status/2049480328423608522) `#2049480328423608522`
+- @martinfowler — [Martin Fowler enlaza un nuevo artículo que explora si habrá código fuente en el futuro, basado en la idea de Unmesh Joshi de que el código tiene dos propósitos: instrucciones para una máquina y modelo conceptual del dominio del problema.](https://x.com/martinfowler/status/2054193359397253225) `#2054193359397253225`
+- @martinfowler — [Martin Fowler describe, en su nuevo artículo sobre 'Interrogatory LLM', la técnica de dejar que un LLM te entreviste para extraer el contexto necesario en lugar de escribirlo todo manualmente.](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
+- @martinfowler — [Martin Fowler publica una colección de reflexiones breves ('Fragments') sobre un retiro de desarrollo de software, el uso de los LLM como funciones y si el futuro será todo mentiras.](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
+- @plainionist — [Recomienda leer un artículo de Martin Fowler sobre qué es realmente el código, dirigido a quienes creen que el código ya no importa.](https://x.com/plainionist/status/2056010598689751405) `#2056010598689751405`
+- @martinfowler — [Martin Fowler comparte el inicio de un artículo de Birgitta Böckeler sobre 'sensores' en un harness de agentes; esta primera parte se centra en el análisis estático y el linting básico de código.](https://x.com/martinfowler/status/2056778173317005755) `#2056778173317005755`
+- @martinfowler — [Martin Fowler destaca un nuevo artículo de Birgitta Böckeler que explora tres 'sensores' para el análisis estático de código, concluyendo que los sensores puramente computacionales no bastan y que se necesita IA para añadir interpretación semántica.](https://x.com/martinfowler/status/2057107389539553494) `#2057107389539553494`
+- @vladikk — [Vlad Khononov argumenta que contar dependencias no revela nada sobre la calidad del diseño; lo importante es el tipo de conocimiento compartido entre componentes. Enlaza un artículo del blog de Martin Fowler sobre "sensores para agentes de codificación".](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
+- @martinfowler — [Martin Fowler comparte un memo de Birgitta Böckeler sobre los factores que determinan la viabilidad de usar LLMs locales para tareas de programación.](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
+
+## matematicas
+
+- @KirkDBorne — [Recomendación de la colección de 13 volúmenes 'The Art of Problem Solving' (AoPS), sobre matemáticas (precálculo, cálculo, teoría de números, álgebra, geometría, probabilidad, entre otros).](https://x.com/KirkDBorne/status/2063382238931152907) `#2063382238931152907`
+
+## matt-pocock
+
+- @AYi_AInotes — [Comentario en chino sobre el skill 'improve-codebase-architecture' de Matt Pocock, que añade un glosario oficial de 37 líneas para forzar que la IA use una terminología precisa (módulos profundos/superficiales, etc.) y convertir la mejora de arquitectura en un proceso reproducible.](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
+- @mattpocockuk — [Comparte el enlace a un repositorio de código, sin más texto de contexto.](https://x.com/mattpocockuk/status/2049506974081953924) `#2049506974081953924`
+- @mattpocockuk — [Respuesta a otro usuario con un enlace a un repositorio de GitHub (sandcastle), sin más contexto textual.](https://x.com/mattpocockuk/status/2051329647271461271) `#2051329647271461271`
+- @mattpocockuk — [Matt Pocock expresa entusiasmo por probar algo de inmediato, sin que el texto del tuit dé más contexto sobre de qué se trata.](https://x.com/mattpocockuk/status/2053065993241477227) `#2053065993241477227`
+- @mattpocockuk — [Matt Pocock anuncia que su skill '/improve-codebase-architecture' pronto generará salida en HTML, agradeciendo la contribución de @trq212.](https://x.com/mattpocockuk/status/2054922772573303293) `#2054922772573303293`
+- @mattpocockuk — [Matt Pocock responde confirmando que dio dos charlas sobre un tema que se volvieron virales simultáneamente, y enlaza a ambos vídeos en YouTube.](https://x.com/mattpocockuk/status/2056277047496843534) `#2056277047496843534`
+- @nurijanian — [El autor comparte sus skills de ingeniería con IA favoritos —Compound Engineering, las 'shaping skills' de Ryan Singer y los skills de Matt Pocock— y comenta que cambió de Superpowers a Compound Engineering.](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
+- @mattpocockuk — [Destaca un PRD basado en una sesión de varios días con '/wayfinder', muy detallado, donde cada afirmación queda enlazada a la sesión en la que se decidió, yendo de la fuente secundaria a la primaria.](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
+- @mattpocockuk — [Matt Pocock detalla un proceso paso a paso para eliminar el exceso de contenido del system prompt de Claude Code usando un proxy para inspeccionarlo y un archivo settings.json personalizado, reduciéndolo a unos 13.000 tokens.](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
+- @mattpocockuk — [Matt Pocock ofrece, dentro de una serie sobre los términos más confusos de la IA, una definición concisa de 'agente': simplemente un modelo, dotado de un harness, dentro de un entorno.](https://x.com/mattpocockuk/status/2075149990658191668) `#2075149990658191668`
+- @nicopreme — [Nico Bailon presenta "grill-for-unknowns", una skill de agente que combina la skill "grill me" de Matt Pocock con las ideas del artículo "Finding Your Unknowns" de Thariq, para que el agente identifique primero lo desconocido antes de implementar.](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+
+## mckinsey
+
+- @McKinsey — [McKinsey señala que muchas empresas siguen atascadas en la fase piloto con la IA porque el problema no es la tecnología sino que aún no han rediseñado sus flujos de trabajo, roles y decisiones de forma integral.](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
+- @McKinsey — [McKinsey señala que la IA agéntica está cambiando la creación de valor en los servicios tecnológicos, identificando cuatro roles distintos con diferentes capacidades y apuestas.](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
+
+## mcp
+
+- @ghumare64 — [Rohit Ghumare recomienda un video de 262 minutos de Andrej Karpathy en el que explica por qué Claude Skills, los servidores MCP y los agentes de IA ya son la base estándar para construir software.](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
+- @hasantoxr — [Promociona el plugin oficial de Anthropic 'claude-code-setup', que analiza el proyecto y recomienda qué hooks, skills, servidores MCP y subagentes activar, instalable con un solo comando.](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
+- @myfear — [Argumenta que los agentes de codificación con IA en empresas necesitan 'contexto aprobado' (frameworks internos, blueprints, buenas prácticas, runbooks y reglas de seguridad) y enlaza un artículo sobre servidores MCP como capa de conocimiento empresarial.](https://x.com/myfear/status/2049377456839168375) `#2049377456839168375`
+- @DeRonin_ — [A partir de una cita de Karpathy, enumera 10 herramientas y prácticas de IA que los ingenieros senior ya han abandonado (AutoGen, CrewAI, agentes autónomos, Semantic Kernel, DSPy, entre otras) y qué sí compensa a largo plazo: ingeniería de contexto, diseño de herramientas, patrón orquestador-subagente, disciplina de evaluación y MCP.](https://x.com/DeRonin_/status/2049613859623677978) `#2049613859623677978`
+- @ghumare64 — [Anuncia una herramienta de memoria persistente para agentes de codificación (Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenCode y cualquier cliente MCP) para que no haya que volver a explicar el contexto.](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
+
+## mejora-continua
+
+- @aakashgupta — [Explica cómo Hermes evita que los agentes de IA se estanquen reescribiendo automáticamente sus propios archivos de skill cada 15 llamadas a herramientas, mejorando el rendimiento semana a semana sin tocar el prompt.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
+
+## memoria
+
+- @vineetwts — [El autor creó documentación sobre la base de código de Claude Code, explicando su pipeline, funcionamiento, manejo de contexto y memoria, publicada en Mintlify.](https://x.com/vineetwts/status/2038911973975601275) `#2038911973975601275`
+
+## memoria-de-agentes
+
+- @addyosmani — [Addy Osmani explica que la memoria de un agente de IA depende del diseño del harness, ya que decisiones como qué entra en el contexto o cómo sobrevive a la compactación son decisiones de memoria; recomienda un artículo de @hwchase17 sobre el tema.](https://x.com/addyosmani/status/2043447970507686248) `#2043447970507686248`
+- @rohit4verse — [Argumenta que la memoria real de los agentes de IA no consiste en apilar archivos markdown, sino en usar grafos con nodos, embeddings y recorrido (traversal) para lograr memoria persistente en producción.](https://x.com/rohit4verse/status/2048081996841435596) `#2048081996841435596`
+- @ghumare64 — [Rohit Ghumare anuncia AKBP, un protocolo que describe como 'Git para el conocimiento de los agentes', desarrollado a partir de la LLM wiki de Andrej Karpathy.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
+- @0xMovez — [Movez resume un video de 28 minutos de un ingeniero de Anthropic que explica en 4 pasos cómo dar memoria persistente entre sesiones a los agentes de IA, con almacenes de memoria y una tasa de acierto de caché del 95%.](https://x.com/0xMovez/status/2058193075181089247) `#2058193075181089247`
+
+## memoria-ia
+
+- @ghumare64 — [Señala que Andrej Karpathy describió el patrón 'LLM Wiki' y enlaza un motor de código abierto (agentmemory) que ya lo implementa.](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
+
+## memoria-persistente
+
+- @GitTrend0x — [Resumen en chino de cinco repositorios de GitHub en tendencia sobre agentes de IA: una alternativa gratuita a Claude Code, un agente de ingeniería ML de Hugging Face, un tutorial de Claude Code, una librería de modelos de lenguaje recursivos y una infraestructura de memoria persistente para agentes.](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
+- @ghumare64 — [Anuncia una herramienta de memoria persistente para agentes de codificación (Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenCode y cualquier cliente MCP) para que no haya que volver a explicar el contexto.](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
+- @tom_doerr — [Presenta un proyecto de GitHub que orquesta agentes de codificación con IA dotados de memoria persistente.](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
+
+## memory
+
+- @ghumare64 — [El autor cuenta que extendió el "LLM Wiki" de Karpathy en una v2 orientada a servir de memoria para sistemas a escala, y que su gist en GitHub alcanzó 111 estrellas.](https://x.com/ghumare64/status/2042262308294955378) `#2042262308294955378`
+
+## memory-architecture
+
+- @himanshustwts — [Describe en detalle la arquitectura de memoria de Claude Code a partir del código fuente: un índice ligero siempre cargado, archivos temáticos a demanda, reescritura en segundo plano ("autoDream") y aislamiento del proceso de consolidación.](https://x.com/himanshustwts/status/2038924027411222533) `#2038924027411222533`
+
+## mentalidad
+
+- @addyosmani — [Addy Osmani anima a construir proyectos personales ambiciosos con agentes de IA, en vez de usarlos solo para hacer más rápido lo mismo de siempre.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
+
+## migracion
+
+- @bcherny — [Comenta un artículo de Salesforce sobre su adopción agéntica de Claude Code, destacando una migración estimada en 231 días que se completó en 13, y un PR que entregó 21 endpoints con 100% de cobertura de tests.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
+
+## model-engineering
+
+- @GeoffreyHuntley — [Enlace a un documento en PDF (model-engineering.info) sin texto descriptivo adicional.](https://x.com/GeoffreyHuntley/status/2038420699459752092) `#2038420699459752092`
+
+## model-serving
+
+- @Hi_Mrinal — [Recomendación de lectura sobre infraestructura de modelos de machine learning en Netflix, con enlace al artículo técnico de su blog de ingeniería sobre enrutamiento en el servicio de modelos.](https://x.com/Hi_Mrinal/status/2050454027897540635) `#2050454027897540635`
+
+## modelo-conceptual
+
+- @martinfowler — [Martin Fowler enlaza un nuevo artículo que explora si habrá código fuente en el futuro, basado en la idea de Unmesh Joshi de que el código tiene dos propósitos: instrucciones para una máquina y modelo conceptual del dominio del problema.](https://x.com/martinfowler/status/2054193359397253225) `#2054193359397253225`
+
+## modelos-locales
+
+- @martinfowler — [Martin Fowler comparte un memo de Birgitta Böckeler sobre los factores que determinan la viabilidad de usar LLMs locales para tareas de programación.](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
+
+## modularity
+
+- @vladikk — [Vlad Khononov comenta que Anthropic publicó por error el código fuente de Claude Code y aplicó su skill de revisión de modularidad, señalando un acoplamiento fuerte en el servicio de ejecución de herramientas (switch statements por nombre de herramienta).](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
+
+## monitorizacion
+
+- @coopTilleuls — [Les-Tilleuls.coop presenta Ember v1.0, una herramienta open source de monitorización en tiempo real para Caddy y FrankenPHP, con enlace a un artículo explicativo en su blog.](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
+- @tom_doerr — [Comparte un rastreador y panel (dashboard) de uso de tokens para sistemas multiagente de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
+- @alexdaubois — [Alexandre Daubois describe cómo Ember detecta automáticamente FrankenPHP en apps PHP y añade una pestaña con introspección por hilo (estado, URI, duración, memoria) y la posibilidad de reiniciar workers desde la TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
+
+## monorepo
+
+- @ClaudeDevs — [Blog post de ClaudeDevs sobre buenas prácticas para ejecutar Claude Code a gran escala, basado en la experiencia de equipos con monorepos de millones de líneas, sistemas legacy y microservicios distribuidos.](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
+
+## multi-agent-systems
+
+- @omarsar0 — [Resume un nuevo informe de Google que sostiene que la "singularidad" de la IA no será una mente superinteligente única, sino sistemas multiagente y configuraciones humano-IA; señala que modelos como DeepSeek-R1 ya desarrollan "sociedades de pensamiento" internas mediante RL.](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
+- @VKazulkin — [Comparte un artículo sobre cómo simular equipos de expertos con IA agéntica usando Amazon Bedrock AgentCore, mostrando ejemplos de consultas reales y patrones aplicables.](https://x.com/VKazulkin/status/2048087390712181059) `#2048087390712181059`
+
+## multi-agente
+
+- @lennysan — [Lenny Rachitsky comparte la guía completa de Claire Vo sobre OpenClaw, que cubre desde la instalación hasta configuraciones multi-agente, además de los costes reales y los aspectos de seguridad a tener en cuenta.](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
+- @github — [GitHub presenta Squad, un proyecto open source construido sobre GitHub Copilot que despliega un equipo preconfigurado de agentes de IA dentro de un repositorio para superar el límite de los flujos de un solo prompt.](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
+- @tom_doerr — [Presenta un proyecto de GitHub que automatiza la investigación mediante agentes especializados de investigador, revisor y redactor.](https://x.com/tom_doerr/status/2051009756647530749) `#2051009756647530749`
+
+## multi-tool-agent
+
+- @amankk_9 — [Propone un proyecto de fin de semana para construir desde cero un agente de IA con múltiples herramientas, enlazando a un tutorial paso a paso.](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
+
+## multiplataforma
+
+- @spacesuit_app — [Presentación de Spacesuit, descrita como un 'lienzo futurista' para el desarrollo personal, disponible para macOS, Windows y Linux.](https://x.com/spacesuit_app/status/2043052113983402360) `#2043052113983402360`
+
+## multiplayer
+
+- @aiDotEngineer — [Anuncio de la charla 'Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment' de @mappletons, sobre Ace, un entorno multijugador de agentes de GitHub Next con colaboración en tiempo real y micro VMs en sandbox.](https://x.com/aiDotEngineer/status/2048481249879314438) `#2048481249879314438`
+
+## multitarea
+
+- @adocomplete — [Se muestra entusiasmado por la 'Agent view' (vista previa de investigación) en Claude Code, que permite listar e iniciar múltiples sesiones de agentes sin ocupar una pestaña de terminal, viendo qué está en ejecución, bloqueado o terminado.](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
+
+## nader-dabit
+
+- @dabit3 — [Enlace a un artículo de X (Twitter) compartido por Nader Dabit, sin texto descriptivo adicional.](https://x.com/dabit3/status/2038608435105726862) `#2038608435105726862`
+
+## natural-language
+
+- @0xchromium — [Describe una sesión de dos horas de Andrej Karpathy mostrando cómo usa la IA en su día a día: describe la tarea en lenguaje natural, deja que el agente trabaje y ajusta el resultado con una frase, como si instruyera a un compañero.](https://x.com/0xchromium/status/2063321324605280569) `#2063321324605280569`
+
+## netflix
+
+- @Hi_Mrinal — [Recomendación de lectura sobre infraestructura de modelos de machine learning en Netflix, con enlace al artículo técnico de su blog de ingeniería sobre enrutamiento en el servicio de modelos.](https://x.com/Hi_Mrinal/status/2050454027897540635) `#2050454027897540635`
+
+## no-code
+
+- @luisloaiza — [Presenta una herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, que permite vender con catálogo y pagos integrados y automatizar el onboarding con validación de identidad, descrita como más rápida y potente que n8n.](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
+
+## nobuild
+
+- @dhh — [DHH reflexiona sobre poder decidir un futuro tecnológico distinto: JavaScript moderno sin build (#nobuild), servicios SaaS fuera de la nube, y cuestionando el dominio de Apple.](https://x.com/dhh/status/2050670200702328890) `#2050670200702328890`
+
+## notas
+
+- @benln — [El autor comparte sus notas personales sobre un vídeo de YouTube, sin más contexto sobre el tema tratado.](https://x.com/benln/status/2051288392852242703) `#2051288392852242703`
+
+## npm
+
+- @karpathy — [Karpathy alerta sobre un ataque a la cadena de suministro en el paquete npm de axios (300M de descargas semanales) y advierte que las dependencias no fijadas (unpinned) pueden hacer que un proyecto resuelva a una versión maliciosa; enlaza un artículo con más detalles del incidente.](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
+- @sqs — [Quinn Slack anuncia que el paquete npm de Amp ahora incluye un ejecutable precompilado en lugar del código fuente, lo que lo hace más rápido y mejora el soporte de sus plugins entre plataformas.](https://x.com/sqs/status/2054794044426101245) `#2054794044426101245`
+
+## observabilidad
+
+- @LLMpsycho — [Presenta una herramienta TUI de observabilidad para agentes de codificación con IA que rastrea coste, tokens, fallos de herramientas, latencia y salud en Claude Code, Codex CLI, Gemini, Hermes y otros, de forma local y sin backend.](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
+
+## ole-lehmann
+
+- @itsolelehmann — [Enlace a un artículo largo publicado en x.com por Ole Lehmann, sin texto adicional que describa su contenido.](https://x.com/itsolelehmann/status/2038661433626333649) `#2038661433626333649`
+
+## omarchy
+
+- @dhh — [DHH anuncia el lanzamiento de Omarchy 3.7, con una nueva CLI, más opciones de gaming, temas para la pantalla de bloqueo, extracción de texto por OCR y compatibilidad con el Asus ExpertBook PTL, entre otras mejoras.](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
+
+## open-agents
+
+- @rauchg — [Guillermo Rauch (Vercel) anuncia la apertura como open source de Open Agents, una plataforma de referencia para agentes de codificación en la nube, comparándola con las 'fábricas de software con IA' internas de empresas como Stripe, Ramp, Spotify y Block.](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
+
+## open-source
+
+- @coopTilleuls — [Les-Tilleuls.coop presenta Ember v1.0, una herramienta open source de monitorización en tiempo real para Caddy y FrankenPHP, con enlace a un artículo explicativo en su blog.](https://x.com/coopTilleuls/status/2038628403532759539) `#2038628403532759539`
+- @ghumare64 — [Señala que Andrej Karpathy describió el patrón 'LLM Wiki' y enlaza un motor de código abierto (agentmemory) que ya lo implementa.](https://x.com/ghumare64/status/2040474696391463158) `#2040474696391463158`
+- @github — [GitHub presenta Squad, un proyecto open source construido sobre GitHub Copilot que despliega un equipo preconfigurado de agentes de IA dentro de un repositorio para superar el límite de los flujos de un solo prompt.](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
+- @tom_doerr — [Comparte una biblioteca de skills de IA orientada a educación, alojada en GitHub.](https://x.com/tom_doerr/status/2041665446890307940) `#2041665446890307940`
+- @NickSpisak_ — [Anuncia una actualización de su versión open source del "LLM wiki" de Karpathy, compatible con Claude Code, Codex y Gemini, con soporte de ingesta, consulta y lint.](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
+- @rauchg — [Guillermo Rauch (Vercel) anuncia la apertura como open source de Open Agents, una plataforma de referencia para agentes de codificación en la nube, comparándola con las 'fábricas de software con IA' internas de empresas como Stripe, Ramp, Spotify y Block.](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
+- @Sandeepg33k — [Sandeep presenta Passmark, un agente de IA de código abierto construido sobre Playwright para pruebas de regresión a escala, con tests en lenguaje natural, aserciones multi-modelo y caching inteligente.](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
+- @midudev — [Miguel Ángel Durán presenta un repositorio open source con archivos DESIGN.md que replican las guías visuales de empresas como Apple, Airbnb, Tesla, Shopify y Uber, para que un agente de IA entienda el estilo de interfaz deseado sin usar Figma.](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
+- @tom_doerr — [Comparte un rastreador y panel (dashboard) de uso de tokens para sistemas multiagente de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
+- @GitTrend0x — [Resumen en chino de cinco repositorios de GitHub en tendencia sobre agentes de IA: una alternativa gratuita a Claude Code, un agente de ingeniería ML de Hugging Face, un tutorial de Claude Code, una librería de modelos de lenguaje recursivos y una infraestructura de memoria persistente para agentes.](https://x.com/GitTrend0x/status/2048223579767177365) `#2048223579767177365`
+- @mattpocockuk — [Matt Pocock celebra que su repositorio de skills (mattpocock/skills) llegó a casi 23K estrellas en GitHub y pregunta a la comunidad cómo hacer estos skills más visibles: ¿un sitio de documentación?, ¿enviarlos a marketplaces de plugins?](https://x.com/mattpocockuk/status/2048490818848075846) `#2048490818848075846`
+- @FredKSchott — [El autor celebra la gran acogida recibida en las últimas 24 horas por su proyecto Flue Framework, que ya acumula 35 pull requests.](https://x.com/FredKSchott/status/2050675029948723570) `#2050675029948723570`
+- @tom_doerr — [Comparte un proyecto open source que genera un grafo de conocimiento de bases de código, representado en formato markdown.](https://x.com/tom_doerr/status/2050852962998657477) `#2050852962998657477`
+- @dhh — [DHH anuncia el lanzamiento de Omarchy 3.7, con una nueva CLI, más opciones de gaming, temas para la pantalla de bloqueo, extracción de texto por OCR y compatibilidad con el Asus ExpertBook PTL, entre otras mejoras.](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
+- @tom_doerr — [Comparte "skill-check", una herramienta open source que valida la calidad de las skills de agentes de IA mediante diagnósticos.](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
+- @ashtom — [Thomas Dohmke (GitHub) anuncia que Entire HQ libera en open source 'Skills', que permite a los agentes usar el contexto completo capturado por Entire CLI (prompts, transcripciones y decisiones detrás de cada commit) junto al historial de git.](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
+- @LLMpsycho — [Presenta una herramienta TUI de observabilidad para agentes de codificación con IA que rastrea coste, tokens, fallos de herramientas, latencia y salud en Claude Code, Codex CLI, Gemini, Hermes y otros, de forma local y sin backend.](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
+- @GitTrend0x — [Resumen en chino de cinco proyectos de GitHub que amplían el agente Hermes: un fork reforzado, un panel web de control, un plugin de evolución de habilidades sin coste de tokens, una documentación completa y un paquete de flujos de trabajo creativos ('Superpowers').](https://x.com/GitTrend0x/status/2053843370011955546) `#2053843370011955546`
+- @tom_doerr — [Tom Dörr comparte OpenUI, un proyecto que genera interfaces de usuario usando un 67% menos tokens que JSON.](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
+- @QingQ77 — [Presenta 'Oh My Hermes', una capa de habilidades y flujos de trabajo para el agente Hermes que cubre todo el ciclo de vida de una aplicación, desde la idea hasta el despliegue y la operación, con 20 skills y 5 agentes especializados (CTO, PM, Dev, QA, Ops) coordinados en un tablero kanban.](https://x.com/QingQ77/status/2054056472477307084) `#2054056472477307084`
+- @NFTCPS — [Presenta el ecosistema open source de Hermes: una app de escritorio nativa, un flujo para convertir ideas en PRD/documentos de diseño, una capa de memoria compartida entre agentes (plur), una herramienta de compresión de tokens y un dashboard de monitorización.](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
+- @tom_doerr — [Comparte un proyecto de GitHub que automatiza la creación y publicación de contenido en YouTube mediante agentes de IA.](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
+- @ghumare64 — [Anuncia una herramienta de memoria persistente para agentes de codificación (Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenCode y cualquier cliente MCP) para que no haya que volver a explicar el contexto.](https://x.com/ghumare64/status/2054985100350062750) `#2054985100350062750`
+- @midudev — [Presenta una herramienta open source y local para crear un grafo semántico del código y así evitar que la IA gaste tokens explorando el proyecto, con un 92% menos de llamadas a herramientas y un 71% más de rapidez explorando código; compatible con Claude Code, Cursor, Codex y OpenCode.](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
+- @fabpot — [Fabien Potencier cuenta que apenas escribe código sin la ayuda de un LLM y que su productividad en proyectos de código abierto como Twig se ha disparado, citando los '8 niveles de desarrollo asistido por IA' de Steve Yegge.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
+
+## openai
+
+- @TheRealAdamG — [Adam.GPT comparte la nueva 'GPT-5.5 Prompting Guide' de OpenAI, que recomienda prompts más orientados a resultados y menos prescriptivos que con modelos anteriores.](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
+- @atmoio — [Comentario informal sobre un vídeo que muestra el carácter tranquilo de Greg (de OpenAI) como explicación de su éxito.](https://x.com/atmoio/status/2050981070846230942) `#2050981070846230942`
+
+## openclaw
+
+- @lennysan — [Lenny Rachitsky comparte la guía completa de Claire Vo sobre OpenClaw, que cubre desde la instalación hasta configuraciones multi-agente, además de los costes reales y los aspectos de seguridad a tener en cuenta.](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
+- @danshipper — [Dan Shipper explica que en Every, empresa de 25 empleados, cada persona tiene su propio agente de IA (OpenClaws) integrado en Slack, y comparte una conversación con su COO y su jefe de plataforma sobre cómo esto cambia la colaboración humano-agente y la gestión de equipos.](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
+
+## openui
+
+- @tom_doerr — [Tom Dörr comparte OpenUI, un proyecto que genera interfaces de usuario usando un 67% menos tokens que JSON.](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
+
+## opinion
+
+- @simonbrown — [Simon Brown cuestiona el sentido del 'spec-driven development', argumentando que automatiza la parte más divertida (programar) y obliga a los desarrolladores a escribir documentación, algo que históricamente no les gusta.](https://x.com/simonbrown/status/2050878045750276268) `#2050878045750276268`
+- @badlogicgames — [Mario Zechner recomienda un artículo titulado 'I'm going back to writing code by hand', advirtiendo que no hay que dejarse confundir por el título.](https://x.com/badlogicgames/status/2053747834696995181) `#2053747834696995181`
+
+## optimizacion
+
+- @Kikobeats — [Kiko Beats muestra cómo redujo el tamaño de una imagen Docker en un 99,8% (de 1,87 GB a 2,5 MB) usando su herramienta de código abierto 'untracked'.](https://x.com/Kikobeats/status/2062166977020338329) `#2062166977020338329`
+- @mattpocockuk — [Matt Pocock detalla un proceso paso a paso para eliminar el exceso de contenido del system prompt de Claude Code usando un proxy para inspeccionarlo y un archivo settings.json personalizado, reduciéndolo a unos 13.000 tokens.](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
+
+## optimizacion-costes
+
+- @ClaudeDevs — [ClaudeDevs presenta un nuevo panel en Claude Developer Console para dar visibilidad al uso de la caché y ayudar a los clientes a reducir costes y el tiempo hasta el primer token (TTFT).](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
+
+## optimizacion-tokens
+
+- @midudev — [Presenta una herramienta open source y local para crear un grafo semántico del código y así evitar que la IA gaste tokens explorando el proyecto, con un 92% menos de llamadas a herramientas y un 71% más de rapidez explorando código; compatible con Claude Code, Cursor, Codex y OpenCode.](https://x.com/midudev/status/2056358211066663036) `#2056358211066663036`
+
+## opus-4-5
+
+- @0xMovez — [El autor comenta una charla del Chief Architect de Spotify en el escenario de Anthropic sobre cómo logran 4.500 despliegues diarios con Claude, señalando que más del 99% de sus ingenieros usan herramientas de IA desde la llegada de Opus 4.5.](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
+
+## opus-4-8
+
+- @every — [Comparte un 'pulse check' semanal sobre el modelo Opus 4.8 tras otra semana de pruebas.](https://x.com/every/status/2062273703447233004) `#2062273703447233004`
+
+## organizaciones
+
+- @fabpot — [Fabien Potencier comenta que en Upsun los retos a nivel organizacional son distintos, y comparte un mapa de las etapas de madurez de la ingeniería de IA en las organizaciones.](https://x.com/fabpot/status/2065350660829094293) `#2065350660829094293`
+
+## orquestacion
+
+- @tom_doerr — [Presenta un proyecto de GitHub que orquesta agentes de codificación con IA dotados de memoria persistente.](https://x.com/tom_doerr/status/2056312372113854718) `#2056312372113854718`
+
+## orquestacion-de-agentes
+
+- @dhruvtwt_ — [Lista de seis herramientas de orquestación de agentes de IA que vale la pena probar: Superset, DP Code, Emdash, Letta, Conductor y Air, cada una con su enlace.](https://x.com/dhruvtwt_/status/2050966491731038598) `#2050966491731038598`
+
+## paper
+
+- @GeoffreyHuntley — [Enlace a un documento en PDF (model-engineering.info) sin texto descriptivo adicional.](https://x.com/GeoffreyHuntley/status/2038420699459752092) `#2038420699459752092`
+- @omarsar0 — [Elvis resume un paper sobre 'Agentic Harness Engineering', un framework que hace observable la evolución del harness de agentes de codificación y eleva el pass@1 en Terminal-Bench 2 del 69.7% al 77.0% en diez iteraciones, superando a Codex-CLI y a baselines auto-evolutivos.](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+
+## paperclip
+
+- @dotta — [Anuncia el lanzamiento de Paperclip v2026.512.1, con mejoras de estabilidad, agentes y rutinas gestionados por plugins, gestión de secretos, modo de planificación y nueva búsqueda.](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
+
+## patrones-de-diseno
+
+- @bibryam — [Bilgin Ibryam comparte un artículo que compara los patrones de subagentes y de 'advisor' (asesor) en Claude Code.](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
+
+## pdf
+
+- @GeoffreyHuntley — [Enlace a un documento en PDF (model-engineering.info) sin texto descriptivo adicional.](https://x.com/GeoffreyHuntley/status/2038420699459752092) `#2038420699459752092`
+
+## permisos
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería que los permisos y el acceso otorgados a los agentes deben evolucionar junto a sus capacidades, y explica cómo usan el sandboxing para limitar acciones potencialmente destructivas.](https://x.com/AnthropicAI/status/2059351260243919269) `#2059351260243919269`
+
+## personalizacion-ia
+
+- @rubenhassid — [Guía de Ruben Hassid para 'clonar tu voz' en Claude durante un fin de semana: usar el modo Cowork, transcribir entrevistas por voz con Wispr Flow, comprimir las respuestas en un archivo de texto y cargarlo para que Claude escriba con tu estilo en cualquier IA.](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
+
+## php
+
+- @alexdaubois — [Alexandre Daubois describe cómo Ember detecta automáticamente FrankenPHP en apps PHP y añade una pestaña con introspección por hilo (estado, URI, duración, memoria) y la posibilidad de reiniciar workers desde la TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
+- @symfony — [Symfony anuncia una nueva funcionalidad en la versión 8.1: los Console Argument Resolvers, con enlace a la entrada del blog oficial.](https://x.com/symfony/status/2052649763074425053) `#2052649763074425053`
+- @symfony — [Symfony comparte que en SymfonyDay Montréal, Oskar Barcz presentó una guía pragmática para implementar CQRS (Command Query Responsibility Segregation) en aplicaciones Symfony sin sobrecomplicarlas.](https://x.com/symfony/status/2052735679826657598) `#2052735679826657598`
+- @michaeldyrynda — [Michael Dyrynda explica que los property hooks de PHP son una forma práctica de exponer propiedades virtuales sin necesidad de wiring manual en constructores, ideal para POPOs y DTOs.](https://x.com/michaeldyrynda/status/2053818254209249498) `#2053818254209249498`
+- @JustSteveKing — [JustSteveKing explica que, más allá de PSR-4 y PSR-12, los estándares PSR 7, 14, 15, 17 y 18 ofrecen un modelo completo para trabajar con HTTP en PHP sin depender de un framework concreto.](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
+
+## pinterest
+
+- @rseroter — [Richard Seroter comparte un artículo del equipo de ingeniería de Pinterest sobre cómo implementar un proceso de pruebas para optimizar el rendimiento de los agentes de IA con 'skills' en cualquier repositorio.](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
+
+## plantilla
+
+- @QingQ77 — [Presenta una plantilla para Claude Code que organiza una sola sesión como un estudio completo de desarrollo de videojuegos, con 49 agentes de IA especializados y 72 habilidades de flujo de trabajo jerarquizados en tres niveles, más 12 hooks de validación automática.](https://x.com/QingQ77/status/2050818637783789928) `#2050818637783789928`
+- @every — [Every comparte la plantilla de prompt de Codex que utilizan internamente para redactar planes de 'go-to-market' (GTM) a partir de lo ya discutido en reuniones y Slack.](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
+
+## plantillas
+
+- @GithubProjects — [Anuncia una guía visual y con ejemplos sobre Claude Code, desde conceptos básicos hasta agentes avanzados, con plantillas listas para copiar y pegar.](https://x.com/GithubProjects/status/2041825921183969413) `#2041825921183969413`
+
+## playbook-ia
+
+- @DataChaz — [Charly Wargnier resalta la advertencia de Karpathy de que el 90% de los consejos sobre IA caducan en 6 meses, y destaca un contenido que ofrece un playbook de 2026 sobre qué aprender, construir e ignorar en IA.](https://x.com/DataChaz/status/2054225085100151163) `#2054225085100151163`
+
+## playwright
+
+- @Sandeepg33k — [Sandeep presenta Passmark, un agente de IA de código abierto construido sobre Playwright para pruebas de regresión a escala, con tests en lenguaje natural, aserciones multi-modelo y caching inteligente.](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
+
+## plugin
+
+- @hasantoxr — [Promociona el plugin oficial de Anthropic 'claude-code-setup', que analiza el proyecto y recomienda qué hooks, skills, servidores MCP y subagentes activar, instalable con un solo comando.](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
+- @ericzakariasson — [Presenta "cursor team kit", un plugin con las skills que el propio equipo de Cursor usa internamente para verificar cambios, ejecutar herramientas locales y enviar PRs revisables.](https://x.com/ericzakariasson/status/2051255780167610522) `#2051255780167610522`
+
+## plugins
+
+- @dotta — [Anuncia el lanzamiento de Paperclip v2026.512.1, con mejoras de estabilidad, agentes y rutinas gestionados por plugins, gestión de secretos, modo de planificación y nueva búsqueda.](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
+
+## pragdave
+
+- @pragdave — [Comparte un enlace a un artículo en Substack titulado 'Failing Faster', sin texto adicional en el tuit.](https://x.com/pragdave/status/2063276008619356280) `#2063276008619356280`
+
+## prd
+
+- @mattpocockuk — [Destaca un PRD basado en una sesión de varios días con '/wayfinder', muy detallado, donde cada afirmación queda enlazada a la sesión en la que se decidió, yendo de la fuente secundaria a la primaria.](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
+
+## produccion
+
+- @ClaudeDevs — [ClaudeDevs comparte un artículo sobre cómo hacer fiable en producción el 'computer use' de Claude: precisión de clics, niveles de esfuerzo de razonamiento, gestión del contexto en sesiones largas y grabación de demostraciones reproducibles.](https://x.com/ClaudeDevs/status/2056835339193561170) `#2056835339193561170`
+
+## product-development
+
+- @AndrewYNg — [Andrew Ng explica el concepto de "loop engineering" y describe sus tres bucles clave para construir productos de cero a uno: el bucle de codificación agéntica, el bucle de feedback del desarrollador y el bucle de feedback externo.](https://x.com/AndrewYNg/status/2071988145667928442) `#2071988145667928442`
+
+## product-management
+
+- @aakashgupta — [Aakash Gupta argumenta que el product manager se vuelve el rol clave en la era de la IA, usando como ejemplo al equipo de Claude Code de Anthropic (liderado por Boris Cherny), que construyó el producto Cowork en unos 10 días y aumentó la productividad por ingeniero un 70%.](https://x.com/aakashgupta/status/2050676549960274066) `#2050676549960274066`
+- @lennysan — [Lenny Rachitsky resume diez conclusiones de Dan Shipper sobre el futuro del trabajo con IA: el trabajo se hará dentro de Codex o Claude Code, la automatización siempre necesita humanos, los PMs y diseñadores full-stack ganarán protagonismo, y cada empresa tendrá un 'super-agente' compartido.](https://x.com/lennysan/status/2058914803360600238) `#2058914803360600238`
+
+## production-ai
+
+- @eng_khairallah1 — [Promociona un taller gratuito de 30 minutos, impartido por ingenieros de Anthropic, sobre cómo construir agentes de IA en producción.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
+
+## productividad
+
+- @addyosmani — [Addy Osmani anima a construir proyectos personales ambiciosos con agentes de IA, en vez de usarlos solo para hacer más rápido lo mismo de siempre.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
+- @bcherny — [Boris Cherny, creador de Claude Code, anuncia un hilo con sus funciones ocultas y poco utilizadas favoritas de la herramienta.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
+- @winspyredotcom — [Promoción de un libro en Amazon que promete acciones simples y sin coste para reducir la complejidad, a diferencia de otros libros con frameworks estáticos de pasos.](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
+- @Suryanshti777 — [El autor destaca que el Head of Claude Code de Anthropic implementó 49 funcionalidades en 48 horas sin escribir código a mano, y grabó el flujo de trabajo completo en un vídeo gratuito de 30 minutos.](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
+- @bcherny — [Comenta un artículo de Salesforce sobre su adopción agéntica de Claude Code, destacando una migración estimada en 231 días que se completó en 13, y un PR que entregó 21 endpoints con 100% de cobertura de tests.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
+- @fabpot — [Fabien Potencier cuenta que apenas escribe código sin la ayuda de un LLM y que su productividad en proyectos de código abierto como Twig se ha disparado, citando los '8 niveles de desarrollo asistido por IA' de Steve Yegge.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
+- @mattpocockuk — [Matt Pocock describe cómo planifica sus cursos en colaboración con un agente de IA que entiende todo el contexto de su negocio, permitiéndole hacer preguntas como qué opinan sus estudiantes de una función o qué problemas tuvieron en secciones anteriores.](https://x.com/mattpocockuk/status/2072320135382073778) `#2072320135382073778`
+
+## programacion
+
+- @martinfowler — [Martin Fowler comparte un memo de Birgitta Böckeler sobre los factores que determinan la viabilidad de usar LLMs locales para tareas de programación.](https://x.com/martinfowler/status/2074473737542406590) `#2074473737542406590`
+
+## programacion-agentica
+
+- @martinfowler — [Martin Fowler presenta un nuevo artículo sobre Structured-Prompt-Driven Development (SPDD), un flujo de trabajo de programación agéntica usado internamente en Thoughtworks, descrito por Wei Zhang y Jessie Jie Xia.](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
+- @rseroter — [Richard Seroter comparte un artículo de @dbreunig con lecciones prácticas sobre programación agéntica, preguntándose si seguirán siendo válidas dentro de seis meses.](https://x.com/rseroter/status/2052526138678001757) `#2052526138678001757`
+
+## programacion-orientada-a-objetos
+
+- @michaeldyrynda — [Michael Dyrynda explica que los property hooks de PHP son una forma práctica de exponer propiedades virtuales sin necesidad de wiring manual en constructores, ideal para POPOs y DTOs.](https://x.com/michaeldyrynda/status/2053818254209249498) `#2053818254209249498`
+
+## prompt-engineering
+
+- @martinfowler — [Martin Fowler comparte un artículo de @techygarg que propone tratar las instrucciones de estándares de equipo para asistentes de codificación con IA como infraestructura versionada, revisada y compartida.](https://x.com/martinfowler/status/2039001221113983031) `#2039001221113983031`
+- @TheRealAdamG — [Adam.GPT comparte la nueva 'GPT-5.5 Prompting Guide' de OpenAI, que recomienda prompts más orientados a resultados y menos prescriptivos que con modelos anteriores.](https://x.com/TheRealAdamG/status/2049523746910908886) `#2049523746910908886`
+- @rubenhassid — [Guía de Ruben Hassid para 'clonar tu voz' en Claude durante un fin de semana: usar el modo Cowork, transcribir entrevistas por voz con Wispr Flow, comprimir las respuestas en un archivo de texto y cargarlo para que Claude escriba con tu estilo en cualquier IA.](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
+- @amitiitbhu — [Comparte un nuevo artículo sobre "Context Engineering", la ingeniería de contexto para modelos de lenguaje.](https://x.com/amitiitbhu/status/2052617405336277305) `#2052617405336277305`
+- @martinfowler — [Martin Fowler describe, en su nuevo artículo sobre 'Interrogatory LLM', la técnica de dejar que un LLM te entreviste para extraer el contexto necesario en lugar de escribirlo todo manualmente.](https://x.com/martinfowler/status/2054943138570027402) `#2054943138570027402`
+- @every — [Every comparte la plantilla de prompt de Codex que utilizan internamente para redactar planes de 'go-to-market' (GTM) a partir de lo ya discutido en reuniones y Slack.](https://x.com/every/status/2059389183962284204) `#2059389183962284204`
+
+## prompts
+
+- @martinfowler — [Martin Fowler comparte 'fragments' sobre un vídeo del pragmatic summit con Kent Beck y Gergely, la virtud de la pereza, TDD y prompts, con inspiración de Dark Star.](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
+- @JoliCode — [JoliCode publica en su blog cómo integrar la IA en el flujo de trabajo UX/UI: Sophie comparte su experiencia con Figma Make, Claude Design y prompts eficaces, y qué cambia realmente para los diseñadores.](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
+- @_vmlops — [Comparte un documento de Google Drive con '100 códigos secretos' (presumiblemente trucos o prompts) para usar con Claude.](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
+
+## property-hooks
+
+- @michaeldyrynda — [Michael Dyrynda explica que los property hooks de PHP son una forma práctica de exponer propiedades virtuales sin necesidad de wiring manual en constructores, ideal para POPOs y DTOs.](https://x.com/michaeldyrynda/status/2053818254209249498) `#2053818254209249498`
+
+## protocolo
+
+- @ghumare64 — [Rohit Ghumare anuncia AKBP, un protocolo que describe como 'Git para el conocimiento de los agentes', desarrollado a partir de la LLM wiki de Andrej Karpathy.](https://x.com/ghumare64/status/2054201279082053743) `#2054201279082053743`
+
+## prototyping
+
+- @mattpocockuk — [Matt Pocock describe un flujo de trabajo en Claude Code que combina las skills "/grill-with-docs" y "/prototype" con la función "/rewind" para resumir lo aprendido durante la prototipación y continuar la conversación con contexto reducido.](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
+
+## proyecto-practico
+
+- @amankk_9 — [Propone un proyecto de fin de semana para construir desde cero un agente de IA con múltiples herramientas, enlazando a un tutorial paso a paso.](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
+
+## prueba-gratis
+
+- @every — [La cuenta de Every promociona una prueba gratuita de Spiral, su asistente de escritura con IA entrenado con el estilo del usuario.](https://x.com/every/status/2051049659733533008) `#2051049659733533008`
+
+## pseudocodigo
+
+- @DanielMiessler — [Daniel Miessler propone, en respuesta a un artículo de Lars Faye sobre los riesgos de la programación agéntica, crear un lenguaje pseudocódigo intermedio que permita experimentar con ideas de funcionalidad antes de escribirlas como especificación completa o código final.](https://x.com/DanielMiessler/status/2053988786091241579) `#2053988786091241579`
+
+## psr
+
+- @JustSteveKing — [JustSteveKing explica que, más allá de PSR-4 y PSR-12, los estándares PSR 7, 14, 15, 17 y 18 ofrecen un modelo completo para trabajar con HTTP en PHP sin depender de un framework concreto.](https://x.com/JustSteveKing/status/2053931801890967730) `#2053931801890967730`
+
+## publicidad
+
+- @every — [La cuenta de Every promociona una prueba gratuita de Spiral, su asistente de escritura con IA entrenado con el estilo del usuario.](https://x.com/every/status/2051049659733533008) `#2051049659733533008`
+
+## qa
+
+- @Sandeepg33k — [Sandeep presenta Passmark, un agente de IA de código abierto construido sobre Playwright para pruebas de regresión a escala, con tests en lenguaje natural, aserciones multi-modelo y caching inteligente.](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
+
+## qodana
+
+- @jetbrains — [JetBrains invita a una demo en vivo sobre cómo Qodana y TeamCity analizan automáticamente en CI el código generado por IA con las mismas inspecciones deterministas en cada PR, antes de llegar a producción.](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
+
+## ranking
+
+- @blackanger — [Comentario en chino preguntando qué es el skill que ocupa el primer puesto en un ranking y comentando lo rápido que está creciendo, sin más contexto ni enlace.](https://x.com/blackanger/status/2056125973460852962) `#2056125973460852962`
+
+## ranking-de-papers
+
+- @robert_lauko — [Robert Lauko presenta Kurate, una plataforma que clasifica diariamente los preprints más relevantes de arXiv en IA, ML, robótica y física cuántica mediante torneos de comparación por pares evaluados por Claude, GPT y Gemini.](https://x.com/robert_lauko/status/2050876479731278113) `#2050876479731278113`
+
+## reasoning-models
+
+- @omarsar0 — [Resume un nuevo informe de Google que sostiene que la "singularidad" de la IA no será una mente superinteligente única, sino sistemas multiagente y configuraciones humano-IA; señala que modelos como DeepSeek-R1 ya desarrollan "sociedades de pensamiento" internas mediante RL.](https://x.com/omarsar0/status/2037617918645809394) `#2037617918645809394`
+
+## recomendacion
+
+- @mattpocockuk — [Matt Pocock expresa entusiasmo por probar algo de inmediato, sin que el texto del tuit dé más contexto sobre de qué se trata.](https://x.com/mattpocockuk/status/2053065993241477227) `#2053065993241477227`
+
+## recursos
+
+- @_vmlops — [Vaishnavi comparte un manual de preparación de entrevistas sobre 'AI Harness Engineering' en un documento de Google Drive.](https://x.com/_vmlops/status/2048082184171602385) `#2048082184171602385`
+- @_vmlops — [Comparte un documento de Google Drive con '100 códigos secretos' (presumiblemente trucos o prompts) para usar con Claude.](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
+
+## recursos-de-aprendizaje
+
+- @_vmlops — [Vaishnavi recomienda un sitio web como el mejor recurso en internet para aprender 'harness engineering' de agentes de IA.](https://x.com/_vmlops/status/2055887618303570151) `#2055887618303570151`
+
+## reference
+
+- @dabit3 — [Recomienda un sitio de referencia con "56 leyes de la ingeniería de software", especialmente útil para desarrolladores junior.](https://x.com/dabit3/status/2046592545530982880) `#2046592545530982880`
+
+## reflexiones
+
+- @martinfowler — [Martin Fowler publica una colección de reflexiones breves ('Fragments') sobre un retiro de desarrollo de software, el uso de los LLM como funciones y si el futuro será todo mentiras.](https://x.com/martinfowler/status/2055044413508694196) `#2055044413508694196`
+
+## release-notes
+
+- @dhh — [DHH anuncia el lanzamiento de Omarchy 3.7, con una nueva CLI, más opciones de gaming, temas para la pantalla de bloqueo, extracción de texto por OCR y compatibilidad con el Asus ExpertBook PTL, entre otras mejoras.](https://x.com/dhh/status/2051323053812891721) `#2051323053812891721`
+- @dotta — [Anuncia el lanzamiento de Paperclip v2026.512.1, con mejoras de estabilidad, agentes y rutinas gestionados por plugins, gestión de secretos, modo de planificación y nueva búsqueda.](https://x.com/dotta/status/2054175226628587754) `#2054175226628587754`
+
+## remoto
+
+- @jetbrains — [JetBrains anuncia que está contratando en España, con Madrid como punto de partida, ofreciendo más de 70 puestos abiertos en remoto por todo el país.](https://x.com/jetbrains/status/2041504099233870035) `#2041504099233870035`
+
+## replicate
+
+- @kristianfreeman — [Comenta que las "replicate skills" son una incorporación útil al toolkit de su agente, que ahora puede invocar, reintentar y optimizar directamente a partir de la salida de Replicate.](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
+
+## repositorio
+
+- @mattpocockuk — [Comparte el enlace a un repositorio de código, sin más texto de contexto.](https://x.com/mattpocockuk/status/2049506974081953924) `#2049506974081953924`
+- @mattpocockuk — [Respuesta a otro usuario con un enlace a un repositorio de GitHub (sandcastle), sin más contexto textual.](https://x.com/mattpocockuk/status/2051329647271461271) `#2051329647271461271`
+
+## repositorios
+
+- @RoundtableSpace — [Lista de los 10 mejores repositorios de GitHub para mejorar el uso de Claude Code, incluyendo Supabase, NotebookLM, Obsidian, LangChain, Flowise, colecciones de Claude Skills, Repomix y guías de buenas prácticas.](https://x.com/RoundtableSpace/status/2039058899949515086) `#2039058899949515086`
+
+## requirements-gathering
+
+- @nicopreme — [Nico Bailon presenta "grill-for-unknowns", una skill de agente que combina la skill "grill me" de Matt Pocock con las ideas del artículo "Finding Your Unknowns" de Thariq, para que el agente identifique primero lo desconocido antes de implementar.](https://x.com/nicopreme/status/2075452255373836324) `#2075452255373836324`
+
+## requisitos-no-funcionales
+
+- @bibryam — [Comparte un enlace a una chuleta (cheatsheet) sobre las 10 principales características de arquitectura de software, es decir, los requisitos no funcionales más importantes.](https://x.com/bibryam/status/1549333232943894529) `#1549333232943894529`
+
+## resolucion-de-problemas
+
+- @KirkDBorne — [Recomendación de la colección de 13 volúmenes 'The Art of Problem Solving' (AoPS), sobre matemáticas (precálculo, cálculo, teoría de números, álgebra, geometría, probabilidad, entre otros).](https://x.com/KirkDBorne/status/2063382238931152907) `#2063382238931152907`
+
+## respuesta
+
+- @Kikobeats — [Respuesta breve de Kiko Beats ('esto lo explica') con un enlace, sin más contexto textual sobre el contenido enlazado.](https://x.com/Kikobeats/status/2062257863729332325) `#2062257863729332325`
+
+## riffrec
+
+- @kieranklaassen — [El autor comenta que una herramienta le está funcionando muy bien para 'compound engineering' y promete publicar un vídeo próximamente.](https://x.com/kieranklaassen/status/2052529355709108651) `#2052529355709108651`
+
+## routing
+
+- @Hi_Mrinal — [Recomendación de lectura sobre infraestructura de modelos de machine learning en Netflix, con enlace al artículo técnico de su blog de ingeniería sobre enrutamiento en el servicio de modelos.](https://x.com/Hi_Mrinal/status/2050454027897540635) `#2050454027897540635`
+
+## s3
+
+- @twtayaan — [El autor anuncia el lanzamiento de Amazon S3 Files, que permite montar buckets de S3 como sistemas de archivos nativos con acceso POSIX y sub-milisegundo, conectable a Lambda, EC2 y EKS.](https://x.com/twtayaan/status/2041765667733745870) `#2041765667733745870`
+
+## salesforce
+
+- @bcherny — [Comenta un artículo de Salesforce sobre su adopción agéntica de Claude Code, destacando una migración estimada en 231 días que se completó en 13, y un PR que entregó 21 endpoints con 100% de cobertura de tests.](https://x.com/bcherny/status/2060390852619272526) `#2060390852619272526`
+
+## salud-global
+
+- @AnthropicAI — [Anthropic anuncia una alianza con la Fundación Gates, comprometiendo 200 millones de dólares en subvenciones, créditos de Claude y soporte técnico para programas de salud global, ciencias de la vida, educación, agricultura y movilidad económica.](https://x.com/AnthropicAI/status/2054941901900611787) `#2054941901900611787`
+
+## sandboxing
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería que los permisos y el acceso otorgados a los agentes deben evolucionar junto a sus capacidades, y explica cómo usan el sandboxing para limitar acciones potencialmente destructivas.](https://x.com/AnthropicAI/status/2059351260243919269) `#2059351260243919269`
+
+## sandcastle
+
+- @mattpocockuk — [Respuesta a otro usuario con un enlace a un repositorio de GitHub (sandcastle), sin más contexto textual.](https://x.com/mattpocockuk/status/2051329647271461271) `#2051329647271461271`
+
+## scalability
+
+- @ClaudeDevs — [Blog post de ClaudeDevs sobre buenas prácticas para ejecutar Claude Code a gran escala, basado en la experiencia de equipos con monorepos de millones de líneas, sistemas legacy y microservicios distribuidos.](https://x.com/ClaudeDevs/status/2056403446056784288) `#2056403446056784288`
+
+## scraping
+
+- @trending_repos — [Presentación del repositorio de GitHub en tendencia 'Agent-Reach', que da a los agentes de IA capacidad de leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu mediante una sola CLI sin coste de APIs.](https://x.com/trending_repos/status/2072291002824429878) `#2072291002824429878`
+
+## second-brain
+
+- @Dinosn — [Comparte un patrón, en un gist de Andrej Karpathy, para construir bases de conocimiento personales usando LLMs.](https://x.com/Dinosn/status/2040649378520498328) `#2040649378520498328`
+- @NickSpisak_ — [Anuncia una actualización de su versión open source del "LLM wiki" de Karpathy, compatible con Claude Code, Codex y Gemini, con soporte de ingesta, consulta y lint.](https://x.com/NickSpisak_/status/2041747312737759532) `#2041747312737759532`
+
+## seguridad
+
+- @karpathy — [Karpathy alerta sobre un ataque a la cadena de suministro en el paquete npm de axios (300M de descargas semanales) y advierte que las dependencias no fijadas (unpinned) pueden hacer que un proyecto resuelva a una versión maliciosa; enlaza un artículo con más detalles del incidente.](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
+- @lennysan — [Lenny Rachitsky comparte la guía completa de Claire Vo sobre OpenClaw, que cubre desde la instalación hasta configuraciones multi-agente, además de los costes reales y los aspectos de seguridad a tener en cuenta.](https://x.com/lennysan/status/2039002789666562165) `#2039002789666562165`
+
+## seguridad-de-agentes
+
+- @AnthropicAI — [Anthropic publica en su blog de ingeniería que los permisos y el acceso otorgados a los agentes deben evolucionar junto a sus capacidades, y explica cómo usan el sandboxing para limitar acciones potencialmente destructivas.](https://x.com/AnthropicAI/status/2059351260243919269) `#2059351260243919269`
+
+## seguridad-de-codigo
+
+- @bibryam — [Bilgin Ibryam comparte un artículo del blog de Claude sobre buenas prácticas para asegurar código usando Claude.](https://x.com/bibryam/status/2063027333766803536) `#2063027333766803536`
+
+## self-verification
+
+- @bcherny — [Boris Cherny explica la importancia de los bucles de autoverificación para que los modelos de IA puedan trabajar durante periodos largos con resultados más alineados con la intención del usuario, y destaca una explicación de Delba Oliveira sobre el tema.](https://x.com/bcherny/status/2064426115255730578) `#2064426115255730578`
+
+## serie-de-blog
+
+- @samuel_wong_ — [Comparte la primera parte de una serie de blog titulada 'Agentic Engineering', sobre ingeniería de agentes de IA.](https://x.com/samuel_wong_/status/2051299948935963036) `#2051299948935963036`
+
+## servicios-tecnologicos
+
+- @McKinsey — [McKinsey señala que la IA agéntica está cambiando la creación de valor en los servicios tecnológicos, identificando cuatro roles distintos con diferentes capacidades y apuestas.](https://x.com/McKinsey/status/2048084765941604458) `#2048084765941604458`
+
+## sesiones
+
+- @adocomplete — [Se muestra entusiasmado por la 'Agent view' (vista previa de investigación) en Claude Code, que permite listar e iniciar múltiples sesiones de agentes sin ocupar una pestaña de terminal, viendo qué está en ejecución, bloqueado o terminado.](https://x.com/adocomplete/status/2053940973106036800) `#2053940973106036800`
+
+## settings-json
+
+- @mattpocockuk — [Matt Pocock detalla un proceso paso a paso para eliminar el exceso de contenido del system prompt de Claude Code usando un proxy para inspeccionarlo y un archivo settings.json personalizado, reduciéndolo a unos 13.000 tokens.](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
+
+## shaping-skills
+
+- @nurijanian — [El autor comparte sus skills de ingeniería con IA favoritos —Compound Engineering, las 'shaping skills' de Ryan Singer y los skills de Matt Pocock— y comenta que cambió de Superpowers a Compound Engineering.](https://x.com/nurijanian/status/2059319662597611914) `#2059319662597611914`
+
+## shared-memory
+
+- @NFTCPS — [Presenta el ecosistema open source de Hermes: una app de escritorio nativa, un flujo para convertir ideas en PRD/documentos de diseño, una capa de memoria compartida entre agentes (plur), una herramienta de compresión de tokens y un dashboard de monitorización.](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
+
+## shepherd
+
+- @_avichawla — [Avi Chawla explica Shepherd, una herramienta de Stanford descrita como un 'Git nativo para agentes': registra cada interacción agente-entorno como un commit que incluye el proceso y el sistema de archivos, permitiendo revertir o bifurcar una ejecución a un paso anterior sin reiniciar desde cero ni perder la caché KV.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
+
+## side-project
+
+- @agrimsingh — [Agrim Singh adapta el 'autoresearch loop' de Karpathy para buscar vuelos baratos en clase business, creando el proyecto 'autofare' con Codex y GPT-5.4 mini.](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
+
+## side-projects
+
+- @addyosmani — [Addy Osmani anima a construir proyectos personales ambiciosos con agentes de IA, en vez de usarlos solo para hacer más rápido lo mismo de siempre.](https://x.com/addyosmani/status/2037924864519184465) `#2037924864519184465`
+
+## simplicidad
+
+- @winspyredotcom — [Promoción de un libro en Amazon que promete acciones simples y sin coste para reducir la complejidad, a diferencia de otros libros con frameworks estáticos de pasos.](https://x.com/winspyredotcom/status/2048077085688672396) `#2048077085688672396`
+
+## sin-contexto
+
+- @dani_avila7 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional que explique su contenido.](https://x.com/dani_avila7/status/2048486242321662189) `#2048486242321662189`
+- @aparnadhinak — [Enlace a un artículo de X sin texto descriptivo que lo acompañe.](https://x.com/aparnadhinak/status/2048492731929149929) `#2048492731929149929`
+- @manthanguptaa — [Tuit sin texto descriptivo; solo contiene un enlace corto sin contexto adicional que permita identificar su contenido.](https://x.com/manthanguptaa/status/2049472248806027440) `#2049472248806027440`
+- @tonygentilcore — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/tonygentilcore/status/2049482833111232694) `#2049482833111232694`
+- @code_kartik — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/code_kartik/status/2050631735529095575) `#2050631735529095575`
+- @shinzui — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/shinzui/status/2050963939060838501) `#2050963939060838501`
+- @benln — [El autor comparte sus notas personales sobre un vídeo de YouTube, sin más contexto sobre el tema tratado.](https://x.com/benln/status/2051288392852242703) `#2051288392852242703`
+- @mattpocockuk — [Matt Pocock expresa entusiasmo por probar algo de inmediato, sin que el texto del tuit dé más contexto sobre de qué se trata.](https://x.com/mattpocockuk/status/2053065993241477227) `#2053065993241477227`
+- @addyosmani — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2056078124346228860) `#2056078124346228860`
+- @trq212 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/trq212/status/2061907337154367865) `#2061907337154367865`
+- @Kikobeats — [Respuesta breve de Kiko Beats ('esto lo explica') con un enlace, sin más contexto textual sobre el contenido enlazado.](https://x.com/Kikobeats/status/2062257863729332325) `#2062257863729332325`
+- @addyosmani — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2064127981161959567) `#2064127981161959567`
+- @ClaudeDevs — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/ClaudeDevs/status/2074208949205881033) `#2074208949205881033`
+
+## sin-descripcion
+
+- @itsolelehmann — [Enlace a un artículo largo publicado en x.com por Ole Lehmann, sin texto adicional que describa su contenido.](https://x.com/itsolelehmann/status/2038661433626333649) `#2038661433626333649`
+- @itsalexvacca — [Enlace a un artículo largo publicado en x.com por Alex Vacca, sin texto adicional que describa su contenido.](https://x.com/itsalexvacca/status/2048486401105358933) `#2048486401105358933`
+
+## sin-texto
+
+- @intheworldofai — [Enlace a un artículo de X publicado por la cuenta WorldofAI, sin texto descriptivo adicional en el tuit.](https://x.com/intheworldofai/status/2041632641716514947) `#2041632641716514947`
+- @Suryanshti777 — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/Suryanshti777/status/2047694444787577236) `#2047694444787577236`
+- @mfpiccolo — [Enlace a un artículo de X sin texto descriptivo adicional en el tuit.](https://x.com/mfpiccolo/status/2049139067359568032) `#2049139067359568032`
+- @addyosmani — [Enlace a un artículo de X publicado por Addy Osmani, sin texto descriptivo adicional en el tuit.](https://x.com/addyosmani/status/2059844244907696186) `#2059844244907696186`
+
+## sistemas-distribuidos
+
+- @vivekgalatage — [Recomendación del curso 'An Introduction to Distributed Systems' de Kyle Kingsbury, con enlace a su repositorio en GitHub.](https://x.com/vivekgalatage/status/2041764549158957323) `#2041764549158957323`
+
+## skill
+
+- @KSimback — [Kevin Simback publica una skill de Claude Code (/tech-debt-skill) que genera un informe exhaustivo de deuda técnica, identificando no solo bugs sino también código que funciona pero podría mejorarse.](https://x.com/KSimback/status/2048166748575203593) `#2048166748575203593`
+
+## skills
+
+- @jcesarperez — [Presenta la versión 1.3.0 de Claude EM, un compañero de IA para engineering managers que conoce al equipo, su contexto y sus herramientas, con una nueva skill y mejoras.](https://x.com/jcesarperez/status/2048404578484236747) `#2048404578484236747`
+- @brada — [Brad Abrams anuncia que la skill 'claude-api' para escribir código listo para producción ya está disponible en CodeRabbit, JetBrains, Resolve AI, Warp y Claude Code, mejorando la caché y los patrones de agentes.](https://x.com/brada/status/2049558513048015295) `#2049558513048015295`
+- @kristianfreeman — [Comenta que las "replicate skills" son una incorporación útil al toolkit de su agente, que ahora puede invocar, reintentar y optimizar directamente a partir de la salida de Replicate.](https://x.com/kristianfreeman/status/2050750335208046827) `#2050750335208046827`
+- @tom_doerr — [Comparte "skill-check", una herramienta open source que valida la calidad de las skills de agentes de IA mediante diagnósticos.](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
+- @ashtom — [Thomas Dohmke (GitHub) anuncia que Entire HQ libera en open source 'Skills', que permite a los agentes usar el contexto completo capturado por Entire CLI (prompts, transcripciones y decisiones detrás de cada commit) junto al historial de git.](https://x.com/ashtom/status/2051760810217934940) `#2051760810217934940`
+- @mattpocockuk — [Matt Pocock comenta que la skill '/handoff' se ha convertido en una de sus favoritas, sin dar más detalles sobre su funcionamiento.](https://x.com/mattpocockuk/status/2052489881088049407) `#2052489881088049407`
+- @ParthJadhav8 — [Elogia la skill '/thermo-nuclear-code-quality-review' de Cursor, que tras 30 minutos de ejecución en un PR mejoró notablemente la calidad del código, afirmando que es muy superior a '/simplify' de Claude Code.](https://x.com/ParthJadhav8/status/2057788210949030351) `#2057788210949030351`
+
+## skills-ia
+
+- @aakashgupta — [Explica cómo Hermes evita que los agentes de IA se estanquen reescribiendo automáticamente sus propios archivos de skill cada 15 llamadas a herramientas, mejorando el rendimiento semana a semana sin tocar el prompt.](https://x.com/aakashgupta/status/2050622353118474414) `#2050622353118474414`
+
+## slack
+
+- @danshipper — [Dan Shipper explica que en Every, empresa de 25 empleados, cada persona tiene su propio agente de IA (OpenClaws) integrado en Slack, y comparte una conversación con su COO y su jefe de plataforma sobre cómo esto cambia la colaboración humano-agente y la gestión de equipos.](https://x.com/danshipper/status/2041903948873777629) `#2041903948873777629`
+
+## software-3.0
+
+- @defileo — [Comenta que Andrej Karpathy compartió gratis, en una charla de 29 minutos, ideas como que "los LLM son fantasmas, no animales", que el "vibe coding" ha muerto y que "Software 3.0" ya está aquí, poco después de que Anthropic lo contratara.](https://x.com/defileo/status/2057924890330644925) `#2057924890330644925`
+
+## software-architecture
+
+- @vladikk — [Vlad Khononov comenta que Anthropic publicó por error el código fuente de Claude Code y aplicó su skill de revisión de modularidad, señalando un acoplamiento fuerte en el servicio de ejecución de herramientas (switch statements por nombre de herramienta).](https://x.com/vladikk/status/2039314389484912641) `#2039314389484912641`
+- @mattpocockuk — [Matt Pocock anuncia una mejora en su skill "/improve-codebase-architecture", que ahora incluye un glosario de terminología para describir código bueno y malo.](https://x.com/mattpocockuk/status/2047759493581156377) `#2047759493581156377`
+- @vladikk — [Vlad Khononov argumenta que contar dependencias no revela nada sobre la calidad del diseño; lo importante es el tipo de conocimiento compartido entre componentes. Enlaza un artículo del blog de Martin Fowler sobre "sensores para agentes de codificación".](https://x.com/vladikk/status/2062508992207655269) `#2062508992207655269`
+
+## software-engineering
+
+- @dabit3 — [Recomienda un sitio de referencia con "56 leyes de la ingeniería de software", especialmente útil para desarrolladores junior.](https://x.com/dabit3/status/2046592545530982880) `#2046592545530982880`
+
+## software-legado
+
+- @rseroter — [Richard Seroter cita a @dbreunig sobre cómo los agentes de codificación reducen el coste de abordar problemas antiguos con tácticas modernas, enlazando a un artículo sobre la segunda fase del desarrollo agéntico.](https://x.com/rseroter/status/2041902638405480536) `#2041902638405480536`
+
+## spacesuit
+
+- @spacesuit_app — [Presentación de Spacesuit, descrita como un 'lienzo futurista' para el desarrollo personal, disponible para macOS, Windows y Linux.](https://x.com/spacesuit_app/status/2043052113983402360) `#2043052113983402360`
+
+## spdd
+
+- @martinfowler — [Martin Fowler presenta un nuevo artículo sobre Structured-Prompt-Driven Development (SPDD), un flujo de trabajo de programación agéntica usado internamente en Thoughtworks, descrito por Wei Zhang y Jessie Jie Xia.](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
+
+## spec-driven-development
+
+- @simonbrown — [Simon Brown cuestiona el sentido del 'spec-driven development', argumentando que automatiza la parte más divertida (programar) y obliga a los desarrolladores a escribir documentación, algo que históricamente no les gusta.](https://x.com/simonbrown/status/2050878045750276268) `#2050878045750276268`
+- @antonarhipov — [Anton Arhipov publica las diapositivas de su charla en KotlinConf 2026 sobre desarrollo dirigido por especificaciones (Spec-Driven Development) con agentes de IA.](https://x.com/antonarhipov/status/2058489053385760947) `#2058489053385760947`
+
+## spiral
+
+- @every — [La cuenta de Every promociona una prueba gratuita de Spiral, su asistente de escritura con IA entrenado con el estilo del usuario.](https://x.com/every/status/2051049659733533008) `#2051049659733533008`
+
+## spotify
+
+- @0xMovez — [El autor comenta una charla del Chief Architect de Spotify en el escenario de Anthropic sobre cómo logran 4.500 despliegues diarios con Claude, señalando que más del 99% de sus ingenieros usan herramientas de IA desde la llegada de Opus 4.5.](https://x.com/0xMovez/status/2056753238494335077) `#2056753238494335077`
+
+## squad
+
+- @github — [GitHub presenta Squad, un proyecto open source construido sobre GitHub Copilot que despliega un equipo preconfigurado de agentes de IA dentro de un repositorio para superar el límite de los flujos de un solo prompt.](https://x.com/github/status/2040777736076034264) `#2040777736076034264`
+
+## stanford
+
+- @_avichawla — [Avi Chawla explica Shepherd, una herramienta de Stanford descrita como un 'Git nativo para agentes': registra cada interacción agente-entorno como un commit que incluye el proceso y el sistema de archivos, permitiendo revertir o bifurcar una ejecución a un paso anterior sin reiniciar desde cero ni perder la caché KV.](https://x.com/_avichawla/status/2073746091795960237) `#2073746091795960237`
+
+## steve-yegge
+
+- @fabpot — [Fabien Potencier cuenta que apenas escribe código sin la ayuda de un LLM y que su productividad en proyectos de código abierto como Twig se ha disparado, citando los '8 niveles de desarrollo asistido por IA' de Steve Yegge.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
+
+## subagentes
+
+- @hasantoxr — [Promociona el plugin oficial de Anthropic 'claude-code-setup', que analiza el proyecto y recomienda qué hooks, skills, servidores MCP y subagentes activar, instalable con un solo comando.](https://x.com/hasantoxr/status/2048004868292678143) `#2048004868292678143`
+- @bibryam — [Bilgin Ibryam comparte un artículo que compara los patrones de subagentes y de 'advisor' (asesor) en Claude Code.](https://x.com/bibryam/status/2050588497241681962) `#2050588497241681962`
+- @_avichawla — [Compara sub-agentes y equipos de agentes en Claude Code: los sub-agentes tienen su propio prompt, herramientas y contexto limpio, mientras que los equipos de agentes añaden lista de tareas compartida, mensajería entre pares y contexto persistente.](https://x.com/_avichawla/status/2050677399248138417) `#2050677399248138417`
+- @srishticodes — [Srishti describe un archivo CLAUDE.md, creado a partir de los hilos de Boris Cherny (creador de Claude Code), que incluye orquestación de subagentes, verificación antes de marcar tareas como completas y reglas que se autocorrigen con el feedback del usuario.](https://x.com/srishticodes/status/2050830626157482321) `#2050830626157482321`
+
+## substack
+
+- @pragdave — [Comparte un enlace a un artículo en Substack titulado 'Failing Faster', sin texto adicional en el tuit.](https://x.com/pragdave/status/2063276008619356280) `#2063276008619356280`
+
+## super-engineering
+
+- @nihaliscoding — [El autor elogia una herramienta de gestión de trabajo con agentes de IA (enlazada en super.engineering), destacando lo fácil que resulta crear worktrees y gestionar agentes con ella.](https://x.com/nihaliscoding/status/2050854100271780070) `#2050854100271780070`
+
+## supply-chain-attack
+
+- @karpathy — [Karpathy alerta sobre un ataque a la cadena de suministro en el paquete npm de axios (300M de descargas semanales) y advierte que las dependencias no fijadas (unpinned) pueden hacer que un proyecto resuelva a una versión maliciosa; enlaza un artículo con más detalles del incidente.](https://x.com/karpathy/status/2038849654423798197) `#2038849654423798197`
+
+## symfony
+
+- @dunglas — [Kévin Dunglas anuncia mejoras importantes en su proyecto Symfony Docker: soporte para Dev Containers, agentes de código autónomos como Claude Code, Xdebug integrado y recarga en caliente instantánea con FrankenPHP; incluye el resumen de su charla en Symfony Live Paris.](https://x.com/dunglas/status/2038970160103518619) `#2038970160103518619`
+- @symfony — [Symfony anuncia una nueva funcionalidad en la versión 8.1: los Console Argument Resolvers, con enlace a la entrada del blog oficial.](https://x.com/symfony/status/2052649763074425053) `#2052649763074425053`
+- @symfony — [Symfony comparte que en SymfonyDay Montréal, Oskar Barcz presentó una guía pragmática para implementar CQRS (Command Query Responsibility Segregation) en aplicaciones Symfony sin sobrecomplicarlas.](https://x.com/symfony/status/2052735679826657598) `#2052735679826657598`
+
+## system-prompt
+
+- @dbreunig — [Drew Breunig comparte un artículo que explica cómo Claude Code construye su system prompt.](https://x.com/dbreunig/status/2040662168736333898) `#2040662168736333898`
+- @mattpocockuk — [Matt Pocock detalla un proceso paso a paso para eliminar el exceso de contenido del system prompt de Claude Code usando un proxy para inspeccionarlo y un archivo settings.json personalizado, reduciéndolo a unos 13.000 tokens.](https://x.com/mattpocockuk/status/2074464823232888987) `#2074464823232888987`
+
+## taller
+
+- @eng_khairallah1 — [El autor recomienda un taller de 25 minutos del equipo de IA aplicada de Anthropic sobre buenas prácticas con Claude Code y cómo integrar herramientas de IA entre sí.](https://x.com/eng_khairallah1/status/2044787496681390571) `#2044787496681390571`
+
+## tdd
+
+- @martinfowler — [Martin Fowler comparte 'fragments' sobre un vídeo del pragmatic summit con Kent Beck y Gergely, la virtud de la pereza, TDD y prompts, con inspiración de Dark Star.](https://x.com/martinfowler/status/2044043579874537713) `#2044043579874537713`
+- @mattpocockuk — [Matt Pocock comparte su nueva lista de skills personalizados (domain-model, to-prd, to-issues, github-triage, tdd) para mejorar su flujo de trabajo de desarrollo asistido por IA.](https://x.com/mattpocockuk/status/2045110469426323900) `#2045110469426323900`
+
+## teamcity
+
+- @jetbrains — [JetBrains invita a una demo en vivo sobre cómo Qodana y TeamCity analizan automáticamente en CI el código generado por IA con las mismas inspecciones deterministas en cada PR, antes de llegar a producción.](https://x.com/jetbrains/status/2051195123115909563) `#2051195123115909563`
+
+## technology-radar
+
+- @martinfowler — [Martin Fowler enlaza su recopilación de 'Fragments', que incluye el 34º Technology Radar de Thoughtworks, una reflexión sobre cuando los desarrolladores no leen el código generado por LLMs, y temas sobre DirectFile y tecnología en grandes organizaciones.](https://x.com/martinfowler/status/2046599743631945854) `#2046599743631945854`
+
+## tendencias
+
+- @DataChaz — [Charly Wargnier resalta la advertencia de Karpathy de que el 90% de los consejos sobre IA caducan en 6 meses, y destaca un contenido que ofrece un playbook de 2026 sobre qué aprender, construir e ignorar en IA.](https://x.com/DataChaz/status/2054225085100151163) `#2054225085100151163`
+- @blackanger — [Comentario en chino preguntando qué es el skill que ocupa el primer puesto en un ranking y comentando lo rápido que está creciendo, sin más contexto ni enlace.](https://x.com/blackanger/status/2056125973460852962) `#2056125973460852962`
+
+## terminal-bench
+
+- @omarsar0 — [Elvis resume un paper sobre 'Agentic Harness Engineering', un framework que hace observable la evolución del harness de agentes de codificación y eleva el pass@1 en Terminal-Bench 2 del 69.7% al 77.0% en diez iteraciones, superando a Codex-CLI y a baselines auto-evolutivos.](https://x.com/omarsar0/status/2049492169887748365) `#2049492169887748365`
+
+## terminologia
+
+- @AYi_AInotes — [Comentario en chino sobre el skill 'improve-codebase-architecture' de Matt Pocock, que añade un glosario oficial de 37 líneas para forzar que la IA use una terminología precisa (módulos profundos/superficiales, etc.) y convertir la mejora de arquitectura en un proceso reproducible.](https://x.com/AYi_AInotes/status/2048071414054318378) `#2048071414054318378`
+
+## testing
+
+- @Sandeepg33k — [Sandeep presenta Passmark, un agente de IA de código abierto construido sobre Playwright para pruebas de regresión a escala, con tests en lenguaje natural, aserciones multi-modelo y caching inteligente.](https://x.com/Sandeepg33k/status/2043992966461640724) `#2043992966461640724`
+- @rseroter — [Richard Seroter comparte un artículo del equipo de ingeniería de Pinterest sobre cómo implementar un proceso de pruebas para optimizar el rendimiento de los agentes de IA con 'skills' en cualquier repositorio.](https://x.com/rseroter/status/2055010246289133959) `#2055010246289133959`
+
+## thoughtworks
+
+- @martinfowler — [Martin Fowler presenta un nuevo artículo sobre Structured-Prompt-Driven Development (SPDD), un flujo de trabajo de programación agéntica usado internamente en Thoughtworks, descrito por Wei Zhang y Jessie Jie Xia.](https://x.com/martinfowler/status/2049115357781098709) `#2049115357781098709`
+
+## tips
+
+- @bcherny — [Boris Cherny, creador de Claude Code, anuncia un hilo con sus funciones ocultas y poco utilizadas favoritas de la herramienta.](https://x.com/bcherny/status/2038454336355999749) `#2038454336355999749`
+- @aakashgupta — [Recomienda leer un artículo con consejos para aprovechar más Claude sin alcanzar los límites de uso.](https://x.com/aakashgupta/status/2048497322276065549) `#2048497322276065549`
+- @adocomplete — [Comparte una publicación con consejos prácticos para mejorar el uso de "computer use" y navegación web con Claude, orientados a lograr que haga clic en el elemento correcto.](https://x.com/adocomplete/status/2057034715534676458) `#2057034715534676458`
+
+## token-efficiency
+
+- @cursor_ai — [Cursor explica cómo mejoran su "agent harness" para hacerlo más rápido y eficiente en tokens, y cómo prueban, monitorean y personalizan sus mejoras para distintos modelos.](https://x.com/cursor_ai/status/2049901436918436249) `#2049901436918436249`
+
+## token-optimization
+
+- @NFTCPS — [Presenta el ecosistema open source de Hermes: una app de escritorio nativa, un flujo para convertir ideas en PRD/documentos de diseño, una capa de memoria compartida entre agentes (plur), una herramienta de compresión de tokens y un dashboard de monitorización.](https://x.com/NFTCPS/status/2054392501512065091) `#2054392501512065091`
+
+## tokens
+
+- @tom_doerr — [Comparte un rastreador y panel (dashboard) de uso de tokens para sistemas multiagente de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2047749268383944711) `#2047749268383944711`
+- @tom_doerr — [Tom Dörr comparte OpenUI, un proyecto que genera interfaces de usuario usando un 67% menos tokens que JSON.](https://x.com/tom_doerr/status/2054024771185082570) `#2054024771185082570`
+
+## transformacion-digital
+
+- @McKinsey — [McKinsey señala que muchas empresas siguen atascadas en la fase piloto con la IA porque el problema no es la tecnología sino que aún no han rediseñado sus flujos de trabajo, roles y decisiones de forma integral.](https://x.com/McKinsey/status/2044808446424297635) `#2044808446424297635`
+
+## trucos
+
+- @_vmlops — [Comparte un documento de Google Drive con '100 códigos secretos' (presumiblemente trucos o prompts) para usar con Claude.](https://x.com/_vmlops/status/2054770955726258352) `#2054770955726258352`
+
+## ttft
+
+- @ClaudeDevs — [ClaudeDevs presenta un nuevo panel en Claude Developer Console para dar visibilidad al uso de la caché y ayudar a los clientes a reducir costes y el tiempo hasta el primer token (TTFT).](https://x.com/ClaudeDevs/status/2046710816884625509) `#2046710816884625509`
+
+## tui
+
+- @alexdaubois — [Alexandre Daubois describe cómo Ember detecta automáticamente FrankenPHP en apps PHP y añade una pestaña con introspección por hilo (estado, URI, duración, memoria) y la posibilidad de reiniciar workers desde la TUI.](https://x.com/alexdaubois/status/2047934140213760442) `#2047934140213760442`
+- @LLMpsycho — [Presenta una herramienta TUI de observabilidad para agentes de codificación con IA que rastrea coste, tokens, fallos de herramientas, latencia y salud en Claude Code, Codex CLI, Gemini, Hermes y otros, de forma local y sin backend.](https://x.com/LLMpsycho/status/2052405465913459157) `#2052405465913459157`
+
+## tutorial
+
+- @amankk_9 — [Propone un proyecto de fin de semana para construir desde cero un agente de IA con múltiples herramientas, enlazando a un tutorial paso a paso.](https://x.com/amankk_9/status/2037936722903007404) `#2037936722903007404`
+- @sairahul1 — [Recomienda un vídeo de 30 minutos del creador de Claude Code enseñando sobre 'vibe coding'.](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
+- @ds_nana_ — [Enlaza un recurso ("Claude Code in Action") que explica cómo Claude Code lee archivos, ejecuta comandos y edita código, además de técnicas de gestión de contexto, hooks e integraciones externas.](https://x.com/ds_nana_/status/2048454056666878451) `#2048454056666878451`
+
+## tutorial-programacion
+
+- @ai_rohitt — [Recomienda un vídeo en el que el creador de Claude Code explica el 'vibe-coding' en 30 minutos, calificándolo de más útil que muchos tutoriales largos.](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
+
+## twig
+
+- @fabpot — [Fabien Potencier cuenta que apenas escribe código sin la ayuda de un LLM y que su productividad en proyectos de código abierto como Twig se ha disparado, citando los '8 niveles de desarrollo asistido por IA' de Steve Yegge.](https://x.com/fabpot/status/2065350659184967902) `#2065350659184967902`
+
+## twitter-archive
+
+- @steipete — [Peter Steinberger presenta 'birdclaw', una herramienta que crea almacenamiento local de tuits, importa el archivo de Twitter, hace copias de seguridad en GitHub y permite importar bookmarks de X diariamente.](https://x.com/steipete/status/2048626844694421842) `#2048626844694421842`
+
+## ui-design
+
+- @midudev — [Miguel Ángel Durán presenta un repositorio open source con archivos DESIGN.md que replican las guías visuales de empresas como Apple, Airbnb, Tesla, Shopify y Uber, para que un agente de IA entienda el estilo de interfaz deseado sin usar Figma.](https://x.com/midudev/status/2044399617450660023) `#2044399617450660023`
+
+## uncle-bob-martin
+
+- @unclebobmartin — [Uncle Bob Martin comenta que resulta muy sencillo pedirle a un agente de IA que cree un detector de duplicación de código, enlazando el proyecto 'dry4clj' en GitHub.](https://x.com/unclebobmartin/status/2052468509100134807) `#2052468509100134807`
+
+## upsun
+
+- @fabpot — [Fabien Potencier comenta que en Upsun los retos a nivel organizacional son distintos, y comparte un mapa de las etapas de madurez de la ingeniería de IA en las organizaciones.](https://x.com/fabpot/status/2065350660829094293) `#2065350660829094293`
+
+## us-china
+
+- @AnthropicAI — [Anthropic publica un paper sobre la competencia en IA entre EE.UU. y China, argumentando que EE.UU. y sus aliados democráticos mantienen la delantera en IA de frontera y explicando qué hace falta para conservarla.](https://x.com/AnthropicAI/status/2054987444664377374) `#2054987444664377374`
+
+## usage-limits
+
+- @aakashgupta — [Recomienda leer un artículo con consejos para aprovechar más Claude sin alcanzar los límites de uso.](https://x.com/aakashgupta/status/2048497322276065549) `#2048497322276065549`
+
+## ux-ui
+
+- @JoliCode — [JoliCode publica en su blog cómo integrar la IA en el flujo de trabajo UX/UI: Sophie comparte su experiencia con Figma Make, Claude Design y prompts eficaces, y qué cambia realmente para los diseñadores.](https://x.com/JoliCode/status/2054158532141080650) `#2054158532141080650`
+
+## validation
+
+- @tom_doerr — [Comparte "skill-check", una herramienta open source que valida la calidad de las skills de agentes de IA mediante diagnósticos.](https://x.com/tom_doerr/status/2051335071336976673) `#2051335071336976673`
+
+## value-objects
+
+- @vladikk — [Vlad Khononov explica que en su libro 'Learning Domain-Driven Design' priorizó los principios sobre los listados de código, para que el lector entienda el porqué de patrones tácticos como los value objects inmutables.](https://x.com/vladikk/status/2054944276094620027) `#2054944276094620027`
+
+## velocidad-de-inferencia
+
+- @dhh — [DHH comenta que el modelo Kimi K2.5 Turbo es extremadamente rápido cuando se ejecuta en la plataforma Fireworks AI.](https://x.com/dhh/status/2037619581674541357) `#2037619581674541357`
+
+## ventas
+
+- @luisloaiza — [Presenta una herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, que permite vender con catálogo y pagos integrados y automatizar el onboarding con validación de identidad, descrita como más rápida y potente que n8n.](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
+
+## vercel
+
+- @rauchg — [Guillermo Rauch (Vercel) anuncia la apertura como open source de Open Agents, una plataforma de referencia para agentes de codificación en la nube, comparándola con las 'fábricas de software con IA' internas de empresas como Stripe, Ramp, Spotify y Block.](https://x.com/rauchg/status/2043869656931529034) `#2043869656931529034`
+
+## verificacion
+
+- @ClaudeDevs — [ClaudeDevs plantea cómo lograr que Claude Code revise su propio trabajo antes de entregarlo, mostrando cómo codificar comprobaciones manuales para cerrar el bucle de feedback del agente.](https://x.com/ClaudeDevs/status/2061900434722496604) `#2061900434722496604`
+
+## viajes
+
+- @agrimsingh — [Agrim Singh adapta el 'autoresearch loop' de Karpathy para buscar vuelos baratos en clase business, creando el proyecto 'autofare' con Codex y GPT-5.4 mini.](https://x.com/agrimsingh/status/2041916589906464820) `#2041916589906464820`
+
+## vibe-coding
+
+- @sairahul1 — [Recomienda un vídeo de 30 minutos del creador de Claude Code enseñando sobre 'vibe coding'.](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
+- @ai_rohitt — [Recomienda un vídeo en el que el creador de Claude Code explica el 'vibe-coding' en 30 minutos, calificándolo de más útil que muchos tutoriales largos.](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
+- @Suryanshti777 — [El autor destaca que el Head of Claude Code de Anthropic implementó 49 funcionalidades en 48 horas sin escribir código a mano, y grabó el flujo de trabajo completo en un vídeo gratuito de 30 minutos.](https://x.com/Suryanshti777/status/2049550904366629352) `#2049550904366629352`
+- @defileo — [Comenta que Andrej Karpathy compartió gratis, en una charla de 29 minutos, ideas como que "los LLM son fantasmas, no animales", que el "vibe coding" ha muerto y que "Software 3.0" ya está aquí, poco después de que Anthropic lo contratara.](https://x.com/defileo/status/2057924890330644925) `#2057924890330644925`
+
+## video
+
+- @sairahul1 — [Recomienda un vídeo de 30 minutos del creador de Claude Code enseñando sobre 'vibe coding'.](https://x.com/sairahul1/status/2046485091996811539) `#2046485091996811539`
+- @ghumare64 — [Rohit Ghumare recomienda un video de 262 minutos de Andrej Karpathy en el que explica por qué Claude Skills, los servidores MCP y los agentes de IA ya son la base estándar para construir software.](https://x.com/ghumare64/status/2047980036993548509) `#2047980036993548509`
+- @atmoio — [Comentario informal sobre un vídeo que muestra el carácter tranquilo de Greg (de OpenAI) como explicación de su éxito.](https://x.com/atmoio/status/2050981070846230942) `#2050981070846230942`
+- @addyosmani — [Addy Osmani publica el video completo de una charla sobre la evolución del oficio del desarrollador, junto a Richard Seroter, the_thagomizer y Ciera Jaspan.](https://x.com/addyosmani/status/2058305801215963372) `#2058305801215963372`
+
+## video-tutorial
+
+- @ai_rohitt — [Recomienda un vídeo en el que el creador de Claude Code explica el 'vibe-coding' en 30 minutos, calificándolo de más útil que muchos tutoriales largos.](https://x.com/ai_rohitt/status/2049484890333393006) `#2049484890333393006`
+
+## wayfinder
+
+- @mattpocockuk — [Destaca un PRD basado en una sesión de varios días con '/wayfinder', muy detallado, donde cada afirmación queda enlazada a la sesión en la que se decidió, yendo de la fuente secundaria a la primaria.](https://x.com/mattpocockuk/status/2073811512938868814) `#2073811512938868814`
+
+## web-scraping
+
+- @tom_doerr — [Tom Dörr comparte 'webclaw', un scraper web de alta velocidad diseñado para agentes de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
+
+## webclaw
+
+- @tom_doerr — [Tom Dörr comparte 'webclaw', un scraper web de alta velocidad diseñado para agentes de IA, disponible en GitHub.](https://x.com/tom_doerr/status/2048144417916166299) `#2048144417916166299`
+
+## whatsapp
+
+- @luisloaiza — [Presenta una herramienta para crear soluciones de negocio en WhatsApp con IA, prompts e integraciones avanzadas, que permite vender con catálogo y pagos integrados y automatizar el onboarding con validación de identidad, descrita como más rápida y potente que n8n.](https://x.com/luisloaiza/status/2054259814788641199) `#2054259814788641199`
+
+## wispr-flow
+
+- @rubenhassid — [Guía de Ruben Hassid para 'clonar tu voz' en Claude durante un fin de semana: usar el modo Cowork, transcribir entrevistas por voz con Wispr Flow, comprimir las respuestas en un archivo de texto y cargarlo para que Claude escriba con tu estilo en cualquier IA.](https://x.com/rubenhassid/status/2050789469910093910) `#2050789469910093910`
+
+## workflow
+
+- @mattpocockuk — [Matt Pocock describe un flujo de trabajo en Claude Code que combina las skills "/grill-with-docs" y "/prototype" con la función "/rewind" para resumir lo aprendido durante la prototipación y continuar la conversación con contexto reducido.](https://x.com/mattpocockuk/status/2053459748532392343) `#2053459748532392343`
+- @steipete — [Peter Steinberger recomienda una skill de GitHub ('codex-first') que hace que Fable use Codex como motor principal de trabajo dentro de este flujo.](https://x.com/steipete/status/2074638582418231495) `#2074638582418231495`
+
+## workshop
+
+- @eng_khairallah1 — [Promociona un taller gratuito de 30 minutos, impartido por ingenieros de Anthropic, sobre cómo construir agentes de IA en producción.](https://x.com/eng_khairallah1/status/2048060850901008408) `#2048060850901008408`
+
+## workshops
+
+- @0xCodez — [Resume cinco workshops publicados por Anthropic sobre las capacidades de 'Fable 5', incluyendo una visión en profundidad, la curva de capacidades, la construcción de agentes gestionados y casos de uso reales por parte de equipos.](https://x.com/0xCodez/status/2073478036154966486) `#2073478036154966486`
+
+## x-article
+
+- @code_kartik — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/code_kartik/status/2050631735529095575) `#2050631735529095575`
+- @shinzui — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/shinzui/status/2050963939060838501) `#2050963939060838501`
+- @addyosmani — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2056078124346228860) `#2056078124346228860`
+- @ClaudeDevs — [Enlace a un artículo de X (Twitter) sin texto descriptivo adicional.](https://x.com/ClaudeDevs/status/2074208949205881033) `#2074208949205881033`
+
+## x-com
+
+- @dani_avila7 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional que explique su contenido.](https://x.com/dani_avila7/status/2048486242321662189) `#2048486242321662189`
+- @tonygentilcore — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/tonygentilcore/status/2049482833111232694) `#2049482833111232694`
+- @trq212 — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/trq212/status/2061907337154367865) `#2061907337154367865`
+- @addyosmani — [Enlace a un artículo de X (x.com/i/article) sin texto descriptivo adicional.](https://x.com/addyosmani/status/2064127981161959567) `#2064127981161959567`
+
+## youtube
+
+- @benln — [El autor comparte sus notas personales sobre un vídeo de YouTube, sin más contexto sobre el tema tratado.](https://x.com/benln/status/2051288392852242703) `#2051288392852242703`
+- @tom_doerr — [Comparte un proyecto de GitHub que automatiza la creación y publicación de contenido en YouTube mediante agentes de IA.](https://x.com/tom_doerr/status/2054901152840344051) `#2054901152840344051`
+- @mattpocockuk — [Matt Pocock responde confirmando que dio dos charlas sobre un tema que se volvieron virales simultáneamente, y enlaza a ambos vídeos en YouTube.](https://x.com/mattpocockuk/status/2056277047496843534) `#2056277047496843534`
+
+## yum-brands
+
+- @rseroter — [Richard Seroter comenta un caso de Yum Brands, que está modernizando su infraestructura de datos por la urgencia de adoptar IA, resolviendo así problemas de larga data.](https://x.com/rseroter/status/2053959835679604812) `#2053959835679604812`
