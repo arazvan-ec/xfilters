@@ -89,12 +89,9 @@ def open_store(collection: str, *, backend: str | None = None, **kw):
     if backend == "ndjson":
         return RecordStore.load(collection, **kw)
     if backend == "supabase":
-        try:
-            from .records_supabase import SupabaseRecordStore
-        except ImportError as exc:  # module not present yet
-            raise NotImplementedError(
-                "supabase backend not available yet — the Postgres migration "
-                "(.claude/flywheel/specs/postgres-persistence.md) must land first"
-            ) from exc
+        from .records_supabase import SupabaseRecordStore
+
+        # Building a real client needs the `supabase` package + SUPABASE_URL/KEY;
+        # absent those, load() raises a clear RuntimeError (see records_supabase).
         return SupabaseRecordStore.load(collection, **kw)
     raise ValueError(f"unknown backend {backend!r} (expected 'ndjson' or 'supabase')")

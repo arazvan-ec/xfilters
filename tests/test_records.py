@@ -55,9 +55,13 @@ def test_open_store_default_is_ndjson(tmp_path, monkeypatch):
     assert isinstance(open_store("things", data_dir=tmp_path), RecordStore)
 
 
-def test_open_store_supabase_not_wired_yet(monkeypatch):
+def test_open_store_supabase_needs_dep_or_credentials(monkeypatch):
+    # Selecting supabase without the package/credentials must fail clearly, not
+    # silently fall back to NDJSON.
     monkeypatch.setenv("XBOOKMARKS_BACKEND", "supabase")
-    with pytest.raises(NotImplementedError):
+    monkeypatch.delenv("SUPABASE_URL", raising=False)
+    monkeypatch.delenv("SUPABASE_KEY", raising=False)
+    with pytest.raises(RuntimeError):
         open_store("things")
 
 
