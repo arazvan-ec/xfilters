@@ -246,7 +246,7 @@
     const arr = Array.from(store.values()).sort((a, b) =>
       (b.created_at || "").localeCompare(a.created_at || "")
     );
-    const blob = new Blob([JSON.stringify(arr, null, 2)], {
+    const blob = new Blob([JSON.stringify(arr)], {
       type: "application/json",
     });
     const url = URL.createObjectURL(blob);

@@ -15,6 +15,19 @@ from ..models import Bookmark
 from .base import extract_tweet_id
 
 
+def _coerce_metrics(m) -> dict:
+    """Keep only integer metric values — never let arbitrary strings into the store
+    (they would otherwise reach the rendered site)."""
+    out: dict = {}
+    if isinstance(m, dict):
+        for k, v in m.items():
+            try:
+                out[str(k)] = int(v)
+            except (TypeError, ValueError):
+                continue
+    return out
+
+
 def looks_like_extension(items: list) -> bool:
     """True if the records use the extension's nested shape (author dict / metrics)."""
     for it in items:
@@ -56,7 +69,7 @@ class ExtensionIngestor:
                     hashtags=it.get("hashtags", []) or [],
                     mentions=it.get("mentions", []) or [],
                     links=it.get("links", []) or [],
-                    metrics=it.get("metrics", {}) or {},
+                    metrics=_coerce_metrics(it.get("metrics")),
                     source="extension",
                 )
             )

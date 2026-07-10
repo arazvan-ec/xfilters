@@ -48,3 +48,22 @@ def test_looks_like_extension():
     assert looks_like_extension([{"author": {"handle": "x"}}])
     assert looks_like_extension([{"metrics": {}}])
     assert not looks_like_extension([{"author_handle": "flat"}])
+
+
+def test_metrics_are_coerced_to_int(tmp_path):
+    # A tampered capture with a non-numeric metric must not enter the store.
+    p = tmp_path / "cap.json"
+    p.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "1",
+                    "url": "https://x.com/u/status/1",
+                    "author": {"handle": "u"},
+                    "metrics": {"likes": "0</div><img src=x onerror=alert(1)>", "views": 50},
+                }
+            ]
+        )
+    )
+    m = ExtensionIngestor(p).load()[0].metrics
+    assert m == {"views": 50}  # the malicious string is dropped, the int kept

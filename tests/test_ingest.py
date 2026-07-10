@@ -82,3 +82,10 @@ def test_json_export_non_list_raises(tmp_path):
     p.write_text(json.dumps("just a string"))
     with pytest.raises(ValueError):
         JsonExportIngestor(p).load()
+
+
+def test_json_export_data_wrapper_does_not_crash(tmp_path):
+    # A {"data": [...]} export (non-extension) must load, not KeyError.
+    p = tmp_path / "e.json"
+    p.write_text(json.dumps({"data": [{"url": "https://x.com/u/status/9", "text": "hi"}]}))
+    assert [b.id for b in JsonExportIngestor(p).load()] == ["9"]

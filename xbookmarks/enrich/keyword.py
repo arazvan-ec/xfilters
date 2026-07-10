@@ -74,6 +74,29 @@ CATEGORIES = [
 ]
 
 
+def _anchor(pattern: str) -> str:
+    r"""A pattern that opted into a trailing ``\b`` meant a whole word — anchor both ends.
+
+    Leaves intentional prefix-stems (e.g. ``econom``, ``ministr``) untouched, since they
+    have no trailing boundary and are meant to match ``economía``/``ministro``/…
+    """
+    if pattern.endswith(r"\b") and not pattern.startswith((r"\b", r"\B")):
+        return r"\b" + pattern
+    return pattern
+
+
+# Precompile once (anchored) — fixes substring false positives and avoids recompiling
+# ~160 patterns per bookmark.
+_COMPILED = [
+    {
+        "name": c["name"],
+        "kw": [re.compile(_anchor(k), re.I) for k in c["kw"]],
+        "dom": c["dom"],
+    }
+    for c in CATEGORIES
+]
+
+
 def _domains(links: list[str]) -> list[str]:
     out = []
     for u in links or []:
@@ -98,8 +121,8 @@ def categorize(b: Bookmark) -> list[str]:
     )
     domains = _domains(b.links)
     scores = []
-    for cat in CATEGORIES:
-        score = sum(1 for k in cat["kw"] if re.search(k, hay, re.I))
+    for cat in _COMPILED:
+        score = sum(1 for k in cat["kw"] if k.search(hay))
         score += sum(2 for d in cat["dom"] if any(h == d or h.endswith("." + d) for h in domains))
         if score > 0:
             scores.append((cat["name"], score))

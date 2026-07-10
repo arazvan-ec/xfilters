@@ -18,7 +18,7 @@ class JsonExportIngestor:
 
     def load(self) -> list[Bookmark]:
         data = json.loads(self.path.read_text(encoding="utf-8"))
-        items = data["bookmarks"] if isinstance(data, dict) else data
+        items = data.get("bookmarks", data.get("data", [])) if isinstance(data, dict) else data
         if not isinstance(items, list):
             raise ValueError("unsupported export format: expected a list of bookmark objects")
 

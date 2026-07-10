@@ -1,5 +1,15 @@
 # flywheel learnings
 
+## gotcha: a one-sided `\b` in a keyword regex matches inside longer words
+<!-- fw: type=gotcha; date=2026-07-09; files=xbookmarks/enrich/keyword.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
+
+`\b` only anchors the side it's written on, so `rust\b`/`api\b`/`book\b`/`gol\b` match as
+substrings ("Facebook"→book, "Mongol"→gol, "issue"→ue, "legit"→git) and silently
+miscategorize ordinary text. Guard: anchor BOTH sides for whole-word matches (funnel bare
+words through `rf"\b{w}\b"`), but leave intentional prefix-stems (`econom`, `ministr`)
+un-anchored. Precompile the patterns once while you're at it. Regression-test the specific
+false positives, not just positive matches — the original tests only asserted clean hits.
+
 ## decision: intercept X's Bookmarks GraphQL instead of scraping the DOM
 <!-- fw: type=decision; date=2026-07-09; files=extension/collector.js,xbookmarks/ingest/extension.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
 

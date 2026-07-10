@@ -28,3 +28,21 @@ def test_keyword_enrich_shape_matches_ai():
 def test_keyword_enrich_uncategorized():
     out = keyword_enrich(Bookmark(id="1", url="u", text="zzz qwerty"))
     assert out["tags"] == ["Sin categoría"]
+
+
+def test_anchored_no_substring_false_positives():
+    # Regression: bare words must not match inside longer words.
+    cases = {
+        "Facebook just announced a new ad platform": "Cultura & Entretenimiento",  # book
+        "The Mongol empire expanded rapidly": "Deportes",  # gol
+        "please continue reading the whole issue": "Política & Actualidad",  # ue
+        "this offer seems totally legit": "Programación & Dev",  # git
+    }
+    for text, wrong in cases.items():
+        assert wrong not in categorize(Bookmark(id="1", url="u", text=text)), text
+
+
+def test_anchored_still_matches_whole_words():
+    dev = categorize(Bookmark(id="1", url="u", text="learning rust and go"))
+    assert "Programación & Dev" in dev
+    assert "Deportes" in categorize(Bookmark(id="1", url="u", text="qué gol de locura"))

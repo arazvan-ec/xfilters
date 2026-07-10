@@ -73,6 +73,8 @@ a { color:var(--accent); text-decoration:none; }
 <script type="application/json" id="bookmarks-data">__DATA__</script>
 <script>
 const DATA = JSON.parse(document.getElementById("bookmarks-data").textContent);
+// Precompute the search haystack once so filtering doesn't rebuild it per keystroke.
+DATA.forEach(b => { b._hay = [b.text, b.summary, b.topic, b.author_handle, b.author_name, (b.tags || []).join(" ")].join(" ").toLowerCase(); });
 const listEl = document.getElementById("list");
 const tagsEl = document.getElementById("tags");
 const qEl = document.getElementById("q");
@@ -100,15 +102,15 @@ for (const t of allTags) {
   tagsEl.appendChild(el);
 }
 
-function esc(s) { const d = document.createElement("div"); d.textContent = s || ""; return d.innerHTML; }
-function escAttr(s) { return esc(s).replace(/"/g, "&quot;"); }
+const _ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, c => _ESC[c]); }
+function escAttr(s) { return esc(s); }
 function safeUrl(u) { return /^https?:\\/\\//i.test(u || "") ? u : "#"; }
 
 function matches(b, q) {
   if (activeTag && !(b.tags || []).includes(activeTag)) return false;
   if (!q) return true;
-  const hay = [b.text, b.summary, b.topic, b.author_handle, b.author_name, (b.tags||[]).join(" ")].join(" ").toLowerCase();
-  return q.split(/\\s+/).every(w => hay.includes(w));
+  return q.split(/\\s+/).every(w => b._hay.includes(w));
 }
 
 function render() {
@@ -124,9 +126,9 @@ function fmt(n) { return n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k
 function metricsLine(m) {
   if (!m) return "";
   const parts = [];
-  if (m.likes) parts.push("\\u2665 " + fmt(m.likes));
-  if (m.views) parts.push("\\u25b6 " + fmt(m.views));
-  if (m.bookmarks) parts.push("\\u2302 " + fmt(m.bookmarks));
+  if (m.likes) parts.push("\\u2665 " + esc(fmt(m.likes)));
+  if (m.views) parts.push("\\u25b6 " + esc(fmt(m.views)));
+  if (m.bookmarks) parts.push("\\u2302 " + esc(fmt(m.bookmarks)));
   return parts.length ? '<div class="metrics">' + parts.join(" \\u00b7 ") + '</div>' : "";
 }
 
@@ -142,7 +144,8 @@ function card(b) {
     + '</article>';
 }
 
-qEl.addEventListener("input", render);
+let _debounce;
+qEl.addEventListener("input", () => { clearTimeout(_debounce); _debounce = setTimeout(render, 150); });
 sortEl.addEventListener("change", render);
 render();
 </script>
