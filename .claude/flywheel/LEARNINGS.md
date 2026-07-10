@@ -1,5 +1,27 @@
 # flywheel learnings
 
+## pattern: a fresh-context adversarial review catches what a green suite doesn't
+<!-- fw: type=pattern; date=2026-07-10; files=.claude/skills/review-pr/SKILL.md,xbookmarks/enrich/keyword.py,xbookmarks/render/site.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
+
+`/flywheel-verify` was green (57 tests) yet a `/review-pr` pass over the same diff surfaced a
+Critical + two High bugs the suite never exercised: substring regex false positives
+(happy-path tests miss boundary cases), stored XSS in a new render path, and an unhandled
+input shape. Lesson: *verify* (does it work?) and *review* (what did we miss?) are different
+gates — run the diff past fresh-context reviewers (correctness/security/perf) that did not
+write the code, then add regression tests for the negative cases they find, not just the
+happy path.
+
+## gotcha: a new render path silently bypassed the established escaping convention
+<!-- fw: type=gotcha; date=2026-07-10; files=xbookmarks/render/site.py,xbookmarks/ingest/extension.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
+
+After hardening the site's `href` against XSS, a later feature (`metricsLine`) concatenated a
+new field into `innerHTML` without `esc()` — reintroducing the same bug class by omission,
+because escaping was a convention each call site had to remember rather than an enforced
+choke point. Guards: route every value reaching `innerHTML` through one escaper (make
+forgetting impossible), and add defense-in-depth upstream (coerce metrics to `int` at ingest
+so a non-numeric value never reaches the renderer). Two layers — either alone is a single
+point of failure.
+
 ## gotcha: a one-sided `\b` in a keyword regex matches inside longer words
 <!-- fw: type=gotcha; date=2026-07-09; files=xbookmarks/enrich/keyword.py; spec=x-bookmarks-catalog; branch=claude/flywheel-plugin-check-7o6230 -->
 
