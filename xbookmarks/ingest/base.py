@@ -28,6 +28,7 @@ def autodetect(path: Path | str) -> Ingestor:
     - a JSON list of strings, or a non-JSON newline file -> URL list
     - a JSON list of objects, or ``{"bookmarks": [...]}`` -> JSON export
     """
+    from .extension import ExtensionIngestor, looks_like_extension
     from .json_export import JsonExportIngestor
     from .url_list import UrlListIngestor
 
@@ -40,4 +41,8 @@ def autodetect(path: Path | str) -> Ingestor:
 
     if isinstance(data, list) and all(isinstance(x, str) for x in data):
         return UrlListIngestor(path)
+
+    items = data.get("bookmarks", data.get("data", [])) if isinstance(data, dict) else data
+    if isinstance(items, list) and looks_like_extension(items):
+        return ExtensionIngestor(path)
     return JsonExportIngestor(path)

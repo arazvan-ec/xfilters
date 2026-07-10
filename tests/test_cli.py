@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from xbookmarks import cli
@@ -39,6 +40,39 @@ def test_build_meets_success_metric(tmp_path):
     before = data.read_text()
     cli.cmd_build(data, site, catalog, fetcher=fake_fetch, ai=fake_ai, now=lambda: "NOW")
     assert data.read_text() == before
+
+
+def test_build_with_keyword_enricher_is_offline(tmp_path):
+    # extension-shape capture + keyword enricher -> no network, no API key needed
+    src = tmp_path / "cap.json"
+    src.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "9001",
+                    "url": "https://x.com/u/status/9001",
+                    "text": "thread on LLM agents and prompt engineering",
+                    "author": {"handle": "u", "name": "U"},
+                    "metrics": {"likes": 42, "views": 900},
+                    "links": [],
+                }
+            ]
+        )
+    )
+    data = tmp_path / "data" / "bookmarks.ndjson"
+    site = tmp_path / "site"
+    catalog = tmp_path / "catalog"
+
+    assert cli.cmd_ingest(src, data) == 1
+    stats = cli.cmd_build(data, site, catalog, enricher="keyword", now=lambda: "NOW")
+    assert stats == {"enriched": 1, "errors": 0}
+
+    rec = Store.load(data).all()[0]
+    assert rec.enriched and rec.topic == "IA & Machine Learning"
+    assert rec.metrics["likes"] == 42
+
+    html = (site / "index.html").read_text()
+    assert "Most liked" in html  # popularity sort control shipped
 
 
 def test_main_ingest_and_render_offline(tmp_path):

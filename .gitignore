@@ -8,3 +8,7 @@ venv/
 .ruff_cache/
 build/
 dist/
+
+# Personal bookmark captures from the extension / console snippet — keep private.
+data/x-bookmarks-*.json
+data/raw-bookmarks.json

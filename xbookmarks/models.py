@@ -16,9 +16,14 @@ class Bookmark:
     author_name: str = ""
     text: str = ""
     created_at: str = ""  # ISO 8601
+    lang: str = ""
     media: list[dict] = field(default_factory=list)
+    hashtags: list[str] = field(default_factory=list)
+    mentions: list[str] = field(default_factory=list)
+    links: list[str] = field(default_factory=list)
+    metrics: dict = field(default_factory=dict)  # likes/retweets/replies/quotes/bookmarks/views
     thread_ids: list[str] = field(default_factory=list)
-    source: str = ""  # json-export | url-list
+    source: str = ""  # json-export | url-list | extension
     imported_at: str = ""
 
     # enrichment

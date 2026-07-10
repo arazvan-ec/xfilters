@@ -12,7 +12,10 @@ from pathlib import Path
 from ..models import Bookmark
 
 # Fields safe to publish in the static site (nothing internal like enrich_error).
-_PUBLIC_FIELDS = ("id", "url", "text", "summary", "topic", "tags", "author_handle", "author_name")
+_PUBLIC_FIELDS = (
+    "id", "url", "text", "summary", "topic", "tags",
+    "author_handle", "author_name", "created_at", "metrics",
+)
 
 
 def _safe_url(u: str) -> str:
@@ -36,6 +39,8 @@ h1 { margin:0 0 4px; font-size:22px; }
 .count { color:var(--muted); font-size:14px; }
 .controls { max-width:900px; margin:0 auto; padding:8px 20px; position:sticky; top:0; background:var(--bg); }
 #q { width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--muted); border-radius:8px; background:transparent; color:var(--fg); }
+#sort { margin-top:8px; padding:6px 10px; font-size:13px; border:1px solid var(--muted); border-radius:8px; background:transparent; color:var(--fg); }
+.card .metrics { color:var(--muted); font-size:12px; margin-top:6px; }
 .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
 .tag { cursor:pointer; padding:3px 10px; border-radius:999px; border:1px solid var(--muted); font-size:13px; color:var(--muted); background:transparent; }
 .tag.active { background:var(--accent); border-color:var(--accent); color:#fff; }
@@ -57,6 +62,11 @@ a { color:var(--accent); text-decoration:none; }
 </header>
 <div class="controls">
   <input id="q" type="search" placeholder="Search text, author, tags…" autocomplete="off">
+  <select id="sort">
+    <option value="recent">Most recent</option>
+    <option value="likes">Most liked</option>
+    <option value="views">Most viewed</option>
+  </select>
   <div class="tags" id="tags"></div>
 </div>
 <main id="list"></main>
@@ -66,8 +76,20 @@ const DATA = JSON.parse(document.getElementById("bookmarks-data").textContent);
 const listEl = document.getElementById("list");
 const tagsEl = document.getElementById("tags");
 const qEl = document.getElementById("q");
+const sortEl = document.getElementById("sort");
 const shownEl = document.getElementById("shown");
 let activeTag = null;
+
+function sortRows(rows) {
+  const key = sortEl.value;
+  const metric = (b, k) => (b.metrics && b.metrics[k]) || 0;
+  const by = {
+    likes: (a, b) => metric(b, "likes") - metric(a, "likes"),
+    views: (a, b) => metric(b, "views") - metric(a, "views"),
+    recent: (a, b) => (b.created_at || "").localeCompare(a.created_at || ""),
+  }[key] || (() => 0);
+  return rows.slice().sort(by);
+}
 
 const allTags = [...new Set(DATA.flatMap(b => b.tags || []))].sort();
 for (const t of allTags) {
@@ -91,10 +113,21 @@ function matches(b, q) {
 
 function render() {
   const q = qEl.value.trim().toLowerCase();
-  const rows = DATA.filter(b => matches(b, q));
+  const rows = sortRows(DATA.filter(b => matches(b, q)));
   shownEl.textContent = rows.length;
   for (const el of tagsEl.children) el.classList.toggle("active", el.dataset.tag === activeTag);
   listEl.innerHTML = rows.length ? rows.map(card).join("") : '<div class="empty">No matches.</div>';
+}
+
+function fmt(n) { return n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n); }
+
+function metricsLine(m) {
+  if (!m) return "";
+  const parts = [];
+  if (m.likes) parts.push("\\u2665 " + fmt(m.likes));
+  if (m.views) parts.push("\\u25b6 " + fmt(m.views));
+  if (m.bookmarks) parts.push("\\u2302 " + fmt(m.bookmarks));
+  return parts.length ? '<div class="metrics">' + parts.join(" \\u00b7 ") + '</div>' : "";
 }
 
 function card(b) {
@@ -104,11 +137,13 @@ function card(b) {
     + '<div class="meta">' + author + (b.topic ? ' \\u00b7 ' + esc(b.topic) : '') + '</div>'
     + (b.summary ? '<div class="summary">' + esc(b.summary) + '</div>' : '')
     + '<div class="text">' + esc(b.text) + '</div>'
+    + metricsLine(b.metrics)
     + '<div class="chips">' + chips + ' <a href="' + escAttr(safeUrl(b.url)) + '" target="_blank" rel="noopener">open \\u2197</a></div>'
     + '</article>';
 }
 
 qEl.addEventListener("input", render);
+sortEl.addEventListener("change", render);
 render();
 </script>
 </body>

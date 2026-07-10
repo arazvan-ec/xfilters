@@ -1,6 +1,12 @@
 # Spec — X bookmarks catalog
 
 > REASONS contract. Status: **SIGNED OFF (2026-07-08)** · Slug: `x-bookmarks-catalog`
+>
+> **Amendment (2026-07-09):** merged the best of PR #2. Added a Chrome-extension capture
+> adapter (`extension/` + `ingest/extension.py`) as the primary, richest acquisition path;
+> a free/offline **keyword** enricher (`enrich/keyword.py`) alongside the Claude one,
+> selectable via `--enricher`; engagement `metrics` on the model and popularity sort in the
+> site. Acquisition options are now: extension (A), console snippet (B), URL list (C).
 
 ## R — Requirements
 

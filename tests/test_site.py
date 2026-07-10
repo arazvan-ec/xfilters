@@ -45,5 +45,8 @@ def test_site_payload_excludes_internal_fields(tmp_path):
     html = render_site([b], tmp_path / "site").read_text()
     assert "secret boom" not in html
     d = _extract_data(html)[0]
-    expected = {"id", "url", "text", "summary", "topic", "tags", "author_handle", "author_name"}
+    expected = {
+        "id", "url", "text", "summary", "topic", "tags",
+        "author_handle", "author_name", "created_at", "metrics",
+    }
     assert set(d.keys()) == expected

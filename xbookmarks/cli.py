@@ -11,6 +11,8 @@ import argparse
 from pathlib import Path
 
 from .enrich import enrich_pending
+from .enrich.ai import generate_enrichment
+from .enrich.keyword import keyword_enrich
 from .ingest.base import autodetect
 from .render.catalog import render_catalog
 from .render.site import render_site
@@ -19,6 +21,7 @@ from .store import Store
 DEFAULT_DATA = Path("data/bookmarks.ndjson")
 DEFAULT_SITE = Path("site")
 DEFAULT_CATALOG = Path("catalog")
+ENRICHERS = {"keyword": keyword_enrich, "claude": generate_enrichment}
 
 
 def cmd_ingest(input_path: Path | str, data_path: Path | str = DEFAULT_DATA) -> int:
@@ -29,8 +32,9 @@ def cmd_ingest(input_path: Path | str, data_path: Path | str = DEFAULT_DATA) -> 
 
 
 def cmd_enrich(
-    data_path: Path | str = DEFAULT_DATA, *, limit=None, force=False, **kw
+    data_path: Path | str = DEFAULT_DATA, *, limit=None, force=False, enricher="keyword", **kw
 ) -> dict:
+    kw.setdefault("ai", ENRICHERS[enricher])
     store = Store.load(data_path)
     stats = enrich_pending(store, limit=limit, force=force, **kw)
     store.save()
@@ -55,8 +59,10 @@ def cmd_build(
     *,
     limit=None,
     force=False,
+    enricher="keyword",
     **kw,
 ) -> dict:
+    kw.setdefault("ai", ENRICHERS[enricher])
     store = Store.load(data_path)
     stats = enrich_pending(store, limit=limit, force=force, **kw)
     store.save()
@@ -74,9 +80,10 @@ def main(argv: list[str] | None = None) -> None:
     pi = sub.add_parser("ingest", help="import bookmarks from a JSON export or URL list")
     pi.add_argument("input", type=Path)
 
-    pe = sub.add_parser("enrich", help="summarize/tag pending bookmarks with Claude")
+    pe = sub.add_parser("enrich", help="categorize/tag pending bookmarks")
     pe.add_argument("--limit", type=int)
     pe.add_argument("--force", action="store_true")
+    pe.add_argument("--enricher", choices=list(ENRICHERS), default="keyword")
 
     pr = sub.add_parser("render", help="build the static site and Markdown catalog")
     pr.add_argument("--site", type=Path, default=DEFAULT_SITE)
@@ -85,6 +92,7 @@ def main(argv: list[str] | None = None) -> None:
     pb = sub.add_parser("build", help="enrich pending + render")
     pb.add_argument("--limit", type=int)
     pb.add_argument("--force", action="store_true")
+    pb.add_argument("--enricher", choices=list(ENRICHERS), default="keyword")
     pb.add_argument("--site", type=Path, default=DEFAULT_SITE)
     pb.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)
 
@@ -94,11 +102,14 @@ def main(argv: list[str] | None = None) -> None:
         n = cmd_ingest(args.input, args.data)
         print(f"ingested {n} new bookmark(s)")
     elif args.cmd == "enrich":
-        s = cmd_enrich(args.data, limit=args.limit, force=args.force)
+        s = cmd_enrich(args.data, limit=args.limit, force=args.force, enricher=args.enricher)
         print(f"enriched {s['enriched']}, errors {s['errors']}")
     elif args.cmd == "render":
         cmd_render(args.data, args.site, args.catalog)
         print("rendered site + catalog")
     elif args.cmd == "build":
-        s = cmd_build(args.data, args.site, args.catalog, limit=args.limit, force=args.force)
+        s = cmd_build(
+            args.data, args.site, args.catalog,
+            limit=args.limit, force=args.force, enricher=args.enricher,
+        )
         print(f"built: enriched {s['enriched']}, errors {s['errors']}")
