@@ -14,6 +14,12 @@ dev = [
     "pytest>=8",
     "ruff>=0.5",
 ]
+# Optional: the Playwright-based capture adapter (scripts/capture_playwright.py),
+# an alternative to the Chrome extension. Not needed for the core pipeline.
+capture = ["playwright"]
+# Optional: the Supabase/Postgres record-store backend (XBOOKMARKS_BACKEND=supabase).
+# Not needed for the default NDJSON backend or the test suite.
+supabase = ["supabase>=2"]
 
 [project.scripts]
 xbookmarks = "xbookmarks.cli:main"

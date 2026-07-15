@@ -11,6 +11,8 @@ Onboard the user to flywheel. Be friendly, concrete, and skimmable — not a wal
 ## 1. What flywheel is — say it in 2–3 lines
 A disciplined, self-verifying development loop. One unit of work flows through six gated phases — **spec → plan → work → verify → review → compound** — and inside `work` runs a tight *write-failing-test → implement → run → observe → fix* inner loop. Nothing advances on "seems right": `verify` runs the real app/tests, and each finished cycle deposits reusable lessons into a ledger that primes the next one.
 
+It has a **second pillar** too: where the loop *builds* software, `/flywheel-process` + `/flywheel-run` let flywheel *operate* it — Claude runs recurring domain operations ("analyze a car") as the backend, following a fixed contract, persisting to the repo's own datastore, and maturing the contract each run. This is the [agent-native](https://every.to/go-agent-native) side.
+
 ## 2. The command map — show as a table
 | Command | When to use it |
 | --- | --- |
@@ -25,6 +27,8 @@ A disciplined, self-verifying development loop. One unit of work flows through s
 | `/flywheel-compound` | Capture this cycle's decisions and gotchas into the ledger. |
 | `/flywheel-recall <query>` | Look up a past decision/gotcha/pattern the ledger has, on demand. |
 | `/flywheel-ship <title>` | Clean commit + push + PR. |
+| `/flywheel-process <desc>` | Define an **agent-native process** — a reusable contract (fixed rules + output schema + persistence) for a recurring domain operation Claude runs as the backend. |
+| `/flywheel-run <slug> [input]` | Run a defined process as the runtime — follow its rules, persist to the repo's datastore, mature the contract. |
 | `/flywheel-autoloop <goal>` | Hands-off: iterate autonomously until a metric is met or a budget runs out. |
 | `/flywheel-sync <spec>` | Reconcile drift between a spec and the code. |
 | `/flywheel-update [vendored\|marketplace]` | Update flywheel itself in this repo (mode autodetected). |
@@ -34,6 +38,7 @@ A disciplined, self-verifying development loop. One unit of work flows through s
 - Idea still fuzzy → `/flywheel-brainstorm <idea>`, then `/flywheel-spec`.
 - Just fixing a bug → `/flywheel-debug <symptom>`.
 - Want it fully autonomous → `/flywheel-autoloop <goal>` (define a measurable goal first).
+- Want Claude to *operate* the repo (run a recurring domain operation, not build code) → `/flywheel-process <desc>` to define it, then `/flywheel-run <slug> <input>` to execute + persist.
 
 ## 4. Good to know
 - **State lives in this project** under `.claude/flywheel/`: specs in `specs/`, plus the compounding ledger `LEARNINGS.md`. The `SessionStart` hook injects a relevance-scored, budgeted subset of recent lessons each session (matched to the current branch/files); anything it skips is one `/flywheel-recall <query>` away.

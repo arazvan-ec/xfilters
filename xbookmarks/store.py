@@ -20,7 +20,11 @@ class Store:
     def load(cls, path: Path | str) -> Store:
         store = cls(path)
         if store.path.exists():
-            for line in store.path.read_text(encoding="utf-8").splitlines():
+            # Split only on "\n" — the record separator save() writes. Do NOT use
+            # str.splitlines(), which also breaks on Unicode line separators
+            # (U+2028/U+2029/U+0085, \v, \f, …) that occur unescaped inside valid
+            # JSON string values (e.g. tweet text), corrupting those records.
+            for line in store.path.read_text(encoding="utf-8").split("\n"):
                 if line.strip():
                     b = Bookmark.from_json_line(line)
                     store._by_id[b.id] = b

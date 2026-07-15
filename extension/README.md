@@ -29,8 +29,10 @@ funcionan igual y siguen mantenidos (usa una versión basada en Chromium ≥ 111
 5. Confirma. La extensión queda instalada.
 
 Luego inicia sesión en X dentro de ese navegador y sigue los pasos de «Usar».
-Como en el móvil no puedes ejecutar Node, cuando descargues el JSON **súbelo a
-Google Drive** (o compártelo): desde ahí se puede enriquecer y montar el frontal.
+Como en el móvil no puedes ejecutar el pipeline de Python, cuando descargues el
+JSON **súbelo a Google Drive** (o compártelo): descárgalo después en un
+ordenador y sigue el mismo flujo de «Usar» (`python -m xbookmarks ingest ...` +
+`make build`) para enriquecerlo y montar el sitio.
 
 > Consejo móvil: si el contador se para antes de tiempo, arrastra con el dedo
 > hacia arriba y abajo en la página de marcadores mientras la captura está
@@ -49,11 +51,11 @@ Google Drive** (o compártelo): desde ahí se puede enriquecer y montar el front
 Luego, en la raíz del repo:
 
 ```bash
-cp ~/Descargas/x-bookmarks-*.json data/raw-bookmarks.json
-node scripts/enrich.mjs
+python -m xbookmarks ingest ~/Descargas/x-bookmarks-*.json
+make build          # equivale a: python -m xbookmarks build --enricher keyword
 ```
 
-y abre `index.html`.
+y abre `site/index.html`.
 
 ## Cómo captura los datos (por qué es fiable)
 
